@@ -1,0 +1,229 @@
+ AERMET_SETUP
+ SUCCESSFUL
+
+ AERMET VERSION  26135
+
+ START PROCESSING DATE/TIME: OCTOBER 04, 2026  20:28:24 PM
+
+ RUNSTREAM CONTROL FILE: aermet1.inp
+
+
+ ****************************  INPUT SUMMARY **************************** 
+
+ PROCESSING STAGES 1
+
+
+
+ 1.  JOB FILE NAMES
+
+ MESSAGES   OPEN     aermet_st1.msg
+ REPORT     OPEN     aermet_st1.rpt
+ DEBUG      NO FILE
+
+
+
+ 2. UPPERAIR DATA
+
+ PROCESSING DATES: 05/01/1992 - 05/19/1993
+
+                    SITE ID     LATITUDE    LONGITUDE     TIME ADJUSTMENT    ELEVATION
+                   --------     --------    ---------     ---------------    ---------
+ LOCATION:         00014735        42.75       -73.80             5              86.00
+
+ DATA FILE:      OPEN      14735-92.fsl
+ EXTRACT FILE:   OPEN      alb92-93.iqa
+ QAOUT FILE:     OPEN      alb92-93.oqa
+
+ UPPER AIR DATA ABOVE 5000 NOT EXTRACTED
+
+ UPPER AIR AUTOMATIC DATA CHECKS ARE: OFF
+
+
+
+ 3. SURFACE DATA
+
+ PROCESSING DATES: 05/01/1992 - 05/19/1993
+
+                    SITE ID     LATITUDE    LONGITUDE     TIME ADJUSTMENT    ELEVATION
+                   --------     --------    ---------     ---------------    ---------
+ LOCATION:            14737        40.65       -75.43             0               0.00
+
+ DATA FILE:      OPEN      14737.dat
+ EXTRACT FILE:   OPEN      14737.iqa
+ QAOUT FILE:     OPEN      14737.oqa
+
+
+
+ 4. ONSITE DATA
+
+ PROCESSING DATES: 05/01/1992 - 05/19/1993
+
+                    SITE ID     LATITUDE    LONGITUDE     TIME ADJUSTMENT    ELEVATION
+                   --------     --------    ---------     ---------------    ---------
+ LOCATION:           000001        40.79       -75.14             0               0.00
+
+ DATA FILE:      OPEN      mcospfl.dat
+ QAOUT FILE:     OPEN      mcospfl.oqa
+
+ NUMBER OF OBSERVATIONS/HOUR:  1
+
+ THRESHOLD WIND SPEED (M/S):    0.30
+
+
+
+ 5. PROG DATA
+
+ NO PROCESSING REQUESTED
+
+
+
+
+ 6. METPREP DATA
+
+ NO PROCESSING REQUESTED
+
+
+
+ ****************************  QA SUMMARY **************************** 
+
+
+ UPPERAIR DATA
+
+ NON-QA SUMMARY CHECKS
+
+ CALM WIND CONDITIONS (WS=0, WD=0):       37
+ ZERO WIND SPEED; NON-ZERO WIND DIRECTION:        0
+ DEW POINT GREATER THAN DRY BULB TEMPERATURE:        0
+ NUMBER OF SOUNDINGS THAT DO NOT EXTEND TO 5000 M:       10
+
+ NUMBER OF DAYS WITH NO SOUNDINGS:    0
+
+ NUMBER OF DAYS WITH SOUNDINGS BUT NO AM SOUNDINGS:    0
+
+
+ SURFACE DATA
+
+ VARIABLE   MISSING VALUE   LOWER BOUND          UPPER BOUND
+ TMPD         999.00        <= -30.00            >= 40.00            
+ WDIR         999.00        < 0.00               > 360.00            
+ WSPD         999.00        < 0.00               > 50.00             
+
+ VARIABLE       #          #        LOWER       UPPER        %
+               OBS      MISSING     BOUND       BOUND     ACCEPTED
+ TMPD         9216          0          0          0        100.00
+ WDIR         9216          0          0          0        100.00
+ WSPD         9216          0          0          0        100.00
+
+ WIND, TEMPERATURE, AND PRECIPITATION CHECKS
+ NUMBER OF HOURS:
+    663 CALM WINDS (WDIR = 0, WSPD = 0)
+      0 WDIR = 0, WSPD > 0
+      0 WDIR > 0, WSPD = 0
+      0 WINDS FLAGGED AS VARIABLE
+      0 TEMPERATURE < DEWPOINT
+      0 PRECIP WITHOUT WEATHER CODE
+      0 WEATHER CODE WITHOUT PRECIP
+
+
+ ONSITE DATA
+
+ VARIABLE   MISSING VALUE   LOWER BOUND          UPPER BOUND
+   SA         999.00        < 0.00               > 360.00            
+   TT         999.00        < -30.00             > 35.00             
+   WD         999.00        < 0.00               > 360.00            
+   WS         999.00        <= 0.00              >= 50.00            
+
+
+HOURLY VALUES
+
+
+ LEVEL                VARIABLE       #          #        LOWER       UPPER        %
+                                    OBS      MISSING     BOUND       BOUND     ACCEPTED
+   10.000 M               SA       9216       1426          0          0         84.53
+                          TT       9216         11          0          0         99.88
+                          WD       9216       1291          0          0         85.99
+                          WS       9216        120          0          0         98.70
+                          WD       9216        312          0          0         96.61
+                          WS       9216        304          0          0         96.70
+                          WD       9216        334          0          0         96.38
+                          WS       9216        329          0          0         96.43
+                          WD       9216        374          0          0         95.94
+                          WS       9216        368          0          0         96.01
+                          WD       9216        459          0          0         95.02
+                          WS       9216        455          0          0         95.06
+                          WD       9216        629          0          0         93.17
+                          WS       9216        629          0          0         93.17
+                          WD       9216        881          0          0         90.44
+                          WS       9216        874          0          0         90.52
+                          WD       9216       1224          0          0         86.72
+                          WS       9216       1224          0          0         86.72
+                          WD       9216       1695          0          0         81.61
+                          WS       9216       1695          0          0         81.61
+                          WD       9216       2296          0          0         75.09
+                          WS       9216       2296          0          0         75.09
+                          WD       9216       2969          0          0         67.78
+                          WS       9216       2969          0          0         67.78
+                          WD       9216       3757          0          0         59.23
+                          WS       9216       3756          0          0         59.24
+                          WD       9216       4483          0          0         51.36
+                          WS       9216       4483          0          0         51.36
+
+ WIND AND TEMPERATURE CHECKS (IF APPLICABLE)
+ NUMBER OF OBS:
+
+   1276 CALM WINDS (< THRESHOLD)
+      0 NO INPUT WD WITH WS
+      0 NO INPUT WD WITH WS
+
+
+ ****************************  MESSAGE SUMMARY **************************** 
+
+
+
+ ERROR MESSAGES        0 MESSAGES
+
+
+
+ WARNING MESSAGES      114 MESSAGES
+
+ W02:       13
+ W30:      100
+ W33:        1
+
+
+ INFORMATION MESSAGES       22 MESSAGES
+
+ I01:        1
+ I20:        2
+ I22:        1
+ I23:        1
+ I24:        1
+ I25:        1
+ I26:        1
+ I27:        1
+ I40:        2
+ I46:        1
+ I47:        1
+ I50:        1
+ I53:        1
+ I56:        1
+ I59:        1
+ I60:        2
+ I63:        1
+ I64:        1
+ I66:        1
+
+
+ QA MESSAGES    43620 MESSAGES
+
+ Q19:        1
+ Q20:        1
+ Q28:       47
+ Q43:      663
+ Q61:    41632
+ Q64:     1276
+
+
+ AERMET FINISHED SUCCESSFULLY
+
+ END PROCESSING DATE/TIME: OCTOBER 04, 2026  20:28:27 PM
