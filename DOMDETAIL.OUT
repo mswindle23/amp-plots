@@ -1,0 +1,82 @@
+** AERMAP - VERSION 24142                                              10/04/26
+**                                                                     20:27:59
+
+DOMCNV/CHKEXT:
+
+TYPDEM = "LAT"
+
+        Domain                   LAT          LONG                         UTM-N (m)     UTM-E (m)   ZONE   NADA
+                                        (neg. for West long.)
+  NE corner coordinates:      146991.69    -270128.09 seconds            4520000.0000   497000.0000    18     3
+  SW corner coordinates:      146666.90    -270639.58 seconds            4510000.0000   485000.0000    18     3
+  NE corner coordinates:      40.831024    -75.035580 decimal deg.
+  SW corner coordinates:      40.740807    -75.177662 decimal deg.
+
+
+       Checking domain corner  1 relative to NED file: NEWARK-W.TIF
+
+                                  LAT (sec)      LONG (sec)      LAT (deg)      LONG (deg)    NAD
+       NED corner Lat/Lon:       147605.50      -269994.50       41.001528      -74.998472     4
+    Domain corner Lat/Lon:       146666.90      -270639.58       40.740807      -75.177662     4
+       NED corner Lat/Lon:       143994.50      -273605.50       39.998472      -76.001528     4
+  
+Domain corner  1 Inside NED file     1: NEWARK-W.TIF
+                                  LAT (sec)      LONG (sec)      LAT (deg)      LONG (deg)    NAD
+       NED corner Lat/Lon:       147605.50      -269994.50       41.001528      -74.998472     4
+    Domain corner Lat/Lon:       146666.90      -270639.58       40.740807      -75.177662     4
+       NED corner Lat/Lon:       143994.50      -273605.50       39.998472      -76.001528     4
+  
+  
+       Checking domain corner  2 relative to NED file: NEWARK-W.TIF
+
+                                  LAT (sec)      LONG (sec)      LAT (deg)      LONG (deg)    NAD
+       NED corner Lat/Lon:       147605.50      -269994.50       41.001528      -74.998472     4
+    Domain corner Lat/Lon:       146991.69      -270639.58       40.831024      -75.177662     4
+       NED corner Lat/Lon:       143994.50      -273605.50       39.998472      -76.001528     4
+  
+Domain corner  2 Inside NED file     1: NEWARK-W.TIF
+                                  LAT (sec)      LONG (sec)      LAT (deg)      LONG (deg)    NAD
+       NED corner Lat/Lon:       147605.50      -269994.50       41.001528      -74.998472     4
+    Domain corner Lat/Lon:       146991.69      -270639.58       40.831024      -75.177662     4
+       NED corner Lat/Lon:       143994.50      -273605.50       39.998472      -76.001528     4
+  
+  
+       Checking domain corner  3 relative to NED file: NEWARK-W.TIF
+
+                                  LAT (sec)      LONG (sec)      LAT (deg)      LONG (deg)    NAD
+       NED corner Lat/Lon:       147605.50      -269994.50       41.001528      -74.998472     4
+    Domain corner Lat/Lon:       146991.69      -270128.09       40.831024      -75.035580     4
+       NED corner Lat/Lon:       143994.50      -273605.50       39.998472      -76.001528     4
+  
+Domain corner  3 Inside NED file     1: NEWARK-W.TIF
+                                  LAT (sec)      LONG (sec)      LAT (deg)      LONG (deg)    NAD
+       NED corner Lat/Lon:       147605.50      -269994.50       41.001528      -74.998472     4
+    Domain corner Lat/Lon:       146991.69      -270128.09       40.831024      -75.035580     4
+       NED corner Lat/Lon:       143994.50      -273605.50       39.998472      -76.001528     4
+  
+  
+       Checking domain corner  4 relative to NED file: NEWARK-W.TIF
+
+                                  LAT (sec)      LONG (sec)      LAT (deg)      LONG (deg)    NAD
+       NED corner Lat/Lon:       147605.50      -269994.50       41.001528      -74.998472     4
+    Domain corner Lat/Lon:       146666.90      -270128.09       40.740807      -75.035580     4
+       NED corner Lat/Lon:       143994.50      -273605.50       39.998472      -76.001528     4
+  
+Domain corner  4 Inside NED file     1: NEWARK-W.TIF
+                                  LAT (sec)      LONG (sec)      LAT (deg)      LONG (deg)    NAD
+       NED corner Lat/Lon:       147605.50      -269994.50       41.001528      -74.998472     4
+    Domain corner Lat/Lon:       146666.90      -270128.09       40.740807      -75.035580     4
+       NED corner Lat/Lon:       143994.50      -273605.50       39.998472      -76.001528     4
+  
+  
+From INITER_NED:
+
+Information on Direct Access Files Within User-specified Domain:
+
+No. of NED Files =      2
+
+Direct Access File for NED File No.      1 Contains     512 Profiles.
+
+ XBASE, YBASE and NODES for First Profile:     -270639.5000     146667.5000    325
+ XBASE, YBASE and NODES for Last  Profile:     -270128.5000     146667.5000    325
+

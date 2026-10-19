@@ -1,0 +1,18 @@
+** AERMAP - VERSION 24142                                              10/04/26
+**                                                                     20:27:59
+**  MARTIN'S CREEK AERMAP RUN
+** 
+** A total of       2  NED files were used
+** A total of       7  receptors were processed
+** DOMAINXY  485000  4510000  18  497000   4520000  18
+** ANCHORXY  495510   513680   495510   4513680 18  3
+** TERRHGTS  EXTRACT
+  
+RE ELEVUNIT METERS
+   DISCCART     495510.00    513680.00     339.52     361.04
+   DISCCART     493900.00    513200.00     367.68     367.68
+   DISCCART     492700.00    513440.00     334.14     369.80
+   DISCCART     492440.00    511190.00     321.22     321.22
+   DISCCART     495400.00    515180.00     322.22     369.19
+   DISCCART     495300.00    513880.00     346.12     363.40
+   DISCCART     496430.00    514500.00     318.65     354.74

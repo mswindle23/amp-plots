@@ -1,0 +1,154 @@
+** AERMAP - VERSION 24142                                              07/07/26
+**                                                                     23:36:37
+
+  
+ MAP PARAMETERS
+
+ TYPDAT:  NED 
+
+ From CNRCNV:
+
+ NED File #:         1
+ NED File Name: NEWARK-W.TIF
+
+ Horizontal Datum: North American Datum of 1983            
+
+ Corner Coordinates of NED Data:
+
+ Decimal Degrees (negative for West longitude):
+            SW Corner     NW Corner     NE Corner     SE Corner
+   Lon:    -76.001528    -76.001528    -74.998472    -74.998472
+   Lat:     39.998472     41.001528     41.001528     39.998472
+
+ Arc-seconds (negative for West longitude):
+            SW Corner     NW Corner     NE Corner     SE Corner
+   Lon:   -273605.500   -273605.500   -269994.500   -269994.500
+   Lat:    143994.500    147605.500    147605.500    143994.500
+
+ Meters:
+                 SW Corner     NW Corner     NE Corner     SE Corner
+   Easting:     414507.219    415771.320    500128.485    500130.414
+   Northing:   4428067.956   4539409.663   4538926.661   4427587.651
+   UTM Zone:   18 based on SW corner
+
+ NED File #:         2
+ NED File Name: NEWARK-E.TIF
+
+ Horizontal Datum: North American Datum of 1983            
+
+ Corner Coordinates of NED Data:
+
+ Decimal Degrees (negative for West longitude):
+            SW Corner     NW Corner     NE Corner     SE Corner
+   Lon:    -75.001528    -75.001528    -73.998472    -73.998472
+   Lat:     39.998472     41.001528     41.001528     39.998472
+
+ Arc-seconds (negative for West longitude):
+            SW Corner     NW Corner     NE Corner     SE Corner
+   Lon:   -270005.500   -270005.500   -266394.500   -266394.500
+   Lat:    143994.500    147605.500    147605.500    143994.500
+
+ Meters:
+                 SW Corner     NW Corner     NE Corner     SE Corner
+   Easting:     499869.586    499871.514    584228.680    585492.781
+   Northing:   4427587.651   4538926.661   4539409.663   4428067.956
+   UTM Zone:   18 based on SW corner
+  
+
+ From CHKADJ      
+
+ NED File #:      1
+ NED:NEWARK-W.TIF                         <-- Raw header data segment
+ NED:NEWARK-W.TIF                         <-- Refined header data segment
+   DEM Level Code:    NED 
+   Planimetric Ref: Geographic Coordinates   
+     North-South Node separation:   1.0000  arc-seconds
+     East-West Node separation:     1.0000  arc-seconds
+   UTM/State Zone #  18
+   Horizontal Datum: North American Datum of 1983            
+   Num. of Profiles:  3612
+   SW Corner Lat/Lon (deg.):       39.99847     -76.00153
+   SW Corner Lat/Lon (sec.):     143994.500   -273605.500
+   Latitude Range =  1.0031 Deg.;  Longitude Range =  1.0031 Deg.
+   Writing corner coords; UTM then Dec.Deg (negative for West longitude):
+     Southwest Corner        Northwest Corner        Northeast Corner        Southeast Corner
+     Easting    Northing     Easting    Northing     Easting    Northing     Easting    Northing 
+     414507.22  4428067.96   415771.32  4539409.66   500128.49  4538926.66   500130.41  4427587.65
+     Latitude   Longitude    Latitude   Longitude    Latitude   Longitude    Latitude   Longitude
+     39.9985    -76.0015     41.0015    -76.0015     41.0015    -74.9985     39.9985    -74.9985
+
+  
+
+ NED File #:      2
+ NED:NEWARK-E.TIF                         <-- Raw header data segment
+ NED:NEWARK-E.TIF                         <-- Refined header data segment
+   DEM Level Code:    NED 
+   Planimetric Ref: Geographic Coordinates   
+     North-South Node separation:   1.0000  arc-seconds
+     East-West Node separation:     1.0000  arc-seconds
+   UTM/State Zone #  18
+   Horizontal Datum: North American Datum of 1983            
+   Num. of Profiles:  3612
+   SW Corner Lat/Lon (deg.):       39.99847     -75.00153
+   SW Corner Lat/Lon (sec.):     143994.500   -270005.500
+   Latitude Range =  1.0031 Deg.;  Longitude Range =  1.0031 Deg.
+   Writing corner coords; UTM then Dec.Deg (negative for West longitude):
+     Southwest Corner        Northwest Corner        Northeast Corner        Southeast Corner
+     Easting    Northing     Easting    Northing     Easting    Northing     Easting    Northing 
+     499869.59  4427587.65   499871.51  4538926.66   584228.68  4539409.66   585492.78  4428067.96
+     Latitude   Longitude    Latitude   Longitude    Latitude   Longitude    Latitude   Longitude
+     39.9985    -75.0015     41.0015    -75.0015     41.0015    -73.9985     39.9985    -73.9985
+
+  
+
+
+MAP ADJACENCY (Based on +/- 45 arc-seconds)
+
+ No. Base Map Name               Adjacent map names and relative geographic location to Base Map.
+                                 NOTE: Adjacency for NED files, Mixed DEMs, non-standard DEMs, 
+                                       and AK DEMs may not be exact.
+
+  1  NED:NEWARK-W.TIF            NW:    No Map Present            N:    No Map Present           NE:    No Map Present         
+                                  W:    No Map Present            C: NED:NEWARK-W.TIF             E: NED:NEWARK-E.TIF          
+                                 SW:    No Map Present            S:    No Map Present           SE:    No Map Present         
+
+  2  NED:NEWARK-E.TIF            NW:    No Map Present            N:    No Map Present           NE:    No Map Present         
+                                  W: NED:NEWARK-W.TIF             C: NED:NEWARK-E.TIF             E:    No Map Present         
+                                 SW:    No Map Present            S:    No Map Present           SE:    No Map Present         
+
+
+
+MAPNAME ARRAY (Based on +/- 0.03 degrees)
+
+  Mapnames are laid out in relative geographical positions.
+  "Grid" resolution is based on Lat/Lon extent of first file.
+  Relative positions are based on SE corner coordinates relative to full grid of maps.
+  Look for "No Map Present" within the field of interest.
+  This may indicate missing files or files with errant data in their header records.
+  NOTE: Adjacency for NED files, Mixed DEMs, non-standard DEMs, and AK DEMs may not be exact.
+        Higher resolution maps may overwrite lower resolution maps that overlap.
+
+ NED:NEWARK-W.TIF            NED:NEWARK-E.TIF          
+  
+  
+ THE FOLLOWING DATA FILES ARE NOT ADJACENT TO ANY OTHER FILE:
+   (WITHIN +/- 0.1 ARC-SECOND)
+    FILE NO.   LOCATION
+   ---------   ------------------------
+           1   NED:NEWARK-W.TIF                        
+           2   NED:NEWARK-E.TIF                        
+
+
+ From INITER_NED:
+
+ MIN and MAX Elevations for NED files:
+
+ NED File #:      1
+ NED:NEWARK-W.TIF                        
+   Min. Elevation:    -85.8 meters
+   Max. Elevation:    626.2 meters
+
+ NED File #:      2
+ NED:NEWARK-E.TIF                        
+   This file is outside the domain.
+   Elevation data were not processed.

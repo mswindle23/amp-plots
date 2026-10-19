@@ -1,0 +1,141 @@
+** AERMAP - VERSION 24142                                              10/04/26
+**                                                                     20:27:59
+
+CO STARTING
+   TITLEONE  MARTIN'S CREEK AERMAP RUN
+   DATATYPE  NED
+**   DATAFILE  NEWARK-W.DEM
+**   DATAFILE  NEWARK-E.DEM
+   DATAFILE  NEWARK-W.TIF
+   DATAFILE  NEWARK-E.TIF
+   TERRHGTS  EXTRACT
+   DOMAINXY  485000  4510000  18  497000   4520000  18
+   ANCHORXY  495510   513680   495510   4513680 18  3
+   RUNORNOT  RUN
+CO FINISHED
+
+SO STARTING
+   LOCATION   STACK1  POINT  491020    515910
+   LOCATION   STACK2  POINT  491020    515910
+   LOCATION   STACK3  POINT  491123    516030
+   LOCATION   STACK4  POINT  491190    516068
+   LOCATION   STACK5  POINT  491029    516248
+   LOCATION   STACK6  POINT  491159    516314
+SO FINISHED
+
+
+
+RE STARTING
+   DISCCART   495510    513680
+   DISCCART   493900    513200
+   DISCCART   492700    513440
+   DISCCART   492440    511190
+   DISCCART   495400    515180
+   DISCCART   495300    513880
+   DISCCART   496430    514500
+
+** MET TOWER
+** DISCCART   486500    519750  243.8
+** SODAR SITE
+
+RE FINISHED
+
+
+OU STARTING
+   RECEPTOR  aermap.rec
+   SOURCLOC  aermap.src
+OU FINISHED
+
+ Exiting NEDCHK
+  
+ Finished Reading Input NED Data
+  
+ Exiting CHKADJ
+ Exiting DOMCNV
+ Exiting RECCNV
+ Exiting SRCCNV
+ Exiting CHKEXT
+ Exiting DEMREC
+ Exiting DEMSRC
+ *** AERMAP - VERSION 24142 ***    ***  MARTIN'S CREEK AERMAP RUN                                           ***        10/04/26
+                                   ***                                                                      ***        20:27:59
+
+
+  *** Message Summary For AERMAP Setup ***
+
+ --------- Summary of Total Messages --------
+  
+ A Total of          0 Fatal Error Message(s)
+ A Total of          6 Warning Message(s)
+ A Total of          0 Informational Message(s)
+  
+  
+    ******** FATAL ERROR MESSAGES ******** 
+               ***  NONE  ***         
+  
+  
+    ********   WARNING MESSAGES   ******** 
+ OU W450      44 NEDCHK:Parameter not found in TIFF file.  TiffTag:                 274
+ OU W473      44 NEDCHK:Default elevation units of METERS used; NED file:             1
+ OU W450      44 NEDCHK:Parameter not found in TIFF file.  TiffTag:                 274
+ OU W473      44 NEDCHK:Default elevation units of METERS used; NED file:             2
+ OU W340      44 CHKADJ:No Terrain File Adjacent to this one. IDEM=                   1
+ OU W340      44 CHKADJ:No Terrain File Adjacent to this one. IDEM=                   2
+
+ ***********************************
+ *** SETUP Finishes Successfully ***
+ ***********************************
+
+ *** AERMAP - VERSION 24142 ***    ***  MARTIN'S CREEK AERMAP RUN                                           ***        10/04/26
+                                   ***                                                                      ***        20:27:59
+
+
+                                            ***     AERMAP SETUP OPTIONS SUMMARY       ***
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+  
+ **This Run Includes:       2  NED File(s)
+  
+ **This Run Includes:       7  Receptor(s); and        6  Source(s)
+  
+ **The Input Receptors and Sources Were Assigned a NADA Value of  3:  World Geodetic System of 1984           
+
+ **The Input Receptors and Sources Are Offset:        0.00 meters East;   4000000.00 meters North
+      from the User-specified Anchor Point at:   495510.00 meters East;   4513680.00 meters North;  Zone  18
+  
+ **Terrain heights were EXTRACTed from NED data
+  
+ **The Following Debug Output Files Have Been Automatically Generated:
+
+   DOMDETAIL.OUT - Details of User-specified Domain and Relation to NED Files
+   MAPDETAIL.OUT - Details Regarding Input NED Files
+   MAPPARAMS.OUT - Summary of NED File Parameters and NED File Adjacency
+ *** AERMAP - VERSION 24142 ***    ***  MARTIN'S CREEK AERMAP RUN                                           ***        10/04/26
+                                   ***                                                                      ***        20:27:59
+
+ *** Message Summary For AERMAP Execution ***
+
+ --------- Summary of Total Messages --------
+  
+ A Total of          0 Fatal Error Message(s)
+ A Total of          7 Warning Message(s)
+ A Total of          0 Informational Message(s)
+  
+  
+    ******** FATAL ERROR MESSAGES ******** 
+               ***  NONE  ***         
+  
+  
+    ********   WARNING MESSAGES   ******** 
+ OU W450      44 NEDCHK:Parameter not found in TIFF file.  TiffTag:                 274
+ OU W473      44 NEDCHK:Default elevation units of METERS used; NED file:             1
+ OU W450      44 NEDCHK:Parameter not found in TIFF file.  TiffTag:                 274
+ OU W473      44 NEDCHK:Default elevation units of METERS used; NED file:             2
+ OU W340      44 CHKADJ:No Terrain File Adjacent to this one. IDEM=                   1
+ OU W340      44 CHKADJ:No Terrain File Adjacent to this one. IDEM=                   2
+ OU W380      44 INITER:NED file is outside domain and skipped; NED file:             2
+
+    ************************************
+    *** AERMAP Finishes Successfully ***
+    ************************************
+
