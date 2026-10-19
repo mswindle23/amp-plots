@@ -1,0 +1,52 @@
+** VALIDATION PILOT, not the poster/full-year result.
+** ILLUSTRATIVE NORMALIZED SOURCE: no measured AMP emission inventory.
+** Total mass release 1 g/s over 100 x 100 m AREA.
+** Equivalent spherical particle input; no fiber/film shape model.
+CO STARTING
+CO TITLEONE Hypothetical Clemson atmospheric microplastic transport
+CO TITLETWO d10_r1050 WDEP: 2023 Dec25-26 actual-met validation pilot
+CO MODELOPT DFAULT WDEP DRYDPLT WETDPLT
+CO AVERTIME 1 PERIOD
+CO POLLUTID AMP
+CO RUNORNOT RUN
+CO ERRORFIL errors.out
+CO FINISHED
+
+SO STARTING
+SO INCLUDED ../../../aermap/aermap.src
+SO SRCPARAM AMPAREA 0.0001 2 100 100 0.0 1
+SO PARTDIAM AMPAREA 10
+SO MASSFRAX AMPAREA 1.0
+SO PARTDENS AMPAREA 1.05
+SO CONCUNIT 1.0E6 GRAMS/SEC MICROGRAMS/M3
+SO DEPOUNIT 3600.0 GRAMS/SEC GRAMS/M2
+SO SRCGROUP ALL
+SO FINISHED
+
+RE STARTING
+RE INCLUDED ../../../aermap/aermap.rec
+RE FINISHED
+
+ME STARTING
+ME SURFFILE ../../pilot_met/clemson.sfc
+ME PROFFILE ../../pilot_met/clemson.pfl
+ME SURFDATA 53850 2023 KCEU
+ME UAIRDATA 00072215 2023 USM00072215
+ME PROFBASE 272 METERS
+ME STARTEND 2023 12 25 1 2023 12 26 24
+ME FINISHED
+
+OU STARTING
+OU RECTABLE 1 FIRST
+** annual.plt is the conventional PERIOD-output filename.
+** PERIOD: mean concentration, but accumulated deposition in g/m2 (not a mean flux).
+** Deposition output is limited to PERIOD totals and 1-hour amounts in g/m2.
+** Multi-hour deposition ranks are omitted because v26135 scales output-type1.
+** Requested time window: 2023 Dec25-26 actual-met validation pilot
+** Statistics cover valid processed hours in that window; inspect data completeness.
+OU PLOTFILE PERIOD ALL annual.plt
+** Peak maps combine independent per-receptor maxima, not one plume snapshot.
+OU PLOTFILE 1 ALL FIRST max1h.plt
+OU SUMMFILE aermod.sum
+OU POSTFILE 1 ALL PLOT hourly.plt
+OU FINISHED

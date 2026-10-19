@@ -1,0 +1,37 @@
+ExifTool Version Number         : 10.57
+File Name                       : USGS_1_n35w083.tif
+Directory                       : .
+File Size                       : 50 MB
+File Modification Date/Time     : 2024:09:13 10:22:33-04:00
+File Access Date/Time           : 2024:09:13 10:22:33-04:00
+File Creation Date/Time         : 2024:09:13 10:22:30-04:00
+File Permissions                : rw-rw-rw-
+File Type                       : TIFF
+File Type Extension             : tif
+MIME Type                       : image/tiff
+Exif Byte Order                 : Little-endian (Intel, II)
+Image Width                     : 3612
+Image Height                    : 3612
+Bits Per Sample                 : 32
+Compression                     : Uncompressed
+Photometric Interpretation      : BlackIsZero
+Strip Offsets                   : (Binary data 31743 bytes, use -b option to extract)
+Samples Per Pixel               : 1
+Rows Per Strip                  : 1
+Strip Byte Counts               : (Binary data 21671 bytes, use -b option to extract)
+Planar Configuration            : Chunky
+Sample Format                   : Float
+Pixel Scale                     : 0.000277777778035988 0.000277777778035978 0
+Model Tie Point                 : 0 0 0 -83.0016666671823 35.0016666670839 0
+GDAL Metadata                   : <GDALMetadata>.  <Item name="BandDefinitionKeyword">*</Item>.  <Item name="DataType">*</Item>.  <Item name="HighCellSize">*</Item>.  <Item name="LowCellSize">*</Item>.  <Item name="MaxCellSize">*</Item>.  <Item name="LAYER_TYPE" sample="0">*</Item>.  <Item name="RepresentationType" sample="0">*</Item>.</GDALMetadata>.
+GDAL No Data                    : -999999
+Geo Tiff Version                : 1.1.0
+GT Model Type                   : Geographic
+GT Raster Type                  : Pixel Is Area
+Geographic Type                 : NAD83
+Geog Citation                   : NAD83
+Geog Angular Units              : Angular Degree
+Geog Semi Major Axis            : 6378137
+Geog Inv Flattening             : 298.257222101004
+Image Size                      : 3612x3612
+Megapixels                      : 13.0

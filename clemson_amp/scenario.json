@@ -1,0 +1,97 @@
+{
+  "title": "Illustrative Clemson airborne microplastic transport and deposition",
+  "status": "Illustrative theoretical sensitivity study; no measured emission inventory or observed AMP validation",
+  "year": 2023,
+  "center": {
+    "latitude": 34.68,
+    "longitude": -82.84,
+    "easting_m": 331435.622,
+    "northing_m": 3839097.591,
+    "epsg": 26917,
+    "datum": "NAD83 / UTM zone 17N"
+  },
+  "domain": {
+    "outer_half_width_m": 10000,
+    "outer_spacing_m": 1000,
+    "inner_half_width_m": 1000,
+    "inner_spacing_m": 100
+  },
+  "source": {
+    "id": "AMPAREA",
+    "total_emission_g_s": 1.0,
+    "x_length_m": 100.0,
+    "y_length_m": 100.0,
+    "release_height_m": 2.0,
+    "initial_vertical_sigma_m": 1.0,
+    "interpretation": "Hypothetical 100 m by 100 m near-ground area source, centered on the domain; emissions normalized to 1 g/s total, not an estimate of a real source"
+  },
+  "particle_cases": [
+    {
+      "name": "d01_r1050",
+      "diameter_um": 1.0,
+      "density_g_cm3": 1.05
+    },
+    {
+      "name": "d10_r1050",
+      "diameter_um": 10.0,
+      "density_g_cm3": 1.05
+    },
+    {
+      "name": "d30_r1050",
+      "diameter_um": 30.0,
+      "density_g_cm3": 1.05
+    },
+    {
+      "name": "d10_r0900",
+      "diameter_um": 10.0,
+      "density_g_cm3": 0.9
+    },
+    {
+      "name": "d10_r1400",
+      "diameter_um": 10.0,
+      "density_g_cm3": 1.4
+    }
+  ],
+  "particle_assumptions": {
+    "mass_fraction": 1.0,
+    "shape": "Equivalent spherical surrogates; shape sensitivity is a separate settling calculation, not resolved fiber morphology in AERMOD",
+    "rate_basis": "Equal emitted mass across cases; particle-number emissions differ with size and density",
+    "diameter_note": "Numerical equivalent-sphere diameter supplied to the density-dependent particle formula in AERMOD26135; do not additionally density-convert the input diameter"
+  },
+  "terrain": {
+    "filename": "USGS_1_n35w083.tif",
+    "source": "USGS 3DEP 1-arcsecond GeoTIFF, official EPA 08-2024 distribution"
+  },
+  "meteorology": {
+    "surface_file": "clemson.sfc",
+    "profile_file": "clemson.pfl",
+    "surface_icao": "KCEU",
+    "surface_station_id": "53850",
+    "surface_usaf": "723118",
+    "surface_latitude": 34.672,
+    "surface_longitude": -82.881,
+    "surface_elevation_m": 270.8,
+    "surface_anemometer_height_m": 7.92,
+    "upperair_igra_id": "USM00072215",
+    "upperair_station_id": "00072215",
+    "upperair_latitude": 33.3558,
+    "upperair_longitude": -84.5672,
+    "upperair_elevation_m": 244.9,
+    "profile_base_elevation_m": 272.0,
+    "utc_to_local_standard_time_hours": 5,
+    "surface_characteristics_status": "Illustrative assumptions, not an AERSURFACE site characterization",
+    "surface_raw_elevation_m": 272.0,
+    "wind_processing": "AERMINUTE26135 observed KCEU one-minute ASOS winds; hourly surface observations retained as supported AERMET fallback",
+    "sonic_anemometer_status": "ASSUMED IFW sonic status effective 2023-01-01 for processing; not a verified installation date; see aerminute/input_provenance.json"
+  },
+  "scientific_scope": {
+    "modeled": "Local steady-state hourly dispersion, dry and wet deposition/depletion over a 20 km domain",
+    "not_modeled": [
+      "Long-range transport beyond the receptor domain",
+      "Particle polymer degradation or fragmentation",
+      "Explicit fiber orientation or nonspherical aerodynamics",
+      "Measured environmental AMP concentrations or emissions"
+    ],
+    "interpretation": "Compare particle cases under identical observed weather; annual means are not instantaneous plume snapshots"
+  }
+}

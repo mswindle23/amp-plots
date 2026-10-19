@@ -1,0 +1,24 @@
+** Observed NOAA KCEU minute winds; no generated or filled observations.
+** ASSUMED IFW sonic status and effective date, NOT verified commission metadata.
+STARTEND 1 2023 12 2023
+IFWGROUP Y 1 1 2023
+
+DATAFILE STARTING
+"../data/met/asos1min/asos-1min-pg1-KCEU-202301.dat"
+"../data/met/asos1min/asos-1min-pg1-KCEU-202302.dat"
+"../data/met/asos1min/asos-1min-pg1-KCEU-202303.dat"
+"../data/met/asos1min/asos-1min-pg1-KCEU-202304.dat"
+"../data/met/asos1min/asos-1min-pg1-KCEU-202305.dat"
+"../data/met/asos1min/asos-1min-pg1-KCEU-202306.dat"
+"../data/met/asos1min/asos-1min-pg1-KCEU-202307.dat"
+"../data/met/asos1min/asos-1min-pg1-KCEU-202308.dat"
+"../data/met/asos1min/asos-1min-pg1-KCEU-202309.dat"
+"../data/met/asos1min/asos-1min-pg1-KCEU-202310.dat"
+"../data/met/asos1min/asos-1min-pg1-KCEU-202311.dat"
+"../data/met/asos1min/asos-1min-pg1-KCEU-202312.dat"
+DATAFILE FINISHED
+
+OUTFILES STARTING
+HOURFILE clemson_1min.dat
+SUMMFILE minute_summary.csv
+OUTFILES FINISHED

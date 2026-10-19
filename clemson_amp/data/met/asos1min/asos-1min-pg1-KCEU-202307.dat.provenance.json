@@ -1,0 +1,7 @@
+{
+  "bytes": 4273660,
+  "integrity_note": "SHA256 records retrieved content; official NOAA HTTPS supplies origin authentication.",
+  "retrieved_utc": "2026-10-19T15:35:32.279909+00:00",
+  "sha256": "987d21cb0900bb06acc9b244b49654f018d9c614af8ed31e110284eef61fc036",
+  "url": "https://www.ncei.noaa.gov/data/automated-surface-observing-system-one-minute-pg1/access/2023/07/asos-1min-pg1-KCEU-202307.dat"
+}

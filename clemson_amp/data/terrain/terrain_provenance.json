@@ -1,0 +1,76 @@
+{
+  "source_name": "USGS 3DEP 1 arcsecond DEM, EPA static 08-2024 preprocessed distribution",
+  "source_url": "https://gaftp.epa.gov/Air/aqmg/3dep/08-2024/1_arcsecond/USGS_1_n35w083.zip",
+  "distributor": "U.S. Environmental Protection Agency",
+  "originator": "U.S. Geological Survey",
+  "retrieved_at_utc": "2026-10-19T15:24:40.679461+00:00",
+  "http_status": 200,
+  "http_last_modified": "Fri, 27 Sep 2024 19:27:12 GMT",
+  "transport": "HTTPS with standard Python urllib TLS certificate verification enabled",
+  "archive_validation": "ZIP CRC validation passed for every member; archive members extracted without altering content",
+  "official_format_guidance": "https://gaftp.epa.gov/Air/aqmg/SCRAM/models/related/aermap/Access_and_Conversion_of_Elevation_Data_for_AERMAP.pdf",
+  "distribution_caveat": "Static EPA copy rather than latest USGS tile. EPSG and horizontal resolution verified from downloaded TIFF; original acquisition dates and vertical datum are not established by companion file. Do not describe 08-2024 as an acquisition date.",
+  "files": [
+    {
+      "filename": "USGS_1_n35w083.zip",
+      "size_bytes": 42537184,
+      "sha256": "6ea73ee637ef2c569726778627aa2a288467b84a716a0eda9f79d2e2a1939813"
+    },
+    {
+      "filename": "USGS_1_n35w083.tif",
+      "size_bytes": 52215789,
+      "sha256": "7e62151b544b0253d3446400e3a1fbcef8d2cfe7d7093ff1f6399ab73501e829"
+    },
+    {
+      "filename": "USGS_1_n35w083_info.txt",
+      "size_bytes": 2134,
+      "sha256": "22c284cad7d1591e90ada8d17f67266bc65f18c64fdce3cc027512176acb7dec"
+    }
+  ],
+  "raster": {
+    "epsg": 4269,
+    "horizontal_datum": "NAD83",
+    "projection": "geographic latitude/longitude",
+    "size_pixels": [
+      3612,
+      3612
+    ],
+    "geo_transform": [
+      -83.00166666718229,
+      0.000277777778036,
+      0.0,
+      35.00166666708389,
+      0.0,
+      -0.000277777778036
+    ],
+    "bounds_degrees": {
+      "west": -83.00166666718229,
+      "east": -81.99833333291626,
+      "north": 35.00166666708389,
+      "south": 33.99833333281786
+    },
+    "pixel_size_degrees": 0.000277777778036,
+    "nominal_resolution": "1 arcsecond, approximately 25 m east-west and 31 m north-south at Clemson",
+    "pixel_type": "Float32",
+    "compression": "Uncompressed (verified original _info.txt)",
+    "elevation_units": "metres as used for standard USGS 3DEP DEM and AERMAP NED default; explicit vertical unit tag absent",
+    "nodata": -999999.0,
+    "gdal_version": "GDAL 3.10.3, released 2025/04/01"
+  },
+  "model_coordinates": {
+    "crs": "NAD83 / UTM zone17N",
+    "epsg": 26917,
+    "aermap_anchor_datum_code": 4,
+    "center_latitude": 34.68,
+    "center_longitude": -82.84,
+    "center_easting_m": 331435.622124174,
+    "center_northing_m": 3839097.59078329,
+    "receptor_extent_m": {
+      "west": 321435.622124174,
+      "east": 341435.622124174,
+      "south": 3829097.59078329,
+      "north": 3849097.59078329
+    },
+    "coverage_check": "All four receptor-extent corners transformed to NAD83 geographic using installed GDAL are inside downloaded raster bounds"
+  }
+}

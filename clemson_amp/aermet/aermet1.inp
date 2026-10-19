@@ -1,0 +1,18 @@
+** Observed NOAA meteorology; AERMET24142+ / 26135 syntax. No synthesized weather.
+JOB
+  MESSAGES aermet1.msg
+  REPORT aermet1.rpt
+SURFACE
+  DATA ../data/met/KCEU_2023_padded.isd ISHD
+  EXTRACT surface.ext
+  QAOUT surface.qa
+  XDATES 2023/01/01 TO 2023/12/31
+  LOCATION 53850 34.6720N 82.8810W 5 270.8
+  AUDIT ALL
+UPPERAIR
+  DATA ../data/met/USM00072215_2023_padded.txt IGRA
+  EXTRACT upperair.ext
+  QAOUT upperair.qa
+  XDATES 2023/01/01 TO 2023/12/31
+  LOCATION 00072215 33.3558N 84.5672W 5 244.9
+  AUDIT ALL

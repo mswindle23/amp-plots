@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-19T15:41:02.113146+00:00",
+  "clarification": "The official AERMINUTE July2026 guide section4.1.2 pp8-9 discusses a post2009 sonic-anemometer assumption for stations absent from its installation list. We could not retrieve that list, so both the actual installation date and whether KCEU is unlisted remain unverified. IFWGROUP Y with2023-01-01 is an explicit illustrative modeling assumption/effective processing date authorized for this scenario, not a verified commission fact or automatic application of the guide\u2019s unlisted-station condition.",
+  "model_input_changed": false,
+  "existing_run_provenance_preserved_for_hash_chain": true,
+  "existing_run_provenance_sha256": "49017e095baa04cbd0bdb568accbd108d91e705dece6fcb352de823dcf3f1852",
+  "existing_input_provenance_sha256": "fd09271d865d1c5b5e96e691b839f62cc2c80a65509ef970bfd05a6e18990a66",
+  "guide_url": "https://gaftp.epa.gov/Air/aqmg/SCRAM/models/met/aerminute/aerminute_userguide.pdf"
+}
