@@ -1,0 +1,1631 @@
+CO STARTING
+   TITLEONE  Phase II Evaluation of AERMOD : Martin's Creek 1992-93
+   TITLETWO  Terrain Option 2
+   MODELOPT  dfault  conc
+   AVERTIME  1  3  24  period
+   POLLUTID  SO2
+   RUNORNOT  run
+   ERRORFIL  ERRORS.OUT
+**   debugopt  meteor model
+CO FINISHED
+ 
+SO STARTING
+   ELEVUNIT  meters
+** The digit '4' was removed from the y-coordinate
+**                          X        Y        Z
+**                        ------   ------   ------
+   LOCATION  MC12  point  491010   515910   73.2
+   LOCATION  MC3   point  491123   516030   73.2
+   LOCATION  MC4   point  491190   516068   73.2
+   LOCATION  ED1   point  493350   528370   91.4
+   LOCATION  ED2   point  493350   528370   91.4
+   LOCATION  HL2   point  494050   521040   103.6
+   LOCATION  WC1   point  498950   518500   173.7
+   LOCATION  WC2   point  498950   518500   173.7
+ 
+ 
+** Point Source       QS     HS     TS    VS   DS
+** Parameters:      -----   ----   ----  ----  ---
+   SRCPARAM  MC12    0.0    182.9  0.0   0.0   5.3
+   SRCPARAM  MC3     0.0    182.9  0.0   0.0   6.9
+   SRCPARAM  MC4     0.0    182.9  0.0   0.0   6.9
+   SRCPARAM  ED1     0.0    121.9  0.0   0.0   3.1
+   SRCPARAM  ED2     0.0    121.9  0.0   0.0   3.6
+   SRCPARAM  HL2     0.0     59.4  0.0   0.0   2.7
+   SRCPARAM  WC1     0.0     76.2  0.0   0.0   1.87
+   SRCPARAM  WC2     0.0     76.2  0.0   0.0   1.87
+ 
+   HOUREMIS  aermod.emi MC12 MC3 MC4 ED1 ED2 HL2 WC1 WC2
+ 
+** Building Data
+   BUILDHGT MC12        0.00    0.00    0.00    0.00    0.00    0.00
+   BUILDHGT MC12        0.00    0.00    0.00    0.00    0.00    0.00
+   BUILDHGT MC12        0.00    0.00    0.00    0.00   90.00   90.00
+   BUILDHGT MC12       90.00   90.00   90.00    0.00    0.00    0.00
+   BUILDHGT MC12        0.00    0.00    0.00    0.00    0.00    0.00
+   BUILDHGT MC12        0.00    0.00    0.00    0.00    0.00    0.00
+   BUILDWID MC12        0.00    0.00    0.00    0.00    0.00    0.00
+   BUILDWID MC12        0.00    0.00    0.00    0.00    0.00    0.00
+   BUILDWID MC12        0.00    0.00    0.00    0.00  200.09  203.00
+   BUILDWID MC12      199.74  190.42  175.30    0.00    0.00    0.00
+   BUILDWID MC12        0.00    0.00    0.00    0.00    0.00    0.00
+   BUILDWID MC12        0.00    0.00    0.00    0.00    0.00    0.00
+   BUILDLEN MC12        0.00    0.00    0.00    0.00    0.00    0.00
+   BUILDLEN MC12        0.00    0.00    0.00    0.00    0.00    0.00
+   BUILDLEN MC12        0.00    0.00    0.00    0.00  137.89  161.00
+   BUILDLEN MC12      179.22  191.99  198.93    0.00    0.00    0.00
+   BUILDLEN MC12        0.00    0.00    0.00    0.00    0.00    0.00
+   BUILDLEN MC12        0.00    0.00    0.00    0.00    0.00    0.00
+   XBADJ    MC12        0.00    0.00    0.00    0.00    0.00    0.00
+   XBADJ    MC12        0.00    0.00    0.00    0.00    0.00    0.00
+   XBADJ    MC12        0.00    0.00    0.00    0.00 -421.05 -451.00
+   XBADJ    MC12     -467.24 -469.29 -457.08    0.00    0.00    0.00
+   XBADJ    MC12        0.00    0.00    0.00    0.00    0.00    0.00
+   XBADJ    MC12        0.00    0.00    0.00    0.00    0.00    0.00
+   YBADJ    MC12        0.00    0.00    0.00    0.00    0.00    0.00
+   YBADJ    MC12        0.00    0.00    0.00    0.00    0.00    0.00
+   YBADJ    MC12        0.00    0.00    0.00    0.00  136.72   73.50
+   YBADJ    MC12        8.05  -57.65 -121.60    0.00    0.00    0.00
+   YBADJ    MC12        0.00    0.00    0.00    0.00    0.00    0.00
+   YBADJ    MC12        0.00    0.00    0.00    0.00    0.00    0.00
+ 
+ 
+   BUILDHGT MC3        90.00   90.00    0.00    0.00    0.00    0.00
+   BUILDHGT MC3         0.00    0.00    0.00    0.00    0.00    0.00
+   BUILDHGT MC3         0.00   90.00   90.00   90.00   90.00   90.00
+   BUILDHGT MC3        90.00   90.00    0.00    0.00    0.00    0.00
+   BUILDHGT MC3         0.00    0.00    0.00    0.00    0.00    0.00
+   BUILDHGT MC3         0.00   90.00    0.00    0.00    0.00   90.00
+   BUILDWID MC3       199.74  190.42    0.00    0.00    0.00    0.00
+   BUILDWID MC3         0.00    0.00    0.00    0.00    0.00    0.00
+   BUILDWID MC3         0.00  194.65  183.56  191.10  200.09  203.00
+   BUILDWID MC3       199.74  190.42    0.00    0.00    0.00    0.00
+   BUILDWID MC3         0.00    0.00    0.00    0.00    0.00    0.00
+   BUILDWID MC3         0.00  194.65    0.00    0.00    0.00  203.00
+   BUILDLEN MC3       179.22  191.99    0.00    0.00    0.00    0.00
+   BUILDLEN MC3         0.00    0.00    0.00    0.00    0.00    0.00
+   BUILDLEN MC3         0.00  129.72  100.63  110.59  137.89  161.00
+   BUILDLEN MC3       179.22  191.99    0.00    0.00    0.00    0.00
+   BUILDLEN MC3         0.00    0.00    0.00    0.00    0.00    0.00
+   BUILDLEN MC3         0.00  129.72    0.00    0.00    0.00  161.00
+   XBADJ    MC3       151.96  129.31    0.00    0.00    0.00    0.00
+   XBADJ    MC3         0.00    0.00    0.00    0.00    0.00    0.00
+   XBADJ    MC3         0.00 -275.72 -282.01 -300.78 -320.76 -331.00
+   XBADJ    MC3      -331.18 -321.30    0.00    0.00    0.00    0.00
+   XBADJ    MC3         0.00    0.00    0.00    0.00    0.00    0.00
+   XBADJ    MC3         0.00  146.00    0.00    0.00    0.00  170.00
+   YBADJ    MC3        72.55  113.40    0.00    0.00    0.00    0.00
+   YBADJ    MC3         0.00    0.00    0.00    0.00    0.00    0.00
+   YBADJ    MC3         0.00  138.42   99.70   57.96   14.45  -29.50
+   YBADJ    MC3       -72.55 -113.40    0.00    0.00    0.00    0.00
+   YBADJ    MC3         0.00    0.00    0.00    0.00    0.00    0.00
+   YBADJ    MC3         0.00 -138.42    0.00    0.00    0.00   29.50
+ 
+   BUILDHGT MC4        90.00    0.00    0.00    0.00    0.00    0.00
+   BUILDHGT MC4         0.00    0.00    0.00    0.00    0.00   90.00
+   BUILDHGT MC4        90.00   90.00   90.00   90.00   90.00   90.00
+   BUILDHGT MC4        90.00    0.00    0.00    0.00    0.00    0.00
+   BUILDHGT MC4         0.00    0.00    0.00    0.00    0.00   90.00
+   BUILDHGT MC4        90.00   90.00    0.00   90.00   90.00   90.00
+   BUILDWID MC4       199.74    0.00    0.00    0.00    0.00    0.00
+   BUILDWID MC4         0.00    0.00    0.00    0.00    0.00  198.93
+   BUILDWID MC4       199.82  194.65  183.56  191.10  200.09  203.00
+   BUILDWID MC4       199.74    0.00    0.00    0.00    0.00    0.00
+   BUILDWID MC4         0.00    0.00    0.00    0.00    0.00  198.93
+   BUILDWID MC4       199.82  194.65    0.00  191.10  200.09  203.00
+   BUILDLEN MC4       179.22    0.00    0.00    0.00    0.00    0.00
+   BUILDLEN MC4         0.00    0.00    0.00    0.00    0.00  175.30
+   BUILDLEN MC4       154.86  129.72  100.63  110.59  137.89  161.00
+   BUILDLEN MC4       179.22    0.00    0.00    0.00    0.00    0.00
+   BUILDLEN MC4         0.00    0.00    0.00    0.00    0.00  175.30
+   BUILDLEN MC4       154.86  129.72    0.00  110.59  137.89  161.00
+   XBADJ    MC4       102.91    0.00    0.00    0.00    0.00    0.00
+   XBADJ    MC4         0.00    0.00    0.00    0.00    0.00 -277.47
+   XBADJ    MC4      -287.95 -289.67 -282.60 -287.98 -294.97 -293.00
+   XBADJ    MC4      -282.12    0.00    0.00    0.00    0.00    0.00
+   XBADJ    MC4         0.00    0.00    0.00    0.00    0.00  102.17
+   XBADJ    MC4       133.08  159.95    0.00  177.39  157.08  132.00
+   YBADJ    MC4       131.93    0.00    0.00    0.00    0.00    0.00
+   YBADJ    MC4         0.00    0.00    0.00    0.00    0.00  135.78
+   YBADJ    MC4       100.76   62.67   22.68  -18.00  -58.13  -96.50
+   YBADJ    MC4      -131.93    0.00    0.00    0.00    0.00    0.00
+   YBADJ    MC4         0.00    0.00    0.00    0.00    0.00 -135.78
+   YBADJ    MC4      -100.76  -62.67    0.00   18.00   58.13   96.50
+ 
+   SRCGROUP  ALL
+SO FINISHED
+ 
+ 
+RE STARTING
+ 
+   INCLUDED ..\aermap\aermap.REC
+ 
+RE FINISHED
+ 
+ME STARTING
+   SURFFILE  ..\aermet\aermet.sfc   free
+   PROFFILE  ..\aermet\aermet.pfl   free
+   SURFDATA  14737  1992  Allentown
+   SITEDATA  00001  1992  Martin_Crk
+   UAIRDATA  14735  1992  Abany
+   PROFBASE  73.2
+**   startend  92 7 9 20  92 7 9 20
+ME FINISHED
+ 
+ 
+OU STARTING
+ 
+   RECTABLE  allave first-second
+   MAXTABLE  allave    400
+   SUMMFILE  aermod.sum
+** PLOTFILE can be uncommented (remove **) for AERPLOT Sample Run if the aerplot folder
+** has been created within the AERMOD Sample Run folder "SampleRun"
+**   PLOTFILE  PERIOD ALL ..\aerplot\aerplot.plt
+ 
+OU FINISHED
+
+
+  *** Message Summary For AERMOD Model Setup ***
+
+  --------- Summary of Total Messages --------
+  
+ A Total of            0 Fatal Error Message(s)
+ A Total of           11 Warning Message(s)
+ A Total of            0 Informational Message(s)
+  
+  
+    ******** FATAL ERROR MESSAGES ******** 
+               ***  NONE  ***         
+  
+  
+    ********   WARNING MESSAGES   ******** 
+ CO W361      10       COCARD: Multiyear PERIOD/ANNUAL values for NO2/SO2 require MULTYEAR Opt
+ CO W362      10       COCARD: Multiyear 1h NO2/SO2 processing not applicable for     3-hr Ave
+ CO W362      10       COCARD: Multiyear 1h NO2/SO2 processing not applicable for    24-hr Ave
+ SO W320      29        PPARM: Input Parameter May Be Out-of-Range for Parameter            QS
+ SO W320      30        PPARM: Input Parameter May Be Out-of-Range for Parameter            QS
+ SO W320      31        PPARM: Input Parameter May Be Out-of-Range for Parameter            QS
+ SO W320      32        PPARM: Input Parameter May Be Out-of-Range for Parameter            QS
+ SO W320      33        PPARM: Input Parameter May Be Out-of-Range for Parameter            QS
+ SO W320      34        PPARM: Input Parameter May Be Out-of-Range for Parameter            QS
+ SO W320      35        PPARM: Input Parameter May Be Out-of-Range for Parameter            QS
+ SO W320      36        PPARM: Input Parameter May Be Out-of-Range for Parameter            QS
+
+ ***********************************
+ *** SETUP Finishes Successfully ***
+ ***********************************
+
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE   1
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                                            ***     MODEL SETUP OPTIONS SUMMARY       ***
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ ** Model Options Selected:
+      * Model Uses Regulatory DEFAULT Options
+      * Model Is Setup For Calculation of Average CONCentration Values.
+      * NO GAS DEPOSITION Data Provided.
+      * NO PARTICLE DEPOSITION Data Provided.
+      * Model Uses NO DRY DEPLETION. DDPLETE  =  F
+      * Model Uses NO WET DEPLETION. WETDPLT  =  F
+      * Stack-tip Downwash.
+      * Model Accounts for ELEVated Terrain Effects.
+      * Use Calms Processing Routine.
+      * Use Missing Data Processing Routine.
+      * No Exponential Decay.
+      * Model Uses RURAL Dispersion Only.
+      * CCVR_Sub - Meteorological data includes CCVR substitutions
+      * Model Assumes No FLAGPOLE Receptor Heights. 
+      * The User Specified a Pollutant Type of: SO2     
+
+ **NOTE: Special processing requirements applicable for the 1-hour SO2 NAAQS have been disabled!!!
+         User has specified non-standard averaging periods:    3-HR  24-HR                
+         High ranked 1-hour values are NOT averaged across the number of years modeled, and
+         complete years of data are NOT required.
+  
+ **Model Calculates  3 Short Term Average(s) of:   1-HR   3-HR  24-HR
+     and Calculates PERIOD Averages
+  
+ **This Run Includes:      8 Source(s);       1 Source Group(s); and       7 Receptor(s)
+
+                with:      8 POINT(s), including
+                           0 POINTCAP(s) and      0 POINTHOR(s)
+                 and:      0 VOLUME source(s)
+                 and:      0 AREA type source(s)
+                 and:      0 LINE source(s)
+                 and:      0 RLINE/RLINEXT source(s)
+                 and:      0 OPENPIT source(s)
+                 and:      0 BUOYANT LINE source(s) with a total of     0 line(s)
+                 and:      0 SWPOINT source(s)
+
+  
+ **Model Set To Continue RUNning After the Setup Testing.
+
+ **The AERMET Input Meteorological Data Version Date:  26135
+  
+ **Output Options Selected:
+          Model Outputs Tables of PERIOD Averages by Receptor
+          Model Outputs Tables of Highest Short Term Values by Receptor (RECTABLE Keyword)
+          Model Outputs Tables of Overall Maximum Short Term Values (MAXTABLE Keyword)
+          Model Outputs Separate Summary File of High Ranked Values (SUMMFILE Keyword)
+  
+ **NOTE:  The Following Flags May Appear Following CONC Values:  c for Calm Hours
+                                                                 m for Missing Hours
+                                                                 b for Both Calm and Missing Hours
+  
+ **Misc. Inputs:  Base Elev. for Pot. Temp. Profile (m MSL) =    73.20 ;  Decay Coef. =    0.000     ;  Rot. Angle =     0.0
+                  Emission Units = GRAMS/SEC                                ;  Emission Rate Unit Factor =   0.10000E+07
+                  Output Units   = MICROGRAMS/M**3                         
+  
+ **Approximate Storage Requirements of Model =      3.5 MB of RAM.
+  
+ **Input Runstream File:          aermod.inp                                                                                      
+ **Output Print File:             aermod.out                                                                                      
+
+ **Detailed Error/Message File:   ERRORS.OUT                                                                                      
+ **File for Summary of Results:   aermod.sum                                                                                      
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE   2
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+
+                                                  *** POINT SOURCE DATA ***
+
+               NUMBER EMISSION RATE                    BASE     STACK   STACK    STACK     STACK    BLDG   URBAN  CAP/  EMIS RATE
+   SOURCE       PART.  (GRAMS/SEC)     X        Y      ELEV.    HEIGHT  TEMP.   EXIT VEL. DIAMETER  EXISTS SOURCE HOR   SCALAR
+     ID         CATS.               (METERS) (METERS) (METERS) (METERS) (DEG.K)  (M/SEC)  (METERS)                      VARY BY
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ MC12             0   0.00000E+00  491010.0  515910.0    73.2   182.90    -0.00     0.00     5.30    YES     NO    NO  HOURLY 
+ MC3              0   0.00000E+00  491123.0  516030.0    73.2   182.90    -0.00     0.00     6.90    YES     NO    NO  HOURLY 
+ MC4              0   0.00000E+00  491190.0  516068.0    73.2   182.90    -0.00     0.00     6.90    YES     NO    NO  HOURLY 
+ ED1              0   0.00000E+00  493350.0  528370.0    91.4   121.90    -0.00     0.00     3.10    NO      NO    NO  HOURLY 
+ ED2              0   0.00000E+00  493350.0  528370.0    91.4   121.90    -0.00     0.00     3.60    NO      NO    NO  HOURLY 
+ HL2              0   0.00000E+00  494050.0  521040.0   103.6    59.40    -0.00     0.00     2.70    NO      NO    NO  HOURLY 
+ WC1              0   0.00000E+00  498950.0  518500.0   173.7    76.20    -0.00     0.00     1.87    NO      NO    NO  HOURLY 
+ WC2              0   0.00000E+00  498950.0  518500.0   173.7    76.20    -0.00     0.00     1.87    NO      NO    NO  HOURLY 
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE   3
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+
+                                           *** SOURCE IDs DEFINING SOURCE GROUPS ***
+
+ SRCGROUP ID                                              SOURCE IDs
+ -----------                                              ----------
+
+
+  ALL        MC12        , MC3         , MC4         , ED1         , ED2         , HL2         , WC1         , WC2         ,
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE   4
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                                          *** DIRECTION SPECIFIC BUILDING DIMENSIONS ***
+
+
+ SOURCE ID: MC12        
+  IFV    BH      BW      BL     XADJ    YADJ     IFV    BH      BW      BL     XADJ    YADJ
+    1    0.0,    0.0,    0.0,    0.0,    0.0,      2    0.0,    0.0,    0.0,    0.0,    0.0,
+    3    0.0,    0.0,    0.0,    0.0,    0.0,      4    0.0,    0.0,    0.0,    0.0,    0.0,
+    5    0.0,    0.0,    0.0,    0.0,    0.0,      6    0.0,    0.0,    0.0,    0.0,    0.0,
+    7    0.0,    0.0,    0.0,    0.0,    0.0,      8    0.0,    0.0,    0.0,    0.0,    0.0,
+    9    0.0,    0.0,    0.0,    0.0,    0.0,     10    0.0,    0.0,    0.0,    0.0,    0.0,
+   11    0.0,    0.0,    0.0,    0.0,    0.0,     12    0.0,    0.0,    0.0,    0.0,    0.0,
+   13    0.0,    0.0,    0.0,    0.0,    0.0,     14    0.0,    0.0,    0.0,    0.0,    0.0,
+   15    0.0,    0.0,    0.0,    0.0,    0.0,     16    0.0,    0.0,    0.0,    0.0,    0.0,
+   17   90.0,  200.1,  137.9, -421.1,  136.7,     18   90.0,  203.0,  161.0, -451.0,   73.5,
+   19   90.0,  199.7,  179.2, -467.2,    8.1,     20   90.0,  190.4,  192.0, -469.3,  -57.6,
+   21   90.0,  175.3,  198.9, -457.1, -121.6,     22    0.0,    0.0,    0.0,    0.0,    0.0,
+   23    0.0,    0.0,    0.0,    0.0,    0.0,     24    0.0,    0.0,    0.0,    0.0,    0.0,
+   25    0.0,    0.0,    0.0,    0.0,    0.0,     26    0.0,    0.0,    0.0,    0.0,    0.0,
+   27    0.0,    0.0,    0.0,    0.0,    0.0,     28    0.0,    0.0,    0.0,    0.0,    0.0,
+   29    0.0,    0.0,    0.0,    0.0,    0.0,     30    0.0,    0.0,    0.0,    0.0,    0.0,
+   31    0.0,    0.0,    0.0,    0.0,    0.0,     32    0.0,    0.0,    0.0,    0.0,    0.0,
+   33    0.0,    0.0,    0.0,    0.0,    0.0,     34    0.0,    0.0,    0.0,    0.0,    0.0,
+   35    0.0,    0.0,    0.0,    0.0,    0.0,     36    0.0,    0.0,    0.0,    0.0,    0.0,
+
+
+ SOURCE ID: MC3         
+  IFV    BH      BW      BL     XADJ    YADJ     IFV    BH      BW      BL     XADJ    YADJ
+    1   90.0,  199.7,  179.2,  152.0,   72.5,      2   90.0,  190.4,  192.0,  129.3,  113.4,
+    3    0.0,    0.0,    0.0,    0.0,    0.0,      4    0.0,    0.0,    0.0,    0.0,    0.0,
+    5    0.0,    0.0,    0.0,    0.0,    0.0,      6    0.0,    0.0,    0.0,    0.0,    0.0,
+    7    0.0,    0.0,    0.0,    0.0,    0.0,      8    0.0,    0.0,    0.0,    0.0,    0.0,
+    9    0.0,    0.0,    0.0,    0.0,    0.0,     10    0.0,    0.0,    0.0,    0.0,    0.0,
+   11    0.0,    0.0,    0.0,    0.0,    0.0,     12    0.0,    0.0,    0.0,    0.0,    0.0,
+   13    0.0,    0.0,    0.0,    0.0,    0.0,     14   90.0,  194.7,  129.7, -275.7,  138.4,
+   15   90.0,  183.6,  100.6, -282.0,   99.7,     16   90.0,  191.1,  110.6, -300.8,   58.0,
+   17   90.0,  200.1,  137.9, -320.8,   14.5,     18   90.0,  203.0,  161.0, -331.0,  -29.5,
+   19   90.0,  199.7,  179.2, -331.2,  -72.5,     20   90.0,  190.4,  192.0, -321.3, -113.4,
+   21    0.0,    0.0,    0.0,    0.0,    0.0,     22    0.0,    0.0,    0.0,    0.0,    0.0,
+   23    0.0,    0.0,    0.0,    0.0,    0.0,     24    0.0,    0.0,    0.0,    0.0,    0.0,
+   25    0.0,    0.0,    0.0,    0.0,    0.0,     26    0.0,    0.0,    0.0,    0.0,    0.0,
+   27    0.0,    0.0,    0.0,    0.0,    0.0,     28    0.0,    0.0,    0.0,    0.0,    0.0,
+   29    0.0,    0.0,    0.0,    0.0,    0.0,     30    0.0,    0.0,    0.0,    0.0,    0.0,
+   31    0.0,    0.0,    0.0,    0.0,    0.0,     32   90.0,  194.7,  129.7,  146.0, -138.4,
+   33    0.0,    0.0,    0.0,    0.0,    0.0,     34    0.0,    0.0,    0.0,    0.0,    0.0,
+   35    0.0,    0.0,    0.0,    0.0,    0.0,     36   90.0,  203.0,  161.0,  170.0,   29.5,
+
+
+ SOURCE ID: MC4         
+  IFV    BH      BW      BL     XADJ    YADJ     IFV    BH      BW      BL     XADJ    YADJ
+    1   90.0,  199.7,  179.2,  102.9,  131.9,      2    0.0,    0.0,    0.0,    0.0,    0.0,
+    3    0.0,    0.0,    0.0,    0.0,    0.0,      4    0.0,    0.0,    0.0,    0.0,    0.0,
+    5    0.0,    0.0,    0.0,    0.0,    0.0,      6    0.0,    0.0,    0.0,    0.0,    0.0,
+    7    0.0,    0.0,    0.0,    0.0,    0.0,      8    0.0,    0.0,    0.0,    0.0,    0.0,
+    9    0.0,    0.0,    0.0,    0.0,    0.0,     10    0.0,    0.0,    0.0,    0.0,    0.0,
+   11    0.0,    0.0,    0.0,    0.0,    0.0,     12   90.0,  198.9,  175.3, -277.5,  135.8,
+   13   90.0,  199.8,  154.9, -287.9,  100.8,     14   90.0,  194.7,  129.7, -289.7,   62.7,
+   15   90.0,  183.6,  100.6, -282.6,   22.7,     16   90.0,  191.1,  110.6, -288.0,  -18.0,
+   17   90.0,  200.1,  137.9, -295.0,  -58.1,     18   90.0,  203.0,  161.0, -293.0,  -96.5,
+   19   90.0,  199.7,  179.2, -282.1, -131.9,     20    0.0,    0.0,    0.0,    0.0,    0.0,
+   21    0.0,    0.0,    0.0,    0.0,    0.0,     22    0.0,    0.0,    0.0,    0.0,    0.0,
+   23    0.0,    0.0,    0.0,    0.0,    0.0,     24    0.0,    0.0,    0.0,    0.0,    0.0,
+   25    0.0,    0.0,    0.0,    0.0,    0.0,     26    0.0,    0.0,    0.0,    0.0,    0.0,
+   27    0.0,    0.0,    0.0,    0.0,    0.0,     28    0.0,    0.0,    0.0,    0.0,    0.0,
+   29    0.0,    0.0,    0.0,    0.0,    0.0,     30   90.0,  198.9,  175.3,  102.2, -135.8,
+   31   90.0,  199.8,  154.9,  133.1, -100.8,     32   90.0,  194.7,  129.7,  160.0,  -62.7,
+   33    0.0,    0.0,    0.0,    0.0,    0.0,     34   90.0,  191.1,  110.6,  177.4,   18.0,
+   35   90.0,  200.1,  137.9,  157.1,   58.1,     36   90.0,  203.0,  161.0,  132.0,   96.5,
+
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE   5
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                                             *** DISCRETE CARTESIAN RECEPTORS ***
+                                           (X-COORD, Y-COORD, ZELEV, ZHILL, ZFLAG)
+                                                           (METERS)
+
+     ( 495510.0,  513680.0,     339.5,     361.0,       0.0);         ( 493900.0,  513200.0,     367.7,     367.7,       0.0);      
+     ( 492700.0,  513440.0,     334.1,     369.8,       0.0);         ( 492440.0,  511190.0,     321.2,     321.2,       0.0);      
+     ( 495400.0,  515180.0,     322.2,     369.2,       0.0);         ( 495300.0,  513880.0,     346.1,     363.4,       0.0);      
+     ( 496430.0,  514500.0,     318.7,     354.7,       0.0);                                                                       
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE   6
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                                            *** METEOROLOGICAL DAYS SELECTED FOR PROCESSING ***
+                                                               (1=YES; 0=NO)
+
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1
+
+                NOTE:  METEOROLOGICAL DATA ACTUALLY PROCESSED WILL ALSO DEPEND ON WHAT IS INCLUDED IN THE DATA FILE.
+
+
+
+                                  *** UPPER BOUND OF FIRST THROUGH FIFTH WIND SPEED CATEGORIES ***
+                                                            (METERS/SEC)
+
+                                                 1.54,   3.09,   5.14,   8.23,  10.80,
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE   7
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                                    *** UP TO THE FIRST 24 HOURS OF METEOROLOGICAL DATA ***
+
+   Surface file:   ..\aermet\aermet.sfc                                                               Met Version:  26135
+   Profile file:   ..\aermet\aermet.pfl                                                            
+   Surface format: FREE                                                                                                     
+   Profile format: FREE                                                                                                     
+   Surface station no.:    14737                  Upper air station no.:    14735
+                  Name: ALLENTOWN                                  Name: ABANY                                   
+                  Year:   1992                                     Year:   1992
+
+ First 24 hours of scalar data
+ YR MO DY JDY HR     H0     U*     W*  DT/DZ ZICNV ZIMCH  M-O LEN    Z0  BOWEN ALBEDO  REF WS   WD     HT  REF TA     HT
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ ** 05 01 122 01   -0.1  0.015 -9.000 -9.000 -999.    5.      2.2  0.20   0.50   1.00    0.30  300.   10.0  283.1   10.0
+ 92 05 01 122 02   -0.9  0.040 -9.000 -9.000 -999.   19.      6.6  0.50   0.50   1.00    0.60  240.   10.0  283.1   10.0
+ 92 05 01 122 03   -0.1  0.020 -9.000 -9.000 -999.    7.      6.8  0.20   0.50   1.00    0.60   85.   90.0  283.1   10.0
+ 92 05 01 122 04    0.0  0.013 -9.000 -9.000 -999.    4.      4.5  0.20   0.50   1.00    0.40   90.   90.0  282.1   10.0
+ 92 05 01 122 05    0.0  0.013 -9.000 -9.000 -999.    4.      4.5  0.20   0.50   1.00    0.40  129.   90.0  282.1   10.0
+ 92 05 01 122 06    0.0  0.013 -9.000 -9.000 -999.    4.      4.7  0.20   0.50   0.52    0.40   78.   90.0  282.1   10.0
+ 92 05 01 122 07   26.9  0.104  0.724  0.005  504.   81.     -3.8  0.20   0.50   0.27    0.80   27.   90.0  282.1   10.0
+ 92 05 01 122 08   69.2  0.271  1.070  0.005  634.  339.    -25.7  0.20   0.50   0.19    2.20   20.   10.0  284.1   10.0
+ 92 05 01 122 09  109.4  0.310  1.343  0.005  794.  413.    -24.3  0.20   0.50   0.16    2.50   20.   10.0  286.1   10.0
+ 92 05 01 122 10  141.3  0.251  1.560  0.005  963.  303.    -10.0  0.20   0.50   0.15    1.80  350.   10.0  287.1   10.0
+ 92 05 01 122 11  145.3  0.203  1.654  0.005 1116.  219.     -5.1  0.20   0.50   0.15    1.30  270.   10.0  288.1   10.0
+ 92 05 01 122 12  154.6  0.268  1.758  0.005 1260.  334.    -11.2  0.50   0.50   0.15    1.40  240.   10.0  289.1   10.0
+ 92 05 01 122 13  164.6  0.368  1.858  0.005 1396.  536.    -27.1  0.50   0.50   0.15    2.20  240.   10.0  290.1   10.0
+ 92 05 01 122 14  144.9  0.411  1.829  0.005 1511.  633.    -42.9  0.50   0.50   0.15    2.60  250.   10.0  291.1   10.0
+ 92 05 01 122 15  138.3  0.469  1.862  0.005 1671.  769.    -66.4  0.50   0.50   0.15    3.10  240.   10.0  291.1   10.0
+ 92 05 01 122 16  107.6  0.473  1.752  0.005 1786.  780.    -87.7  0.50   0.50   0.16    3.20  250.   10.0  291.1   10.0
+ 92 05 01 122 17   47.5  0.441  1.347  0.005 1839.  704.   -161.1  0.50   0.50   0.19    3.10  250.   10.0  291.1   10.0
+ 92 05 01 122 18   18.4  0.339  0.987  0.005 1860.  480.   -188.2  0.50   0.50   0.28    2.40  250.   10.0  291.1   10.0
+ 92 05 01 122 19   -9.2  0.195 -9.000 -9.000 -999.  221.     71.9  0.50   0.50   0.55    1.80  250.   10.0  290.1   10.0
+ 92 05 01 122 20  -12.0  0.221 -9.000 -9.000 -999.  249.     80.0  0.50   0.50   1.00    2.00  215.   10.0  289.1   10.0
+ 92 05 01 122 21   -2.4  0.067 -9.000 -9.000 -999.   72.     11.0  0.50   0.50   1.00    1.00  250.   10.0  288.1   10.0
+ 92 05 01 122 22  -15.6  0.284 -9.000 -9.000 -999.  364.    131.6  0.50   0.50   1.00    2.40  240.   10.0  287.1   10.0
+ 92 05 01 122 23  -12.1  0.221 -9.000 -9.000 -999.  250.     79.1  0.50   0.50   1.00    2.00  210.   10.0  287.1   10.0
+ 92 05 01 122 24   -9.0  0.164 -9.000 -9.000 -999.  161.     43.8  0.50   0.50   1.00    1.70  220.   10.0  286.1   10.0
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE   8
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+
+ First hour of profile data
+ YR MO DY HR HEIGHT F  WDIR    WSPD AMB_TMP sigmaA  sigmaW  sigmaV
+ ** 05 01 01   10.0 0  300.    0.30   283.2  999.0  -99.00  -99.00
+ ** 05 01 01   90.0 0   71.    1.60  -999.0  999.0  -99.00  -99.00
+ ** 05 01 01  120.0 0   69.    2.10  -999.0  999.0  -99.00  -99.00
+ ** 05 01 01  150.0 0   67.    2.50  -999.0  999.0  -99.00  -99.00
+ ** 05 01 01  180.0 0   67.    2.90  -999.0  999.0  -99.00  -99.00
+ ** 05 01 01  210.0 0   63.    3.00  -999.0  999.0  -99.00  -99.00
+ ** 05 01 01  240.0 0   58.    2.90  -999.0  999.0  -99.00  -99.00
+ ** 05 01 01  270.0 0   52.    3.10  -999.0  999.0  -99.00  -99.00
+ ** 05 01 01  300.0 0   46.    3.20  -999.0  999.0  -99.00  -99.00
+ ** 05 01 01  330.0 0   44.    3.40  -999.0  999.0  -99.00  -99.00
+ ** 05 01 01  360.0 0   42.    3.30  -999.0  999.0  -99.00  -99.00
+ ** 05 01 01  390.0 0   41.    3.50  -999.0  999.0  -99.00  -99.00
+ ** 05 01 01  420.0 1 -999.  -99.00  -999.0  999.0  -99.00  -99.00
+
+ F indicates top of profile (=1) or below (=0)
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE   9
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE PERIOD (  9216 HRS) AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP: ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                             *** DISCRETE CARTESIAN RECEPTOR POINTS ***
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+       X-COORD (M)   Y-COORD (M)        CONC                       X-COORD (M)   Y-COORD (M)        CONC
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+         495510.00     513680.00        6.08535                      493900.00     513200.00        8.32741                         
+         492700.00     513440.00        8.50722                      492440.00     511190.00        5.07408                         
+         495400.00     515180.00        6.64201                      495300.00     513880.00        6.50462                         
+         496430.00     514500.00        5.57588                                                                                     
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  10
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE   1ST HIGHEST  1-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                             *** DISCRETE CARTESIAN RECEPTOR POINTS ***
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+      X-COORD (M)  Y-COORD (M)        CONC     (YYMMDDHH)              X-COORD (M)  Y-COORD (M)        CONC     (YYMMDDHH)
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        495510.00    513680.00      685.46115  (93011920)                493900.00    513200.00      985.23447  (93022420)          
+        492700.00    513440.00      871.42002  (93011620)                492440.00    511190.00      785.26585  (93011620)          
+        495400.00    515180.00     1026.83656  (93011920)                495300.00    513880.00      412.67502  (93011619)          
+        496430.00    514500.00      616.23756  (92060922)                                                                           
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  11
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE   2ND HIGHEST  1-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                             *** DISCRETE CARTESIAN RECEPTOR POINTS ***
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+      X-COORD (M)  Y-COORD (M)        CONC     (YYMMDDHH)              X-COORD (M)  Y-COORD (M)        CONC     (YYMMDDHH)
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        495510.00    513680.00      381.81851  (93011619)                493900.00    513200.00      540.49887  (92122421)          
+        492700.00    513440.00      747.22001  (92070923)                492440.00    511190.00      462.87378  (92081404)          
+        495400.00    515180.00      665.68624  (92091120)                495300.00    513880.00      409.00338  (93011920)          
+        496430.00    514500.00      534.31237  (93011818)                                                                           
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  12
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE   1ST HIGHEST  3-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                             *** DISCRETE CARTESIAN RECEPTOR POINTS ***
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+      X-COORD (M)  Y-COORD (M)        CONC     (YYMMDDHH)              X-COORD (M)  Y-COORD (M)        CONC     (YYMMDDHH)
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        495510.00    513680.00      233.32089  (93011921)                493900.00    513200.00      475.50696  (93022421)          
+        492700.00    513440.00      357.79622  (93011621)                492440.00    511190.00      286.84028  (93011621)          
+        495400.00    515180.00      370.41734  (93011921)                495300.00    513880.00      178.06927  (92120806)          
+        496430.00    514500.00      264.64656  (93011921)                                                                           
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  13
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE   2ND HIGHEST  3-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                             *** DISCRETE CARTESIAN RECEPTOR POINTS ***
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+      X-COORD (M)  Y-COORD (M)        CONC     (YYMMDDHH)              X-COORD (M)  Y-COORD (M)        CONC     (YYMMDDHH)
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        495510.00    513680.00      145.29907  (92082021)                493900.00    513200.00      356.26526  (92122421)          
+        492700.00    513440.00      278.36448  (92102706)                492440.00    511190.00      205.22904  (93011821)          
+        495400.00    515180.00      321.71885  (92091121)                495300.00    513880.00      176.58099  (92082021)          
+        496430.00    514500.00      205.50970  (92060924)                                                                           
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  14
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE   1ST HIGHEST 24-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                             *** DISCRETE CARTESIAN RECEPTOR POINTS ***
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+      X-COORD (M)  Y-COORD (M)        CONC     (YYMMDDHH)              X-COORD (M)  Y-COORD (M)        CONC     (YYMMDDHH)
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        495510.00    513680.00       56.44074  (93011924)                493900.00    513200.00      107.88322  (93031124)          
+        492700.00    513440.00       86.45558c (92101924)                492440.00    511190.00       60.18306  (93020224)          
+        495400.00    515180.00       75.94898  (93011924)                495300.00    513880.00       54.70411  (93030924)          
+        496430.00    514500.00       60.96467  (93011924)                                                                           
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  15
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE   2ND HIGHEST 24-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                             *** DISCRETE CARTESIAN RECEPTOR POINTS ***
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+      X-COORD (M)  Y-COORD (M)        CONC     (YYMMDDHH)              X-COORD (M)  Y-COORD (M)        CONC     (YYMMDDHH)
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        495510.00    513680.00       50.58553  (93030924)                493900.00    513200.00       80.90230  (92110624)          
+        492700.00    513440.00       83.14991  (93021424)                492440.00    511190.00       44.06220  (93011624)          
+        495400.00    515180.00       48.77074  (92091124)                495300.00    513880.00       51.02045  (92120824)          
+        496430.00    514500.00       44.42484  (92060924)                                                                           
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  16
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE MAXIMUM  400   1-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+ RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE    RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    1.    1026.83656 (93011920) AT ( 495400.00,  515180.00)  DC       41.     359.27784 (92102706) AT ( 492700.00,  513440.00)  DC
+    2.     985.23447 (93022420) AT ( 493900.00,  513200.00)  DC       42.     357.77301 (92103017) AT ( 495400.00,  515180.00)  DC
+    3.     871.42002 (93011620) AT ( 492700.00,  513440.00)  DC       43.     355.18078 (93012805) AT ( 492700.00,  513440.00)  DC
+    4.     785.26585 (93011620) AT ( 492440.00,  511190.00)  DC       44.     351.97059 (92110623) AT ( 493900.00,  513200.00)  DC
+    5.     747.22001 (92070923) AT ( 492700.00,  513440.00)  DC       45.     350.87407 (92122420) AT ( 493900.00,  513200.00)  DC
+    6.     685.46115 (93011920) AT ( 495510.00,  513680.00)  DC       46.     350.09348 (93012607) AT ( 496430.00,  514500.00)  DC
+    7.     665.68624 (92091120) AT ( 495400.00,  515180.00)  DC       47.     348.08308 (93011819) AT ( 492440.00,  511190.00)  DC
+    8.     616.23756 (92060922) AT ( 496430.00,  514500.00)  DC       48.     347.13206 (92101924) AT ( 493900.00,  513200.00)  DC
+    9.     582.51915 (93051122) AT ( 492700.00,  513440.00)  DC       49.     346.25930 (93031402) AT ( 492700.00,  513440.00)  DC
+   10.     540.49887 (92122421) AT ( 493900.00,  513200.00)  DC       50.     342.16052 (92061022) AT ( 495400.00,  515180.00)  DC
+   11.     534.31237 (93011818) AT ( 496430.00,  514500.00)  DC       51.     340.39327 (93022406) AT ( 495400.00,  515180.00)  DC
+   12.     521.16931 (93011920) AT ( 496430.00,  514500.00)  DC       52.     339.79305 (92062521) AT ( 495300.00,  513880.00)  DC
+   13.     466.12778 (93051124) AT ( 493900.00,  513200.00)  DC       53.     339.60739 (93011819) AT ( 492700.00,  513440.00)  DC
+   14.     462.87378 (92081404) AT ( 492440.00,  511190.00)  DC       54.     339.52721 (92082709) AT ( 492700.00,  513440.00)  DC
+   15.     454.82438 (92081404) AT ( 492700.00,  513440.00)  DC       55.     332.17095 (92122618) AT ( 492700.00,  513440.00)  DC
+   16.     447.20914 (93031119) AT ( 493900.00,  513200.00)  DC       56.     329.00253 (92072010) AT ( 496430.00,  514500.00)  DC
+   17.     431.90708 (92102705) AT ( 492700.00,  513440.00)  DC       57.     328.92302 (93031207) AT ( 493900.00,  513200.00)  DC
+   18.     431.37830 (92061021) AT ( 496430.00,  514500.00)  DC       58.     327.42994 (92093001) AT ( 493900.00,  513200.00)  DC
+   19.     427.76661 (93012522) AT ( 493900.00,  513200.00)  DC       59.     327.05130 (93012719) AT ( 493900.00,  513200.00)  DC
+   20.     427.21663 (93012601) AT ( 493900.00,  513200.00)  DC       60.     324.81981 (93011619) AT ( 495400.00,  515180.00)  DC
+   21.     425.34566 (93031118) AT ( 493900.00,  513200.00)  DC       61.     322.86834 (92070109) AT ( 492700.00,  513440.00)  DC
+   22.     415.74093 (93031120) AT ( 493900.00,  513200.00)  DC       62.     321.97053 (93031124) AT ( 493900.00,  513200.00)  DC
+   23.     412.67502 (93011619) AT ( 495300.00,  513880.00)  DC       63.     319.81281 (93021422) AT ( 492700.00,  513440.00)  DC
+   24.     409.00338 (93011920) AT ( 495300.00,  513880.00)  DC       64.     319.62914 (92062521) AT ( 495510.00,  513680.00)  DC
+   25.     407.66977 (93020418) AT ( 493900.00,  513200.00)  DC       65.     319.58719 (93011619) AT ( 493900.00,  513200.00)  DC
+   26.     406.23293 (93022421) AT ( 493900.00,  513200.00)  DC       66.     319.23068 (92091122) AT ( 496430.00,  514500.00)  DC
+   27.     405.89863 (92100104) AT ( 493900.00,  513200.00)  DC       67.     318.27638 (92101923) AT ( 493900.00,  513200.00)  DC
+   28.     401.85989 (92120320) AT ( 493900.00,  513200.00)  DC       68.     316.34496 (93031006) AT ( 493900.00,  513200.00)  DC
+   29.     382.27625 (92080105) AT ( 492700.00,  513440.00)  DC       69.     313.47407 (92102704) AT ( 493900.00,  513200.00)  DC
+   30.     381.81851 (93011619) AT ( 495510.00,  513680.00)  DC       70.     313.33925 (92110817) AT ( 495400.00,  515180.00)  DC
+   31.     380.04418 (92103017) AT ( 495300.00,  513880.00)  DC       71.     312.82888 (92082710) AT ( 492700.00,  513440.00)  DC
+   32.     377.83069 (93021424) AT ( 492700.00,  513440.00)  DC       72.     312.25176 (93011902) AT ( 495400.00,  515180.00)  DC
+   33.     374.44964 (92050323) AT ( 492700.00,  513440.00)  DC       73.     312.02276 (92092724) AT ( 495510.00,  513680.00)  DC
+   34.     374.14792 (92120822) AT ( 496430.00,  514500.00)  DC       74.     311.00949 (92102522) AT ( 493900.00,  513200.00)  DC
+   35.     370.43167 (92103017) AT ( 495510.00,  513680.00)  DC       75.     304.60354 (92120602) AT ( 493900.00,  513200.00)  DC
+   36.     366.29438 (93021420) AT ( 492700.00,  513440.00)  DC       76.     301.93823 (92120603) AT ( 493900.00,  513200.00)  DC
+   37.     364.72191 (92110603) AT ( 493900.00,  513200.00)  DC       77.     299.05851 (92091121) AT ( 495400.00,  515180.00)  DC
+   38.     363.99433 (92101918) AT ( 492700.00,  513440.00)  DC       78.     295.81170 (92091120) AT ( 495510.00,  513680.00)  DC
+   39.     361.84567 (93012607) AT ( 495400.00,  515180.00)  DC       79.     294.36530 (92070920) AT ( 495400.00,  515180.00)  DC
+   40.     360.35548 (92092923) AT ( 492700.00,  513440.00)  DC       80.     294.24621 (92110622) AT ( 493900.00,  513200.00)  DC
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  17
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE MAXIMUM  400   1-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+ RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE    RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+   81.     293.25129 (92062301) AT ( 495400.00,  515180.00)  DC      121.     262.83261 (93021911) AT ( 492700.00,  513440.00)  DC
+   82.     292.27957 (93012604) AT ( 492700.00,  513440.00)  DC      122.     260.16973 (92070924) AT ( 493900.00,  513200.00)  DC
+   83.     291.41093 (93021905) AT ( 493900.00,  513200.00)  DC      123.     260.04040 (92062301) AT ( 495510.00,  513680.00)  DC
+   84.     290.56888 (92062103) AT ( 492440.00,  511190.00)  DC      124.     258.68542 (93051321) AT ( 492440.00,  511190.00)  DC
+   85.     290.19236 (92093004) AT ( 493900.00,  513200.00)  DC      125.     258.58309 (92091609) AT ( 492700.00,  513440.00)  DC
+   86.     288.67516 (92092905) AT ( 496430.00,  514500.00)  DC      126.     257.51272 (92120601) AT ( 493900.00,  513200.00)  DC
+   87.     286.78987 (92050324) AT ( 492440.00,  511190.00)  DC      127.     256.91264 (93051120) AT ( 493900.00,  513200.00)  DC
+   88.     286.60999 (92050406) AT ( 492440.00,  511190.00)  DC      128.     256.35889 (92062521) AT ( 495400.00,  515180.00)  DC
+   89.     286.38408 (92121819) AT ( 492700.00,  513440.00)  DC      129.     254.68065 (92082019) AT ( 495400.00,  515180.00)  DC
+   90.     285.37009 (92082612) AT ( 493900.00,  513200.00)  DC      130.     251.78467 (92120824) AT ( 495400.00,  515180.00)  DC
+   91.     284.68388 (92072010) AT ( 495400.00,  515180.00)  DC      131.     249.82012 (92072821) AT ( 495300.00,  513880.00)  DC
+   92.     284.19777 (93021903) AT ( 493900.00,  513200.00)  DC      132.     249.19470 (93013018) AT ( 492700.00,  513440.00)  DC
+   93.     283.82962 (92101919) AT ( 492700.00,  513440.00)  DC      133.     249.12059 (92120805) AT ( 495300.00,  513880.00)  DC
+   94.     282.10283 (92080421) AT ( 492700.00,  513440.00)  DC      134.     247.60124 (92082709) AT ( 495400.00,  515180.00)  DC
+   95.     280.84103 (92090105) AT ( 493900.00,  513200.00)  DC      135.     247.19679 (92122106) AT ( 493900.00,  513200.00)  DC
+   96.     280.34120 (92092801) AT ( 493900.00,  513200.00)  DC      136.     246.19221 (93022406) AT ( 496430.00,  514500.00)  DC
+   97.     280.19979 (93021906) AT ( 493900.00,  513200.00)  DC      137.     245.62321 (92122218) AT ( 493900.00,  513200.00)  DC
+   98.     279.50610 (93011901) AT ( 496430.00,  514500.00)  DC      138.     245.54629 (93020818) AT ( 496430.00,  514500.00)  DC
+   99.     278.66403 (93011806) AT ( 493900.00,  513200.00)  DC      139.     244.87781 (92120524) AT ( 493900.00,  513200.00)  DC
+  100.     277.27647 (92091121) AT ( 496430.00,  514500.00)  DC      140.     244.52463 (92082019) AT ( 495300.00,  513880.00)  DC
+  101.     274.90201 (92121819) AT ( 492440.00,  511190.00)  DC      141.     244.41159 (93030703) AT ( 495400.00,  515180.00)  DC
+  102.     273.50603 (92101920) AT ( 493900.00,  513200.00)  DC      142.     244.09469 (92082710) AT ( 493900.00,  513200.00)  DC
+  103.     271.70638 (92053123) AT ( 496430.00,  514500.00)  DC      143.     243.85645 (92100208) AT ( 495300.00,  513880.00)  DC
+  104.     271.01724 (93030920) AT ( 495510.00,  513680.00)  DC      144.     242.79995 (92102523) AT ( 493900.00,  513200.00)  DC
+  105.     270.25314 (93021421) AT ( 492700.00,  513440.00)  DC      145.     242.52423 (92122621) AT ( 492700.00,  513440.00)  DC
+  106.     269.99007 (93011919) AT ( 496430.00,  514500.00)  DC      146.     241.45068 (93012806) AT ( 493900.00,  513200.00)  DC
+  107.     269.74904 (93031122) AT ( 492700.00,  513440.00)  DC      147.     241.04703 (92083119) AT ( 496430.00,  514500.00)  DC
+  108.     269.74646 (92082019) AT ( 495510.00,  513680.00)  DC      148.     240.70616 (92062301) AT ( 495300.00,  513880.00)  DC
+  109.     269.74039 (93031001) AT ( 495300.00,  513880.00)  DC      149.     240.16304 (92061022) AT ( 495510.00,  513680.00)  DC
+  110.     268.56826 (92102002) AT ( 493900.00,  513200.00)  DC      150.     239.76597 (92072821) AT ( 496430.00,  514500.00)  DC
+  111.     267.89555 (92090106) AT ( 493900.00,  513200.00)  DC      151.     239.20818 (92061022) AT ( 495300.00,  513880.00)  DC
+  112.     267.86221 (93020818) AT ( 495400.00,  515180.00)  DC      152.     239.05288 (93012019) AT ( 495510.00,  513680.00)  DC
+  113.     267.84230 (93022822) AT ( 495400.00,  515180.00)  DC      153.     238.63411 (93011805) AT ( 492700.00,  513440.00)  DC
+  114.     267.79201 (92072821) AT ( 495510.00,  513680.00)  DC      154.     238.40841 (93012721) AT ( 493900.00,  513200.00)  DC
+  115.     267.63837 (93011820) AT ( 492700.00,  513440.00)  DC      155.     237.45281 (92070921) AT ( 493900.00,  513200.00)  DC
+  116.     267.56031 (93012019) AT ( 495300.00,  513880.00)  DC      156.     237.31302 (92072821) AT ( 495400.00,  515180.00)  DC
+  117.     265.83625 (92082709) AT ( 493900.00,  513200.00)  DC      157.     236.59776 (92062104) AT ( 495300.00,  513880.00)  DC
+  118.     264.22354 (93020219) AT ( 495400.00,  515180.00)  DC      158.     236.48206 (93022510) AT ( 493900.00,  513200.00)  DC
+  119.     264.15399 (93030920) AT ( 495300.00,  513880.00)  DC      159.     235.68521 (93011902) AT ( 496430.00,  514500.00)  DC
+  120.     263.10258 (93021501) AT ( 492700.00,  513440.00)  DC      160.     235.15677 (92070120) AT ( 495400.00,  515180.00)  DC
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  18
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE MAXIMUM  400   1-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+ RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE    RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  161.     234.55356 (92110622) AT ( 495300.00,  513880.00)  DC      201.     217.17635 (92102521) AT ( 492700.00,  513440.00)  DC
+  162.     233.87697 (92082612) AT ( 495300.00,  513880.00)  DC      202.     216.92960 (92060921) AT ( 495400.00,  515180.00)  DC
+  163.     233.69967 (93020219) AT ( 495300.00,  513880.00)  DC      203.     216.67210 (93020218) AT ( 492700.00,  513440.00)  DC
+  164.     233.65168 (93011901) AT ( 495400.00,  515180.00)  DC      204.     216.41275 (92101922) AT ( 492700.00,  513440.00)  DC
+  165.     233.01663 (93031403) AT ( 493900.00,  513200.00)  DC      205.     216.03995 (92092802) AT ( 492440.00,  511190.00)  DC
+  166.     232.85792 (92072803) AT ( 495300.00,  513880.00)  DC      206.     214.28724 (93031819) AT ( 492440.00,  511190.00)  DC
+  167.     232.84655 (93010218) AT ( 492700.00,  513440.00)  DC      207.     213.24910 (92110818) AT ( 495300.00,  513880.00)  DC
+  168.     232.44580 (92091920) AT ( 492440.00,  511190.00)  DC      208.     212.70581 (92082709) AT ( 492440.00,  511190.00)  DC
+  169.     231.28135 (93011804) AT ( 492700.00,  513440.00)  DC      209.     212.57358 (93051205) AT ( 492700.00,  513440.00)  DC
+  170.     230.59109 (92101411) AT ( 492700.00,  513440.00)  DC      210.     212.46313 (93012921) AT ( 495300.00,  513880.00)  DC
+  171.     230.15092 (92050422) AT ( 492700.00,  513440.00)  DC      211.     211.61147 (93010118) AT ( 492700.00,  513440.00)  DC
+  172.     230.10687 (93020419) AT ( 493900.00,  513200.00)  DC      212.     211.54522 (93012605) AT ( 492700.00,  513440.00)  DC
+  173.     229.98557 (92082612) AT ( 495510.00,  513680.00)  DC      213.     210.78460 (92082710) AT ( 495300.00,  513880.00)  DC
+  174.     229.78215 (93031001) AT ( 495510.00,  513680.00)  DC      214.     208.93073 (92072010) AT ( 495300.00,  513880.00)  DC
+  175.     229.59755 (92082709) AT ( 495300.00,  513880.00)  DC      215.     208.44143 (92101511) AT ( 495400.00,  515180.00)  DC
+  176.     229.15736 (92062104) AT ( 495510.00,  513680.00)  DC      216.     208.06581 (92070109) AT ( 493900.00,  513200.00)  DC
+  177.     228.83737 (92092723) AT ( 495400.00,  515180.00)  DC      217.     208.01855 (92072822) AT ( 495300.00,  513880.00)  DC
+  178.     228.59205 (92092809) AT ( 492440.00,  511190.00)  DC      218.     208.00821 (92110709) AT ( 492700.00,  513440.00)  DC
+  179.     227.94989 (92082710) AT ( 495400.00,  515180.00)  DC      219.     207.36567 (92100208) AT ( 496430.00,  514500.00)  DC
+  180.     227.75453 (92082612) AT ( 492700.00,  513440.00)  DC      220.     206.06694 (92072803) AT ( 495510.00,  513680.00)  DC
+  181.     226.93500 (92071001) AT ( 493900.00,  513200.00)  DC      221.     205.83077 (92072822) AT ( 495510.00,  513680.00)  DC
+  182.     226.19862 (93011820) AT ( 492440.00,  511190.00)  DC      222.     205.72710 (93051208) AT ( 493900.00,  513200.00)  DC
+  183.     225.14322 (93011703) AT ( 493900.00,  513200.00)  DC      223.     205.22135 (93020120) AT ( 492700.00,  513440.00)  DC
+  184.     225.12507 (93020219) AT ( 495510.00,  513680.00)  DC      224.     204.12522 (93010102) AT ( 492700.00,  513440.00)  DC
+  185.     224.23982 (93012020) AT ( 493900.00,  513200.00)  DC      225.     203.93255 (93011619) AT ( 496430.00,  514500.00)  DC
+  186.     223.85068 (92110605) AT ( 495300.00,  513880.00)  DC      226.     202.99932 (92091610) AT ( 492700.00,  513440.00)  DC
+  187.     223.29133 (93020117) AT ( 492700.00,  513440.00)  DC      227.     202.87472 (92092724) AT ( 495300.00,  513880.00)  DC
+  188.     222.75067 (93031503) AT ( 495300.00,  513880.00)  DC      228.     202.84048 (93021910) AT ( 493900.00,  513200.00)  DC
+  189.     222.20472 (92110604) AT ( 493900.00,  513200.00)  DC      229.     202.54431 (93010205) AT ( 492700.00,  513440.00)  DC
+  190.     222.16779 (93022405) AT ( 495300.00,  513880.00)  DC      230.     200.67618 (92082711) AT ( 492700.00,  513440.00)  DC
+  191.     221.28285 (92111417) AT ( 495300.00,  513880.00)  DC      231.     199.85361 (92082710) AT ( 495510.00,  513680.00)  DC
+  192.     220.26557 (92070120) AT ( 496430.00,  514500.00)  DC      232.     199.84921 (92082709) AT ( 496430.00,  514500.00)  DC
+  193.     220.25729 (92110817) AT ( 495510.00,  513680.00)  DC      233.     199.39730 (93011704) AT ( 493900.00,  513200.00)  DC
+  194.     218.82236 (93012801) AT ( 493900.00,  513200.00)  DC      234.     198.87135 (92050406) AT ( 492700.00,  513440.00)  DC
+  195.     218.61903 (93010208) AT ( 492700.00,  513440.00)  DC      235.     198.37336 (92092307) AT ( 493900.00,  513200.00)  DC
+  196.     218.61682 (92110817) AT ( 496430.00,  514500.00)  DC      236.     197.63026 (92091120) AT ( 495300.00,  513880.00)  DC
+  197.     217.78471 (92082709) AT ( 495510.00,  513680.00)  DC      237.     197.51890 (92120521) AT ( 493900.00,  513200.00)  DC
+  198.     217.52406 (92102701) AT ( 492700.00,  513440.00)  DC      238.     197.34132 (93021418) AT ( 492700.00,  513440.00)  DC
+  199.     217.40543 (92120520) AT ( 493900.00,  513200.00)  DC      239.     197.13416 (93020407) AT ( 492700.00,  513440.00)  DC
+  200.     217.34133 (93020221) AT ( 496430.00,  514500.00)  DC      240.     197.12548 (93030924) AT ( 495300.00,  513880.00)  DC
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  19
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE MAXIMUM  400   1-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+ RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE    RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  241.     196.48426 (92121722) AT ( 493900.00,  513200.00)  DC      281.     183.78947 (93022821) AT ( 496430.00,  514500.00)  DC
+  242.     195.75256 (93050613) AT ( 492700.00,  513440.00)  DC      282.     183.44929 (93012710) AT ( 493900.00,  513200.00)  DC
+  243.     195.66580 (93031715) AT ( 492440.00,  511190.00)  DC      283.     183.37986 (93020119) AT ( 492700.00,  513440.00)  DC
+  244.     195.62235 (93031503) AT ( 495510.00,  513680.00)  DC      284.     182.55612 (92101918) AT ( 493900.00,  513200.00)  DC
+  245.     194.60076 (93022822) AT ( 495510.00,  513680.00)  DC      285.     181.32640 (93021820) AT ( 495510.00,  513680.00)  DC
+  246.     194.42442 (92082710) AT ( 492440.00,  511190.00)  DC      286.     181.24836 (93022823) AT ( 492700.00,  513440.00)  DC
+  247.     194.21970 (92070108) AT ( 493900.00,  513200.00)  DC      287.     181.17250 (93021820) AT ( 495300.00,  513880.00)  DC
+  248.     194.11303 (92100208) AT ( 495510.00,  513680.00)  DC      288.     181.03986 (92050422) AT ( 492440.00,  511190.00)  DC
+  249.     194.00164 (92062521) AT ( 496430.00,  514500.00)  DC      289.     180.92153 (92122107) AT ( 493900.00,  513200.00)  DC
+  250.     193.97142 (92122023) AT ( 492700.00,  513440.00)  DC      290.     180.78960 (92123124) AT ( 492700.00,  513440.00)  DC
+  251.     193.96424 (93012521) AT ( 495300.00,  513880.00)  DC      291.     180.70073 (92072803) AT ( 495400.00,  515180.00)  DC
+  252.     193.64580 (93030103) AT ( 495400.00,  515180.00)  DC      292.     180.35750 (92110709) AT ( 493900.00,  513200.00)  DC
+  253.     193.24557 (92100208) AT ( 495400.00,  515180.00)  DC      293.     179.99737 (92062101) AT ( 496430.00,  514500.00)  DC
+  254.     192.82571 (93020219) AT ( 492700.00,  513440.00)  DC      294.     179.75711 (92072822) AT ( 495400.00,  515180.00)  DC
+  255.     192.26409 (92092810) AT ( 495400.00,  515180.00)  DC      295.     179.14335 (92121719) AT ( 496430.00,  514500.00)  DC
+  256.     192.10307 (92122418) AT ( 492700.00,  513440.00)  DC      296.     179.10930 (93020203) AT ( 492440.00,  511190.00)  DC
+  257.     192.09162 (92120523) AT ( 493900.00,  513200.00)  DC      297.     178.90327 (93051209) AT ( 495400.00,  515180.00)  DC
+  258.     191.64771 (93020218) AT ( 492440.00,  511190.00)  DC      298.     178.20946 (92110817) AT ( 495300.00,  513880.00)  DC
+  259.     190.94983 (92120605) AT ( 495300.00,  513880.00)  DC      299.     177.92636 (92071007) AT ( 495400.00,  515180.00)  DC
+  260.     190.19018 (93021419) AT ( 492700.00,  513440.00)  DC      300.     177.80408 (92110601) AT ( 493900.00,  513200.00)  DC
+  261.     189.41194 (93012718) AT ( 493900.00,  513200.00)  DC      301.     177.42283 (92122419) AT ( 493900.00,  513200.00)  DC
+  262.     189.36527 (92120404) AT ( 493900.00,  513200.00)  DC      302.     177.20056 (92122407) AT ( 492700.00,  513440.00)  DC
+  263.     188.80071 (93041022) AT ( 492700.00,  513440.00)  DC      303.     176.62376 (92051814) AT ( 492440.00,  511190.00)  DC
+  264.     188.35961 (92110523) AT ( 493900.00,  513200.00)  DC      304.     176.52038 (92102611) AT ( 496430.00,  514500.00)  DC
+  265.     188.21260 (92102611) AT ( 495400.00,  515180.00)  DC      305.     176.31530 (93010217) AT ( 492700.00,  513440.00)  DC
+  266.     187.66476 (92102603) AT ( 493900.00,  513200.00)  DC      306.     176.25828 (93010206) AT ( 492700.00,  513440.00)  DC
+  267.     187.45823 (92072010) AT ( 495510.00,  513680.00)  DC      307.     176.09650 (93020219) AT ( 493900.00,  513200.00)  DC
+  268.     187.40952 (93020401) AT ( 495300.00,  513880.00)  DC      308.     175.98885 (93022824) AT ( 495400.00,  515180.00)  DC
+  269.     186.82401 (92102001) AT ( 492700.00,  513440.00)  DC      309.     175.78245 (92110823) AT ( 492700.00,  513440.00)  DC
+  270.     186.69781 (92062104) AT ( 495400.00,  515180.00)  DC      310.     175.08128 (92101921) AT ( 493900.00,  513200.00)  DC
+  271.     186.57897 (92062203) AT ( 492700.00,  513440.00)  DC      311.     174.97658 (92110818) AT ( 495400.00,  515180.00)  DC
+  272.     186.37802 (92110901) AT ( 495300.00,  513880.00)  DC      312.     174.76275 (93010517) AT ( 492700.00,  513440.00)  DC
+  273.     186.32353 (92120821) AT ( 496430.00,  514500.00)  DC      313.     174.69685 (93022822) AT ( 495300.00,  513880.00)  DC
+  274.     185.97691 (92071809) AT ( 493900.00,  513200.00)  DC      314.     174.57672 (93031421) AT ( 495300.00,  513880.00)  DC
+  275.     185.72690 (93022823) AT ( 492440.00,  511190.00)  DC      315.     174.56886 (93010117) AT ( 492700.00,  513440.00)  DC
+  276.     185.27711 (92122619) AT ( 492700.00,  513440.00)  DC      316.     174.54024 (93021910) AT ( 492700.00,  513440.00)  DC
+  277.     184.68363 (93032204) AT ( 495300.00,  513880.00)  DC      317.     174.45833 (92091918) AT ( 492700.00,  513440.00)  DC
+  278.     184.06380 (92092924) AT ( 493900.00,  513200.00)  DC      318.     174.39276 (92120824) AT ( 495510.00,  513680.00)  DC
+  279.     184.03763 (92122622) AT ( 493900.00,  513200.00)  DC      319.     173.77193 (92122701) AT ( 492700.00,  513440.00)  DC
+  280.     183.84924 (92082710) AT ( 496430.00,  514500.00)  DC      320.     173.35573 (93020114) AT ( 492700.00,  513440.00)  DC
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  20
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE MAXIMUM  400   1-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+ RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE    RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  321.     173.17952 (92121706) AT ( 493900.00,  513200.00)  DC      361.     162.15520 (92082611) AT ( 492440.00,  511190.00)  DC
+  322.     173.02968 (92072805) AT ( 496430.00,  514500.00)  DC      362.     162.08598 (92093005) AT ( 493900.00,  513200.00)  DC
+  323.     172.06291 (92062723) AT ( 492440.00,  511190.00)  DC      363.     161.85491 (93022510) AT ( 492700.00,  513440.00)  DC
+  324.     171.91690 (92062022) AT ( 496430.00,  514500.00)  DC      364.     161.75867 (92082613) AT ( 492700.00,  513440.00)  DC
+  325.     171.62080 (92070410) AT ( 493900.00,  513200.00)  DC      365.     161.75589 (93040404) AT ( 493900.00,  513200.00)  DC
+  326.     171.53644 (93020219) AT ( 492440.00,  511190.00)  DC      366.     161.60820 (93010124) AT ( 493900.00,  513200.00)  DC
+  327.     170.45757 (92071612) AT ( 492700.00,  513440.00)  DC      367.     161.42691 (92110624) AT ( 493900.00,  513200.00)  DC
+  328.     170.32006 (92070411) AT ( 495300.00,  513880.00)  DC      368.     161.17635 (93022512) AT ( 492700.00,  513440.00)  DC
+  329.     170.09642 (92062124) AT ( 492700.00,  513440.00)  DC      369.     161.09092 (93022405) AT ( 495510.00,  513680.00)  DC
+  330.     169.87918 (92110602) AT ( 493900.00,  513200.00)  DC      370.     160.97699 (93011821) AT ( 493900.00,  513200.00)  DC
+  331.     169.47731 (92060920) AT ( 496430.00,  514500.00)  DC      371.     160.93130 (92092810) AT ( 496430.00,  514500.00)  DC
+  332.     169.45022 (92102112) AT ( 495400.00,  515180.00)  DC      372.     160.85495 (92102702) AT ( 493900.00,  513200.00)  DC
+  333.     169.35749 (93011415) AT ( 495400.00,  515180.00)  DC      373.     160.81554 (92062708) AT ( 495400.00,  515180.00)  DC
+  334.     169.22703 (92070109) AT ( 492440.00,  511190.00)  DC      374.     160.76941 (93021912) AT ( 495300.00,  513880.00)  DC
+  335.     168.83572 (93012803) AT ( 493900.00,  513200.00)  DC      375.     160.75954 (92082021) AT ( 495300.00,  513880.00)  DC
+  336.     168.62896 (92110717) AT ( 496430.00,  514500.00)  DC      376.     160.48757 (92070108) AT ( 495300.00,  513880.00)  DC
+  337.     168.50345 (93050612) AT ( 492700.00,  513440.00)  DC      377.     160.47233 (92120822) AT ( 495400.00,  515180.00)  DC
+  338.     168.29409 (92102716) AT ( 492700.00,  513440.00)  DC      378.     160.35477 (93031002) AT ( 495400.00,  515180.00)  DC
+  339.     167.47245 (93010207) AT ( 492700.00,  513440.00)  DC      379.     160.02909 (92082711) AT ( 493900.00,  513200.00)  DC
+  340.     167.35484 (92070108) AT ( 495510.00,  513680.00)  DC      380.     160.00297 (93012607) AT ( 495510.00,  513680.00)  DC
+  341.     167.33632 (93051209) AT ( 496430.00,  514500.00)  DC      381.     159.66895 (93020121) AT ( 492700.00,  513440.00)  DC
+  342.     166.82302 (92110605) AT ( 495510.00,  513680.00)  DC      382.     159.56130 (92112322) AT ( 493900.00,  513200.00)  DC
+  343.     166.81740 (93010119) AT ( 492700.00,  513440.00)  DC      383.     159.39469 (92120824) AT ( 495300.00,  513880.00)  DC
+  344.     166.70765 (92062009) AT ( 492700.00,  513440.00)  DC      384.     158.66050 (92092810) AT ( 495300.00,  513880.00)  DC
+  345.     166.60868 (92112319) AT ( 493900.00,  513200.00)  DC      385.     158.65331 (92120804) AT ( 495300.00,  513880.00)  DC
+  346.     166.29183 (93031123) AT ( 493900.00,  513200.00)  DC      386.     158.51017 (93040319) AT ( 493900.00,  513200.00)  DC
+  347.     165.65731 (92102010) AT ( 492440.00,  511190.00)  DC      387.     158.50577 (92111518) AT ( 495400.00,  515180.00)  DC
+  348.     165.58104 (92091610) AT ( 492440.00,  511190.00)  DC      388.     158.49208 (93012919) AT ( 493900.00,  513200.00)  DC
+  349.     165.39144 (92060104) AT ( 493900.00,  513200.00)  DC      389.     158.28588 (92051420) AT ( 492440.00,  511190.00)  DC
+  350.     164.86786 (92052820) AT ( 495300.00,  513880.00)  DC      390.     157.99196 (92062301) AT ( 496430.00,  514500.00)  DC
+  351.     164.73284 (92101917) AT ( 493900.00,  513200.00)  DC      391.     157.95868 (92110818) AT ( 495510.00,  513680.00)  DC
+  352.     164.45725 (93031424) AT ( 493900.00,  513200.00)  DC      392.     157.83509 (92120807) AT ( 495300.00,  513880.00)  DC
+  353.     164.05686 (93030923) AT ( 495300.00,  513880.00)  DC      393.     157.13002 (93040403) AT ( 493900.00,  513200.00)  DC
+  354.     163.98716 (92070112) AT ( 492700.00,  513440.00)  DC      394.     156.82226 (92121415) AT ( 492440.00,  511190.00)  DC
+  355.     163.93034 (92120805) AT ( 495510.00,  513680.00)  DC      395.     156.80642 (93031421) AT ( 495510.00,  513680.00)  DC
+  356.     163.50056 (92062024) AT ( 495400.00,  515180.00)  DC      396.     156.73613 (93050616) AT ( 492700.00,  513440.00)  DC
+  357.     163.38497 (92072822) AT ( 496430.00,  514500.00)  DC      397.     156.49018 (92100101) AT ( 495510.00,  513680.00)  DC
+  358.     163.19296 (92070411) AT ( 495510.00,  513680.00)  DC      398.     156.32979 (93022501) AT ( 495300.00,  513880.00)  DC
+  359.     163.09065 (93030605) AT ( 495300.00,  513880.00)  DC      399.     156.22664 (92071810) AT ( 493900.00,  513200.00)  DC
+  360.     162.22033 (92100418) AT ( 492440.00,  511190.00)  DC      400.     156.02389 (92112320) AT ( 492700.00,  513440.00)  DC
+
+  *** RECEPTOR TYPES:  GC = GRIDCART
+                       GP = GRIDPOLR
+                       DC = DISCCART
+                       DP = DISCPOLR
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  21
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE MAXIMUM  400   3-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+ RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE    RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    1.     475.50696 (93022421) AT ( 493900.00,  513200.00)  DC       41.     173.54894 (92120524) AT ( 493900.00,  513200.00)  DC
+    2.     370.41734 (93011921) AT ( 495400.00,  515180.00)  DC       42.     172.67904 (93011903) AT ( 496430.00,  514500.00)  DC
+    3.     357.79622 (93011621) AT ( 492700.00,  513440.00)  DC       43.     171.98237 (93012606) AT ( 492700.00,  513440.00)  DC
+    4.     356.26526 (92122421) AT ( 493900.00,  513200.00)  DC       44.     170.46487 (92101918) AT ( 492700.00,  513440.00)  DC
+    5.     321.71885 (92091121) AT ( 495400.00,  515180.00)  DC       45.     167.63031 (92120824) AT ( 496430.00,  514500.00)  DC
+    6.     321.29612 (93031121) AT ( 493900.00,  513200.00)  DC       46.     167.48539 (93021912) AT ( 492700.00,  513440.00)  DC
+    7.     288.01816 (92120603) AT ( 493900.00,  513200.00)  DC       47.     166.92972 (92110818) AT ( 495400.00,  515180.00)  DC
+    8.     286.84028 (93011621) AT ( 492440.00,  511190.00)  DC       48.     163.07355 (93031124) AT ( 493900.00,  513200.00)  DC
+    9.     278.36448 (92102706) AT ( 492700.00,  513440.00)  DC       49.     159.73062 (92080106) AT ( 492700.00,  513440.00)  DC
+   10.     277.15401 (92070924) AT ( 492700.00,  513440.00)  DC       50.     156.81134 (93011806) AT ( 492700.00,  513440.00)  DC
+   11.     275.57923 (93021421) AT ( 492700.00,  513440.00)  DC       51.     156.62513 (93022824) AT ( 495400.00,  515180.00)  DC
+   12.     272.41502 (93021424) AT ( 492700.00,  513440.00)  DC       52.     155.49729 (93051124) AT ( 493900.00,  513200.00)  DC
+   13.     269.21457 (92110624) AT ( 493900.00,  513200.00)  DC       53.     155.21560 (93031209) AT ( 493900.00,  513200.00)  DC
+   14.     264.64656 (93011921) AT ( 496430.00,  514500.00)  DC       54.     154.58301 (92081406) AT ( 492440.00,  511190.00)  DC
+   15.     237.46839 (92110603) AT ( 493900.00,  513200.00)  DC       55.     154.17581 (93020203) AT ( 492440.00,  511190.00)  DC
+   16.     233.32089 (93011921) AT ( 495510.00,  513680.00)  DC       56.     151.93703 (92081406) AT ( 492700.00,  513440.00)  DC
+   17.     232.26123 (93051124) AT ( 492700.00,  513440.00)  DC       57.     150.94977 (92093006) AT ( 493900.00,  513200.00)  DC
+   18.     229.09155 (92101924) AT ( 493900.00,  513200.00)  DC       58.     150.62741 (93031403) AT ( 492700.00,  513440.00)  DC
+   19.     225.83623 (93011821) AT ( 492700.00,  513440.00)  DC       59.     150.31411 (93012803) AT ( 493900.00,  513200.00)  DC
+   20.     219.65446 (93012721) AT ( 493900.00,  513200.00)  DC       60.     150.23321 (92101921) AT ( 493900.00,  513200.00)  DC
+   21.     205.50970 (92060924) AT ( 496430.00,  514500.00)  DC       61.     150.04807 (93020418) AT ( 493900.00,  513200.00)  DC
+   22.     205.22904 (93011821) AT ( 492440.00,  511190.00)  DC       62.     148.01857 (93021912) AT ( 493900.00,  513200.00)  DC
+   23.     200.24547 (92102524) AT ( 493900.00,  513200.00)  DC       63.     146.43058 (92061021) AT ( 496430.00,  514500.00)  DC
+   24.     198.84511 (93012603) AT ( 493900.00,  513200.00)  DC       64.     145.95996 (92093003) AT ( 493900.00,  513200.00)  DC
+   25.     197.60644 (93021906) AT ( 493900.00,  513200.00)  DC       65.     145.37137 (92102521) AT ( 492700.00,  513440.00)  DC
+   26.     188.88693 (92120521) AT ( 493900.00,  513200.00)  DC       66.     145.29907 (92082021) AT ( 495510.00,  513680.00)  DC
+   27.     188.64257 (93031118) AT ( 493900.00,  513200.00)  DC       67.     144.13080 (93020118) AT ( 492700.00,  513440.00)  DC
+   28.     187.00714 (92090106) AT ( 493900.00,  513200.00)  DC       68.     142.56778 (93020115) AT ( 492700.00,  513440.00)  DC
+   29.     186.39252 (92082709) AT ( 492700.00,  513440.00)  DC       69.     142.27305 (93021903) AT ( 493900.00,  513200.00)  DC
+   30.     182.92717 (93011903) AT ( 495400.00,  515180.00)  DC       70.     142.07997 (92082709) AT ( 493900.00,  513200.00)  DC
+   31.     182.75672 (93020121) AT ( 492700.00,  513440.00)  DC       71.     142.04084 (93050615) AT ( 492700.00,  513440.00)  DC
+   32.     181.65615 (92101921) AT ( 492700.00,  513440.00)  DC       72.     141.93726 (92082712) AT ( 493900.00,  513200.00)  DC
+   33.     179.96590 (92082712) AT ( 492700.00,  513440.00)  DC       73.     140.26613 (93010206) AT ( 492700.00,  513440.00)  DC
+   34.     179.90810 (93011818) AT ( 496430.00,  514500.00)  DC       74.     139.70336 (92050324) AT ( 492700.00,  513440.00)  DC
+   35.     178.98127 (92122621) AT ( 492700.00,  513440.00)  DC       75.     139.42316 (92120824) AT ( 495400.00,  515180.00)  DC
+   36.     178.93202 (92120321) AT ( 493900.00,  513200.00)  DC       76.     138.88751 (93011921) AT ( 495300.00,  513880.00)  DC
+   37.     178.06927 (92120806) AT ( 495300.00,  513880.00)  DC       77.     138.80705 (93011621) AT ( 495300.00,  513880.00)  DC
+   38.     177.80925 (93012524) AT ( 493900.00,  513200.00)  DC       78.     138.67537 (93022406) AT ( 495400.00,  515180.00)  DC
+   39.     176.58099 (92082021) AT ( 495300.00,  513880.00)  DC       79.     138.66013 (93011415) AT ( 495400.00,  515180.00)  DC
+   40.     175.78567 (92100106) AT ( 493900.00,  513200.00)  DC       80.     137.84205 (93020403) AT ( 495300.00,  513880.00)  DC
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  22
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE MAXIMUM  400   3-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+ RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE    RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+   81.     137.83712 (93050618) AT ( 492700.00,  513440.00)  DC      121.     121.94857 (93020221) AT ( 495400.00,  515180.00)  DC
+   82.     137.68817 (93021503) AT ( 492700.00,  513440.00)  DC      122.     121.78838 (92101918) AT ( 493900.00,  513200.00)  DC
+   83.     136.77923 (93010218) AT ( 492700.00,  513440.00)  DC      123.     121.62734 (92082612) AT ( 493900.00,  513200.00)  DC
+   84.     136.69358 (92102715) AT ( 492700.00,  513440.00)  DC      124.     121.55055 (92092906) AT ( 496430.00,  514500.00)  DC
+   85.     134.87177 (93010118) AT ( 492700.00,  513440.00)  DC      125.     121.44436 (92082021) AT ( 495400.00,  515180.00)  DC
+   86.     134.64397 (92051815) AT ( 492440.00,  511190.00)  DC      126.     121.28538 (93012806) AT ( 492700.00,  513440.00)  DC
+   87.     134.52264 (92110624) AT ( 495300.00,  513880.00)  DC      127.     121.22163 (93020818) AT ( 495400.00,  515180.00)  DC
+   88.     134.36101 (92070109) AT ( 493900.00,  513200.00)  DC      128.     121.08588 (92091121) AT ( 496430.00,  514500.00)  DC
+   89.     134.23093 (92110818) AT ( 495300.00,  513880.00)  DC      129.     120.53981 (93031503) AT ( 495300.00,  513880.00)  DC
+   90.     133.22777 (93031421) AT ( 495300.00,  513880.00)  DC      130.     120.40792 (93030924) AT ( 495300.00,  513880.00)  DC
+   91.     132.42808 (93012609) AT ( 495400.00,  515180.00)  DC      131.     120.38518 (93042315) AT ( 492700.00,  513440.00)  DC
+   92.     132.28551 (92082712) AT ( 495400.00,  515180.00)  DC      132.     120.11035 (92062203) AT ( 492700.00,  513440.00)  DC
+   93.     132.18726 (92082709) AT ( 492440.00,  511190.00)  DC      133.     120.03246 (93031006) AT ( 493900.00,  513200.00)  DC
+   94.     131.35577 (92091121) AT ( 495510.00,  513680.00)  DC      134.     119.91992 (93012806) AT ( 493900.00,  513200.00)  DC
+   95.     131.23489 (92103018) AT ( 495300.00,  513880.00)  DC      135.     119.64207 (93030921) AT ( 495510.00,  513680.00)  DC
+   96.     130.27055 (93011703) AT ( 493900.00,  513200.00)  DC      136.     119.57656 (93022512) AT ( 492700.00,  513440.00)  DC
+   97.     130.01948 (93051121) AT ( 493900.00,  513200.00)  DC      137.     119.36939 (92060921) AT ( 495400.00,  515180.00)  DC
+   98.     129.86660 (92110818) AT ( 495510.00,  513680.00)  DC      138.     118.81907 (92110606) AT ( 495300.00,  513880.00)  DC
+   99.     129.18782 (92092924) AT ( 492700.00,  513440.00)  DC      139.     118.66699 (93020403) AT ( 495510.00,  513680.00)  DC
+  100.     128.94482 (92120806) AT ( 495510.00,  513680.00)  DC      140.     118.38183 (93011621) AT ( 493900.00,  513200.00)  DC
+  101.     128.71406 (93010209) AT ( 492700.00,  513440.00)  DC      141.     118.23104 (92122218) AT ( 493900.00,  513200.00)  DC
+  102.     128.62693 (92082612) AT ( 492700.00,  513440.00)  DC      142.     117.52897 (93012609) AT ( 496430.00,  514500.00)  DC
+  103.     128.50036 (92103018) AT ( 495510.00,  513680.00)  DC      143.     117.02077 (93020324) AT ( 495400.00,  515180.00)  DC
+  104.     128.46796 (93011621) AT ( 495510.00,  513680.00)  DC      144.     116.93900 (93020218) AT ( 492700.00,  513440.00)  DC
+  105.     127.56012 (92070921) AT ( 495400.00,  515180.00)  DC      145.     116.43501 (92082712) AT ( 495510.00,  513680.00)  DC
+  106.     127.49590 (92062103) AT ( 492440.00,  511190.00)  DC      146.     115.89052 (93011415) AT ( 496430.00,  514500.00)  DC
+  107.     127.42751c(92092803) AT ( 493900.00,  513200.00)  DC      147.     115.65765 (93040403) AT ( 493900.00,  513200.00)  DC
+  108.     127.12806 (93031421) AT ( 495510.00,  513680.00)  DC      148.     115.13389 (93010103) AT ( 492700.00,  513440.00)  DC
+  109.     126.60096 (93022503) AT ( 495300.00,  513880.00)  DC      149.     114.20227 (92061024) AT ( 495400.00,  515180.00)  DC
+  110.     126.55556 (93012724) AT ( 493900.00,  513200.00)  DC      150.     114.17157 (92082709) AT ( 495300.00,  513880.00)  DC
+  111.     125.47940 (93031003) AT ( 495300.00,  513880.00)  DC      151.     114.05334 (92102609) AT ( 493900.00,  513200.00)  DC
+  112.     125.35175 (92070109) AT ( 492700.00,  513440.00)  DC      152.     113.42652 (92082712) AT ( 492440.00,  511190.00)  DC
+  113.     125.18806 (92122024) AT ( 492700.00,  513440.00)  DC      153.     113.35012 (92062521) AT ( 495300.00,  513880.00)  DC
+  114.     124.95482 (93022512) AT ( 493900.00,  513200.00)  DC      154.     113.23120 (92122418) AT ( 492700.00,  513440.00)  DC
+  115.     124.44539 (92103018) AT ( 495400.00,  515180.00)  DC      155.     112.95056 (92072012) AT ( 496430.00,  514500.00)  DC
+  116.     124.13443 (93022406) AT ( 496430.00,  514500.00)  DC      156.     112.90959 (92120809) AT ( 495300.00,  513880.00)  DC
+  117.     123.35197 (93030703) AT ( 495400.00,  515180.00)  DC      157.     112.58426 (93031503) AT ( 495510.00,  513680.00)  DC
+  118.     123.21180 (92101512) AT ( 495400.00,  515180.00)  DC      158.     112.37911 (92102706) AT ( 493900.00,  513200.00)  DC
+  119.     122.88132 (92082709) AT ( 495400.00,  515180.00)  DC      159.     112.04537 (93012521) AT ( 495300.00,  513880.00)  DC
+  120.     122.72714 (92082712) AT ( 495300.00,  513880.00)  DC      160.     111.84106 (92092809) AT ( 492440.00,  511190.00)  DC
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  23
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE MAXIMUM  400   3-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+ RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE    RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  161.     111.78097 (92122106) AT ( 493900.00,  513200.00)  DC      201.     100.99114 (93020221) AT ( 496430.00,  514500.00)  DC
+  162.     111.57389 (93021418) AT ( 492700.00,  513440.00)  DC      202.     100.65949 (93022503) AT ( 495510.00,  513680.00)  DC
+  163.     111.43391 (93050612) AT ( 493900.00,  513200.00)  DC      203.     100.49363 (93012921) AT ( 493900.00,  513200.00)  DC
+  164.     111.24739 (92071009) AT ( 495400.00,  515180.00)  DC      204.     100.21344 (92071009) AT ( 496430.00,  514500.00)  DC
+  165.     110.96880 (92071809) AT ( 493900.00,  513200.00)  DC      205.      99.23174 (92082612) AT ( 495300.00,  513880.00)  DC
+  166.     110.82238 (92122618) AT ( 492700.00,  513440.00)  DC      206.      99.03802 (93010518) AT ( 492700.00,  513440.00)  DC
+  167.     110.71998 (93031124) AT ( 492700.00,  513440.00)  DC      207.      98.66870 (92091921) AT ( 492440.00,  511190.00)  DC
+  168.     110.71067 (93030921) AT ( 495300.00,  513880.00)  DC      208.      98.53484 (92072012) AT ( 495400.00,  515180.00)  DC
+  169.     109.67755 (93020409) AT ( 492700.00,  513440.00)  DC      209.      98.52098 (93022403) AT ( 495400.00,  515180.00)  DC
+  170.     109.32617 (93011621) AT ( 495400.00,  515180.00)  DC      210.      98.48862 (93022824) AT ( 495300.00,  513880.00)  DC
+  171.     109.29893 (92082709) AT ( 495510.00,  513680.00)  DC      211.      98.45428 (92101412) AT ( 492700.00,  513440.00)  DC
+  172.     108.94083 (92083121) AT ( 496430.00,  514500.00)  DC      212.      98.39717 (92112324) AT ( 493900.00,  513200.00)  DC
+  173.     108.86079 (93031003) AT ( 495510.00,  513680.00)  DC      213.      98.07434 (92070918) AT ( 495400.00,  515180.00)  DC
+  174.     108.67247 (93042324) AT ( 496430.00,  514500.00)  DC      214.      97.99340 (92062303) AT ( 495400.00,  515180.00)  DC
+  175.     108.41029 (93020218) AT ( 492440.00,  511190.00)  DC      215.      97.84939 (92122212) AT ( 495400.00,  515180.00)  DC
+  176.     108.18833 (92071003) AT ( 493900.00,  513200.00)  DC      216.      97.68577 (92102003) AT ( 493900.00,  513200.00)  DC
+  177.     107.90798 (92102715) AT ( 493900.00,  513200.00)  DC      217.      97.53139 (93022812) AT ( 492440.00,  511190.00)  DC
+  178.     107.36699 (93022824) AT ( 495510.00,  513680.00)  DC      218.      97.22510 (92082612) AT ( 495510.00,  513680.00)  DC
+  179.     107.02939 (92082712) AT ( 496430.00,  514500.00)  DC      219.      97.15404 (92071115) AT ( 495400.00,  515180.00)  DC
+  180.     106.62153 (92062521) AT ( 495510.00,  513680.00)  DC      220.      96.87735 (92071312) AT ( 495400.00,  515180.00)  DC
+  181.     106.56598 (93020124) AT ( 492440.00,  511190.00)  DC      221.      96.84548 (92071112) AT ( 495510.00,  513680.00)  DC
+  182.     106.51687 (92091124) AT ( 496430.00,  514500.00)  DC      222.      96.55065 (92091612) AT ( 492700.00,  513440.00)  DC
+  183.     106.41084 (93020221) AT ( 495510.00,  513680.00)  DC      223.      96.51342 (92071112) AT ( 495300.00,  513880.00)  DC
+  184.     106.29182 (93020221) AT ( 492700.00,  513440.00)  DC      224.      96.04975 (92121821) AT ( 492700.00,  513440.00)  DC
+  185.     104.27119 (93020221) AT ( 495300.00,  513880.00)  DC      225.      96.01099 (93051209) AT ( 493900.00,  513200.00)  DC
+  186.     104.17762 (92092724) AT ( 495510.00,  513680.00)  DC      226.      95.71479 (92050324) AT ( 492440.00,  511190.00)  DC
+  187.     103.93033 (92050406) AT ( 492440.00,  511190.00)  DC      227.      95.57449 (93011806) AT ( 493900.00,  513200.00)  DC
+  188.     103.75545 (92102506) AT ( 492440.00,  511190.00)  DC      228.      95.39026 (93012509) AT ( 493900.00,  513200.00)  DC
+  189.     103.43522 (92102003) AT ( 492700.00,  513440.00)  DC      229.      95.12147 (92062709) AT ( 496430.00,  514500.00)  DC
+  190.     103.41855 (92071809) AT ( 492700.00,  513440.00)  DC      230.      95.03124 (93012021) AT ( 495300.00,  513880.00)  DC
+  191.     103.26494 (92082709) AT ( 496430.00,  514500.00)  DC      231.      94.16632 (92080421) AT ( 492700.00,  513440.00)  DC
+  192.     103.15799 (93050612) AT ( 492700.00,  513440.00)  DC      232.      94.10388 (93020415) AT ( 492700.00,  513440.00)  DC
+  193.     103.13230 (92062709) AT ( 495400.00,  515180.00)  DC      233.      93.95927 (92120824) AT ( 495510.00,  513680.00)  DC
+  194.     102.67858 (93012918) AT ( 493900.00,  513200.00)  DC      234.      93.88026 (92102603) AT ( 492700.00,  513440.00)  DC
+  195.     102.02416 (93022506) AT ( 495300.00,  513880.00)  DC      235.      93.75735 (93051212) AT ( 495400.00,  515180.00)  DC
+  196.     101.96838 (93021912) AT ( 495300.00,  513880.00)  DC      236.      93.51022 (92072115) AT ( 493900.00,  513200.00)  DC
+  197.     101.88593 (92101924) AT ( 492700.00,  513440.00)  DC      237.      93.07732 (92053124) AT ( 496430.00,  514500.00)  DC
+  198.     101.75772 (93021912) AT ( 495510.00,  513680.00)  DC      238.      92.58057 (93011821) AT ( 493900.00,  513200.00)  DC
+  199.     101.70057 (93020818) AT ( 496430.00,  514500.00)  DC      239.      92.57671 (92071118) AT ( 495400.00,  515180.00)  DC
+  200.     101.00435 (93031106) AT ( 493900.00,  513200.00)  DC      240.      92.20059 (92121821) AT ( 492440.00,  511190.00)  DC
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  24
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE MAXIMUM  400   3-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+ RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE    RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  241.      92.06181 (92070412) AT ( 493900.00,  513200.00)  DC      281.      84.57681 (93031406) AT ( 495300.00,  513880.00)  DC
+  242.      91.76674 (92082612) AT ( 492440.00,  511190.00)  DC      282.      84.45295 (92071612) AT ( 492700.00,  513440.00)  DC
+  243.      91.69731 (92102503) AT ( 492440.00,  511190.00)  DC      283.      84.36611 (92120821) AT ( 496430.00,  514500.00)  DC
+  244.      91.30034 (92072118) AT ( 492700.00,  513440.00)  DC      284.      84.33429 (92091921) AT ( 492700.00,  513440.00)  DC
+  245.      90.57957 (92082021) AT ( 493900.00,  513200.00)  DC      285.      84.30518 (92120324) AT ( 495300.00,  513880.00)  DC
+  246.      90.44390 (93012718) AT ( 493900.00,  513200.00)  DC      286.      84.21739 (92110524) AT ( 493900.00,  513200.00)  DC
+  247.      90.44203 (93021821) AT ( 495300.00,  513880.00)  DC      287.      84.02744 (92082615) AT ( 492700.00,  513440.00)  DC
+  248.      90.05112 (92100209) AT ( 495300.00,  513880.00)  DC      288.      83.97001 (92101203) AT ( 495400.00,  515180.00)  DC
+  249.      89.88262 (92070121) AT ( 495400.00,  515180.00)  DC      289.      83.75245 (93010203) AT ( 492700.00,  513440.00)  DC
+  250.      89.72083 (92072821) AT ( 495510.00,  513680.00)  DC      290.      83.72631 (92072821) AT ( 495300.00,  513880.00)  DC
+  251.      89.20138 (93012712) AT ( 495300.00,  513880.00)  DC      291.      83.53521 (92062009) AT ( 492700.00,  513440.00)  DC
+  252.      89.19742 (92071812) AT ( 493900.00,  513200.00)  DC      292.      83.40654 (92092309) AT ( 493900.00,  513200.00)  DC
+  253.      89.05803 (93020412) AT ( 492700.00,  513440.00)  DC      293.      83.32372 (92060106) AT ( 493900.00,  513200.00)  DC
+  254.      89.04615 (92100118) AT ( 492700.00,  513440.00)  DC      294.      83.18555 (93013018) AT ( 492700.00,  513440.00)  DC
+  255.      88.85687 (92102518) AT ( 492700.00,  513440.00)  DC      295.      82.98010 (92072821) AT ( 496430.00,  514500.00)  DC
+  256.      88.62060 (93031212) AT ( 496430.00,  514500.00)  DC      296.      82.46116 (92110606) AT ( 495510.00,  513680.00)  DC
+  257.      88.32478 (92111518) AT ( 495400.00,  515180.00)  DC      297.      82.41228 (92062106) AT ( 495300.00,  513880.00)  DC
+  258.      87.92497 (92120821) AT ( 492440.00,  511190.00)  DC      298.      82.35707 (92122418) AT ( 493900.00,  513200.00)  DC
+  259.      87.88273 (92062521) AT ( 495400.00,  515180.00)  DC      299.      82.22912 (92062024) AT ( 495400.00,  515180.00)  DC
+  260.      87.82312 (92060921) AT ( 496430.00,  514500.00)  DC      300.      82.05489 (93050618) AT ( 493900.00,  513200.00)  DC
+  261.      87.78557 (93012021) AT ( 495510.00,  513680.00)  DC      301.      81.83678 (92121506) AT ( 495510.00,  513680.00)  DC
+  262.      87.56682 (92050321) AT ( 495300.00,  513880.00)  DC      302.      81.70796 (93020324) AT ( 496430.00,  514500.00)  DC
+  263.      87.52794 (92122624) AT ( 493900.00,  513200.00)  DC      303.      81.59506 (92072212) AT ( 492700.00,  513440.00)  DC
+  264.      87.39571 (92072112) AT ( 493900.00,  513200.00)  DC      304.      81.31493 (93031403) AT ( 493900.00,  513200.00)  DC
+  265.      87.34868 (93012712) AT ( 495510.00,  513680.00)  DC      305.      81.27964 (92082512) AT ( 495510.00,  513680.00)  DC
+  266.      87.18245 (92121506) AT ( 495300.00,  513880.00)  DC      306.      81.08797 (92052721) AT ( 492700.00,  513440.00)  DC
+  267.      87.05171 (93051321) AT ( 492440.00,  511190.00)  DC      307.      80.99985 (93021824) AT ( 493900.00,  513200.00)  DC
+  268.      86.89360 (92070924) AT ( 493900.00,  513200.00)  DC      308.      80.73805 (92091121) AT ( 495300.00,  513880.00)  DC
+  269.      86.87929 (92062303) AT ( 495510.00,  513680.00)  DC      309.      80.68490 (92062009) AT ( 493900.00,  513200.00)  DC
+  270.      86.86668 (93022406) AT ( 495300.00,  513880.00)  DC      310.      80.61750 (93021903) AT ( 492700.00,  513440.00)  DC
+  271.      86.38112 (92091609) AT ( 492700.00,  513440.00)  DC      311.      80.54130 (92121506) AT ( 492700.00,  513440.00)  DC
+  272.      86.34518 (92102612) AT ( 495400.00,  515180.00)  DC      312.      80.44785 (92121506) AT ( 493900.00,  513200.00)  DC
+  273.      85.81075 (93031121) AT ( 492700.00,  513440.00)  DC      313.      80.43644 (92052809) AT ( 495400.00,  515180.00)  DC
+  274.      85.78422 (92062709) AT ( 495300.00,  513880.00)  DC      314.      80.41609 (92062303) AT ( 495300.00,  513880.00)  DC
+  275.      85.61540 (93020218) AT ( 493900.00,  513200.00)  DC      315.      80.33389 (93021821) AT ( 495510.00,  513680.00)  DC
+  276.      85.46735 (93022415) AT ( 495300.00,  513880.00)  DC      316.      80.21855 (92062709) AT ( 495510.00,  513680.00)  DC
+  277.      85.30754 (93010124) AT ( 493900.00,  513200.00)  DC      317.      80.15287 (92061024) AT ( 495510.00,  513680.00)  DC
+  278.      85.11383 (93030924) AT ( 495510.00,  513680.00)  DC      318.      79.97911 (93021921) AT ( 495400.00,  515180.00)  DC
+  279.      85.03110 (92062724) AT ( 492440.00,  511190.00)  DC      319.      79.96726 (92062024) AT ( 495300.00,  513880.00)  DC
+  280.      84.60394 (92082512) AT ( 495300.00,  513880.00)  DC      320.      79.92837 (92092809) AT ( 492700.00,  513440.00)  DC
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  25
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE MAXIMUM  400   3-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+ RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE    RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  321.      79.85958 (92061024) AT ( 495300.00,  513880.00)  DC      361.      76.37190 (93031821) AT ( 492440.00,  511190.00)  DC
+  322.      79.83566 (92111309) AT ( 495400.00,  515180.00)  DC      362.      76.34071 (92071115) AT ( 496430.00,  514500.00)  DC
+  323.      79.74657 (92120809) AT ( 495510.00,  513680.00)  DC      363.      76.29122 (92070412) AT ( 495300.00,  513880.00)  DC
+  324.      79.67083 (92092812) AT ( 495400.00,  515180.00)  DC      364.      76.05977 (93031212) AT ( 495400.00,  515180.00)  DC
+  325.      79.61369 (92072821) AT ( 495400.00,  515180.00)  DC      365.      75.90936 (93031424) AT ( 495510.00,  513680.00)  DC
+  326.      79.57763 (92071112) AT ( 493900.00,  513200.00)  DC      366.      75.78690 (93020418) AT ( 492700.00,  513440.00)  DC
+  327.      79.56904 (92062106) AT ( 495510.00,  513680.00)  DC      367.      75.46330 (92070121) AT ( 496430.00,  514500.00)  DC
+  328.      79.49017 (93030212) AT ( 495300.00,  513880.00)  DC      368.      75.28038 (93012021) AT ( 493900.00,  513200.00)  DC
+  329.      79.47676 (92120903) AT ( 492440.00,  511190.00)  DC      369.      75.27365 (93021818) AT ( 495400.00,  515180.00)  DC
+  330.      79.30558 (92070921) AT ( 493900.00,  513200.00)  DC      370.      75.25293 (93022415) AT ( 495510.00,  513680.00)  DC
+  331.      79.18094 (93022506) AT ( 495510.00,  513680.00)  DC      371.      75.11402 (92120115) AT ( 495510.00,  513680.00)  DC
+  332.      78.91498 (92122021) AT ( 492700.00,  513440.00)  DC      372.      75.05289 (92092912) AT ( 492700.00,  513440.00)  DC
+  333.      78.90396 (92072212) AT ( 492440.00,  511190.00)  DC      373.      75.00575 (92070915) AT ( 495400.00,  515180.00)  DC
+  334.      78.89494 (92102709) AT ( 492440.00,  511190.00)  DC      374.      74.81328 (92111612) AT ( 495400.00,  515180.00)  DC
+  335.      78.74993 (92050424) AT ( 492700.00,  513440.00)  DC      375.      74.71687 (92101915) AT ( 492700.00,  513440.00)  DC
+  336.      78.71601 (93020818) AT ( 495510.00,  513680.00)  DC      376.      74.70324 (92100115) AT ( 492700.00,  513440.00)  DC
+  337.      78.41992 (92080106) AT ( 493900.00,  513200.00)  DC      377.      74.59182 (92071312) AT ( 496430.00,  514500.00)  DC
+  338.      78.22597 (93012518) AT ( 495300.00,  513880.00)  DC      378.      74.44292 (92120115) AT ( 495300.00,  513880.00)  DC
+  339.      78.22469 (92111418) AT ( 495300.00,  513880.00)  DC      379.      74.34264 (92110624) AT ( 495510.00,  513680.00)  DC
+  340.      78.06873 (93020421) AT ( 493900.00,  513200.00)  DC      380.      74.29979 (93051118) AT ( 495400.00,  515180.00)  DC
+  341.      77.99346 (93022509) AT ( 492700.00,  513440.00)  DC      381.      74.26853 (92110606) AT ( 493900.00,  513200.00)  DC
+  342.      77.97779 (93031212) AT ( 495300.00,  513880.00)  DC      382.      74.06993 (92060112) AT ( 493900.00,  513200.00)  DC
+  343.      77.96118 (92122409) AT ( 492700.00,  513440.00)  DC      383.      73.97613 (92060209) AT ( 495400.00,  515180.00)  DC
+  344.      77.96093 (92102424) AT ( 492440.00,  511190.00)  DC      384.      73.70506 (92050406) AT ( 492700.00,  513440.00)  DC
+  345.      77.95601 (92091612) AT ( 493900.00,  513200.00)  DC      385.      73.59258 (93010121) AT ( 492700.00,  513440.00)  DC
+  346.      77.75847 (92072803) AT ( 495300.00,  513880.00)  DC      386.      73.56108 (92110912) AT ( 492440.00,  511190.00)  DC
+  347.      77.59124 (92051421) AT ( 492700.00,  513440.00)  DC      387.      73.54128 (92120906) AT ( 492440.00,  511190.00)  DC
+  348.      77.47288 (92070112) AT ( 492700.00,  513440.00)  DC      388.      73.25802 (93040406) AT ( 492700.00,  513440.00)  DC
+  349.      77.39038 (92072112) AT ( 495510.00,  513680.00)  DC      389.      73.14855 (93031212) AT ( 495510.00,  513680.00)  DC
+  350.      77.23861 (92072112) AT ( 495300.00,  513880.00)  DC      390.      73.00354 (92072012) AT ( 495300.00,  513880.00)  DC
+  351.      76.92352 (92062103) AT ( 496430.00,  514500.00)  DC      391.      72.77553 (92071812) AT ( 492700.00,  513440.00)  DC
+  352.      76.84058 (92110818) AT ( 496430.00,  514500.00)  DC      392.      72.76955 (92071612) AT ( 493900.00,  513200.00)  DC
+  353.      76.74792 (93012921) AT ( 495300.00,  513880.00)  DC      393.      72.67693 (93011803) AT ( 492700.00,  513440.00)  DC
+  354.      76.73940 (92070412) AT ( 495510.00,  513680.00)  DC      394.      72.63857 (92102703) AT ( 492700.00,  513440.00)  DC
+  355.      76.73885 (92081209) AT ( 492440.00,  511190.00)  DC      395.      72.60090 (92062124) AT ( 492700.00,  513440.00)  DC
+  356.      76.71963 (92120824) AT ( 495300.00,  513880.00)  DC      396.      72.57375 (93021324) AT ( 495300.00,  513880.00)  DC
+  357.      76.65972 (92072115) AT ( 492700.00,  513440.00)  DC      397.      72.55843 (92100209) AT ( 495510.00,  513680.00)  DC
+  358.      76.65868 (93031406) AT ( 495510.00,  513680.00)  DC      398.      72.54880 (93020203) AT ( 496430.00,  514500.00)  DC
+  359.      76.60920 (92071318) AT ( 492700.00,  513440.00)  DC      399.      72.53201 (92051421) AT ( 492440.00,  511190.00)  DC
+  360.      76.41448 (92092724) AT ( 495400.00,  515180.00)  DC      400.      72.53165 (92120324) AT ( 495510.00,  513680.00)  DC
+
+  *** RECEPTOR TYPES:  GC = GRIDCART
+                       GP = GRIDPOLR
+                       DC = DISCCART
+                       DP = DISCPOLR
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  26
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE MAXIMUM  400  24-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+ RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE    RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    1.     107.88322 (93031124) AT ( 493900.00,  513200.00)  DC       41.      41.66235 (93021924) AT ( 492700.00,  513440.00)  DC
+    2.      86.45558c(92101924) AT ( 492700.00,  513440.00)  DC       42.      41.41913 (93031424) AT ( 495510.00,  513680.00)  DC
+    3.      83.14991 (93021424) AT ( 492700.00,  513440.00)  DC       43.      41.32353 (93012824) AT ( 493900.00,  513200.00)  DC
+    4.      81.72238 (92102724) AT ( 492700.00,  513440.00)  DC       44.      40.82706 (93020424) AT ( 493900.00,  513200.00)  DC
+    5.      80.90230 (92110624) AT ( 493900.00,  513200.00)  DC       45.      40.72342 (93022524) AT ( 495300.00,  513880.00)  DC
+    6.      78.45248 (93020124) AT ( 492700.00,  513440.00)  DC       46.      40.69390 (92050424) AT ( 492440.00,  511190.00)  DC
+    7.      75.94898 (93011924) AT ( 495400.00,  515180.00)  DC       47.      40.03610 (92102724) AT ( 493900.00,  513200.00)  DC
+    8.      75.85421c(92101924) AT ( 493900.00,  513200.00)  DC       48.      40.01984 (92120624) AT ( 493900.00,  513200.00)  DC
+    9.      69.61712 (93022424) AT ( 493900.00,  513200.00)  DC       49.      39.98721 (93020224) AT ( 492700.00,  513440.00)  DC
+   10.      69.36905 (93021924) AT ( 493900.00,  513200.00)  DC       50.      39.93527 (93011924) AT ( 495300.00,  513880.00)  DC
+   11.      68.33365 (92122424) AT ( 493900.00,  513200.00)  DC       51.      39.38379 (93022424) AT ( 495300.00,  513880.00)  DC
+   12.      66.91220 (93011824) AT ( 492700.00,  513440.00)  DC       52.      38.89646 (92071124) AT ( 495300.00,  513880.00)  DC
+   13.      65.55061 (93012724) AT ( 493900.00,  513200.00)  DC       53.      38.68717 (93012524) AT ( 493900.00,  513200.00)  DC
+   14.      65.26434 (93010224) AT ( 492700.00,  513440.00)  DC       54.      38.68122 (92070924) AT ( 492700.00,  513440.00)  DC
+   15.      60.96467 (93011924) AT ( 496430.00,  514500.00)  DC       55.      38.55010 (92110624) AT ( 495300.00,  513880.00)  DC
+   16.      60.18306 (93020224) AT ( 492440.00,  511190.00)  DC       56.      38.48914 (93051124) AT ( 493900.00,  513200.00)  DC
+   17.      59.40970 (93010124) AT ( 492700.00,  513440.00)  DC       57.      37.93214 (92072124) AT ( 493900.00,  513200.00)  DC
+   18.      56.44074 (93011924) AT ( 495510.00,  513680.00)  DC       58.      37.92858 (92070124) AT ( 492700.00,  513440.00)  DC
+   19.      54.93082m(92093024) AT ( 493900.00,  513200.00)  DC       59.      37.62747 (92070124) AT ( 492440.00,  511190.00)  DC
+   20.      54.70411 (93030924) AT ( 495300.00,  513880.00)  DC       60.      37.54767 (93020224) AT ( 495510.00,  513680.00)  DC
+   21.      52.67049 (92120524) AT ( 493900.00,  513200.00)  DC       61.      37.46689 (93022824) AT ( 492440.00,  511190.00)  DC
+   22.      52.19384 (93020424) AT ( 492700.00,  513440.00)  DC       62.      37.42659 (93020224) AT ( 495300.00,  513880.00)  DC
+   23.      52.07288 (92102524) AT ( 492700.00,  513440.00)  DC       63.      37.34538 (92102524) AT ( 492440.00,  511190.00)  DC
+   24.      51.99417 (92082724) AT ( 492700.00,  513440.00)  DC       64.      37.31756 (93011824) AT ( 493900.00,  513200.00)  DC
+   25.      51.64707 (93011624) AT ( 492700.00,  513440.00)  DC       65.      36.78645 (92122424) AT ( 492700.00,  513440.00)  DC
+   26.      51.02045 (92120824) AT ( 495300.00,  513880.00)  DC       66.      36.73825 (92120824) AT ( 496430.00,  514500.00)  DC
+   27.      50.58553 (93030924) AT ( 495510.00,  513680.00)  DC       67.      36.37749 (92102624) AT ( 493900.00,  513200.00)  DC
+   28.      48.77226 (93050624) AT ( 492700.00,  513440.00)  DC       68.      36.24038 (92071124) AT ( 495510.00,  513680.00)  DC
+   29.      48.77074 (92091124) AT ( 495400.00,  515180.00)  DC       69.      36.13527 (92080124) AT ( 492700.00,  513440.00)  DC
+   30.      48.72347 (93022424) AT ( 495400.00,  515180.00)  DC       70.      36.11449 (92102524) AT ( 493900.00,  513200.00)  DC
+   31.      46.36970 (92082724) AT ( 493900.00,  513200.00)  DC       71.      35.96082 (92111324) AT ( 495400.00,  515180.00)  DC
+   32.      44.64601 (92122624) AT ( 492700.00,  513440.00)  DC       72.      35.86643 (93022524) AT ( 492700.00,  513440.00)  DC
+   33.      44.45105 (92070924) AT ( 495400.00,  515180.00)  DC       73.      35.60630 (93020124) AT ( 492440.00,  511190.00)  DC
+   34.      44.42484 (92060924) AT ( 496430.00,  514500.00)  DC       74.      35.54090 (92072124) AT ( 492700.00,  513440.00)  DC
+   35.      44.06220 (93011624) AT ( 492440.00,  511190.00)  DC       75.      35.43788 (92070124) AT ( 493900.00,  513200.00)  DC
+   36.      43.93361 (92092924) AT ( 492700.00,  513440.00)  DC       76.      35.38678 (92060124) AT ( 493900.00,  513200.00)  DC
+   37.      43.58004 (93020224) AT ( 495400.00,  515180.00)  DC       77.      35.33350 (93012524) AT ( 495300.00,  513880.00)  DC
+   38.      43.48256 (93031424) AT ( 495300.00,  513880.00)  DC       78.      35.33019 (92082724) AT ( 495400.00,  515180.00)  DC
+   39.      43.17987 (92120824) AT ( 495510.00,  513680.00)  DC       79.      35.20913 (92071124) AT ( 495400.00,  515180.00)  DC
+   40.      41.96814 (93022424) AT ( 496430.00,  514500.00)  DC       80.      35.11295 (93022524) AT ( 495510.00,  513680.00)  DC
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  27
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE MAXIMUM  400  24-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+ RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE    RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+   81.      34.95411 (93040324) AT ( 493900.00,  513200.00)  DC      121.      29.42426 (93022824) AT ( 495400.00,  515180.00)  DC
+   82.      34.78558 (93022424) AT ( 495510.00,  513680.00)  DC      122.      29.35969 (92082724) AT ( 496430.00,  514500.00)  DC
+   83.      34.66165 (93051124) AT ( 492700.00,  513440.00)  DC      123.      29.20285 (92072824) AT ( 496430.00,  514500.00)  DC
+   84.      34.64512 (92071124) AT ( 496430.00,  514500.00)  DC      124.      29.15132 (93031124) AT ( 492700.00,  513440.00)  DC
+   85.      34.50102 (93050624) AT ( 493900.00,  513200.00)  DC      125.      29.09751 (93021924) AT ( 495510.00,  513680.00)  DC
+   86.      34.49706 (92082724) AT ( 492440.00,  511190.00)  DC      126.      28.69341 (93012924) AT ( 493900.00,  513200.00)  DC
+   87.      34.38226 (92082724) AT ( 495300.00,  513880.00)  DC      127.      28.59159 (93012624) AT ( 493900.00,  513200.00)  DC
+   88.      33.87032 (93031424) AT ( 495400.00,  515180.00)  DC      128.      28.45074 (93011824) AT ( 492440.00,  511190.00)  DC
+   89.      33.47425 (92060924) AT ( 492440.00,  511190.00)  DC      129.      28.36975 (92082624) AT ( 493900.00,  513200.00)  DC
+   90.      33.37468 (93012624) AT ( 492700.00,  513440.00)  DC      130.      28.12404 (92062524) AT ( 495400.00,  515180.00)  DC
+   91.      33.14985 (92050424) AT ( 492700.00,  513440.00)  DC      131.      28.11683 (92072824) AT ( 495400.00,  515180.00)  DC
+   92.      33.10882c(92092824) AT ( 493900.00,  513200.00)  DC      132.      27.97359 (92062124) AT ( 495510.00,  513680.00)  DC
+   93.      32.91104 (92082624) AT ( 492700.00,  513440.00)  DC      133.      27.89946 (92062524) AT ( 495510.00,  513680.00)  DC
+   94.      32.77045 (92100124) AT ( 493900.00,  513200.00)  DC      134.      27.77882 (92070124) AT ( 495510.00,  513680.00)  DC
+   95.      32.70147 (92082724) AT ( 495510.00,  513680.00)  DC      135.      27.76295 (92051424) AT ( 492440.00,  511190.00)  DC
+   96.      32.36226 (92090124) AT ( 493900.00,  513200.00)  DC      136.      27.74876 (92120324) AT ( 495510.00,  513680.00)  DC
+   97.      32.26492 (92062024) AT ( 495300.00,  513880.00)  DC      137.      27.72476 (92083124) AT ( 496430.00,  514500.00)  DC
+   98.      32.19412 (92051424) AT ( 492700.00,  513440.00)  DC      138.      27.71060 (92070124) AT ( 495400.00,  515180.00)  DC
+   99.      31.97361 (92062224) AT ( 492700.00,  513440.00)  DC      139.      27.66452 (92080124) AT ( 493900.00,  513200.00)  DC
+  100.      31.92470 (92120924) AT ( 492440.00,  511190.00)  DC      140.      27.52408 (92062024) AT ( 495400.00,  515180.00)  DC
+  101.      31.86063 (92110724) AT ( 492700.00,  513440.00)  DC      141.      27.46202 (93022824) AT ( 492700.00,  513440.00)  DC
+  102.      31.67672 (92060124) AT ( 492700.00,  513440.00)  DC      142.      27.29687 (92110824) AT ( 495300.00,  513880.00)  DC
+  103.      31.39078 (93020224) AT ( 496430.00,  514500.00)  DC      143.      27.27991 (92122124) AT ( 493900.00,  513200.00)  DC
+  104.      31.19879 (93011724) AT ( 493900.00,  513200.00)  DC      144.      27.23203c(92092824) AT ( 492440.00,  511190.00)  DC
+  105.      31.15681 (93020224) AT ( 493900.00,  513200.00)  DC      145.      27.18194 (92100124) AT ( 492700.00,  513440.00)  DC
+  106.      31.15239 (92091124) AT ( 496430.00,  514500.00)  DC      146.      27.13210 (92110724) AT ( 492440.00,  511190.00)  DC
+  107.      30.93397 (92110824) AT ( 495400.00,  515180.00)  DC      147.      26.94682 (93012324) AT ( 495400.00,  515180.00)  DC
+  108.      30.82994 (92072824) AT ( 495300.00,  513880.00)  DC      148.      26.84474 (92062124) AT ( 495300.00,  513880.00)  DC
+  109.      30.80434 (92072824) AT ( 495510.00,  513680.00)  DC      149.      26.78159 (93010124) AT ( 493900.00,  513200.00)  DC
+  110.      30.79749 (92091924) AT ( 492440.00,  511190.00)  DC      150.      26.77334 (92120324) AT ( 493900.00,  513200.00)  DC
+  111.      30.66727 (92091924) AT ( 492700.00,  513440.00)  DC      151.      26.67746 (92121824) AT ( 492700.00,  513440.00)  DC
+  112.      30.64770 (93040424) AT ( 493900.00,  513200.00)  DC      152.      26.61513 (93042324) AT ( 495510.00,  513680.00)  DC
+  113.      30.60604 (92062524) AT ( 495300.00,  513880.00)  DC      153.      26.58913 (92070124) AT ( 495300.00,  513880.00)  DC
+  114.      30.50533 (93042324) AT ( 495300.00,  513880.00)  DC      154.      26.54669 (93011424) AT ( 496430.00,  514500.00)  DC
+  115.      30.03363 (92062024) AT ( 495510.00,  513680.00)  DC      155.      26.42776 (92120824) AT ( 492440.00,  511190.00)  DC
+  116.      30.01439 (92120324) AT ( 495300.00,  513880.00)  DC      156.      26.32943 (92092324) AT ( 492440.00,  511190.00)  DC
+  117.      29.99730 (93021924) AT ( 495300.00,  513880.00)  DC      157.      26.29662 (92052824) AT ( 492700.00,  513440.00)  DC
+  118.      29.78501 (93011424) AT ( 495400.00,  515180.00)  DC      158.      26.18692 (93040424) AT ( 492700.00,  513440.00)  DC
+  119.      29.54880 (92111524) AT ( 495400.00,  515180.00)  DC      159.      26.12595 (93020424) AT ( 495300.00,  513880.00)  DC
+  120.      29.49539m(92093024) AT ( 492700.00,  513440.00)  DC      160.      26.08918 (92052824) AT ( 495300.00,  513880.00)  DC
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  28
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE MAXIMUM  400  24-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+ RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE    RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  161.      26.03470 (93012524) AT ( 495510.00,  513680.00)  DC      201.      22.84401 (93021824) AT ( 496430.00,  514500.00)  DC
+  162.      25.99755 (93042324) AT ( 492700.00,  513440.00)  DC      202.      22.83974 (92083124) AT ( 495400.00,  515180.00)  DC
+  163.      25.94338 (92082024) AT ( 495300.00,  513880.00)  DC      203.      22.83380 (92062124) AT ( 492440.00,  511190.00)  DC
+  164.      25.83750 (93011624) AT ( 493900.00,  513200.00)  DC      204.      22.81282 (92120724) AT ( 495400.00,  515180.00)  DC
+  165.      25.81518 (92110824) AT ( 495510.00,  513680.00)  DC      205.      22.79521 (92062224) AT ( 493900.00,  513200.00)  DC
+  166.      25.68372 (92120824) AT ( 495400.00,  515180.00)  DC      206.      22.68456 (92110824) AT ( 492440.00,  511190.00)  DC
+  167.      25.67431 (92062024) AT ( 493900.00,  513200.00)  DC      207.      22.67240 (93031224) AT ( 493900.00,  513200.00)  DC
+  168.      25.66549 (92122024) AT ( 492700.00,  513440.00)  DC      208.      22.64508 (92062724) AT ( 495400.00,  515180.00)  DC
+  169.      25.64474 (93011824) AT ( 496430.00,  514500.00)  DC      209.      22.59804 (93050624) AT ( 495300.00,  513880.00)  DC
+  170.      25.53839 (93031024) AT ( 495300.00,  513880.00)  DC      210.      22.58835 (93041124) AT ( 492440.00,  511190.00)  DC
+  171.      25.53391 (92110624) AT ( 495510.00,  513680.00)  DC      211.      22.58588 (92062124) AT ( 495400.00,  515180.00)  DC
+  172.      25.52101 (92092924) AT ( 496430.00,  514500.00)  DC      212.      22.54682 (92082624) AT ( 495510.00,  513680.00)  DC
+  173.      25.28826 (92071824) AT ( 493900.00,  513200.00)  DC      213.      22.51578 (93021824) AT ( 495300.00,  513880.00)  DC
+  174.      25.24125 (92070424) AT ( 495300.00,  513880.00)  DC      214.      22.46387 (92062024) AT ( 496430.00,  514500.00)  DC
+  175.      25.14468 (92060924) AT ( 495400.00,  515180.00)  DC      215.      22.43735 (93051224) AT ( 495400.00,  515180.00)  DC
+  176.      25.14003 (93021924) AT ( 495400.00,  515180.00)  DC      216.      22.31341 (92071824) AT ( 492700.00,  513440.00)  DC
+  177.      25.00406 (92082624) AT ( 492440.00,  511190.00)  DC      217.      22.30151 (92081424) AT ( 492700.00,  513440.00)  DC
+  178.      24.99606 (93051324) AT ( 492440.00,  511190.00)  DC      218.      22.28694 (92062524) AT ( 496430.00,  514500.00)  DC
+  179.      24.95323 (92102024) AT ( 492700.00,  513440.00)  DC      219.      22.27666 (92102024) AT ( 493900.00,  513200.00)  DC
+  180.      24.87399 (93031424) AT ( 496430.00,  514500.00)  DC      220.      22.17184 (92120724) AT ( 496430.00,  514500.00)  DC
+  181.      24.80792 (93021824) AT ( 495400.00,  515180.00)  DC      221.      22.16399 (93020324) AT ( 495400.00,  515180.00)  DC
+  182.      24.61343 (92110824) AT ( 496430.00,  514500.00)  DC      222.      22.05597 (92060924) AT ( 492700.00,  513440.00)  DC
+  183.      24.48976 (93020824) AT ( 495400.00,  515180.00)  DC      223.      22.02704 (92082024) AT ( 495510.00,  513680.00)  DC
+  184.      24.47636 (92052824) AT ( 495510.00,  513680.00)  DC      224.      22.00616 (93020424) AT ( 495510.00,  513680.00)  DC
+  185.      24.39196 (92071024) AT ( 495400.00,  515180.00)  DC      225.      21.97896 (93041224) AT ( 492440.00,  511190.00)  DC
+  186.      24.39055 (93012924) AT ( 495300.00,  513880.00)  DC      226.      21.96871 (93011624) AT ( 495510.00,  513680.00)  DC
+  187.      24.21108 (92103024) AT ( 495300.00,  513880.00)  DC      227.      21.96704 (92110724) AT ( 493900.00,  513200.00)  DC
+  188.      23.96520 (92070124) AT ( 496430.00,  514500.00)  DC      228.      21.96626 (92121524) AT ( 493900.00,  513200.00)  DC
+  189.      23.87888 (92070924) AT ( 496430.00,  514500.00)  DC      229.      21.91260 (92081424) AT ( 492440.00,  511190.00)  DC
+  190.      23.71454 (93011624) AT ( 495300.00,  513880.00)  DC      230.      21.77266 (92070424) AT ( 495510.00,  513680.00)  DC
+  191.      23.69978 (92051824) AT ( 492440.00,  511190.00)  DC      231.      21.77133 (92061024) AT ( 496430.00,  514500.00)  DC
+  192.      23.49050 (92091624) AT ( 492700.00,  513440.00)  DC      232.      21.72730 (93021924) AT ( 496430.00,  514500.00)  DC
+  193.      23.26607 (92103024) AT ( 495510.00,  513680.00)  DC      233.      21.68267 (93050624) AT ( 495510.00,  513680.00)  DC
+  194.      23.24359 (92082624) AT ( 495300.00,  513880.00)  DC      234.      21.55735 (92110524) AT ( 493900.00,  513200.00)  DC
+  195.      23.19022 (92062124) AT ( 496430.00,  514500.00)  DC      235.      21.54661 (92061024) AT ( 495400.00,  515180.00)  DC
+  196.      23.09061m(93021324) AT ( 495300.00,  513880.00)  DC      236.      21.26505 (92062124) AT ( 492700.00,  513440.00)  DC
+  197.      23.07311 (93031024) AT ( 495510.00,  513680.00)  DC      237.      21.22014 (93022824) AT ( 496430.00,  514500.00)  DC
+  198.      23.03411 (92103024) AT ( 495400.00,  515180.00)  DC      238.      21.21312 (93042324) AT ( 496430.00,  514500.00)  DC
+  199.      22.92031 (92062724) AT ( 496430.00,  514500.00)  DC      239.      21.19719 (93022824) AT ( 495510.00,  513680.00)  DC
+  200.      22.89047 (92102724) AT ( 492440.00,  511190.00)  DC      240.      21.10278 (92070924) AT ( 493900.00,  513200.00)  DC
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  29
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE MAXIMUM  400  24-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+ RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE    RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  241.      21.02826 (92101224) AT ( 495400.00,  515180.00)  DC      281.      18.98385 (92082024) AT ( 493900.00,  513200.00)  DC
+  242.      21.00645 (93042224) AT ( 492700.00,  513440.00)  DC      282.      18.95069 (93031124) AT ( 495300.00,  513880.00)  DC
+  243.      20.96981 (92062724) AT ( 495300.00,  513880.00)  DC      283.      18.93683 (93012924) AT ( 495510.00,  513680.00)  DC
+  244.      20.92852 (93021724) AT ( 495400.00,  515180.00)  DC      284.      18.91286 (92121524) AT ( 492700.00,  513440.00)  DC
+  245.      20.73445 (92111324) AT ( 496430.00,  514500.00)  DC      285.      18.89109 (93011624) AT ( 495400.00,  515180.00)  DC
+  246.      20.71194 (92091124) AT ( 495510.00,  513680.00)  DC      286.      18.86431 (92062324) AT ( 495400.00,  515180.00)  DC
+  247.      20.71148m(93021324) AT ( 495400.00,  515180.00)  DC      287.      18.86161 (92072124) AT ( 495300.00,  513880.00)  DC
+  248.      20.69189 (92062724) AT ( 495510.00,  513680.00)  DC      288.      18.55826 (92091124) AT ( 492440.00,  511190.00)  DC
+  249.      20.67924 (93030724) AT ( 495400.00,  515180.00)  DC      289.      18.51785 (92082024) AT ( 495400.00,  515180.00)  DC
+  250.      20.66863 (92070624) AT ( 492440.00,  511190.00)  DC      290.      18.44509 (92092324) AT ( 493900.00,  513200.00)  DC
+  251.      20.63092 (93022524) AT ( 493900.00,  513200.00)  DC      291.      18.38779 (93031824) AT ( 492440.00,  511190.00)  DC
+  252.      20.53484 (92121724) AT ( 493900.00,  513200.00)  DC      292.      18.36405 (92052824) AT ( 493900.00,  513200.00)  DC
+  253.      20.39158 (92070724) AT ( 493900.00,  513200.00)  DC      293.      18.27686 (93031024) AT ( 493900.00,  513200.00)  DC
+  254.      20.39138 (92112324) AT ( 493900.00,  513200.00)  DC      294.      18.27543 (92120924) AT ( 492700.00,  513440.00)  DC
+  255.      20.36953 (93031424) AT ( 493900.00,  513200.00)  DC      295.      18.19273 (93012824) AT ( 492700.00,  513440.00)  DC
+  256.      20.23686 (92082624) AT ( 495400.00,  515180.00)  DC      296.      18.17263 (92092324) AT ( 492700.00,  513440.00)  DC
+  257.      20.18161 (92070624) AT ( 492700.00,  513440.00)  DC      297.      18.15883c(92092824) AT ( 495300.00,  513880.00)  DC
+  258.      20.18092 (92082624) AT ( 496430.00,  514500.00)  DC      298.      18.13242 (93050724) AT ( 492440.00,  511190.00)  DC
+  259.      20.10305c(92092824) AT ( 495400.00,  515180.00)  DC      299.      18.10080 (92120524) AT ( 492700.00,  513440.00)  DC
+  260.      20.07476 (93021824) AT ( 495510.00,  513680.00)  DC      300.      18.07088 (92081224) AT ( 492700.00,  513440.00)  DC
+  261.      20.00462 (92080424) AT ( 492700.00,  513440.00)  DC      301.      18.01134c(92060824) AT ( 495300.00,  513880.00)  DC
+  262.      19.93920 (92052824) AT ( 492440.00,  511190.00)  DC      302.      17.99651 (92121524) AT ( 495510.00,  513680.00)  DC
+  263.      19.82676 (92120824) AT ( 492700.00,  513440.00)  DC      303.      17.97768 (93012024) AT ( 495300.00,  513880.00)  DC
+  264.      19.82406 (93022824) AT ( 495300.00,  513880.00)  DC      304.      17.96355 (92110924) AT ( 495300.00,  513880.00)  DC
+  265.      19.79678 (92071124) AT ( 493900.00,  513200.00)  DC      305.      17.94631 (93020824) AT ( 495510.00,  513680.00)  DC
+  266.      19.75298 (92103024) AT ( 492440.00,  511190.00)  DC      306.      17.93465 (92110924) AT ( 492440.00,  511190.00)  DC
+  267.      19.72377 (93050624) AT ( 495400.00,  515180.00)  DC      307.      17.93355 (92122224) AT ( 493900.00,  513200.00)  DC
+  268.      19.60111 (93040324) AT ( 492700.00,  513440.00)  DC      308.      17.90422 (92050324) AT ( 492700.00,  513440.00)  DC
+  269.      19.60012 (93022524) AT ( 492440.00,  511190.00)  DC      309.      17.89300 (93020824) AT ( 496430.00,  514500.00)  DC
+  270.      19.57157 (92072724) AT ( 492700.00,  513440.00)  DC      310.      17.79115 (93051224) AT ( 493900.00,  513200.00)  DC
+  271.      19.53791 (92121524) AT ( 495300.00,  513880.00)  DC      311.      17.78679 (92052824) AT ( 495400.00,  515180.00)  DC
+  272.      19.46052 (93041324) AT ( 492440.00,  511190.00)  DC      312.      17.75267 (92072824) AT ( 492440.00,  511190.00)  DC
+  273.      19.43011 (92111624) AT ( 495400.00,  515180.00)  DC      313.      17.59630 (93031224) AT ( 495300.00,  513880.00)  DC
+  274.      19.36456 (92111424) AT ( 495400.00,  515180.00)  DC      314.      17.55800 (92071324) AT ( 492700.00,  513440.00)  DC
+  275.      19.33996 (92102624) AT ( 492700.00,  513440.00)  DC      315.      17.55431 (93021524) AT ( 492700.00,  513440.00)  DC
+  276.      19.33368 (92072124) AT ( 495510.00,  513680.00)  DC      316.      17.55300 (93031524) AT ( 495300.00,  513880.00)  DC
+  277.      19.26063m(92061124) AT ( 492700.00,  513440.00)  DC      317.      17.40608 (92072724) AT ( 492440.00,  511190.00)  DC
+  278.      19.22940 (93031124) AT ( 495510.00,  513680.00)  DC      318.      17.29266c(92092824) AT ( 492700.00,  513440.00)  DC
+  279.      19.19792 (92071024) AT ( 496430.00,  514500.00)  DC      319.      17.28544c(92092824) AT ( 495510.00,  513680.00)  DC
+  280.      19.02537 (93031424) AT ( 492700.00,  513440.00)  DC      320.      17.27962m(93021324) AT ( 495510.00,  513680.00)  DC
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  30
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                              *** THE MAXIMUM  400  24-HR AVERAGE CONCENTRATION   VALUES FOR SOURCE GROUP:  ALL      ***
+                                  INCLUDING SOURCE(S):     MC12        , MC3         , MC4         , ED1         , ED2         , 
+                 HL2         , WC1         , WC2         , 
+
+                                        ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+ RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE    RANK        CONC    (YYMMDDHH) AT      RECEPTOR (XR,YR) OF TYPE 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  321.      17.26806 (92092924) AT ( 492440.00,  511190.00)  DC      361.      15.76646 (93031224) AT ( 496430.00,  514500.00)  DC
+  322.      17.25877 (93012624) AT ( 495400.00,  515180.00)  DC      362.      15.73311m(92061124) AT ( 495300.00,  513880.00)  DC
+  323.      17.25650 (92072824) AT ( 492700.00,  513440.00)  DC      363.      15.67077 (92092924) AT ( 493900.00,  513200.00)  DC
+  324.      17.17236m(92061124) AT ( 492440.00,  511190.00)  DC      364.      15.63676 (92092324) AT ( 495400.00,  515180.00)  DC
+  325.      17.14887 (93012024) AT ( 495400.00,  515180.00)  DC      365.      15.57600 (92110624) AT ( 492700.00,  513440.00)  DC
+  326.      17.04156 (93020824) AT ( 492440.00,  511190.00)  DC      366.      15.49467 (93031224) AT ( 495510.00,  513680.00)  DC
+  327.      17.01290 (92060224) AT ( 493900.00,  513200.00)  DC      367.      15.43521 (92121524) AT ( 495400.00,  515180.00)  DC
+  328.      16.91870 (93012324) AT ( 496430.00,  514500.00)  DC      368.      15.42446 (93050724) AT ( 492700.00,  513440.00)  DC
+  329.      16.87050 (93020824) AT ( 495300.00,  513880.00)  DC      369.      15.40141 (92120824) AT ( 493900.00,  513200.00)  DC
+  330.      16.83939 (92062024) AT ( 492700.00,  513440.00)  DC      370.      15.39115 (92062124) AT ( 493900.00,  513200.00)  DC
+  331.      16.82565 (93012024) AT ( 495510.00,  513680.00)  DC      371.      15.38705 (93051224) AT ( 496430.00,  514500.00)  DC
+  332.      16.76326 (92060224) AT ( 492700.00,  513440.00)  DC      372.      15.38228 (92110524) AT ( 495300.00,  513880.00)  DC
+  333.      16.74254 (92060924) AT ( 495510.00,  513680.00)  DC      373.      15.30333 (92091624) AT ( 495510.00,  513680.00)  DC
+  334.      16.74062 (92110924) AT ( 492700.00,  513440.00)  DC      374.      15.28828 (93050624) AT ( 496430.00,  514500.00)  DC
+  335.      16.73925 (92062024) AT ( 492440.00,  511190.00)  DC      375.      15.26231 (92100424) AT ( 492700.00,  513440.00)  DC
+  336.      16.56545 (92070624) AT ( 493900.00,  513200.00)  DC      376.      15.24028 (93021724) AT ( 496430.00,  514500.00)  DC
+  337.      16.52696 (92070624) AT ( 495510.00,  513680.00)  DC      377.      15.21690 (92072224) AT ( 492700.00,  513440.00)  DC
+  338.      16.52013 (92050324) AT ( 495300.00,  513880.00)  DC      378.      15.21376 (92110824) AT ( 493900.00,  513200.00)  DC
+  339.      16.47456 (92070624) AT ( 495300.00,  513880.00)  DC      379.      15.20256 (92082524) AT ( 495400.00,  515180.00)  DC
+  340.      16.40338 (93022324) AT ( 495400.00,  515180.00)  DC      380.      15.19756 (93051224) AT ( 495510.00,  513680.00)  DC
+  341.      16.39077 (92101524) AT ( 495400.00,  515180.00)  DC      381.      15.19700 (92082124) AT ( 492700.00,  513440.00)  DC
+  342.      16.33015 (92052724) AT ( 492700.00,  513440.00)  DC      382.      15.14749 (93011424) AT ( 495300.00,  513880.00)  DC
+  343.      16.31120 (92091924) AT ( 493900.00,  513200.00)  DC      383.      15.13091 (93010224) AT ( 493900.00,  513200.00)  DC
+  344.      16.30319 (92072124) AT ( 492440.00,  511190.00)  DC      384.      15.11078 (92081224) AT ( 492440.00,  511190.00)  DC
+  345.      16.24491c(92092824) AT ( 496430.00,  514500.00)  DC      385.      15.10044 (92061024) AT ( 495510.00,  513680.00)  DC
+  346.      16.24078 (92072024) AT ( 496430.00,  514500.00)  DC      386.      15.02716 (92060224) AT ( 492440.00,  511190.00)  DC
+  347.      16.15378c(92060824) AT ( 495510.00,  513680.00)  DC      387.      14.99922 (93012724) AT ( 495300.00,  513880.00)  DC
+  348.      16.10978 (93010524) AT ( 492700.00,  513440.00)  DC      388.      14.94647 (92111424) AT ( 495300.00,  513880.00)  DC
+  349.      16.10707 (92070724) AT ( 495400.00,  515180.00)  DC      389.      14.90972 (93012724) AT ( 495510.00,  513680.00)  DC
+  350.      16.06501 (92102624) AT ( 495300.00,  513880.00)  DC      390.      14.83505m(92061124) AT ( 495510.00,  513680.00)  DC
+  351.      16.06161 (93031524) AT ( 495510.00,  513680.00)  DC      391.      14.79900 (92091124) AT ( 492700.00,  513440.00)  DC
+  352.      16.02969 (93021424) AT ( 493900.00,  513200.00)  DC      392.      14.75226 (92060924) AT ( 495300.00,  513880.00)  DC
+  353.      16.01978 (92110824) AT ( 492700.00,  513440.00)  DC      393.      14.71332 (92102624) AT ( 495510.00,  513680.00)  DC
+  354.      15.90272 (92110924) AT ( 495400.00,  515180.00)  DC      394.      14.69447 (92070424) AT ( 495400.00,  515180.00)  DC
+  355.      15.85070 (93030124) AT ( 495400.00,  515180.00)  DC      395.      14.69172 (93021924) AT ( 492440.00,  511190.00)  DC
+  356.      15.84600 (92071324) AT ( 495400.00,  515180.00)  DC      396.      14.64372 (93011724) AT ( 495300.00,  513880.00)  DC
+  357.      15.82596 (93012624) AT ( 496430.00,  514500.00)  DC      397.      14.62328 (92070724) AT ( 496430.00,  514500.00)  DC
+  358.      15.79102 (92081224) AT ( 493900.00,  513200.00)  DC      398.      14.61327m(93021324) AT ( 496430.00,  514500.00)  DC
+  359.      15.78411 (92110924) AT ( 495510.00,  513680.00)  DC      399.      14.59769 (92082124) AT ( 492440.00,  511190.00)  DC
+  360.      15.77939 (92072024) AT ( 495400.00,  515180.00)  DC      400.      14.57400 (92051424) AT ( 493900.00,  513200.00)  DC
+
+  *** RECEPTOR TYPES:  GC = GRIDCART
+                       GP = GRIDPOLR
+                       DC = DISCCART
+                       DP = DISCPOLR
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  31
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                                        *** THE SUMMARY OF MAXIMUM PERIOD (  9216 HRS) RESULTS ***
+
+
+                                    ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+                                                                                                             NETWORK
+GROUP ID                       AVERAGE CONC                RECEPTOR  (XR, YR, ZELEV, ZHILL, ZFLAG)  OF TYPE  GRID-ID
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+ALL       1ST HIGHEST VALUE IS       8.50722 AT (  492700.00,   513440.00,   334.14,   369.80,    0.00)  DC          
+          2ND HIGHEST VALUE IS       8.32741 AT (  493900.00,   513200.00,   367.68,   367.68,    0.00)  DC          
+          3RD HIGHEST VALUE IS       6.64201 AT (  495400.00,   515180.00,   322.22,   369.19,    0.00)  DC          
+          4TH HIGHEST VALUE IS       6.50462 AT (  495300.00,   513880.00,   346.12,   363.40,    0.00)  DC          
+          5TH HIGHEST VALUE IS       6.08535 AT (  495510.00,   513680.00,   339.52,   361.04,    0.00)  DC          
+          6TH HIGHEST VALUE IS       5.57588 AT (  496430.00,   514500.00,   318.65,   354.74,    0.00)  DC          
+          7TH HIGHEST VALUE IS       5.07408 AT (  492440.00,   511190.00,   321.22,   321.22,    0.00)  DC          
+          8TH HIGHEST VALUE IS       0.00000 AT (       0.00,        0.00,     0.00,     0.00,    0.00)
+          9TH HIGHEST VALUE IS       0.00000 AT (       0.00,        0.00,     0.00,     0.00,    0.00)
+         10TH HIGHEST VALUE IS       0.00000 AT (       0.00,        0.00,     0.00,     0.00,    0.00)
+
+
+ *** RECEPTOR TYPES:  GC = GRIDCART
+                      GP = GRIDPOLR
+                      DC = DISCCART
+                      DP = DISCPOLR
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  32
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                                                *** THE SUMMARY OF HIGHEST  1-HR RESULTS ***
+
+
+                                    ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+                                                      DATE                                                                    NETWORK
+GROUP ID                          AVERAGE CONC     (YYMMDDHH)             RECEPTOR  (XR, YR, ZELEV, ZHILL, ZFLAG)    OF TYPE  GRID-ID
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  
+ALL      HIGH   1ST HIGH VALUE IS    1026.83656  ON 93011920: AT (  495400.00,   515180.00,   322.22,   369.19,    0.00)  DC          
+         HIGH   2ND HIGH VALUE IS     747.22001  ON 92070923: AT (  492700.00,   513440.00,   334.14,   369.80,    0.00)  DC          
+
+
+ *** RECEPTOR TYPES:  GC = GRIDCART
+                      GP = GRIDPOLR
+                      DC = DISCCART
+                      DP = DISCPOLR
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  33
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                                                *** THE SUMMARY OF HIGHEST  3-HR RESULTS ***
+
+
+                                    ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+                                                      DATE                                                                    NETWORK
+GROUP ID                          AVERAGE CONC     (YYMMDDHH)             RECEPTOR  (XR, YR, ZELEV, ZHILL, ZFLAG)    OF TYPE  GRID-ID
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  
+ALL      HIGH   1ST HIGH VALUE IS     475.50696  ON 93022421: AT (  493900.00,   513200.00,   367.68,   367.68,    0.00)  DC          
+         HIGH   2ND HIGH VALUE IS     356.26526  ON 92122421: AT (  493900.00,   513200.00,   367.68,   367.68,    0.00)  DC          
+
+
+ *** RECEPTOR TYPES:  GC = GRIDCART
+                      GP = GRIDPOLR
+                      DC = DISCCART
+                      DP = DISCPOLR
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  34
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+                                                *** THE SUMMARY OF HIGHEST 24-HR RESULTS ***
+
+
+                                    ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+                                                      DATE                                                                    NETWORK
+GROUP ID                          AVERAGE CONC     (YYMMDDHH)             RECEPTOR  (XR, YR, ZELEV, ZHILL, ZFLAG)    OF TYPE  GRID-ID
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  
+ALL      HIGH   1ST HIGH VALUE IS     107.88322  ON 93031124: AT (  493900.00,   513200.00,   367.68,   367.68,    0.00)  DC          
+         HIGH   2ND HIGH VALUE IS      83.14991  ON 93021424: AT (  492700.00,   513440.00,   334.14,   369.80,    0.00)  DC          
+
+
+ *** RECEPTOR TYPES:  GC = GRIDCART
+                      GP = GRIDPOLR
+                      DC = DISCCART
+                      DP = DISCPOLR
+ *** AERMOD - VERSION 26135  ***   ***  Phase II Evaluation of AERMOD : Martin's Creek 1992-93              ***        07/07/26
+ *** AERMET - VERSION  26135 ***   ***  Terrain Option 2                                                    ***        23:00:47
+                                                                                                                       PAGE  35
+ *** MODELOPTs:    RegDFAULT  CONC  ELEV  RURAL
+
+ *** Message Summary : AERMOD Model Execution ***
+
+  --------- Summary of Total Messages --------
+  
+ A Total of            0 Fatal Error Message(s)
+ A Total of           84 Warning Message(s)
+ A Total of           72 Informational Message(s)
+
+ A Total of         9216 Hours Were Processed
+
+ A Total of           54 Calm Hours Identified
+
+ A Total of           18 Missing Hours Identified (  0.20 Percent)
+  
+  
+    ******** FATAL ERROR MESSAGES ******** 
+               ***  NONE  ***         
+  
+  
+    ********   WARNING MESSAGES   ******** 
+ CO W361      10       COCARD: Multiyear PERIOD/ANNUAL values for NO2/SO2 require MULTYEAR Opt
+ CO W362      10       COCARD: Multiyear 1h NO2/SO2 processing not applicable for     3-hr Ave
+ CO W362      10       COCARD: Multiyear 1h NO2/SO2 processing not applicable for    24-hr Ave
+ SO W320      29        PPARM: Input Parameter May Be Out-of-Range for Parameter            QS
+ SO W320      30        PPARM: Input Parameter May Be Out-of-Range for Parameter            QS
+ SO W320      31        PPARM: Input Parameter May Be Out-of-Range for Parameter            QS
+ SO W320      32        PPARM: Input Parameter May Be Out-of-Range for Parameter            QS
+ SO W320      33        PPARM: Input Parameter May Be Out-of-Range for Parameter            QS
+ SO W320      34        PPARM: Input Parameter May Be Out-of-Range for Parameter            QS
+ SO W320      35        PPARM: Input Parameter May Be Out-of-Range for Parameter            QS
+ SO W320      36        PPARM: Input Parameter May Be Out-of-Range for Parameter            QS
+ MX W403     577       PFLCNV: Turbulence data is being used w/o ADJ_U* option       SigA Data
+ MX W403     577       PFLCNV: Turbulence data is being used w/o ADJ_U* option       SigA Data
+ MX W403     577       PFLCNV: Turbulence data is being used w/o ADJ_U* option       SigA Data
+ MX W403     577       PFLCNV: Turbulence data is being used w/o ADJ_U* option       SigA Data
+ MX W403     577       PFLCNV: Turbulence data is being used w/o ADJ_U* option       SigA Data
+ MX W403     577       PFLCNV: Turbulence data is being used w/o ADJ_U* option       SigA Data
+ MX W403     577       PFLCNV: Turbulence data is being used w/o ADJ_U* option       SigA Data
+ MX W403     577       PFLCNV: Turbulence data is being used w/o ADJ_U* option       SigA Data
+ MX W403     577       PFLCNV: Turbulence data is being used w/o ADJ_U* option       SigA Data
+ MX W403     577       PFLCNV: Turbulence data is being used w/o ADJ_U* option       SigA Data
+ MX W403     577       PFLCNV: Turbulence data is being used w/o ADJ_U* option       SigA Data
+ MX W403     577       PFLCNV: Turbulence data is being used w/o ADJ_U* option       SigA Data
+ MX W403     577       PFLCNV: Turbulence data is being used w/o ADJ_U* option       SigA Data
+ CN W734     984         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992050603
+ MX W320    1178       HRQEXT: Input Parameter May Be Out-of-Range for Parameter          HRTS
+ MX W320    1179       HRQEXT: Input Parameter May Be Out-of-Range for Parameter          HRTS
+ MX W320    1186       HRQEXT: Input Parameter May Be Out-of-Range for Parameter          HRTS
+ MX W320    1187       HRQEXT: Input Parameter May Be Out-of-Range for Parameter          HRTS
+ CN W734    1728         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992050924
+ CN W734    1752         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992051003
+ CN W734    1776         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992051006
+ CN W734    1800         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992051009
+ CN W734    1824         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992051012
+ CN W734    1848         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992051015
+ CN W734    1872         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992051018
+ CN W734    1920         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992051024
+ CN W732    1920         AVER: 24-hr avg, < 18 hours of data, calms policy used.    1992051024
+ CN W734    1944         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992051103
+ CN W734    1968         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992051106
+ CN W734    4920         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992052615
+ CN W734    7272         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992060721
+ CN W734    7296         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992060724
+ CN W734    7320         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992060803
+ CN W734    7344         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992060806
+ CN W734    7368         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992060809
+ CN W732    7488         AVER: 24-hr avg, < 18 hours of data, calms policy used.    1992060824
+ CN W734    7968         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992061112
+ CN W734   22152         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992082409
+ CN W734   25032         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992090809
+ MX W320   25347       HRQEXT: Input Parameter May Be Out-of-Range for Parameter          HRTS
+ MX W320   25403       HRQEXT: Input Parameter May Be Out-of-Range for Parameter          HRTS
+ CN W734   28824         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992092803
+ CN W734   29256         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992093009
+ CN W734   29280         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992093012
+ CN W734   32640         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992101724
+ CN W734   32664         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992101803
+ CN W734   32688         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992101806
+ CN W734   32712         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992101809
+ CN W734   32832         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992101824
+ CN W732   32832         AVER: 24-hr avg, < 18 hours of data, calms policy used.    1992101824
+ CN W734   32856         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992101903
+ MX W320   35931       HRQEXT: Input Parameter May Be Out-of-Range for Parameter          HRTS
+ MX W320   35939       HRQEXT: Input Parameter May Be Out-of-Range for Parameter          HRTS
+ CN W734   38688         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992111812
+ CN W734   39336         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992112121
+ MX W320   39584       HRQEXT: Input Parameter May Be Out-of-Range for Parameter          HRTS
+ MX W320   39592       HRQEXT: Input Parameter May Be Out-of-Range for Parameter          HRTS
+ CN W734   40704         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992112824
+ CN W734   40728         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992112903
+ MX W320   42810       HRQEXT: Input Parameter May Be Out-of-Range for Parameter          HRTS
+ MX W320   43179       HRQEXT: Input Parameter May Be Out-of-Range for Parameter          HRTS
+ CN W734   44064         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992121612
+ CN W734   44088         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992121615
+ CN W734   46368         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1992122812
+ CN W734   55296         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1993021224
+ CN W734   55320         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1993021303
+ CN W734   56712         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1993022009
+ CN W734   57120         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1993022212
+ CN W734   63216         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1993032606
+ CN W734   64608         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1993040212
+ CN W734   72792         AVER: 3-hr avg, < 3 hours of data, calms policy used.      1993051503
+ MX W320   73187       HRQEXT: Input Parameter May Be Out-of-Range for Parameter          HRTS
+ MX W320   73195       HRQEXT: Input Parameter May Be Out-of-Range for Parameter          HRTS
+
+    ************************************
+    *** AERMOD Finishes Successfully ***
+    ************************************
+
