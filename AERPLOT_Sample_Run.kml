@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml
+     xmlns="http://www.opengis.net/kml/2.2"
+  xmlns:gx="http://www.google.com/kml/ext/2.2"
+ xmlns:kml="http://www.opengis.net/kml/2.2"
+xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="AERPLOT_Sample_Run"
+  xsi:schemaLocation="http://www.opengis.net/kml/2.2
+                      http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd
+                      http://www.google.com/kml/ext/2.2
+                      http://code.google.com/apis/kml/schema/kml22gx.xsd
+                     ">
+    <name>AERPLOT_Sample_Run</name>
+    <open>1</open>
+    <Snippet maxLines="0"></Snippet>
+    <Style id="IconStyle059">
+        <IconStyle>
+            <scale>1.55</scale>
+            <Icon>
+                <href>files/num1blue.png</href>
+            </Icon>
+            <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        </IconStyle>
+        <ListStyle>
+            <ItemIcon>
+                <href>files/num1blue.png</href>
+            </ItemIcon>
+        </ListStyle>
+        <LabelStyle>
+            <color>00000000</color>
+            <scale>0</scale>
+        </LabelStyle>
+    </Style>
+    <Style id="IconStyle021">
+        <IconStyle>
+            <scale>1.55</scale>
+            <Icon>
+                <href>files/num2blue.png</href>
+            </Icon>
+            <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        </IconStyle>
+        <ListStyle>
+            <ItemIcon>
+                <href>files/num2blue.png</href>
+            </ItemIcon>
+        </ListStyle>
+        <LabelStyle>
+            <color>00000000</color>
+            <scale>0</scale>
+        </LabelStyle>
+    </Style>
+    <Style id="IconStyle0155">
+        <IconStyle>
+            <scale>1.55</scale>
+            <Icon>
+                <href>files/num3blue.png</href>
+            </Icon>
+            <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        </IconStyle>
+        <ListStyle>
+            <ItemIcon>
+                <href>files/num3blue.png</href>
+            </ItemIcon>
+        </ListStyle>
+        <LabelStyle>
+            <color>00000000</color>
+            <scale>0</scale>
+        </LabelStyle>
+    </Style>
+    <Style id="IconStyle02">
+        <IconStyle>
+            <scale>1.55</scale>
+            <Icon>
+                <href>files/num4blue.png</href>
+            </Icon>
+            <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        </IconStyle>
+        <ListStyle>
+            <ItemIcon>
+                <href>files/num4blue.png</href>
+            </ItemIcon>
+        </ListStyle>
+        <LabelStyle>
+            <color>00000000</color>
+            <scale>0</scale>
+        </LabelStyle>
+    </Style>
+    <Style id="IconStyle013">
+        <IconStyle>
+            <scale>1.55</scale>
+            <Icon>
+                <href>files/num5blue.png</href>
+            </Icon>
+            <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        </IconStyle>
+        <ListStyle>
+            <ItemIcon>
+                <href>files/num5blue.png</href>
+            </ItemIcon>
+        </ListStyle>
+        <LabelStyle>
+            <color>00000000</color>
+            <scale>0</scale>
+        </LabelStyle>
+    </Style>
+    <Style id="IconStyle00">
+        <IconStyle>
+            <scale>1.55</scale>
+            <Icon>
+                <href>files/num6blue.png</href>
+            </Icon>
+            <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        </IconStyle>
+        <ListStyle>
+            <ItemIcon>
+                <href>files/num6blue.png</href>
+            </ItemIcon>
+        </ListStyle>
+        <LabelStyle>
+            <color>00000000</color>
+            <scale>0</scale>
+        </LabelStyle>
+    </Style>
+    <Style id="IconStyle03">
+        <IconStyle>
+            <scale>1.55</scale>
+            <Icon>
+                <href>files/968d14f4-b8a3-424c-9223-64c04f8e89e5.png</href>
+            </Icon>
+            <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        </IconStyle>
+        <ListStyle>
+            <ItemIcon>
+                <href>files/968d14f4-b8a3-424c-9223-64c04f8e89e5.png</href>
+            </ItemIcon>
+        </ListStyle>
+        <LabelStyle>
+            <color>00000000</color>
+            <scale>0</scale>
+        </LabelStyle>
+    </Style>
+    <Style id="IconStyle05">
+        <IconStyle>
+            <scale>1.55</scale>
+            <Icon>
+                <href>files/2cf495f9-8831-441d-a479-cad416a7cbe1.png</href>
+            </Icon>
+            <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        </IconStyle>
+        <ListStyle>
+            <ItemIcon>
+                <href>files/2cf495f9-8831-441d-a479-cad416a7cbe1.png</href>
+            </ItemIcon>
+        </ListStyle>
+        <LabelStyle>
+            <color>00000000</color>
+            <scale>0</scale>
+        </LabelStyle>
+    </Style>
+    <Style id="IconStyle011">
+        <IconStyle>
+            <scale>1.55</scale>
+            <Icon>
+                <href>files/381cf1c4-5071-49b8-831e-02d5c8f17e24.png</href>
+            </Icon>
+            <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        </IconStyle>
+        <ListStyle>
+            <ItemIcon>
+                <href>files/381cf1c4-5071-49b8-831e-02d5c8f17e24.png</href>
+            </ItemIcon>
+        </ListStyle>
+        <LabelStyle>
+            <color>00000000</color>
+            <scale>0</scale>
+        </LabelStyle>
+    </Style>
+    <Style id="IconStyle023">
+        <IconStyle>
+            <scale>1.55</scale>
+            <Icon>
+                <href>files/e5cb9d8f-1865-4e82-b344-fa63d69be504.png</href>
+            </Icon>
+            <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        </IconStyle>
+        <ListStyle>
+            <ItemIcon>
+                <href>files/e5cb9d8f-1865-4e82-b344-fa63d69be504.png</href>
+            </ItemIcon>
+        </ListStyle>
+        <LabelStyle>
+            <color>00000000</color>
+            <scale>0</scale>
+        </LabelStyle>
+    </Style>
+    <Style id="IconStyle010">
+        <IconStyle>
+            <scale>1.55</scale>
+            <Icon>
+                <href>files/4babedf1-1160-4069-9e9d-feecbe13f6c3.png</href>
+            </Icon>
+            <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        </IconStyle>
+        <ListStyle>
+            <ItemIcon>
+                <href>files/4babedf1-1160-4069-9e9d-feecbe13f6c3.png</href>
+            </ItemIcon>
+        </ListStyle>
+        <LabelStyle>
+            <color>00000000</color>
+            <scale>0</scale>
+        </LabelStyle>
+    </Style>
+    <Style id="IconStyle022">
+        <IconStyle>
+            <scale>1.55</scale>
+            <Icon>
+                <href>files/65f60215-bb56-49c9-ae43-6bb67e476a48.png</href>
+            </Icon>
+            <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        </IconStyle>
+        <ListStyle>
+            <ItemIcon>
+                <href>files/65f60215-bb56-49c9-ae43-6bb67e476a48.png</href>
+            </ItemIcon>
+        </ListStyle>
+        <LabelStyle>
+            <color>00000000</color>
+            <scale>0</scale>
+        </LabelStyle>
+    </Style>
+    <ScreenOverlay>
+        <name>Legend for AERPLOT_Sample_Run</name>
+        <color>dfffffff</color>
+        <Icon><href>files/AERPLOT_Sample_Run_legend.png</href></Icon>
+        <overlayXY x='0' y='1' xunits='pixels' yunits='pixels'/>
+        <screenXY x='0' y='1' xunits='pixels' yunits='pixels'/>
+    </ScreenOverlay>
+    <Camera id="camera">
+        <longitude>-139.6141742857143</longitude>
+        <latitude>65.67891801428571</latitude>
+        <altitude>7980.0</altitude><altitudeMode>relativeToGround</altitudeMode>
+    </Camera>
+    <Folder id="FeatureLayer0">
+        <name>Receptor_Placemark_Dots</name>
+        <open>1</open>
+        <Snippet maxLines="0"></Snippet>
+        <Folder id="FeatureLayer0">
+            <name>0.1804e+03 up to Maximum</name>
+            <styleUrl>#IconStyle022</styleUrl>
+        </Folder>
+        <Folder id="FeatureLayer0">
+            <name>0.5644e+02 up to 0.1804e+03</name>
+            <styleUrl>#IconStyle010</styleUrl>
+        </Folder>
+        <Folder id="FeatureLayer0">
+            <name>0.1766e+02 up to 0.5644e+02</name>
+            <styleUrl>#IconStyle023</styleUrl>
+        </Folder>
+        <Folder id="FeatureLayer0">
+            <name>0.5526e+01 up to 0.1766e+02</name>
+            <styleUrl>#IconStyle011</styleUrl>
+            <Placemark id="ID_0">
+                    <name>0_6.08535_495510.0_513680.0</name>
+                    <Snippet maxLines="0"></Snippet>
+                    <styleUrl>#IconStyle011</styleUrl>
+                    <Point>
+                            <gx:altitudeMode>relativeToGround</gx:altitudeMode>
+                            <coordinates>-139.59269,65.6787643,0.0</coordinates>
+                    </Point>
+                                        <description>
+                                              <![CDATA[<html
+                                                xmlns:fo="http://www.w3.org/1999/XSL/Format"
+                                                xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+                                                <head>
+                                                <META http-equiv="Content-Type" content="text/html">
+                                                <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+                                                </head>
+                                        <body style="margin:0px 0px 0px 0px;overflow:scroll;background:#FFFFFF;">
+                                        <table
+                                         style="font-family:Courier;font-size:12px;font-weight:bold;text-align:left;width:100%;border-collapse:collapse;padding:3px
+                                         3px 3px 3px">
+                                        <tr style="text-align:left;font-weight:bold;background:#9CBCE2">
+                                        <td><pre>       X             Y      AVERAGE CONC    ZELEV    ZHILL    ZFLAG    AVE     GRP      NUM HRS   NET ID&nbsp;&nbsp;</pre></td>
+                                        </tr>
+                                        <tr style="text-align:left;font-weight:bold;background:#9CBCE2">
+                                        <td><pre>495510.00000  513680.00000       6.08535   339.52   361.04     0.00  PERIOD  ALL       00009216</pre></td>
+                                        </tr>
+                                        <tr>
+                                        <td>
+                                        <table style="font-family:Courier;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+                                        <tr>
+                                        <td>Point Number</td>
+                                        <td>0</td>
+                                        </tr>
+                                        <tr bgcolor="#D4E4F3">
+                                        <td>Concentration</td>
+                                        <td>6.08535</td>
+                                        </tr>
+                                        <tr>
+                                        <td>UTM zone</td>
+                                        <td>6</td>
+                                        </tr>
+                                        <tr bgcolor="#D4E4F3">
+                                        <td>UTM Easting</td>
+                                        <td>839787.96 m</td>
+                                        </tr>
+                                        <tr>
+                                        <td>UTM Northing</td>
+                                        <td>7304157.23 m</td>
+                                        </tr>
+                                        </table>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                        </body>
+                                        </html>]]></description>
+
+            </Placemark>
+            <Placemark id="ID_1">
+                    <name>1_8.32741_493900.0_513200.0</name>
+                    <Snippet maxLines="0"></Snippet>
+                    <styleUrl>#IconStyle011</styleUrl>
+                    <Point>
+                            <gx:altitudeMode>relativeToGround</gx:altitudeMode>
+                            <coordinates>-139.62866,65.6761856,0.0</coordinates>
+                    </Point>
+                                        <description>
+                                              <![CDATA[<html
+                                                xmlns:fo="http://www.w3.org/1999/XSL/Format"
+                                                xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+                                                <head>
+                                                <META http-equiv="Content-Type" content="text/html">
+                                                <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+                                                </head>
+                                        <body style="margin:0px 0px 0px 0px;overflow:scroll;background:#FFFFFF;">
+                                        <table
+                                         style="font-family:Courier;font-size:12px;font-weight:bold;text-align:left;width:100%;border-collapse:collapse;padding:3px
+                                         3px 3px 3px">
+                                        <tr style="text-align:left;font-weight:bold;background:#9CBCE2">
+                                        <td><pre>       X             Y      AVERAGE CONC    ZELEV    ZHILL    ZFLAG    AVE     GRP      NUM HRS   NET ID&nbsp;&nbsp;</pre></td>
+                                        </tr>
+                                        <tr style="text-align:left;font-weight:bold;background:#9CBCE2">
+                                        <td><pre>493900.00000  513200.00000       8.32741   367.68   367.68     0.00  PERIOD  ALL       00009216</pre></td>
+                                        </tr>
+                                        <tr>
+                                        <td>
+                                        <table style="font-family:Courier;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+                                        <tr>
+                                        <td>Point Number</td>
+                                        <td>1</td>
+                                        </tr>
+                                        <tr bgcolor="#D4E4F3">
+                                        <td>Concentration</td>
+                                        <td>8.32741</td>
+                                        </tr>
+                                        <tr>
+                                        <td>UTM zone</td>
+                                        <td>6</td>
+                                        </tr>
+                                        <tr bgcolor="#D4E4F3">
+                                        <td>UTM Easting</td>
+                                        <td>838177.96 m</td>
+                                        </tr>
+                                        <tr>
+                                        <td>UTM Northing</td>
+                                        <td>7303677.23 m</td>
+                                        </tr>
+                                        </table>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                        </body>
+                                        </html>]]></description>
+
+            </Placemark>
+            <Placemark id="ID_2">
+                    <name>2_8.50722_492700.0_513440.0</name>
+                    <Snippet maxLines="0"></Snippet>
+                    <styleUrl>#IconStyle011</styleUrl>
+                    <Point>
+                            <gx:altitudeMode>relativeToGround</gx:altitudeMode>
+                            <coordinates>-139.65394,65.6795731,0.0</coordinates>
+                    </Point>
+                                        <description>
+                                              <![CDATA[<html
+                                                xmlns:fo="http://www.w3.org/1999/XSL/Format"
+                                                xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+                                                <head>
+                                                <META http-equiv="Content-Type" content="text/html">
+                                                <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+                                                </head>
+                                        <body style="margin:0px 0px 0px 0px;overflow:scroll;background:#FFFFFF;">
+                                        <table
+                                         style="font-family:Courier;font-size:12px;font-weight:bold;text-align:left;width:100%;border-collapse:collapse;padding:3px
+                                         3px 3px 3px">
+                                        <tr style="text-align:left;font-weight:bold;background:#9CBCE2">
+                                        <td><pre>       X             Y      AVERAGE CONC    ZELEV    ZHILL    ZFLAG    AVE     GRP      NUM HRS   NET ID&nbsp;&nbsp;</pre></td>
+                                        </tr>
+                                        <tr style="text-align:left;font-weight:bold;background:#9CBCE2">
+                                        <td><pre>492700.00000  513440.00000       8.50722   334.14   369.80     0.00  PERIOD  ALL       00009216</pre></td>
+                                        </tr>
+                                        <tr>
+                                        <td>
+                                        <table style="font-family:Courier;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+                                        <tr>
+                                        <td>Point Number</td>
+                                        <td>2</td>
+                                        </tr>
+                                        <tr bgcolor="#D4E4F3">
+                                        <td>Concentration</td>
+                                        <td>8.50722</td>
+                                        </tr>
+                                        <tr>
+                                        <td>UTM zone</td>
+                                        <td>6</td>
+                                        </tr>
+                                        <tr bgcolor="#D4E4F3">
+                                        <td>UTM Easting</td>
+                                        <td>836977.96 m</td>
+                                        </tr>
+                                        <tr>
+                                        <td>UTM Northing</td>
+                                        <td>7303917.23 m</td>
+                                        </tr>
+                                        </table>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                        </body>
+                                        </html>]]></description>
+
+            </Placemark>
+            <Placemark id="ID_4">
+                    <name>4_6.64201_495400.0_515180.0</name>
+                    <Snippet maxLines="0"></Snippet>
+                    <styleUrl>#IconStyle011</styleUrl>
+                    <Point>
+                            <gx:altitudeMode>relativeToGround</gx:altitudeMode>
+                            <coordinates>-139.59123,65.6922226,0.0</coordinates>
+                    </Point>
+                                        <description>
+                                              <![CDATA[<html
+                                                xmlns:fo="http://www.w3.org/1999/XSL/Format"
+                                                xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+                                                <head>
+                                                <META http-equiv="Content-Type" content="text/html">
+                                                <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+                                                </head>
+                                        <body style="margin:0px 0px 0px 0px;overflow:scroll;background:#FFFFFF;">
+                                        <table
+                                         style="font-family:Courier;font-size:12px;font-weight:bold;text-align:left;width:100%;border-collapse:collapse;padding:3px
+                                         3px 3px 3px">
+                                        <tr style="text-align:left;font-weight:bold;background:#9CBCE2">
+                                        <td><pre>       X             Y      AVERAGE CONC    ZELEV    ZHILL    ZFLAG    AVE     GRP      NUM HRS   NET ID&nbsp;&nbsp;</pre></td>
+                                        </tr>
+                                        <tr style="text-align:left;font-weight:bold;background:#9CBCE2">
+                                        <td><pre>495400.00000  515180.00000       6.64201   322.22   369.19     0.00  PERIOD  ALL       00009216</pre></td>
+                                        </tr>
+                                        <tr>
+                                        <td>
+                                        <table style="font-family:Courier;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+                                        <tr>
+                                        <td>Point Number</td>
+                                        <td>4</td>
+                                        </tr>
+                                        <tr bgcolor="#D4E4F3">
+                                        <td>Concentration</td>
+                                        <td>6.64201</td>
+                                        </tr>
+                                        <tr>
+                                        <td>UTM zone</td>
+                                        <td>6</td>
+                                        </tr>
+                                        <tr bgcolor="#D4E4F3">
+                                        <td>UTM Easting</td>
+                                        <td>839677.96 m</td>
+                                        </tr>
+                                        <tr>
+                                        <td>UTM Northing</td>
+                                        <td>7305657.23 m</td>
+                                        </tr>
+                                        </table>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                        </body>
+                                        </html>]]></description>
+
+            </Placemark>
+            <Placemark id="ID_5">
+                    <name>5_6.50462_495300.0_513880.0</name>
+                    <Snippet maxLines="0"></Snippet>
+                    <styleUrl>#IconStyle011</styleUrl>
+                    <Point>
+                            <gx:altitudeMode>relativeToGround</gx:altitudeMode>
+                            <coordinates>-139.59672,65.6807632,0.0</coordinates>
+                    </Point>
+                                        <description>
+                                              <![CDATA[<html
+                                                xmlns:fo="http://www.w3.org/1999/XSL/Format"
+                                                xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+                                                <head>
+                                                <META http-equiv="Content-Type" content="text/html">
+                                                <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+                                                </head>
+                                        <body style="margin:0px 0px 0px 0px;overflow:scroll;background:#FFFFFF;">
+                                        <table
+                                         style="font-family:Courier;font-size:12px;font-weight:bold;text-align:left;width:100%;border-collapse:collapse;padding:3px
+                                         3px 3px 3px">
+                                        <tr style="text-align:left;font-weight:bold;background:#9CBCE2">
+                                        <td><pre>       X             Y      AVERAGE CONC    ZELEV    ZHILL    ZFLAG    AVE     GRP      NUM HRS   NET ID&nbsp;&nbsp;</pre></td>
+                                        </tr>
+                                        <tr style="text-align:left;font-weight:bold;background:#9CBCE2">
+                                        <td><pre>495300.00000  513880.00000       6.50462   346.12   363.40     0.00  PERIOD  ALL       00009216</pre></td>
+                                        </tr>
+                                        <tr>
+                                        <td>
+                                        <table style="font-family:Courier;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+                                        <tr>
+                                        <td>Point Number</td>
+                                        <td>5</td>
+                                        </tr>
+                                        <tr bgcolor="#D4E4F3">
+                                        <td>Concentration</td>
+                                        <td>6.50462</td>
+                                        </tr>
+                                        <tr>
+                                        <td>UTM zone</td>
+                                        <td>6</td>
+                                        </tr>
+                                        <tr bgcolor="#D4E4F3">
+                                        <td>UTM Easting</td>
+                                        <td>839577.96 m</td>
+                                        </tr>
+                                        <tr>
+                                        <td>UTM Northing</td>
+                                        <td>7304357.23 m</td>
+                                        </tr>
+                                        </table>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                        </body>
+                                        </html>]]></description>
+
+            </Placemark>
+            <Placemark id="ID_6">
+                    <name>6_5.57588_496430.0_514500.0</name>
+                    <Snippet maxLines="0"></Snippet>
+                    <styleUrl>#IconStyle011</styleUrl>
+                    <Point>
+                            <gx:altitudeMode>relativeToGround</gx:altitudeMode>
+                            <coordinates>-139.57073,65.6850891,0.0</coordinates>
+                    </Point>
+                                        <description>
+                                              <![CDATA[<html
+                                                xmlns:fo="http://www.w3.org/1999/XSL/Format"
+                                                xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+                                                <head>
+                                                <META http-equiv="Content-Type" content="text/html">
+                                                <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+                                                </head>
+                                        <body style="margin:0px 0px 0px 0px;overflow:scroll;background:#FFFFFF;">
+                                        <table
+                                         style="font-family:Courier;font-size:12px;font-weight:bold;text-align:left;width:100%;border-collapse:collapse;padding:3px
+                                         3px 3px 3px">
+                                        <tr style="text-align:left;font-weight:bold;background:#9CBCE2">
+                                        <td><pre>       X             Y      AVERAGE CONC    ZELEV    ZHILL    ZFLAG    AVE     GRP      NUM HRS   NET ID&nbsp;&nbsp;</pre></td>
+                                        </tr>
+                                        <tr style="text-align:left;font-weight:bold;background:#9CBCE2">
+                                        <td><pre>496430.00000  514500.00000       5.57588   318.65   354.74     0.00  PERIOD  ALL       00009216</pre></td>
+                                        </tr>
+                                        <tr>
+                                        <td>
+                                        <table style="font-family:Courier;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+                                        <tr>
+                                        <td>Point Number</td>
+                                        <td>6</td>
+                                        </tr>
+                                        <tr bgcolor="#D4E4F3">
+                                        <td>Concentration</td>
+                                        <td>5.57588</td>
+                                        </tr>
+                                        <tr>
+                                        <td>UTM zone</td>
+                                        <td>6</td>
+                                        </tr>
+                                        <tr bgcolor="#D4E4F3">
+                                        <td>UTM Easting</td>
+                                        <td>840707.96 m</td>
+                                        </tr>
+                                        <tr>
+                                        <td>UTM Northing</td>
+                                        <td>7304977.23 m</td>
+                                        </tr>
+                                        </table>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                        </body>
+                                        </html>]]></description>
+
+            </Placemark>
+        </Folder>
+        <Folder id="FeatureLayer0">
+            <name>0.1729e+01 up to 0.5526e+01</name>
+            <styleUrl>#IconStyle05</styleUrl>
+            <Placemark id="ID_3">
+                    <name>3_5.07408_492440.0_511190.0</name>
+                    <Snippet maxLines="0"></Snippet>
+                    <styleUrl>#IconStyle05</styleUrl>
+                    <Point>
+                            <gx:altitudeMode>relativeToGround</gx:altitudeMode>
+                            <coordinates>-139.66525,65.6598282,0.0</coordinates>
+                    </Point>
+                                        <description>
+                                              <![CDATA[<html
+                                                xmlns:fo="http://www.w3.org/1999/XSL/Format"
+                                                xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+                                                <head>
+                                                <META http-equiv="Content-Type" content="text/html">
+                                                <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+                                                </head>
+                                        <body style="margin:0px 0px 0px 0px;overflow:scroll;background:#FFFFFF;">
+                                        <table
+                                         style="font-family:Courier;font-size:12px;font-weight:bold;text-align:left;width:100%;border-collapse:collapse;padding:3px
+                                         3px 3px 3px">
+                                        <tr style="text-align:left;font-weight:bold;background:#9CBCE2">
+                                        <td><pre>       X             Y      AVERAGE CONC    ZELEV    ZHILL    ZFLAG    AVE     GRP      NUM HRS   NET ID&nbsp;&nbsp;</pre></td>
+                                        </tr>
+                                        <tr style="text-align:left;font-weight:bold;background:#9CBCE2">
+                                        <td><pre>492440.00000  511190.00000       5.07408   321.22   321.22     0.00  PERIOD  ALL       00009216</pre></td>
+                                        </tr>
+                                        <tr>
+                                        <td>
+                                        <table style="font-family:Courier;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+                                        <tr>
+                                        <td>Point Number</td>
+                                        <td>3</td>
+                                        </tr>
+                                        <tr bgcolor="#D4E4F3">
+                                        <td>Concentration</td>
+                                        <td>5.07408</td>
+                                        </tr>
+                                        <tr>
+                                        <td>UTM zone</td>
+                                        <td>6</td>
+                                        </tr>
+                                        <tr bgcolor="#D4E4F3">
+                                        <td>UTM Easting</td>
+                                        <td>836717.96 m</td>
+                                        </tr>
+                                        <tr>
+                                        <td>UTM Northing</td>
+                                        <td>7301667.23 m</td>
+                                        </tr>
+                                        </table>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                        </body>
+                                        </html>]]></description>
+
+            </Placemark>
+        </Folder>
+        <Folder id="FeatureLayer0">
+            <name>0.5410e+00 up to 0.1729e+01</name>
+            <styleUrl>#IconStyle03</styleUrl>
+        </Folder>
+        <Folder id="FeatureLayer0">
+            <name>0.1693e+00 up to 0.5410e+00</name>
+            <styleUrl>#IconStyle00</styleUrl>
+        </Folder>
+        <Folder id="FeatureLayer0">
+            <name>0.5296e-01 up to 0.1693e+00</name>
+            <styleUrl>#IconStyle013</styleUrl>
+        </Folder>
+        <Folder id="FeatureLayer0">
+            <name>0.1657e-01 up to 0.5296e-01</name>
+            <styleUrl>#IconStyle02</styleUrl>
+        </Folder>
+        <Folder id="FeatureLayer0">
+            <name>0.5185e-02 up to 0.1657e-01</name>
+            <styleUrl>#IconStyle0155</styleUrl>
+        </Folder>
+        <Folder id="FeatureLayer0">
+            <name>0.1622e-02 up to 0.5185e-02</name>
+            <styleUrl>#IconStyle021</styleUrl>
+        </Folder>
+        <Folder id="FeatureLayer0">
+            <name> Minimum up to 0.1622e-02</name>
+            <styleUrl>#IconStyle059</styleUrl>
+        </Folder>
+    </Folder>
+</Document>
+</kml>
