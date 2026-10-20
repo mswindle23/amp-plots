@@ -1,5 +1,9 @@
 # Figures for the AAAR poster
 
+For the requested **0.5, 1, 5, and 10 µm** profiles and revised settling
+figures, use the [October 20 revision](revisions/2026-10-20/README.md).
+The figures described below are the preserved original versions.
+
 These figures illustrate the abstract's theoretical questions using a hypothetical
 100 m × 100 m source near Clemson and actual 2023 meteorology. The total mass
 emission is normalized to **1 g/s in every particle case**. None of the plotted

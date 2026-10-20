@@ -46,10 +46,10 @@ def verify_artifact(project: Path, item: dict) -> dict:
     return {"path": str(path), "sha256": actual, "bytes": path.stat().st_size}
 
 
-def required_inputs(project: Path, directory: Path) -> set[Path]:
+def required_inputs(project: Path, directory: Path, scenario_path: Path | None = None) -> set[Path]:
     """Check the four model-file bindings actually named in this study's deck."""
     deck = directory / "aermod.inp"
-    required = {deck.resolve(), (project / "scenario.json").resolve()}
+    required = {deck.resolve(), (scenario_path or project / "scenario.json").resolve()}
     named = {}
     for line in deck.read_text(encoding="utf-8").splitlines():
         if not line.strip() or line.lstrip().startswith(("**", "!", "#", ";")):
@@ -115,6 +115,7 @@ def verify_model_result(project: Path, result_path: Path) -> dict:
     """
     project, result_path = project.resolve(), result_path.resolve()
     directory = result_path.parent
+    scenario_path = project / "scenario.json"
     try:
         records = matching_steps(project, directory)
         if not records:
@@ -130,7 +131,12 @@ def verify_model_result(project: Path, result_path: Path) -> dict:
         if not isinstance(inputs, list) or not inputs or not isinstance(outputs, list):
             raise ValueError("Native-model audit has no input/output artifact inventory")
         actual_inputs = {artifact_path(project, item) for item in inputs}
-        unrecorded = required_inputs(project, directory) - actual_inputs
+        scenario_record = step.get("scenario")
+        scenario_path = (artifact_path(project, scenario_record)
+                         if isinstance(scenario_record, dict) else project / "scenario.json")
+        if isinstance(scenario_record, dict):
+            verify_artifact(project, scenario_record)
+        unrecorded = required_inputs(project, directory, scenario_path) - actual_inputs
         if unrecorded:
             raise ValueError("Model run did not hash current required bindings: " + ", ".join(map(str, sorted(unrecorded))))
         checked_inputs = [verify_artifact(project, item) for item in inputs]
@@ -158,6 +164,7 @@ def verify_model_result(project: Path, result_path: Path) -> dict:
             "execution_record": {"path": str(record_path), "sha256": sha256(record_path)},
             "manifest": {"path": str(manifest_path), "sha256": sha256(manifest_path)} if manifest_path.is_file() else None,
             "reported_model_version": step.get("audit", {}).get("reported_version"),
+            "scenario": str(scenario_path.resolve()),
             "inputs": checked_inputs,
             "binary": checked_binary,
             "output": checked_output,
@@ -168,8 +175,10 @@ def verify_model_result(project: Path, result_path: Path) -> dict:
             case = directory.relative_to(project / "aermod").parts[0]
         except (ValueError, IndexError):
             case = "<particle_case>"
+        scenario_option = (" --scenario " + shlex.quote(str(scenario_path))
+                           if scenario_path.resolve() != (project / "scenario.json").resolve() else "")
         raise UnverifiedModelResult(
             f"Cannot plot unverified or stale model output {result_path}: {exc}. "
             f"Rerun: python clemson_amp/scripts/run_models.py --project {project} "
-            f"--case {case} --metrics {directory.name}; then regenerate figures."
+            f"--case {case} --metrics {directory.name}{scenario_option}; then regenerate figures."
         ) from exc

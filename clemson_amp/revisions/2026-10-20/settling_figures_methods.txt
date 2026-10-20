@@ -1,0 +1,113 @@
+METHODS: theoretical_settling_v2 and settling_velocity_vs_chi
+Revision: 2026-10-20
+
+These are analytical calculations in air, separate from AERMOD outputs.
+No source location, meteorological date range, or field observations are
+used in the calculation. The associated AERMOD project is near Clemson,
+South Carolina, and uses 2023 weather; its location and dates do not make
+these constant-air-property calculations observed settling measurements.
+
+DEFINITION AND EQUATION
+The dynamic shape factor chi is the drag of the nonspherical particle
+divided by the drag of a sphere of equal volume moving at the same speed,
+with consistent flow-regime and orientation conventions. Chi is a SHAPE
+factor; diameter separately represents size. Ideal spheres have chi = 1.
+Larger chi means greater drag and slower settling at fixed volume/density.
+It is not the Corey shape factor, sphericity, or a generic drag coefficient;
+numerical values of those quantities cannot be substituted for chi.
+
+The implemented approximate low-Reynolds-number settling expression is:
+  v = (rho_particle - rho_air) * g * d_ve^2 * Cc(d_ve) / (18 * mu * chi)
+  Cc = 1 + (2*lambda/d_ve) * [1.257 + 0.4*exp(-0.55*d_ve/lambda)]
+where d_ve is volume-equivalent sphere diameter in meters. The buoyancy
+correction is included. Velocity is exported in m/s and plotted in mm/s.
+Reynolds number is rho_air*v*d_ve/mu.
+
+Constants, held fixed rather than taken from hourly meteorology:
+  gravitational acceleration g = 9.80616 m/s2
+  air dynamic viscosity mu = 1.81e-5 Pa s
+  air density rho_air = 1.2 kg/m3
+  air mean free path lambda = 65e-9 m
+These approximate near-ambient air properties do not describe every hour
+of the 2023 meteorology. The constants and spherical slip expression match
+the verified AERMOD26135 particle-settling implementation used as reference.
+
+The correction matters for the smallest size: Cc is approximately 1.328
+at 0.5 micrometers. Applying a sphere's slip correction at d_ve and then
+dividing by a constant continuum chi is a schematic approximation for
+nonspherical particles. Real effective chi can depend on size/Knudsen
+number and orientation. These figures do not establish measured fiber or
+film settling speeds, and they do not alter shape in the AERMOD runs.
+
+SINGLE-PANEL theoretical_settling_v2
+The first type of panel from the original theoretical_settling figure is
+retained: settling velocity versus diameter. The Reynolds-number panel
+is removed. Diameter range is 0.5-10 micrometers; the sphere curves mark
+0.5, 1, 5, and 10 micrometers. Density colors represent 900, 1050, and
+1400 kg/m3. Line styles represent chi = 1, 2, and 3. Values 2 and 3 are
+explicit illustrative sensitivities, not assigned typical values for
+fibers, fragments, films, or other microplastic morphotypes.
+The largest Reynolds number in these plotted curves is approximately
+0.00284; the low-Reynolds-number Stokes approximation is appropriate for
+the spherical reference within this restricted size range.
+
+SIMPLE settling_velocity_vs_chi
+Volume-equivalent diameter is fixed at 10 micrometers and material density
+at 1050 kg/m3. The curve varies chi only. Thus v(chi)/v(1) = 1/chi.
+For chi = 1, 2, and 3, velocities are approximately 3.208, 1.604, and
+1.069 mm/s. These are predictions for the stated equivalent-volume
+surrogate, not observed velocities of particular morphotypes.
+Literature annotations identify their reference geometry and source.
+They must not be interpreted as universal microplastic morphotype means.
+
+MORPHOTYPE EVIDENCE AND CAVEATS
+The numerical source ledger is morphotype_shape_factors.json; the detailed
+research record is literature_notes.md. These accompany the figure.
+Published aerosol reference-shape values can support idealized proxies,
+while published microplastic studies emphasize aspect ratio, orientation,
+and flow-regime dependence. An ideal bead may be represented by a sphere;
+a compact fragment by a cube proxy; a fiber by a specified cylinder proxy.
+Irregular real fragments and fibers can differ greatly from those proxies.
+No unsupported chi constant is imputed for film or foam. Hollow/porous
+particles also require a clearly defined material/effective density and
+equivalent-volume convention, beyond naming a morphotype.
+
+Reference geometry                    chi       Interpretation
+Sphere                                1.00      Ideal bead/pellet reference
+Cube                                  1.08      Compact-fragment proxy
+Average-orientation cylinder, L/D=2    1.10      Specified fiber proxy
+Average-orientation cylinder, L/D=5    1.35      Specified fiber proxy
+Average-orientation cylinder, L/D=10   1.68      Specified fiber proxy
+Film                                  unassigned
+Foam                                  unassigned
+
+The table is verified in Particula's Hinds-cited implementation, pinned at
+commit acf38253e09e8f629bd5e2e93f3aa3a875e5cbd6. Hinds' original textbook
+table was not independently accessed. It supplies secondary support for
+reference geometries, not empirically typical environmental microplastic
+values. The targeted studies inspected did not establish a defensible
+typical chi per morphotype; this is not proof that no further data exist.
+Exact source URL and retrieval hashes are supplied in the source ledger.
+
+In particular, measured fiber-to-sphere velocity ratios from large,
+finite-Reynolds-number microplastic fibers cannot simply be inverted and
+used as micron-scale dynamic chi values. Values measured in water or
+reported as Corey/Aschenbrenner shape factors are not substituted here.
+The research ledger gives actual microplastic study dimensions and
+conditions wherever relevant, alongside the chosen reference proxies.
+
+Relevant atmospheric microplastic studies include Tatsii et al. (2024),
+Shape Matters, doi:10.1021/acs.est.3c08209 (full text inspected), and
+Preston et al. (2023), Effects of Shape and Size on Microplastic Atmospheric
+Settling Velocity, doi:10.1021/acs.est.3c03671 (abstract inspected; full text
+unavailable through the accessed sources). Literature_notes.md records
+the evidence and access limits for these and the other studies checked.
+
+REPRODUCIBILITY
+Generator: clemson_amp/scripts/revision_figures.py.
+CSV files beside the figures contain all sampled curve coordinates,
+diameter, density, chi, Cunningham correction, velocity, and Reynolds number.
+The complete figure provenance records exact equation/constants, source
+ledger hash, script/dependency hashes, rendered file hashes, and whether
+the figure is analytical or derived from native model output.
+Original figures remain available unchanged.

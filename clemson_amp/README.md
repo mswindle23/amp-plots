@@ -1,5 +1,9 @@
 # Illustrative Clemson airborne microplastic study
 
+The [October 20 figure revision](revisions/2026-10-20/README.md) adds
+0.5/1/5/10 µm distance profiles, a single-panel settling figure, and a
+velocity–χ figure with plot-specific methods and documented literature limits.
+
 This project adapts the repository's EPA sample inputs to the poster abstract
 **A Theoretical Study on Transport and Deposition of Airborne Microplastics**.
 The original sample files in the repository root remain unchanged.

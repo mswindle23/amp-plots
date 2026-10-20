@@ -313,6 +313,7 @@ def execute(kind: str, cwd: Path, binary: Path, project: Path, run_dir: Path,
         "id": label, "component": kind, "working_directory": str(cwd),
         "started_utc": utc_now(), "status": "failed", "problems": [],
         "binary": artifact(binary, project),
+        "scenario": artifact(scenario, project),
     }
     try:
         if not deck.is_file():
@@ -387,6 +388,8 @@ def resolve_binary(directory: Path, name: str) -> Path:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--project", type=Path, default=Path(__file__).resolve().parents[1])
+    parser.add_argument("--scenario", type=Path,
+                        help="Scenario JSON (default: PROJECT/scenario.json); permits isolated case revisions")
     parser.add_argument("--bin-dir", type=Path, default=DEFAULT_BIN_DIR)
     parser.add_argument("--aermap", action=argparse.BooleanOptionalAction, default=None,
                         help="Run terrain preprocessing (enabled by --all unless --no-aermap)")
@@ -400,7 +403,7 @@ def main() -> int:
     parser.add_argument("--timeout-seconds", type=float, default=0, help="Per-command timeout; 0 means no timeout")
     args = parser.parse_args()
     project = args.project.resolve()
-    scenario_path = project / "scenario.json"
+    scenario_path = args.scenario.resolve() if args.scenario else project / "scenario.json"
     try:
         scenario = json.loads(scenario_path.read_text(encoding="utf-8"))
         standard_cases = [case["name"] for case in scenario["particle_cases"]]

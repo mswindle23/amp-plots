@@ -3,6 +3,18 @@
 Use GitHub's **Download raw file** button after opening a ZIP or PDF below.
 For the entire branch, select **Code → Download ZIP** on the repository page.
 
+The **October 20 figure revision** is available separately:
+
+- [Revised figures, numerical data, methods, and native model results (ZIP)](clemson_amp_figure_revision_2026-10-20.zip)
+- [Distance profiles: 0.5, 1, 5, and 10 µm (PDF)](revision_2026-10-20/figures/particle_distance_profiles_v2.pdf)
+- [Single-panel settling with χ sensitivity (PDF)](revision_2026-10-20/figures/theoretical_settling_v2.pdf)
+- [Settling velocity versus dynamic shape factor χ (PDF)](revision_2026-10-20/figures/settling_velocity_vs_chi.pdf)
+- [Data used for the revised distance profiles (text)](revision_2026-10-20/particle_distance_profiles_v2_data_description.txt)
+- [Settling calculations and shape-factor sources (text)](revision_2026-10-20/settling_figures_methods.txt)
+- [Revision notes and supporting files](revision_2026-10-20/)
+
+The original downloads remain available:
+
 - [Complete package: inputs, processed data, model results and figures](clemson_amp_poster_package.zip) (6.7 MB)
 - [Input files, scripts and instructions](clemson_inputs.zip) (163 KB)
 - [Seven figure sets and caption guide](clemson_figures.zip) (2.9 MB)
