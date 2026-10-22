@@ -1,0 +1,88 @@
+{
+  "coordinate_system": "EPSG26917 NAD83/UTM17N",
+  "concentration_unit": "ug/m3",
+  "deposition_hourly_flux_unit": "ug/m2/h",
+  "deposition_period_unit": "ug/m2",
+  "period_results": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/outputs/period_results.csv",
+    "sha256": "77b7e8f7163c96432ff732a89a0691a059e7bce391aaf8b8ffddf658cdf79fa9",
+    "bytes": 3384493
+  },
+  "hourly_results": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/outputs/hourly_results.csv",
+    "sha256": "c4778fbc978ad037e42bd5267b186173984121ae46b04f26c732046de7e5a001",
+    "bytes": 80788157
+  },
+  "cases": [
+    {
+      "case": "u1_r0",
+      "wind_speed_m_s": 1.0,
+      "wind_group": "<2 m/s",
+      "rain_mm_h": 0.0,
+      "hours": 24
+    },
+    {
+      "case": "u1_r1",
+      "wind_speed_m_s": 1.0,
+      "wind_group": "<2 m/s",
+      "rain_mm_h": 1.0,
+      "hours": 24
+    },
+    {
+      "case": "u2_r0",
+      "wind_speed_m_s": 2.0,
+      "wind_group": "2-5 m/s",
+      "rain_mm_h": 0.0,
+      "hours": 24
+    },
+    {
+      "case": "u2_r1",
+      "wind_speed_m_s": 2.0,
+      "wind_group": "2-5 m/s",
+      "rain_mm_h": 1.0,
+      "hours": 24
+    },
+    {
+      "case": "u3p5_r0",
+      "wind_speed_m_s": 3.5,
+      "wind_group": "2-5 m/s",
+      "rain_mm_h": 0.0,
+      "hours": 24
+    },
+    {
+      "case": "u3p5_r1",
+      "wind_speed_m_s": 3.5,
+      "wind_group": "2-5 m/s",
+      "rain_mm_h": 1.0,
+      "hours": 24
+    },
+    {
+      "case": "u5_r0",
+      "wind_speed_m_s": 5.0,
+      "wind_group": "2-5 m/s",
+      "rain_mm_h": 0.0,
+      "hours": 24
+    },
+    {
+      "case": "u5_r1",
+      "wind_speed_m_s": 5.0,
+      "wind_group": "2-5 m/s",
+      "rain_mm_h": 1.0,
+      "hours": 24
+    },
+    {
+      "case": "u7_r0",
+      "wind_speed_m_s": 7.0,
+      "wind_group": ">5 m/s",
+      "rain_mm_h": 0.0,
+      "hours": 24
+    },
+    {
+      "case": "u7_r1",
+      "wind_speed_m_s": 7.0,
+      "wind_group": ">5 m/s",
+      "rain_mm_h": 1.0,
+      "hours": 24
+    }
+  ]
+}

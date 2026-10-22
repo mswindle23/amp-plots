@@ -1,0 +1,1156 @@
+{
+  "status": "passed",
+  "method": "Independent direct native ASCII calculations and physical checks; no figure/export tables used",
+  "script": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scripts/independent_validate.py",
+    "sha256": "5bf1e4d8d4fa7441c26d9569f658c7b3c0f432075d9a824b341e36e412082f10"
+  },
+  "scenario": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+    "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080"
+  },
+  "native_jobs": 30,
+  "cases": 10,
+  "receptors_per_job": 2736,
+  "modeled_hours_per_case": 24,
+  "hourly_metric_rows": 1969920,
+  "native_warning_total": 15,
+  "terrain_check": {
+    "status": "passed",
+    "merged_receptors": 2736,
+    "verified_aermap_artifact_hashes": 34,
+    "original_receptors_retained": 873,
+    "new_receptors": 1863,
+    "exact_native_shard_union": true,
+    "shards": [
+      {
+        "directory": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_01",
+        "receptors": 684,
+        "native_output": {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_01/aermap.rec",
+          "sha256": "600b65fe10708eb17350c0dbbcb3f136fa9e0be59be8a6c22fb0ae99a7a2631f"
+        },
+        "native_report": {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_01/aermap.out",
+          "sha256": "9a510df6666457c622a93ac49c53659de2025f8a5ce41fc19b3866af8b0bd63f"
+        }
+      },
+      {
+        "directory": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_02",
+        "receptors": 684,
+        "native_output": {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_02/aermap.rec",
+          "sha256": "23d7bfbaa579b88b8d3c980419fa18ebdb81bdfd81f925af304e266a95737600"
+        },
+        "native_report": {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_02/aermap.out",
+          "sha256": "e14661c0665936d3f04f1d96edd9747fabd14f05b3fadc2c5461d17eeb96d69b"
+        }
+      },
+      {
+        "directory": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_03",
+        "receptors": 684,
+        "native_output": {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_03/aermap.rec",
+          "sha256": "5a3690979ccf05f2d84e46f5c948150f9910d2084cff8416f7a91cf5b462ee1a"
+        },
+        "native_report": {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_03/aermap.out",
+          "sha256": "257c799903d548e8b2d3b57c044ad22a67ba16c922c48298c7f81259f5008758"
+        }
+      },
+      {
+        "directory": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_04",
+        "receptors": 684,
+        "native_output": {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_04/aermap.rec",
+          "sha256": "23e456f58b42501ba4fac49d0bdd09ce2463aa1f65c7622e3cb3e722c88dac87"
+        },
+        "native_report": {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_04/aermap.out",
+          "sha256": "41530702c01695fed45f4e16422646e3b90a3a5270999bf3fbb6ba55767c8c33"
+        }
+      }
+    ],
+    "merged_native_include": {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+      "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876"
+    },
+    "refined_aermap_audit": {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/aermap_validation.json",
+      "sha256": "3efd6fab60e3dbb53d2a65bfcbe56d17043467ad0f786646e038b392d46c87ae"
+    }
+  },
+  "meteorology_checks": [
+    {
+      "case": "u1_r0",
+      "hours": 24,
+      "surface_time_invariant": true,
+      "profile_time_invariant": true,
+      "wind_m_s": 1.0,
+      "precipitation_mm_h": 0.0,
+      "friction_velocity_m_s": 0.0868579627628,
+      "sensible_heat_flux_W_m2": -5.90030969647e-05,
+      "neutral_limit_surface_layer_consistency": "passed",
+      "surface": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u1_r0.sfc",
+        "sha256": "44de3523cc54a9a305a342339adf78b3e7c5fab25b312e157703b0eeacea3f03"
+      },
+      "profile": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u1_r0.pfl",
+        "sha256": "7c7e1b451852bfa9009ca1823c57c17366a1cb9ada1029619ee112775ac5a32d"
+      }
+    },
+    {
+      "case": "u1_r1",
+      "hours": 24,
+      "surface_time_invariant": true,
+      "profile_time_invariant": true,
+      "wind_m_s": 1.0,
+      "precipitation_mm_h": 1.0,
+      "friction_velocity_m_s": 0.0868579627628,
+      "sensible_heat_flux_W_m2": -5.90030969647e-05,
+      "neutral_limit_surface_layer_consistency": "passed",
+      "surface": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u1_r1.sfc",
+        "sha256": "b22abcb0e3f3092e2a537a6ccba6ed30c5b18b919128ee74bc072abb8c69c9b2"
+      },
+      "profile": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u1_r1.pfl",
+        "sha256": "7c7e1b451852bfa9009ca1823c57c17366a1cb9ada1029619ee112775ac5a32d"
+      }
+    },
+    {
+      "case": "u2_r0",
+      "hours": 24,
+      "surface_time_invariant": true,
+      "profile_time_invariant": true,
+      "wind_m_s": 2.0,
+      "precipitation_mm_h": 0.0,
+      "friction_velocity_m_s": 0.173715925526,
+      "sensible_heat_flux_W_m2": -0.000472024775718,
+      "neutral_limit_surface_layer_consistency": "passed",
+      "surface": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r0.sfc",
+        "sha256": "46afdf8fc1759fbcc4cac7448c15b475a66686f3f52f144787a597f880b0f860"
+      },
+      "profile": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r0.pfl",
+        "sha256": "e3d61aea35e5c46d76816a5389d2e601097d83d5c7eae2dc29ecf51c8da43819"
+      }
+    },
+    {
+      "case": "u2_r1",
+      "hours": 24,
+      "surface_time_invariant": true,
+      "profile_time_invariant": true,
+      "wind_m_s": 2.0,
+      "precipitation_mm_h": 1.0,
+      "friction_velocity_m_s": 0.173715925526,
+      "sensible_heat_flux_W_m2": -0.000472024775718,
+      "neutral_limit_surface_layer_consistency": "passed",
+      "surface": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r1.sfc",
+        "sha256": "ea14a010f1ebd31b6e4dae89b45c68731aea0005203e8bd45381a60100b57aaa"
+      },
+      "profile": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r1.pfl",
+        "sha256": "e3d61aea35e5c46d76816a5389d2e601097d83d5c7eae2dc29ecf51c8da43819"
+      }
+    },
+    {
+      "case": "u3p5_r0",
+      "hours": 24,
+      "surface_time_invariant": true,
+      "profile_time_invariant": true,
+      "wind_m_s": 3.5,
+      "precipitation_mm_h": 0.0,
+      "friction_velocity_m_s": 0.30400286967,
+      "sensible_heat_flux_W_m2": -0.00252975778236,
+      "neutral_limit_surface_layer_consistency": "passed",
+      "surface": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u3p5_r0.sfc",
+        "sha256": "c4ae2572389b012be58626c3ac4f2dfea913f17ee51a434ee2dd8525b8505c1c"
+      },
+      "profile": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u3p5_r0.pfl",
+        "sha256": "beb50944e349851eb64df4d3e38317c75fe1e9155153dbb5bfa09e90c3f78c79"
+      }
+    },
+    {
+      "case": "u3p5_r1",
+      "hours": 24,
+      "surface_time_invariant": true,
+      "profile_time_invariant": true,
+      "wind_m_s": 3.5,
+      "precipitation_mm_h": 1.0,
+      "friction_velocity_m_s": 0.30400286967,
+      "sensible_heat_flux_W_m2": -0.00252975778236,
+      "neutral_limit_surface_layer_consistency": "passed",
+      "surface": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u3p5_r1.sfc",
+        "sha256": "0ee8a2c997d050f0018bbbef7b1251bdb1d1aacf780f49560406aba549c429b9"
+      },
+      "profile": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u3p5_r1.pfl",
+        "sha256": "beb50944e349851eb64df4d3e38317c75fe1e9155153dbb5bfa09e90c3f78c79"
+      }
+    },
+    {
+      "case": "u5_r0",
+      "hours": 24,
+      "surface_time_invariant": true,
+      "profile_time_invariant": true,
+      "wind_m_s": 5.0,
+      "precipitation_mm_h": 0.0,
+      "friction_velocity_m_s": 0.434289813814,
+      "sensible_heat_flux_W_m2": -0.00737538712059,
+      "neutral_limit_surface_layer_consistency": "passed",
+      "surface": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u5_r0.sfc",
+        "sha256": "f1d207b740253e50476c775d43343625c16d4ba9a9c1eb15523a1e5ec658c80b"
+      },
+      "profile": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u5_r0.pfl",
+        "sha256": "df2c256f24d22c792dc20e2617de2ef509cedd65966655dfdd95232f57f2708a"
+      }
+    },
+    {
+      "case": "u5_r1",
+      "hours": 24,
+      "surface_time_invariant": true,
+      "profile_time_invariant": true,
+      "wind_m_s": 5.0,
+      "precipitation_mm_h": 1.0,
+      "friction_velocity_m_s": 0.434289813814,
+      "sensible_heat_flux_W_m2": -0.00737538712059,
+      "neutral_limit_surface_layer_consistency": "passed",
+      "surface": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u5_r1.sfc",
+        "sha256": "2bd253f2759cc774bfe8523272e442385887be368db6c465fb63b32b5a8581f3"
+      },
+      "profile": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u5_r1.pfl",
+        "sha256": "df2c256f24d22c792dc20e2617de2ef509cedd65966655dfdd95232f57f2708a"
+      }
+    },
+    {
+      "case": "u7_r0",
+      "hours": 24,
+      "surface_time_invariant": true,
+      "profile_time_invariant": true,
+      "wind_m_s": 7.0,
+      "precipitation_mm_h": 0.0,
+      "friction_velocity_m_s": 0.608005739339,
+      "sensible_heat_flux_W_m2": -0.0202380622589,
+      "neutral_limit_surface_layer_consistency": "passed",
+      "surface": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u7_r0.sfc",
+        "sha256": "07ef7a3cd907835b3503a5f89ff92001609e7038e8e6d89733cd94db2fe80493"
+      },
+      "profile": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u7_r0.pfl",
+        "sha256": "c69a4dbdddaae187cceac30f8b2e93a5e0e674836239d84a218e463236fb7b08"
+      }
+    },
+    {
+      "case": "u7_r1",
+      "hours": 24,
+      "surface_time_invariant": true,
+      "profile_time_invariant": true,
+      "wind_m_s": 7.0,
+      "precipitation_mm_h": 1.0,
+      "friction_velocity_m_s": 0.608005739339,
+      "sensible_heat_flux_W_m2": -0.0202380622589,
+      "neutral_limit_surface_layer_consistency": "passed",
+      "surface": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u7_r1.sfc",
+        "sha256": "08d7e9c462487cc4929144097c56f10945253828a42dda99a38c1d8c12c59afd"
+      },
+      "profile": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u7_r1.pfl",
+        "sha256": "c69a4dbdddaae187cceac30f8b2e93a5e0e674836239d84a218e463236fb7b08"
+      }
+    }
+  ],
+  "native_checks": [
+    {
+      "case": "u1_r0",
+      "metric": "concentration",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "mean",
+      "fatal_errors": 0,
+      "warning_codes": [
+        "MXW496"
+      ],
+      "period_hourly_max_relative_difference": 7.200747652127302e-16,
+      "positive_receptors": 1909,
+      "hourly_positive_min": 4.1964400000000005e-09,
+      "hourly_max": 0.0966444,
+      "period_max": 0.0966444,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u1_r0__concentration.json",
+        "sha256": "43f2a36047819c8a870da2c0ab801f56a97ed6d1a9c7e4373f800019dbf97b6c"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/concentration/hourly.plt",
+        "sha256": "7bfbd80310989890b72884ec7c354a0453a7dcf19de635f03211b42c7167e342"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/concentration/annual.plt",
+        "sha256": "7a65c08daed36daf89b5ccde56de5114733177863b7773eae0a77b7acb47e198"
+      }
+    },
+    {
+      "case": "u1_r0",
+      "metric": "dry_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [
+        "MXW496"
+      ],
+      "period_hourly_max_relative_difference": 5.963882726627275e-06,
+      "positive_receptors": 1909,
+      "hourly_positive_min": 1.6024600000000004e-08,
+      "hourly_max": 0.362271,
+      "period_max": 8.69451,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u1_r0__dry_deposition.json",
+        "sha256": "41665fae72ccf284066321551ee7fd0a4fd1d965ae77229de718a4bc37a34092"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/dry_deposition/hourly.plt",
+        "sha256": "ff250378b9bf9b38ff1b3572ed0b6bdc73824911642d4ecd74abc350770b4178"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/dry_deposition/annual.plt",
+        "sha256": "e54ad8b5e92539581015600871c72a2e87222b25b4b22d50a552e41a64f6f195"
+      }
+    },
+    {
+      "case": "u1_r0",
+      "metric": "wet_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [
+        "MXW496"
+      ],
+      "period_hourly_max_relative_difference": 0.0,
+      "positive_receptors": 0,
+      "hourly_positive_min": null,
+      "hourly_max": 0.0,
+      "period_max": 0.0,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u1_r0__wet_deposition.json",
+        "sha256": "66e786330bdfae1916a847a6aab16dc2e2da9b75b51acb43373c2720b5f83ed2"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/wet_deposition/hourly.plt",
+        "sha256": "09dd2d113830bae134496b9f3982f603c43480982332a1412b9e25ac659685e3"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/wet_deposition/annual.plt",
+        "sha256": "80cc3dd6e336ba3866d0de4a1627a6f0dc1aa465492d2b0061eb038782cd1bfd"
+      }
+    },
+    {
+      "case": "u1_r1",
+      "metric": "concentration",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "mean",
+      "fatal_errors": 0,
+      "warning_codes": [],
+      "period_hourly_max_relative_difference": 7.178884114724623e-16,
+      "positive_receptors": 1909,
+      "hourly_positive_min": 3.4130599999999994e-09,
+      "hourly_max": 0.0963352,
+      "period_max": 0.0963352,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u1_r1__concentration.json",
+        "sha256": "a475122ace7c0868ad88f70942633acb6aefb37afb85def4e2f0dbd43ababc45"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/concentration/hourly.plt",
+        "sha256": "b7abd547b10bb96ea531c0d0400c43fb677de23defc098a9ade3647ff0271cf5"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/concentration/annual.plt",
+        "sha256": "aaf1358baa41924df46f89993884e35d06fea16c341313fe9b7b2a3a62056aee"
+      }
+    },
+    {
+      "case": "u1_r1",
+      "metric": "dry_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [],
+      "period_hourly_max_relative_difference": 6.589308188815638e-06,
+      "positive_receptors": 1909,
+      "hourly_positive_min": 1.30332e-08,
+      "hourly_max": 0.361209,
+      "period_max": 8.66901,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u1_r1__dry_deposition.json",
+        "sha256": "93e661d63ec80c7af210eaa191ab4b1ddcac147aa2bdbcc69950e929540bb3f5"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/dry_deposition/hourly.plt",
+        "sha256": "dd759ec1fa7582dbda1571e49ac43f4b673f73caf1767a603f53eee6ca2a8564"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/dry_deposition/annual.plt",
+        "sha256": "7ab27e5530d58181534f7c6adbf25b21b5e8736fb2699e5c4b3dd452936502f2"
+      }
+    },
+    {
+      "case": "u1_r1",
+      "metric": "wet_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [],
+      "period_hourly_max_relative_difference": 5.926241991924707e-06,
+      "positive_receptors": 1909,
+      "hourly_positive_min": 1.316709999999999e-07,
+      "hourly_max": 0.338721,
+      "period_max": 8.1293,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u1_r1__wet_deposition.json",
+        "sha256": "3d24c78bf801e39fa3a26b832b7cdccd849c1373b46fab553de166edb0164476"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/wet_deposition/hourly.plt",
+        "sha256": "1d0ef21e90514ae7733f7e36073b0e6e77cac05b92426e0d14bfbea9306551bb"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/wet_deposition/annual.plt",
+        "sha256": "2d9cca25ea457507967c4e587c73da38c2e824f9f2ade78f379bc2668e390d84"
+      }
+    },
+    {
+      "case": "u2_r0",
+      "metric": "concentration",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "mean",
+      "fatal_errors": 0,
+      "warning_codes": [
+        "MXW496"
+      ],
+      "period_hourly_max_relative_difference": 7.189848371464842e-16,
+      "positive_receptors": 1846,
+      "hourly_positive_min": 3.1484300000000005e-10,
+      "hourly_max": 0.0484277,
+      "period_max": 0.0484277,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u2_r0__concentration.json",
+        "sha256": "490cbc2b8fcc245add513f4b2da4c964c6b086795afd3ae2da50ad83c8a53b89"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/concentration/hourly.plt",
+        "sha256": "48c2da05dc39d98968d042a67564c0cec142a9730888c42c2e71a800dbcbfc0e"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/concentration/annual.plt",
+        "sha256": "4aa70cb70b0a4d94d7bd17a25e48ed50f9de30dc1ee8067e88172316abad922d"
+      }
+    },
+    {
+      "case": "u2_r0",
+      "metric": "dry_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [
+        "MXW496"
+      ],
+      "period_hourly_max_relative_difference": 6.061653073636534e-06,
+      "positive_receptors": 1846,
+      "hourly_positive_min": 1.2065100000000006e-09,
+      "hourly_max": 0.182441,
+      "period_max": 4.37857,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u2_r0__dry_deposition.json",
+        "sha256": "541b6d082bdbd319c1cdad1778617aaa3ef3f0b0ed937f80f4ee836f80bf2feb"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/dry_deposition/hourly.plt",
+        "sha256": "c5ef9b2f17ec214af4f3a899931f77917df83f39ce625dbb15aea2b885b2fccf"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/dry_deposition/annual.plt",
+        "sha256": "3f4198313bd481e0c548850a50e216aa31180b894dde09b7a19fef37697c8fe2"
+      }
+    },
+    {
+      "case": "u2_r0",
+      "metric": "wet_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [
+        "MXW496"
+      ],
+      "period_hourly_max_relative_difference": 0.0,
+      "positive_receptors": 0,
+      "hourly_positive_min": null,
+      "hourly_max": 0.0,
+      "period_max": 0.0,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u2_r0__wet_deposition.json",
+        "sha256": "f3b26842c10cac647dc6ef18b452d8c3d49e583f35b85b8f0e162fe11fb3b15b"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/wet_deposition/hourly.plt",
+        "sha256": "dcc8aba1adda8030951a5c53b8fe5640ccb25929179f19e420953fdc9449c0b3"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/wet_deposition/annual.plt",
+        "sha256": "39fd8795583f90ceacf9bf63ebeb11e3e7223e2181db4148be58cc81175e43df"
+      }
+    },
+    {
+      "case": "u2_r1",
+      "metric": "concentration",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "mean",
+      "fatal_errors": 0,
+      "warning_codes": [],
+      "period_hourly_max_relative_difference": 7.12194498262874e-16,
+      "positive_receptors": 1846,
+      "hourly_positive_min": 2.740200000000001e-10,
+      "hourly_max": 0.0483501,
+      "period_max": 0.0483501,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u2_r1__concentration.json",
+        "sha256": "fccd3480807e759ba7ac42cd2a6132c3d005db51ba8786027527b17333586356"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/concentration/hourly.plt",
+        "sha256": "42295499589debe3525e57dbb855f8509dda765ddb39ba28e0bd2e8e95dc0f54"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/concentration/annual.plt",
+        "sha256": "cb0e3748f9cadb7ba4e772f414b2c345a4b786e7d2dfcf06efe27564d0112e51"
+      }
+    },
+    {
+      "case": "u2_r1",
+      "metric": "dry_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [],
+      "period_hourly_max_relative_difference": 6.566785854111304e-06,
+      "positive_receptors": 1846,
+      "hourly_positive_min": 1.0500799999999995e-09,
+      "hourly_max": 0.182173,
+      "period_max": 4.37214,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u2_r1__dry_deposition.json",
+        "sha256": "c2cb0f170d1a2a3e40e33283121c58e00d92bdb6134d07eacab6b5859bb84206"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/dry_deposition/hourly.plt",
+        "sha256": "159d096b760552cc804866abcb28044bbfd68cb7cff554e47209f15c064e2806"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/dry_deposition/annual.plt",
+        "sha256": "c523c8a3bba8d764fd0432f2f17052abcf153d7f117cfe722a72c63dcfaff53e"
+      }
+    },
+    {
+      "case": "u2_r1",
+      "metric": "wet_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [],
+      "period_hourly_max_relative_difference": 6.065513612361377e-06,
+      "positive_receptors": 1846,
+      "hourly_positive_min": 1.4168900000000006e-08,
+      "hourly_max": 0.173892,
+      "period_max": 4.17341,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u2_r1__wet_deposition.json",
+        "sha256": "0a50713970596c57a85777c89d6319c1758bac6242ee98aef6e1e561f4a3fc50"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/wet_deposition/hourly.plt",
+        "sha256": "2520c60b3a9d4c5eb84707a8ee36d694acb33ee00f1c268b6048e9c65d3556cb"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/wet_deposition/annual.plt",
+        "sha256": "88d11ced9458255d935ffd1f0d1ab834cf959d84667d3a8b128f028f6addc36a"
+      }
+    },
+    {
+      "case": "u3p5_r0",
+      "metric": "concentration",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "mean",
+      "fatal_errors": 0,
+      "warning_codes": [
+        "MXW496"
+      ],
+      "period_hourly_max_relative_difference": 7.205801399455978e-16,
+      "positive_receptors": 1845,
+      "hourly_positive_min": 6.293979999999998e-10,
+      "hourly_max": 0.0276973,
+      "period_max": 0.0276973,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u3p5_r0__concentration.json",
+        "sha256": "91dbe9e502d4df7883efb466cd8b416d8e1c475847a61c235054c2527ac48612"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/concentration/hourly.plt",
+        "sha256": "e9580a332047dde6cb8a9f6a4affeb0b8ebaf5c15e29e9bcffe0c269bd6779d5"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/concentration/annual.plt",
+        "sha256": "9fa08240670176a44876ce2399f24b54303cb8049d7e0283b194494bebc973e5"
+      }
+    },
+    {
+      "case": "u3p5_r0",
+      "metric": "dry_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [
+        "MXW496"
+      ],
+      "period_hourly_max_relative_difference": 6.630134625347374e-06,
+      "positive_receptors": 1845,
+      "hourly_positive_min": 2.430339999999999e-09,
+      "hourly_max": 0.105106,
+      "period_max": 2.52254,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u3p5_r0__dry_deposition.json",
+        "sha256": "affa03f009126c989a4436f40f2b2ca7d126878fc8b9e799d5a1357b99d26a6b"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/dry_deposition/hourly.plt",
+        "sha256": "079ea694a5784a26ebd512b163ac199ecfb2be9494cf2c68d4e0fc27faaa0d6f"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/dry_deposition/annual.plt",
+        "sha256": "78e21f5b708004fca1b3c413b527936b4f9c2d5d5463545a2a5819d95b583c92"
+      }
+    },
+    {
+      "case": "u3p5_r0",
+      "metric": "wet_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [
+        "MXW496"
+      ],
+      "period_hourly_max_relative_difference": 0.0,
+      "positive_receptors": 0,
+      "hourly_positive_min": null,
+      "hourly_max": 0.0,
+      "period_max": 0.0,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u3p5_r0__wet_deposition.json",
+        "sha256": "822be51de468bab9a125065bf8684a58469f55558afcadec150ad76d613c947a"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/wet_deposition/hourly.plt",
+        "sha256": "58df44712064d86d236b8678597f0655a19db3134173d6450b157c9b7450a3aa"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/wet_deposition/annual.plt",
+        "sha256": "84b802f8bdd679943b6f3fe6c45f87c7f5931710d398b8d77001ad73cbc1b561"
+      }
+    },
+    {
+      "case": "u3p5_r1",
+      "metric": "concentration",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "mean",
+      "fatal_errors": 0,
+      "warning_codes": [],
+      "period_hourly_max_relative_difference": 7.147203436382669e-16,
+      "positive_receptors": 1845,
+      "hourly_positive_min": 6.09538e-10,
+      "hourly_max": 0.0276719,
+      "period_max": 0.0276719,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u3p5_r1__concentration.json",
+        "sha256": "79024427323b5c53e53e480807d041fb366bfae5df77c81f1284dcf5b9ac296d"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/concentration/hourly.plt",
+        "sha256": "df153299778f2a7667a2a1ff04f13b7631989c05d586aefc75a7bd56583fad2d"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/concentration/annual.plt",
+        "sha256": "28fe0c71433d20b9aed0ef3f7a2265cb972090829a79d191c5b5ad5e66c446c4"
+      }
+    },
+    {
+      "case": "u3p5_r1",
+      "metric": "dry_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [],
+      "period_hourly_max_relative_difference": 6.660405885487737e-06,
+      "positive_receptors": 1845,
+      "hourly_positive_min": 2.3536499999999984e-09,
+      "hourly_max": 0.105017,
+      "period_max": 2.52042,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u3p5_r1__dry_deposition.json",
+        "sha256": "319637ea543bb3b4fc93b477bb96c1d73dce273734b671cda9542ec9764c0012"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/dry_deposition/hourly.plt",
+        "sha256": "08aa6fa94b196c1d941215c031e1e0def5b1185b82de0d374907ea67f20a70b9"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/dry_deposition/annual.plt",
+        "sha256": "8789706c89a9d13388df48cb518548931e0a0dcdf6d9e9112ec9114c043fe6e3"
+      }
+    },
+    {
+      "case": "u3p5_r1",
+      "metric": "wet_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [],
+      "period_hourly_max_relative_difference": 6.616776174560012e-06,
+      "positive_receptors": 1845,
+      "hourly_positive_min": 2.0513500000000004e-08,
+      "hourly_max": 0.0998714,
+      "period_max": 2.39691,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u3p5_r1__wet_deposition.json",
+        "sha256": "8f7d54bb47ff28d916e7d07094a04dfee0ab8f609b443d55aa93303a40e51c00"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/wet_deposition/hourly.plt",
+        "sha256": "35066a1e6bb5a4159434357c2fbc2f6b1c0af02040fa21539a911ff4fb96c1e0"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/wet_deposition/annual.plt",
+        "sha256": "7282665ea6e2b923cb57e081898d6d9b4f7cdb21731108942a7eb0100bf3f31f"
+      }
+    },
+    {
+      "case": "u5_r0",
+      "metric": "concentration",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "mean",
+      "fatal_errors": 0,
+      "warning_codes": [
+        "MXW496"
+      ],
+      "period_hourly_max_relative_difference": 7.21189829451456e-16,
+      "positive_receptors": 1844,
+      "hourly_positive_min": 1.0989200000000002e-10,
+      "hourly_max": 0.0193787,
+      "period_max": 0.0193787,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u5_r0__concentration.json",
+        "sha256": "049718172a15034fbc93744097f665515d189a849eed919fe56e826f329dc8ff"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/concentration/hourly.plt",
+        "sha256": "db80dbfb40200f10318325758f7c180f40e95bc1386b69afff727111424664a7"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/concentration/annual.plt",
+        "sha256": "d95f9241e975f28c9180d224247428548ef7ae241374a4d62a0523def4df9cd7"
+      }
+    },
+    {
+      "case": "u5_r0",
+      "metric": "dry_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [
+        "MXW496"
+      ],
+      "period_hourly_max_relative_difference": 5.874543254864009e-06,
+      "positive_receptors": 1844,
+      "hourly_positive_min": 8.203509999999998e-10,
+      "hourly_max": 0.142498,
+      "period_max": 3.41994,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u5_r0__dry_deposition.json",
+        "sha256": "2245cd53dfc52a9cd5b35137b13e86f94c713f1d54147ea8419f0be11fd44af0"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/dry_deposition/hourly.plt",
+        "sha256": "1f47ea077fc0e5b923c79ecf231038078b2c300a93f87a8e4847a210b54f4950"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/dry_deposition/annual.plt",
+        "sha256": "d6720792f2acc1ac144a5c932e6183aa9c5658f5eeae204b09a638d3dd4312bd"
+      }
+    },
+    {
+      "case": "u5_r0",
+      "metric": "wet_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [
+        "MXW496"
+      ],
+      "period_hourly_max_relative_difference": 0.0,
+      "positive_receptors": 0,
+      "hourly_positive_min": null,
+      "hourly_max": 0.0,
+      "period_max": 0.0,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u5_r0__wet_deposition.json",
+        "sha256": "fc3ea5aa6dd15be3b743a87bb51846c3f281796ad9e81f59e6e7d8397ebeeb55"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/wet_deposition/hourly.plt",
+        "sha256": "72285482a1c687f96232c10efc34e4b3d054cfd7f27742647710308fcc0a1046"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/wet_deposition/annual.plt",
+        "sha256": "99e226e0a1d70c6533e7dcb2d3dc70f8143174b60278cac1a16cbd3481477b1f"
+      }
+    },
+    {
+      "case": "u5_r1",
+      "metric": "concentration",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "mean",
+      "fatal_errors": 0,
+      "warning_codes": [],
+      "period_hourly_max_relative_difference": 7.181097976457171e-16,
+      "positive_receptors": 1844,
+      "hourly_positive_min": 1.0593899999999998e-10,
+      "hourly_max": 0.0193662,
+      "period_max": 0.0193662,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u5_r1__concentration.json",
+        "sha256": "513c32d1e535221c5f42e0d03942aee7760e528056703340ae5825208e84b8a3"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/concentration/hourly.plt",
+        "sha256": "3a9c03a86cc092cbe943ff42c6bd0a87182383a114202e0606b9ad134b363b39"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/concentration/annual.plt",
+        "sha256": "5b86096e7ad202d2c0708e5026f4e3b04d779c4337c3002d016dc5f6a0062da2"
+      }
+    },
+    {
+      "case": "u5_r1",
+      "metric": "dry_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [],
+      "period_hourly_max_relative_difference": 6.660405884697921e-06,
+      "positive_receptors": 1844,
+      "hourly_positive_min": 7.908380000000003e-10,
+      "hourly_max": 0.142414,
+      "period_max": 3.41793,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u5_r1__dry_deposition.json",
+        "sha256": "594c5a7a8783a37eed465a2e46446d311ef6751f52cde5d5a4f8b4a1e705d810"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/dry_deposition/hourly.plt",
+        "sha256": "15a371698f0fcd52a66dc1547c65763092664f370399f0cd1c931a241af6605b"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/dry_deposition/annual.plt",
+        "sha256": "23a4c889c06db4b4d8610c8fc4344da231dd52b3ef8d42e16fb80ae340edf022"
+      }
+    },
+    {
+      "case": "u5_r1",
+      "metric": "wet_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [],
+      "period_hourly_max_relative_difference": 5.824926023236499e-06,
+      "positive_receptors": 1844,
+      "hourly_positive_min": 3.7122200000000006e-09,
+      "hourly_max": 0.0699022,
+      "period_max": 1.67765,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u5_r1__wet_deposition.json",
+        "sha256": "78e073c47669a1c7687071b64abe3c4e896d51923d91e1adb05e660907ecfc5b"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/wet_deposition/hourly.plt",
+        "sha256": "35ff22c14488b2e4725361afb865a04a1e963fab898983e1308ae807cbc6fce0"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/wet_deposition/annual.plt",
+        "sha256": "30c58eda988289e49f9dbc25288eb242b128b9fbfa6e1ab0f501d67c2d2cdae6"
+      }
+    },
+    {
+      "case": "u7_r0",
+      "metric": "concentration",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "mean",
+      "fatal_errors": 0,
+      "warning_codes": [
+        "MXW496"
+      ],
+      "period_hourly_max_relative_difference": 7.169321636770342e-16,
+      "positive_receptors": 1843,
+      "hourly_positive_min": 2.61057e-11,
+      "hourly_max": 0.0136805,
+      "period_max": 0.0136805,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u7_r0__concentration.json",
+        "sha256": "8d03dda9ced346b2229fc1e044d9b970fc4fa3e9b0aaef3d4c3e3baab8eba4d8"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/concentration/hourly.plt",
+        "sha256": "15674e1fa2af5a8684bf73cb0f520172f728ec53ed000e21d83ad59a969114dc"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/concentration/annual.plt",
+        "sha256": "d4b9afcaf1107d7c01bf7340d578d5f4f1f77aeb5e2740f1e628b37dd576d0b3"
+      }
+    },
+    {
+      "case": "u7_r0",
+      "metric": "dry_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [
+        "MXW496"
+      ],
+      "period_hourly_max_relative_difference": 6.617301596285103e-06,
+      "positive_receptors": 1843,
+      "hourly_positive_min": 2.134680000000001e-09,
+      "hourly_max": 1.10261,
+      "period_max": 26.4627,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u7_r0__dry_deposition.json",
+        "sha256": "7e2bf0d02452604e8398a82f2d01e3b3ff49b55ffcab1ede31a4e04a3a6070c5"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/dry_deposition/hourly.plt",
+        "sha256": "a28b65efd925987af4febc4b0b83a41372acc16905bf5b94b7cb1ae4e050183a"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/dry_deposition/annual.plt",
+        "sha256": "ea0e0cf8a9949372b747270141389605562fe36861c950e21fcedcc628c98b41"
+      }
+    },
+    {
+      "case": "u7_r0",
+      "metric": "wet_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [
+        "MXW496"
+      ],
+      "period_hourly_max_relative_difference": 0.0,
+      "positive_receptors": 0,
+      "hourly_positive_min": null,
+      "hourly_max": 0.0,
+      "period_max": 0.0,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u7_r0__wet_deposition.json",
+        "sha256": "026f5dbb985f0a723b7f2cb2ffcc7c3840b50a34287a907d2a1127b6769b55d7"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/wet_deposition/hourly.plt",
+        "sha256": "66ed4e823b124cf2bf8b75fb1d2719ddd61a3588f02176dbd0668b5057fe0477"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/wet_deposition/annual.plt",
+        "sha256": "a0f445b13776b5cdce365538d5c30ba61f4ecbe352d09606868a79374683e139"
+      }
+    },
+    {
+      "case": "u7_r1",
+      "metric": "concentration",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "mean",
+      "fatal_errors": 0,
+      "warning_codes": [],
+      "period_hourly_max_relative_difference": 7.176671617594868e-16,
+      "positive_receptors": 1843,
+      "hourly_positive_min": 2.5259999999999986e-11,
+      "hourly_max": 0.0136743,
+      "period_max": 0.0136743,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u7_r1__concentration.json",
+        "sha256": "39dfd8e16f2488a808f25218a00faa6985ed79df2557c411e5c4994df4bad160"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/concentration/hourly.plt",
+        "sha256": "a4bab03ad8656210da20d9922a9e273688bad1f300cd5947ee665ac4eb10b2d0"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/concentration/annual.plt",
+        "sha256": "81e8c9cd3b75761032c2f6baf15a190744d94c8382d4e431e16d9574bf74c966"
+      }
+    },
+    {
+      "case": "u7_r1",
+      "metric": "dry_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [],
+      "period_hourly_max_relative_difference": 6.5753352598675155e-06,
+      "positive_receptors": 1843,
+      "hourly_positive_min": 2.0655199999999997e-09,
+      "hourly_max": 1.10215,
+      "period_max": 26.4516,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u7_r1__dry_deposition.json",
+        "sha256": "eb051811cd20fd564ae6a39c1c1f6ca695142e6f996bf21e433052f233c487e7"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/dry_deposition/hourly.plt",
+        "sha256": "2dc9bb0fb9d01157ad8dc9cafb9d7e42cd4a2b011ae83add2111e282729bf2ee"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/dry_deposition/annual.plt",
+        "sha256": "3227b2c01c3e9c2d32a19ad37fa6da03ae3291c3bb34a515ff2857b906ad6f74"
+      }
+    },
+    {
+      "case": "u7_r1",
+      "metric": "wet_deposition",
+      "receptors": 2736,
+      "hours": 24,
+      "hourly_fields_identical": true,
+      "period_rule": "sum",
+      "fatal_errors": 0,
+      "warning_codes": [],
+      "period_hourly_max_relative_difference": 6.22581659342949e-06,
+      "positive_receptors": 1843,
+      "hourly_positive_min": 1.0943199999999994e-09,
+      "hourly_max": 0.0484396,
+      "period_max": 1.16255,
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u7_r1__wet_deposition.json",
+        "sha256": "c8ae831a1943c03320849d62515e2b641f092b34069e2b85dd60eda0532349a3"
+      },
+      "hourly_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/wet_deposition/hourly.plt",
+        "sha256": "d56b73a72d141ace1625a34b42689dab1813cf2ebb5dd0134a92ca7ca50420a4"
+      },
+      "period_output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/wet_deposition/annual.plt",
+        "sha256": "ff7abb7b1f37669a3135f8aacaaaa81823e8e2e0d0931a8e286c9c68e15c99ac"
+      }
+    }
+  ],
+  "paired_rain_checks": [
+    {
+      "wind_m_s": 1.0,
+      "no_rain_wet_deposition_exact_zero": true,
+      "rain_concentration_not_greater_than_no_rain": true,
+      "rain_dry_deposition_not_greater_than_no_rain": true
+    },
+    {
+      "wind_m_s": 2.0,
+      "no_rain_wet_deposition_exact_zero": true,
+      "rain_concentration_not_greater_than_no_rain": true,
+      "rain_dry_deposition_not_greater_than_no_rain": true
+    },
+    {
+      "wind_m_s": 3.5,
+      "no_rain_wet_deposition_exact_zero": true,
+      "rain_concentration_not_greater_than_no_rain": true,
+      "rain_dry_deposition_not_greater_than_no_rain": true
+    },
+    {
+      "wind_m_s": 5.0,
+      "no_rain_wet_deposition_exact_zero": true,
+      "rain_concentration_not_greater_than_no_rain": true,
+      "rain_dry_deposition_not_greater_than_no_rain": true
+    },
+    {
+      "wind_m_s": 7.0,
+      "no_rain_wet_deposition_exact_zero": true,
+      "rain_concentration_not_greater_than_no_rain": true,
+      "rain_dry_deposition_not_greater_than_no_rain": true
+    }
+  ],
+  "interpretation": [
+    "Identical stationary forcing yields constant hourly flux, not a transient plume-arrival calculation.",
+    "Deposition PERIOD is accumulated ug/m2; hourly amounts are numerically ug/m2/h for one-hour intervals.",
+    "Friction velocity and tiny heat flux change consistently with wind; stability length and other stated controls stay fixed.",
+    "Selected calendar year does not establish complete annual observed microplastic or meteorological coverage."
+  ]
+}

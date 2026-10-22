@@ -1,0 +1,128 @@
+CONTROLLED STEADY-STATE AERMOD SCENARIOS NEAR CLEMSON
+Prepared October 22, 2026
+
+PURPOSE AND REFERENCE YEAR
+The common regional microplastics reference year is 2024, the latest nearby
+atmospheric sampling year verified in the targeted literature search. Complete
+annual Clemson microplastics coverage was not verified. Regional observed
+particle counts provide context, not mass-emission inputs or model validation.
+July 15, 2024, hour-ending 01-24, labels 24 repeated synthetic conditions. These
+are not observed weather for that date or an annual exposure simulation.
+All results are this source's contribution, without ambient background added.
+
+SOURCE
+Hypothetical 100 m by 100 m AREA source centered at 34.680 N, 82.840 W, near
+Clemson, South Carolina. NAD83 / UTM zone 17N (EPSG:26917) coordinates are
+E 331435.622 m, N 3839097.591 m. Continuous total emission is 10 g/day:
+  Q = 10 / 86400 = 0.00011574074074074075 g/s.
+Source flux is Q / 10000 m2. Release height is 2 m; initial vertical sigma is
+1 m; real AERMAP source ground elevation is 211.44 m.
+
+The illustrative emission calculation is:
+  10000 assumed vehicles/day * 0.1 assumed km
+  * 0.1 g total tire wear/(vehicle km) * 0.10 assumed airborne share.
+The wear factor is cited in Kole et al. (2017); the central airborne PM10 share
+and density come from Evangeliou et al. (2020). The airborne fraction is a
+published model assumption, not a direct local measurement. This is tire-wear-
+containing composite aerosol mass, not measured pure-polymer mass. No real
+facility, local traffic count, or measured source inventory is claimed. Source
+emission remains constant during rain; rainfall suppression of resuspension or
+tire-wear emissions is not modeled.
+
+PARTICLES
+One 5 micrometer numerical equivalent-sphere size, density 1234 kg/m3,
+particle mass fraction 1, and effective dynamic shape factor chi = 1.
+No explicit fiber, film, fragment orientation, or polymer degradation model.
+The numerical diameter and material density enter AERMOD without an additional
+aerodynamic density conversion. The current guide's PARTDIAM terminology differs
+from this explicit numerical equivalent-sphere convention; these are not
+measured aerodynamic-size distributions.
+
+CONTROLLED METEOROLOGY
+Wind comes FROM 270 degrees, carrying the plume east. Reference speeds at 10 m
+are 1, 2, 3.5, 5, and 7 m/s. Group membership: <2 includes 1; 2-5 inclusive
+includes 2, 3.5, and 5; >5 includes 7. These are selected speeds, not observed
+bin means. Two precipitation states, 0 and 1 mm/h, are each constant for 24 h.
+All specified weather fields are time invariant WITHIN each case.
+
+Fixed external conditions: Monin-Obukhov L = +1000000 m (nearly neutral weak-
+stable limit); mechanical mixing height 1000 m; roughness z0 = 0.1 m;
+temperature at 2 m = 293.15 K; relative humidity 80%; pressure 989 hPa;
+albedo 0.20; Bowen ratio 1; cloud cover 10 tenths. No day/night cycle is imposed.
+Temperature at 10 m is adjusted dry-adiabatically from its 2 m reference.
+AERMOD derives vertical wind and turbulence profiles from the supplied fields.
+The 270-degree input follows the model UTM axes. The transect is projected-grid
+east, differing from geodetic due east by about one degree of grid convergence.
+KMZs transform the actual native coordinates into geographic coordinates.
+
+Across speeds, friction velocity and its tiny associated heat flux are derived
+for a consistent wind/stability relationship:
+  ustar = k*u10 / [ln(10/z0) + 5*(10-z0)/L], k = 0.4;
+  H = -rho_air*cp*T*ustar^3 / (k*g*L),
+  rho_air = 1.2 kg/m3, cp = 1004 J/(kg K), g = 9.80616 m/s2.
+These derived quantities change across speeds and stay constant within each
+case. Other specified conditions remain fixed. This is a physically coupled
+wind sensitivity, not an observed statistical causal estimate.
+
+Synthetic SFC/PFL records use the AERMOD26135 interface; they are not observed
+weather and were not produced by running AERMET. Synthetic IDs 99999/99999999
+avoid implying airport observations. All missing-value sentinels are retained.
+Time is Eastern Standard Time, UTC-5, without daylight-saving clock changes.
+
+TERRAIN
+Real USGS 3DEP 1-arcsecond tile USGS_1_n35w083.tif, official EPA August 2024
+distribution. Native AERMAP24142 uses the full tile for elevations and critical
+hill heights. Four independent native runs process receptor subsets against
+the same full tile; their native receptor rows are merged and verified. This
+preserves per-receptor terrain physics. The 2736 unique receptors retain the
+original 873 and add 1863 for the fixed eastward plume. The fine grid has 100 m
+spacing, from 1 km west to 10 km east and +/-1 km crosswind. Original outer
+receptors retain the 20 km square context. All terrain values are native results.
+
+MODEL AND OUTPUT UNITS
+Official-source AERMOD26135, default rural dispersion, AREA source, no building
+downwash. Both DRYDPLT and WETDPLT operate in every quantity run. Separate CONC,
+DDEP, and WDEP jobs avoid ambiguous multi-quantity output fields.
+OU FILEFORM EXP provides native E13.6 scientific notation at small source rates.
+  CONCUNIT 1e6: concentration in micrograms/m3.
+  DEPOUNIT 3.6e9 = 3600 s/h * 1e6 micrograms/g.
+Hourly deposition is micrograms/m2 in one hour. Dividing by one hour gives the
+numerically identical flux in micrograms/m2/h. PERIOD deposition is accumulated
+micrograms/m2 over 24 h; PERIOD concentration is the mean, not the sum.
+
+TIME INTERPRETATION
+Identical forcing produces identical hourly steady-state receptor fields.
+At the fixed receptor 1 km east, flux is flat and cumulative deposition grows
+linearly. No transient arrival, storage, or travel-time delay is simulated.
+Dry deposition occurs during rain. Wet deposition is zero in the no-rain
+control. Dry and wet deposition during rain are processes under the SAME weather.
+Each no-rain job has one expected MXW496 warning: total precipitation is zero
+while wet-deposition physics remains enabled. This is an intentional control,
+not missing rainfall data. All other warnings require separate review.
+
+COMPLETE INPUTS AND OUTPUTS
+30 jobs = 5 speeds * 2 rain states * 3 quantities. At 24 h and 2736 receptors,
+the hourly Excel pivot has 656640 rows with all three quantities. The PERIOD
+pivot has 27360 rows. Native metric files contain 1969920 hourly records and
+82080 PERIOD records, before pivoting. Native max-1-hour fields and all
+completion reports are also retained. The workbook includes structured inputs,
+exact input text, all receptor output fields, native reports, units, and hashes.
+Original native files accompany the package. Binary programs and the terrain
+raster are identified by version, source URL, and checksum rather than encoded
+as spreadsheet cells. Processed terrain inputs and all four AERMAP decks are
+included in full. Regional count observations remain separate from mass outputs.
+
+MAPS AND LIMITATIONS
+PNGs and KMZs use actual native AERMOD results. Distance profiles follow the
+eastward receptor transect. Any interpolation is labeled for visual display,
+with no extrapolation outside coverage. Native point layers retain computed
+locations and values. KMZs are self-contained Google Earth exports from these
+results; they are not replacement Gaussian calculations. The Windows AERPLOT
+executable was not run. Receptor samples are not area-integrated mass budgets.
+
+Emission activity and airborne fraction, spherical monodisperse particles,
+selected stability/roughness/mixing depth, fixed rain, and steady-state physics
+are assumptions. Degradation, fragmentation, resuspension feedback, explicit
+fiber orientation, and transport beyond the domain are unresolved. Emission
+uncertainty directly scales concentrations and deposition. The reference year
+does not create an annual local inventory or an observed-weather hindcast.

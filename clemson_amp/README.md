@@ -1,5 +1,11 @@
 # Illustrative Clemson airborne microplastic study
 
+The [October 22 controlled plume scenarios](steady_state_2026-10-22/README.md)
+use fixed weather, a literature-based illustrative roadside source, and a
+refined terrain grid. They include an Excel workbook, large-font poster plots,
+and direct KMZ maps. These controlled runs are separate from the original
+observed-weather comparisons below.
+
 The [October 20 figure revision](revisions/2026-10-20/README.md) adds
 0.5/1/5/10 µm distance profiles, a single-panel settling figure, and a
 velocity–χ figure with plot-specific methods and documented literature limits.

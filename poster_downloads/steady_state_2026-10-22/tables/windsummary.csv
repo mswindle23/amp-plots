@@ -1,0 +1,21 @@
+case,wind_speed_m_s,wind_group,rain_mm_h,metric,flux_ug_m2_h
+u1_r0,1.0,<2 m/s,0.0,dry_deposition,0.015132
+u2_r0,2.0,2-5 m/s,0.0,dry_deposition,0.008831416666666666
+u3p5_r0,3.5,2-5 m/s,0.0,dry_deposition,0.005112291666666667
+u5_r0,5.0,2-5 m/s,0.0,dry_deposition,0.006932333333333333
+u7_r0,7.0,>5 m/s,0.0,dry_deposition,0.051125833333333336
+u1_r0,1.0,<2 m/s,0.0,wet_deposition,0.0
+u2_r0,2.0,2-5 m/s,0.0,wet_deposition,0.0
+u3p5_r0,3.5,2-5 m/s,0.0,wet_deposition,0.0
+u5_r0,5.0,2-5 m/s,0.0,wet_deposition,0.0
+u7_r0,7.0,>5 m/s,0.0,wet_deposition,0.0
+u1_r1,1.0,<2 m/s,1.0,dry_deposition,0.013446458333333333
+u2_r1,2.0,2-5 m/s,1.0,dry_deposition,0.008325
+u3p5_r1,3.5,2-5 m/s,1.0,dry_deposition,0.004942666666666666
+u5_r1,5.0,2-5 m/s,1.0,dry_deposition,0.0067705
+u7_r1,7.0,>5 m/s,1.0,dry_deposition,0.05027041666666667
+u1_r1,1.0,<2 m/s,1.0,wet_deposition,0.08409541666666666
+u2_r1,2.0,2-5 m/s,1.0,wet_deposition,0.051875833333333336
+u3p5_r1,3.5,2-5 m/s,1.0,wet_deposition,0.030594333333333334
+u5_r1,5.0,2-5 m/s,1.0,wet_deposition,0.021634749999999998
+u7_r1,7.0,>5 m/s,1.0,wet_deposition,0.014675291666666666

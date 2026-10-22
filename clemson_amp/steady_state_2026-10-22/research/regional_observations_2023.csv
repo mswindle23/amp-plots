@@ -1,0 +1,11 @@
+study,measurement_year,site,latitude_deg,longitude_deg,sampling_period,start_date,end_date,collection_duration_days_reported,reported_deposition_particles_m2_day,reported_uncertainty_percent,quantity,used_as_model_emission_input,doi
+Elnahas et al. 2024,2023,NADP VA13,37.32,-80.46,1,2023-03-22,2023-04-12,21,56,11,combined atmospheric wet+dry total deposition; particle count,False,10.1021/acsestair.4c00189
+Elnahas et al. 2024,2023,KEAS,37.2,-80.58,1,2023-03-22,2023-04-12,21,37,17,combined atmospheric wet+dry total deposition; particle count,False,10.1021/acsestair.4c00189
+Elnahas et al. 2024,2023,NADP VA13,37.32,-80.46,2,2023-04-27,2023-05-18,21,57,11,combined atmospheric wet+dry total deposition; particle count,False,10.1021/acsestair.4c00189
+Elnahas et al. 2024,2023,KEAS,37.2,-80.58,2,2023-04-27,2023-05-18,21,125,5,combined atmospheric wet+dry total deposition; particle count,False,10.1021/acsestair.4c00189
+Elnahas et al. 2024,2023,NADP VA13,37.32,-80.46,3,2023-05-31,2023-06-21,21,80,8,combined atmospheric wet+dry total deposition; particle count,False,10.1021/acsestair.4c00189
+Elnahas et al. 2024,2023,KEAS,37.2,-80.58,3,2023-05-31,2023-06-21,21,59,11,combined atmospheric wet+dry total deposition; particle count,False,10.1021/acsestair.4c00189
+Elnahas et al. 2024,2023,NADP VA13,37.32,-80.46,4,2023-07-02,2023-07-23,21,77,8,combined atmospheric wet+dry total deposition; particle count,False,10.1021/acsestair.4c00189
+Elnahas et al. 2024,2023,KEAS,37.2,-80.58,4,2023-07-02,2023-07-23,21,35,18,combined atmospheric wet+dry total deposition; particle count,False,10.1021/acsestair.4c00189
+Elnahas et al. 2024,2023,NADP VA13,37.32,-80.46,5,2023-08-19,2023-09-09,21,100,6,combined atmospheric wet+dry total deposition; particle count,False,10.1021/acsestair.4c00189
+Elnahas et al. 2024,2023,KEAS,37.2,-80.58,5,2023-08-19,2023-09-09,21,56,11,combined atmospheric wet+dry total deposition; particle count,False,10.1021/acsestair.4c00189

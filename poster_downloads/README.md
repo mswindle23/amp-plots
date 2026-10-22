@@ -3,6 +3,27 @@
 Use GitHub's **Download raw file** button after opening a ZIP or PDF below.
 For the entire branch, select **Code → Download ZIP** on the repository page.
 
+The **October 22 controlled steady-state scenarios** use a common 2024
+regional microplastics reference year and fixed synthetic weather:
+
+- [Excel workbook: all model inputs and receptor outputs](steady_state_2026-10-22/clemson_steady_state_inputs_outputs.xlsx)
+- [Complete inputs, native results, workbook, plots, and KMZ package (ZIP)](clemson_steady_state_2026-10-22.zip)
+- [Direct KMZ: all ten weather cases and all three output quantities](steady_state_2026-10-22/kmz/clemson_steady_all_scenarios.kmz)
+- [Direct KMZ: baseline concentration plume](steady_state_2026-10-22/kmz/clemson_u2_rain1_concentration.kmz)
+- [Direct KMZ: baseline dry-deposition flux](steady_state_2026-10-22/kmz/clemson_u2_rain1_dry_deposition.kmz)
+- [Direct KMZ: baseline wet-deposition flux](steady_state_2026-10-22/kmz/clemson_u2_rain1_wet_deposition.kmz)
+- [PNG: deposition flux through time](steady_state_2026-10-22/figures/deposition_flux_vs_time.png)
+- [PNG: flux versus wind speed](steady_state_2026-10-22/figures/deposition_flux_vs_wind_speed.png)
+- [PNG: flux versus downwind distance](steady_state_2026-10-22/figures/deposition_flux_vs_distance.png)
+- [PNG: actual steady-state plume maps](steady_state_2026-10-22/figures/steady_state_plume_maps.png)
+- [Methods and limitations](steady_state_2026-10-22/METHODS_AND_LIMITATIONS.txt) · [All scenario files](steady_state_2026-10-22/)
+
+The workbook includes 656,640 hourly scenario–receptor rows with concentration,
+dry deposition, and wet deposition in separate columns, plus all PERIOD and
+maximum one-hour receptor values. Constant forcing gives constant flux and
+linear accumulated deposition. The year is regional context; these are not
+observed-weather or complete annual Clemson microplastics measurements.
+
 The **October 20 figure revision** is available separately:
 
 - [Revised figures, numerical data, methods, and native model results (ZIP)](clemson_amp_figure_revision_2026-10-20.zip)

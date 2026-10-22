@@ -1,5 +1,9 @@
 # Figures for the AAAR poster
 
+The [October 22 controlled scenarios](steady_state_2026-10-22/README.md) provide
+fixed-weather flux/time, flux/wind, flux/distance, and steady-plume maps with
+enlarged poster fonts, plus complete Excel results and direct KMZ files.
+
 For the requested **0.5, 1, 5, and 10 µm** profiles and revised settling
 figures, use the [October 20 revision](revisions/2026-10-20/README.md).
 The figures described below are the preserved original versions.

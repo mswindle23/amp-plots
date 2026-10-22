@@ -1,0 +1,61 @@
+{
+  "selected_reference_year": 2024,
+  "year_interpretation": "Latest nearby atmospheric microplastic measurement year verified in this targeted search; not a verified complete annual Clemson inventory. Controlled model date is a calendar label, not observed July 2024 meteorology.",
+  "source": {
+    "description": "Hypothetical uniform100m x100m roadside/road-dust tire-wear-containing microplastic aerosol surrogate",
+    "traffic_vehicles_per_day": 10000,
+    "traffic_status": "ASSUMED scenario activity, not measured SCDOT traffic",
+    "road_length_km": 0.1,
+    "road_length_status": "ASSUMED effective contributing segment, not a mapped roadway inventory",
+    "total_tire_wear_g_per_vehicle_km": 0.1,
+    "total_tire_wear_source": "Kole et al. 2017 review quoting Luhana et al.; total wear not all airborne",
+    "airborne_PM10_mass_fraction": 0.1,
+    "airborne_fraction_source": "Evangeliou et al. 2020 central model assumption; sensitivity2.5-40% in that study",
+    "total_tire_wear_g_day": 100.0,
+    "airborne_surrogate_emission_g_day": 10.0,
+    "constant_emission_g_s": 0.00011574074074074075,
+    "calibrated_to_regional_deposition": false,
+    "mass_basis": "Tire-wear-containing aerosol surrogate; not a pure-polymer mass fraction measurement or real Clemson facility inventory"
+  },
+  "particle": {
+    "diameter_um": 5.0,
+    "diameter_definition": "Numerical volume-equivalent sphere surrogate supplied without second density conversion",
+    "density_kg_m3": 1234,
+    "density_source": "Evangeliou et al.2020 TWP transport model assumption",
+    "dynamic_shape_factor_chi": 1.0,
+    "shape": "Monodisperse equivalent spherical proxy; actual fiber/film orientation unresolved"
+  },
+  "references": [
+    {
+      "id": "Gray2026",
+      "doi": "10.1093/inteam/vjag130",
+      "title": "Influence of Hurricane Helene on microplastic deposition in the mountainous southeastern United States",
+      "published_date": "2026-08-05",
+      "measurement_year": 2024,
+      "verification": "Crossref metadata and EuropePMC abstract; no verified full-calendar coverage"
+    },
+    {
+      "id": "Elnahas2024",
+      "doi": "10.1021/acsestair.4c00189",
+      "title": "Atmospheric Deposition of Microplastics in South Central Appalachia in the United States",
+      "published_date": "2024-12-26",
+      "measurement_year": 2023,
+      "pmcid": "PMC11730859",
+      "verification": "Full article XML and Table1 verified"
+    },
+    {
+      "id": "Kole2017",
+      "doi": "10.3390/ijerph14101265",
+      "title": "Wear and Tear of Tyres: A Stealthy Source of Microplastics in the Environment",
+      "pmcid": "PMC5664766",
+      "verification": "Full article XML verified;0.1g/vehicle-km totalwear is a cited estimate"
+    },
+    {
+      "id": "Evangeliou2020",
+      "doi": "10.1038/s41467-020-17201-9",
+      "title": "Atmospheric transport is a major pathway of microplastics to remote regions",
+      "pmcid": "PMC7360784",
+      "verification": "Full article XML Methods verified;10%PM10airborne and1234kg/m3 are modeling assumptions"
+    }
+  ]
+}
