@@ -1,0 +1,2892 @@
+{
+  "created_utc": "2026-10-23T05:13:19.353966+00:00",
+  "status": "complete",
+  "purpose": "Typography and accessible styling only; no model reruns or numerical changes",
+  "original_profile_values_exactly_equal": true,
+  "original_figure_provenance_sha256": "a8374a3a8cc25536cb425e3b9e29e9b34e4c99e5dada82a5c92b1e0e24439fb0",
+  "scenario_sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+  "script_sha256": "ba46c863d123b140d8a7f8df618a538d63f24b32e632ce9e55c73b9bcf411a90",
+  "profile_parser_sha256": "a0a28cf6ae4f5d50fec048b966760e90e7bf65a6dd65ba731cdb2d73f86fe063",
+  "typography_pt": {
+    "axis_titles": 22,
+    "panel_titles": 22,
+    "figure_title": 27,
+    "ticks": 18,
+    "legend": 16,
+    "caption": 13
+  },
+  "series_styles": [
+    {
+      "color": "#0072B2",
+      "marker": "o",
+      "linestyle": "-"
+    },
+    {
+      "color": "#D55E00",
+      "marker": "s",
+      "linestyle": "--"
+    },
+    {
+      "color": "#CC79A7",
+      "marker": "^",
+      "linestyle": ":"
+    }
+  ],
+  "palette_source": "Okabe and Ito Color Universal Design, https://jfly.uni-koeln.de/color/; blue, vermilion, reddish purple",
+  "model_outputs": {
+    "d01_r1050/concentration": {
+      "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/concentration/annual.plt",
+      "sha256": "e25a7b0c0d8b23bc13aed470e1e1d40299c173548e0a3153c7909608e8ce93c7",
+      "receptors": 873,
+      "minimum": 0.00471,
+      "maximum": 425.41725,
+      "positive_receptors": 873,
+      "zero_receptors": 0,
+      "averaging": "PERIOD",
+      "source_group": "ALL",
+      "hours_in_period": 8760,
+      "warnings": [
+        "The time count in a PERIOD PLOTFILE is not a substitute for AERMET/AERMOD completeness QA."
+      ],
+      "verified_native_execution": {
+        "verification": "passed current-run content hashes and model-completion audit",
+        "step_id": "aermod__d01_r1050__concentration",
+        "started_utc": "2026-10-19T15:40:52.133720+00:00",
+        "finished_utc": "2026-10-19T15:45:45.699213+00:00",
+        "execution_record": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d01_r1050__concentration.json",
+          "sha256": "6da42aaf4cd53e3c005bcd1e56ab035720029b97584e3da3f2d9110f93835652"
+        },
+        "manifest": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+          "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+        },
+        "reported_model_version": "26135",
+        "scenario": "/workspace/amp-plots/clemson_amp/scenario.json",
+        "inputs": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+            "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+            "bytes": 53782
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+            "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+            "bytes": 603
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+            "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+            "bytes": 595680
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+            "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+            "bytes": 1541882
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/concentration/aermod.inp",
+            "sha256": "e5cf92e33b7f57109271b9451b704075a43991c5900cdc9f9743e7075009bfa4",
+            "bytes": 1730
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+            "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+            "bytes": 3613
+          }
+        ],
+        "binary": {
+          "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+          "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+          "bytes": 5106464
+        },
+        "output": {
+          "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/concentration/annual.plt",
+          "sha256": "e25a7b0c0d8b23bc13aed470e1e1d40299c173548e0a3153c7909608e8ce93c7",
+          "bytes": 95126
+        },
+        "completion_reports": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/concentration/aermod.out",
+            "sha256": "4e4863e265a7728c6505c2da3ea86e2cdc5c52866e782648c2cb265971743771",
+            "bytes": 301263
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/concentration/errors.out",
+            "sha256": "3da623c86f3eb6f6eae97e4c6f3de41829c0b8cf65b6c3f4ce88164dea58c014",
+            "bytes": 70200
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/concentration/aermod.sum",
+            "sha256": "6c82d312d90b0fd964603998047aed0bff4254ed71fbbd405fcf3d7a18a3e368",
+            "bytes": 21163
+          }
+        ]
+      }
+    },
+    "d01_r1050/dry_deposition": {
+      "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/dry_deposition/annual.plt",
+      "sha256": "287c5406e3279f8f3d64553cbcfd106fa8f0a030d461c46089e47716389d08c4",
+      "receptors": 873,
+      "minimum": 4e-05,
+      "maximum": 2.87601,
+      "positive_receptors": 873,
+      "zero_receptors": 0,
+      "averaging": "PERIOD",
+      "source_group": "ALL",
+      "hours_in_period": 8760,
+      "warnings": [
+        "The time count in a PERIOD PLOTFILE is not a substitute for AERMET/AERMOD completeness QA."
+      ],
+      "verified_native_execution": {
+        "verification": "passed current-run content hashes and model-completion audit",
+        "step_id": "aermod__d01_r1050__dry_deposition",
+        "started_utc": "2026-10-19T15:40:52.135204+00:00",
+        "finished_utc": "2026-10-19T15:45:57.219588+00:00",
+        "execution_record": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d01_r1050__dry_deposition.json",
+          "sha256": "39abf46bc578f083b1d33d689504a12b1115f10ab8820a8151a5b81af403d296"
+        },
+        "manifest": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+          "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+        },
+        "reported_model_version": "26135",
+        "scenario": "/workspace/amp-plots/clemson_amp/scenario.json",
+        "inputs": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+            "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+            "bytes": 53782
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+            "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+            "bytes": 603
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+            "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+            "bytes": 595680
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+            "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+            "bytes": 1541882
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/dry_deposition/aermod.inp",
+            "sha256": "dc6730d9e13c991e8e6df986f28c2549dece38f4e7aa4e564eacdef745f2ab21",
+            "bytes": 1670
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+            "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+            "bytes": 3613
+          }
+        ],
+        "binary": {
+          "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+          "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+          "bytes": 5106464
+        },
+        "output": {
+          "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/dry_deposition/annual.plt",
+          "sha256": "287c5406e3279f8f3d64553cbcfd106fa8f0a030d461c46089e47716389d08c4",
+          "bytes": 95126
+        },
+        "completion_reports": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/dry_deposition/aermod.out",
+            "sha256": "a7a60209c83bb7a57e9bc826c524f5d8c6851cf18e3f51327d465b4d5d86a335",
+            "bytes": 225482
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/dry_deposition/errors.out",
+            "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+            "bytes": 66064
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/dry_deposition/aermod.sum",
+            "sha256": "7eaf91d4c95f272aa9a33a37d857932c3b3ed81d59abf72e9133a2c2c0ec8c7b",
+            "bytes": 15674
+          }
+        ]
+      }
+    },
+    "d01_r1050/wet_deposition": {
+      "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/wet_deposition/annual.plt",
+      "sha256": "6dc175a1f4f9ea67ca7b7b8a7c39c5a2ddd060db48ce438dcf1e09cd19329dcf",
+      "receptors": 873,
+      "minimum": 0.0,
+      "maximum": 0.00068,
+      "positive_receptors": 460,
+      "zero_receptors": 413,
+      "averaging": "PERIOD",
+      "source_group": "ALL",
+      "hours_in_period": 8760,
+      "warnings": [
+        "The time count in a PERIOD PLOTFILE is not a substitute for AERMET/AERMOD completeness QA."
+      ],
+      "verified_native_execution": {
+        "verification": "passed current-run content hashes and model-completion audit",
+        "step_id": "aermod__d01_r1050__wet_deposition",
+        "started_utc": "2026-10-19T15:40:52.135733+00:00",
+        "finished_utc": "2026-10-19T15:41:17.883943+00:00",
+        "execution_record": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d01_r1050__wet_deposition.json",
+          "sha256": "488d8443a428f80628d6dcab9423b97d6716d3049363f25661ac5854b29b7945"
+        },
+        "manifest": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+          "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+        },
+        "reported_model_version": "26135",
+        "scenario": "/workspace/amp-plots/clemson_amp/scenario.json",
+        "inputs": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+            "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+            "bytes": 53782
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+            "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+            "bytes": 603
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+            "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+            "bytes": 595680
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+            "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+            "bytes": 1541882
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/wet_deposition/aermod.inp",
+            "sha256": "16c200c87f86be5fb058144ec01f8584d3b6f89e6e54b6cf1a6198083ad80db7",
+            "bytes": 1670
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+            "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+            "bytes": 3613
+          }
+        ],
+        "binary": {
+          "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+          "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+          "bytes": 5106464
+        },
+        "output": {
+          "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/wet_deposition/annual.plt",
+          "sha256": "6dc175a1f4f9ea67ca7b7b8a7c39c5a2ddd060db48ce438dcf1e09cd19329dcf",
+          "bytes": 95126
+        },
+        "completion_reports": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/wet_deposition/aermod.out",
+            "sha256": "9fa578b563034b41d4c70a47cd5ff480d1f68eb80b800f0b17b06dd80f0122e3",
+            "bytes": 225482
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/wet_deposition/errors.out",
+            "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+            "bytes": 66064
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/wet_deposition/aermod.sum",
+            "sha256": "fdc394b75a620d6ed82052fcc46cd93f367d901d5caa17b394f5545b00ebc786",
+            "bytes": 15674
+          }
+        ]
+      }
+    },
+    "d10_r1050/concentration": {
+      "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/concentration/annual.plt",
+      "sha256": "7a934bc110d758e17c2857150ec3c904ffa0b40974d0d6fb9ef3cf63a8680741",
+      "receptors": 873,
+      "minimum": 0.00317,
+      "maximum": 433.79275,
+      "positive_receptors": 873,
+      "zero_receptors": 0,
+      "averaging": "PERIOD",
+      "source_group": "ALL",
+      "hours_in_period": 8760,
+      "warnings": [
+        "The time count in a PERIOD PLOTFILE is not a substitute for AERMET/AERMOD completeness QA."
+      ],
+      "verified_native_execution": {
+        "verification": "passed current-run content hashes and model-completion audit",
+        "step_id": "aermod__d10_r1050__concentration",
+        "started_utc": "2026-10-19T15:40:52.136159+00:00",
+        "finished_utc": "2026-10-19T15:43:38.398155+00:00",
+        "execution_record": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d10_r1050__concentration.json",
+          "sha256": "3094351665beccc17c5c7691de17281e683eecb3365fc57cf54e5814726323e2"
+        },
+        "manifest": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+          "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+        },
+        "reported_model_version": "26135",
+        "scenario": "/workspace/amp-plots/clemson_amp/scenario.json",
+        "inputs": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+            "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+            "bytes": 53782
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+            "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+            "bytes": 603
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+            "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+            "bytes": 595680
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+            "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+            "bytes": 1541882
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/concentration/aermod.inp",
+            "sha256": "97a8dc96702048c83b4cb642eb3e299810f2207b6205c9ba86ae086280c76316",
+            "bytes": 1731
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+            "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+            "bytes": 3613
+          }
+        ],
+        "binary": {
+          "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+          "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+          "bytes": 5106464
+        },
+        "output": {
+          "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/concentration/annual.plt",
+          "sha256": "7a934bc110d758e17c2857150ec3c904ffa0b40974d0d6fb9ef3cf63a8680741",
+          "bytes": 95126
+        },
+        "completion_reports": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/concentration/aermod.out",
+            "sha256": "9b16b9b0b7b502f164d938fc851a3ffcdfc384618182dc31c3b6a712d6efe661",
+            "bytes": 301264
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/concentration/errors.out",
+            "sha256": "3da623c86f3eb6f6eae97e4c6f3de41829c0b8cf65b6c3f4ce88164dea58c014",
+            "bytes": 70200
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/concentration/aermod.sum",
+            "sha256": "19968c26046f5735fe3c41f0aa3619f2d4f47d7c9949e4e17430cafd3f9a915f",
+            "bytes": 21163
+          }
+        ]
+      }
+    },
+    "d10_r1050/dry_deposition": {
+      "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/dry_deposition/annual.plt",
+      "sha256": "23b91f771ae4c2fac6de6d6cba62f8497d9ea84d35cb2d1feb427f689a8ad279",
+      "receptors": 873,
+      "minimum": 0.00052,
+      "maximum": 108.33783,
+      "positive_receptors": 873,
+      "zero_receptors": 0,
+      "averaging": "PERIOD",
+      "source_group": "ALL",
+      "hours_in_period": 8760,
+      "warnings": [
+        "The time count in a PERIOD PLOTFILE is not a substitute for AERMET/AERMOD completeness QA."
+      ],
+      "verified_native_execution": {
+        "verification": "passed current-run content hashes and model-completion audit",
+        "step_id": "aermod__d10_r1050__dry_deposition",
+        "started_utc": "2026-10-19T15:41:17.884630+00:00",
+        "finished_utc": "2026-10-19T15:43:32.792895+00:00",
+        "execution_record": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d10_r1050__dry_deposition.json",
+          "sha256": "d0b74882e100fbbcdf07b812542b578e3d4f9ca49ca5fc0553f5e2f3db98c450"
+        },
+        "manifest": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+          "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+        },
+        "reported_model_version": "26135",
+        "scenario": "/workspace/amp-plots/clemson_amp/scenario.json",
+        "inputs": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+            "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+            "bytes": 53782
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+            "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+            "bytes": 603
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+            "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+            "bytes": 595680
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+            "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+            "bytes": 1541882
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/dry_deposition/aermod.inp",
+            "sha256": "16c641ee57c67f809504ded40a60a66d94a0ff5c61c26c1dc424f66529439d70",
+            "bytes": 1671
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+            "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+            "bytes": 3613
+          }
+        ],
+        "binary": {
+          "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+          "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+          "bytes": 5106464
+        },
+        "output": {
+          "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/dry_deposition/annual.plt",
+          "sha256": "23b91f771ae4c2fac6de6d6cba62f8497d9ea84d35cb2d1feb427f689a8ad279",
+          "bytes": 95126
+        },
+        "completion_reports": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/dry_deposition/aermod.out",
+            "sha256": "d017fe989e99c79311ce818c9b14959783c1b0b866dab8d0d9cf6cb8db2dfe43",
+            "bytes": 225483
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/dry_deposition/errors.out",
+            "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+            "bytes": 66064
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/dry_deposition/aermod.sum",
+            "sha256": "c3c1a3d1c24e6cb2bb76abd2438db6da30165d4a9a483ed2b4b54ec64d7d165a",
+            "bytes": 15674
+          }
+        ]
+      }
+    },
+    "d10_r1050/wet_deposition": {
+      "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/wet_deposition/annual.plt",
+      "sha256": "5631e89cf8a08ddac0e5946faaf57f40a9d0c2c5ea76bd20e673a3e7ed7a1b56",
+      "receptors": 873,
+      "minimum": 2e-05,
+      "maximum": 2.02686,
+      "positive_receptors": 873,
+      "zero_receptors": 0,
+      "averaging": "PERIOD",
+      "source_group": "ALL",
+      "hours_in_period": 8760,
+      "warnings": [
+        "The time count in a PERIOD PLOTFILE is not a substitute for AERMET/AERMOD completeness QA."
+      ],
+      "verified_native_execution": {
+        "verification": "passed current-run content hashes and model-completion audit",
+        "step_id": "aermod__d10_r1050__wet_deposition",
+        "started_utc": "2026-10-19T15:43:32.794190+00:00",
+        "finished_utc": "2026-10-19T15:43:55.247271+00:00",
+        "execution_record": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d10_r1050__wet_deposition.json",
+          "sha256": "87b78f2c00ddb4c60fe68a6ca09cf6d8efd4aaba3bffda652595d1293a98305b"
+        },
+        "manifest": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+          "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+        },
+        "reported_model_version": "26135",
+        "scenario": "/workspace/amp-plots/clemson_amp/scenario.json",
+        "inputs": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+            "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+            "bytes": 53782
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+            "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+            "bytes": 603
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+            "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+            "bytes": 595680
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+            "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+            "bytes": 1541882
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/wet_deposition/aermod.inp",
+            "sha256": "1ff6cef379af1a267aa18c06fd8320b688156a60f069f81836b1c49a197eafd0",
+            "bytes": 1671
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+            "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+            "bytes": 3613
+          }
+        ],
+        "binary": {
+          "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+          "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+          "bytes": 5106464
+        },
+        "output": {
+          "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/wet_deposition/annual.plt",
+          "sha256": "5631e89cf8a08ddac0e5946faaf57f40a9d0c2c5ea76bd20e673a3e7ed7a1b56",
+          "bytes": 95126
+        },
+        "completion_reports": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/wet_deposition/aermod.out",
+            "sha256": "0affadbe1caa8f84d4e392c9e391a426bc7e3d434571652c5d7d9940d8ac4dbd",
+            "bytes": 225483
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/wet_deposition/errors.out",
+            "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+            "bytes": 66064
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/wet_deposition/aermod.sum",
+            "sha256": "62024e045ed95a8f5c4c06b43512ce1422198fdfff5d7e36bf174ffed7ee60ac",
+            "bytes": 15674
+          }
+        ]
+      }
+    },
+    "d30_r1050/concentration": {
+      "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/concentration/annual.plt",
+      "sha256": "5397fe7e99f43078a639686b2be2e41f16624723ece2d7d8db0fc666d094c9c5",
+      "receptors": 873,
+      "minimum": 0.00081,
+      "maximum": 429.51831,
+      "positive_receptors": 873,
+      "zero_receptors": 0,
+      "averaging": "PERIOD",
+      "source_group": "ALL",
+      "hours_in_period": 8760,
+      "warnings": [
+        "The time count in a PERIOD PLOTFILE is not a substitute for AERMET/AERMOD completeness QA."
+      ],
+      "verified_native_execution": {
+        "verification": "passed current-run content hashes and model-completion audit",
+        "step_id": "aermod__d30_r1050__concentration",
+        "started_utc": "2026-10-19T15:43:38.399892+00:00",
+        "finished_utc": "2026-10-19T15:46:07.206977+00:00",
+        "execution_record": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d30_r1050__concentration.json",
+          "sha256": "708ec0ff899fd161bea98019cfdbe0cb6426a4d677d6d586b94d1197ebcca644"
+        },
+        "manifest": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+          "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+        },
+        "reported_model_version": "26135",
+        "scenario": "/workspace/amp-plots/clemson_amp/scenario.json",
+        "inputs": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+            "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+            "bytes": 53782
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+            "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+            "bytes": 603
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+            "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+            "bytes": 595680
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+            "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+            "bytes": 1541882
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/concentration/aermod.inp",
+            "sha256": "13b6d535c58d6bbf018c1c124e9af407c63040efef704b4e46257e719181a2c6",
+            "bytes": 1731
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+            "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+            "bytes": 3613
+          }
+        ],
+        "binary": {
+          "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+          "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+          "bytes": 5106464
+        },
+        "output": {
+          "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/concentration/annual.plt",
+          "sha256": "5397fe7e99f43078a639686b2be2e41f16624723ece2d7d8db0fc666d094c9c5",
+          "bytes": 95126
+        },
+        "completion_reports": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/concentration/aermod.out",
+            "sha256": "7aa697d64d4ceb94e87371cce2df616848b6a679c04ed78c2990421b02d65f1a",
+            "bytes": 301264
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/concentration/errors.out",
+            "sha256": "3da623c86f3eb6f6eae97e4c6f3de41829c0b8cf65b6c3f4ce88164dea58c014",
+            "bytes": 70200
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/concentration/aermod.sum",
+            "sha256": "ccbe12826f768db07a787610bcc2b241cd05bf665a21a30a8c15882f590b9f75",
+            "bytes": 21163
+          }
+        ]
+      }
+    },
+    "d30_r1050/dry_deposition": {
+      "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/dry_deposition/annual.plt",
+      "sha256": "880878e94149af9cf61a15c69aaa176fd2d871ccca1b7e6b21cc7eff3ecf7c26",
+      "receptors": 873,
+      "minimum": 0.00137,
+      "maximum": 528.39149,
+      "positive_receptors": 873,
+      "zero_receptors": 0,
+      "averaging": "PERIOD",
+      "source_group": "ALL",
+      "hours_in_period": 8760,
+      "warnings": [
+        "The time count in a PERIOD PLOTFILE is not a substitute for AERMET/AERMOD completeness QA."
+      ],
+      "verified_native_execution": {
+        "verification": "passed current-run content hashes and model-completion audit",
+        "step_id": "aermod__d30_r1050__dry_deposition",
+        "started_utc": "2026-10-19T15:43:55.248071+00:00",
+        "finished_utc": "2026-10-19T15:46:11.095333+00:00",
+        "execution_record": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d30_r1050__dry_deposition.json",
+          "sha256": "f4b952c30647c31b934c0f7d07bc85af4c883ae7221d01f9de10ba1a2043f792"
+        },
+        "manifest": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+          "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+        },
+        "reported_model_version": "26135",
+        "scenario": "/workspace/amp-plots/clemson_amp/scenario.json",
+        "inputs": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+            "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+            "bytes": 53782
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+            "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+            "bytes": 603
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+            "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+            "bytes": 595680
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+            "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+            "bytes": 1541882
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/dry_deposition/aermod.inp",
+            "sha256": "cf35b43e8a55c106f4464ba2d0b4233a0c7db1cba1b7e17ba2cae5be98a6f2ee",
+            "bytes": 1671
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+            "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+            "bytes": 3613
+          }
+        ],
+        "binary": {
+          "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+          "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+          "bytes": 5106464
+        },
+        "output": {
+          "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/dry_deposition/annual.plt",
+          "sha256": "880878e94149af9cf61a15c69aaa176fd2d871ccca1b7e6b21cc7eff3ecf7c26",
+          "bytes": 95126
+        },
+        "completion_reports": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/dry_deposition/aermod.out",
+            "sha256": "f10a9411a05da9274bacfc319d5083e1a7e8361becfe660c170751133753d64d",
+            "bytes": 225483
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/dry_deposition/errors.out",
+            "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+            "bytes": 66064
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/dry_deposition/aermod.sum",
+            "sha256": "a3641830d37961b557e74b7fadbd119725415825c57a25e26ba736b9d406ec9e",
+            "bytes": 15674
+          }
+        ]
+      }
+    },
+    "d30_r1050/wet_deposition": {
+      "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/wet_deposition/annual.plt",
+      "sha256": "eec0cd4af2b5d95dd466875a9cc4abd29ef7d721ef2ac6354f9b3b9eafbf3476",
+      "receptors": 873,
+      "minimum": 0.0,
+      "maximum": 2.89949,
+      "positive_receptors": 868,
+      "zero_receptors": 5,
+      "averaging": "PERIOD",
+      "source_group": "ALL",
+      "hours_in_period": 8760,
+      "warnings": [
+        "The time count in a PERIOD PLOTFILE is not a substitute for AERMET/AERMOD completeness QA."
+      ],
+      "verified_native_execution": {
+        "verification": "passed current-run content hashes and model-completion audit",
+        "step_id": "aermod__d30_r1050__wet_deposition",
+        "started_utc": "2026-10-19T15:45:45.701323+00:00",
+        "finished_utc": "2026-10-19T15:46:37.794080+00:00",
+        "execution_record": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d30_r1050__wet_deposition.json",
+          "sha256": "e226a6f845c0f1c46f5e3c567b4576cc399927ab593ca4c6e74fb1aeaaf6205e"
+        },
+        "manifest": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+          "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+        },
+        "reported_model_version": "26135",
+        "scenario": "/workspace/amp-plots/clemson_amp/scenario.json",
+        "inputs": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+            "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+            "bytes": 53782
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+            "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+            "bytes": 603
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+            "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+            "bytes": 595680
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+            "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+            "bytes": 1541882
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/wet_deposition/aermod.inp",
+            "sha256": "5c5e64986b3c14c49d1d9a5a86d199df070a559009232044a16881b5a6d8b210",
+            "bytes": 1671
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+            "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+            "bytes": 3613
+          }
+        ],
+        "binary": {
+          "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+          "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+          "bytes": 5106464
+        },
+        "output": {
+          "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/wet_deposition/annual.plt",
+          "sha256": "eec0cd4af2b5d95dd466875a9cc4abd29ef7d721ef2ac6354f9b3b9eafbf3476",
+          "bytes": 95126
+        },
+        "completion_reports": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/wet_deposition/aermod.out",
+            "sha256": "64a1cae4d721f92b01f5c89c47ae51a214d539be0800634856d1183684b554de",
+            "bytes": 225483
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/wet_deposition/errors.out",
+            "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+            "bytes": 66064
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/wet_deposition/aermod.sum",
+            "sha256": "7cd75882b056590e77c224677a52a4e2aa2391d0f0570ba85937830afb090dc6",
+            "bytes": 15674
+          }
+        ]
+      }
+    },
+    "d10_r0900/concentration": {
+      "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/concentration/annual.plt",
+      "sha256": "0d42748b0fd6ec6df7f489bea147048939ebfbe1c0bba4a697843f42eafce1a0",
+      "receptors": 873,
+      "minimum": 0.00324,
+      "maximum": 432.88221,
+      "positive_receptors": 873,
+      "zero_receptors": 0,
+      "averaging": "PERIOD",
+      "source_group": "ALL",
+      "hours_in_period": 8760,
+      "warnings": [
+        "The time count in a PERIOD PLOTFILE is not a substitute for AERMET/AERMOD completeness QA."
+      ],
+      "verified_native_execution": {
+        "verification": "passed current-run content hashes and model-completion audit",
+        "step_id": "aermod__d10_r0900__concentration",
+        "started_utc": "2026-10-19T15:45:57.220995+00:00",
+        "finished_utc": "2026-10-19T15:50:23.519867+00:00",
+        "execution_record": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d10_r0900__concentration.json",
+          "sha256": "a4af3c7d3dc28cea6b6e62a0a5aaee7743a26f13226084a0faaa812d5907a1c5"
+        },
+        "manifest": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+          "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+        },
+        "reported_model_version": "26135",
+        "scenario": "/workspace/amp-plots/clemson_amp/scenario.json",
+        "inputs": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+            "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+            "bytes": 53782
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+            "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+            "bytes": 603
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+            "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+            "bytes": 595680
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+            "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+            "bytes": 1541882
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/concentration/aermod.inp",
+            "sha256": "d727833ed6be4bca850802c1e67021ce4aa03836785878847099bef51d820a85",
+            "bytes": 1730
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+            "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+            "bytes": 3613
+          }
+        ],
+        "binary": {
+          "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+          "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+          "bytes": 5106464
+        },
+        "output": {
+          "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/concentration/annual.plt",
+          "sha256": "0d42748b0fd6ec6df7f489bea147048939ebfbe1c0bba4a697843f42eafce1a0",
+          "bytes": 95126
+        },
+        "completion_reports": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/concentration/aermod.out",
+            "sha256": "0ef967edaf024ae3f12d30aacfafbfa0355780e6a66b34c5d6b2d867e6bb4736",
+            "bytes": 301263
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/concentration/errors.out",
+            "sha256": "3da623c86f3eb6f6eae97e4c6f3de41829c0b8cf65b6c3f4ce88164dea58c014",
+            "bytes": 70200
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/concentration/aermod.sum",
+            "sha256": "f3af1adad9f942e9ede3788d8295efec7ce6bd7a1db78c2ecb210f1136482021",
+            "bytes": 21163
+          }
+        ]
+      }
+    },
+    "d10_r0900/dry_deposition": {
+      "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/dry_deposition/annual.plt",
+      "sha256": "b08fddcd1ff4c02fee5038061ac975269b46686a97a77ad38f013713debd73d0",
+      "receptors": 873,
+      "minimum": 0.00038,
+      "maximum": 90.22606,
+      "positive_receptors": 873,
+      "zero_receptors": 0,
+      "averaging": "PERIOD",
+      "source_group": "ALL",
+      "hours_in_period": 8760,
+      "warnings": [
+        "The time count in a PERIOD PLOTFILE is not a substitute for AERMET/AERMOD completeness QA."
+      ],
+      "verified_native_execution": {
+        "verification": "passed current-run content hashes and model-completion audit",
+        "step_id": "aermod__d10_r0900__dry_deposition",
+        "started_utc": "2026-10-19T15:46:07.209045+00:00",
+        "finished_utc": "2026-10-19T15:50:05.138454+00:00",
+        "execution_record": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d10_r0900__dry_deposition.json",
+          "sha256": "c7fe2c9201937157a5fc9269a4ad38bed43d3eefd2d9fb1adb08ad11ffb551d4"
+        },
+        "manifest": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+          "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+        },
+        "reported_model_version": "26135",
+        "scenario": "/workspace/amp-plots/clemson_amp/scenario.json",
+        "inputs": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+            "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+            "bytes": 53782
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+            "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+            "bytes": 603
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+            "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+            "bytes": 595680
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+            "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+            "bytes": 1541882
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/dry_deposition/aermod.inp",
+            "sha256": "8f7ede331e3f874cc97b2dfaa7da7737bcb0eb1d5dd177ed0e3af441c0b93ced",
+            "bytes": 1670
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+            "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+            "bytes": 3613
+          }
+        ],
+        "binary": {
+          "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+          "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+          "bytes": 5106464
+        },
+        "output": {
+          "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/dry_deposition/annual.plt",
+          "sha256": "b08fddcd1ff4c02fee5038061ac975269b46686a97a77ad38f013713debd73d0",
+          "bytes": 95126
+        },
+        "completion_reports": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/dry_deposition/aermod.out",
+            "sha256": "d298a36de7779cc931121e48575091f0ac41fd80ebd3e740fe260eec3555d085",
+            "bytes": 225482
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/dry_deposition/errors.out",
+            "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+            "bytes": 66064
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/dry_deposition/aermod.sum",
+            "sha256": "5f9d4717fbe8bd92d35ef1341f49bec99ac57a1fe26bc027e318389500f4a711",
+            "bytes": 15674
+          }
+        ]
+      }
+    },
+    "d10_r0900/wet_deposition": {
+      "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/wet_deposition/annual.plt",
+      "sha256": "fa889f79eb953bc91153151f9305cac23a3062eb6e73f9aa56fa7d0d2463b90c",
+      "receptors": 873,
+      "minimum": 2e-05,
+      "maximum": 2.02405,
+      "positive_receptors": 873,
+      "zero_receptors": 0,
+      "averaging": "PERIOD",
+      "source_group": "ALL",
+      "hours_in_period": 8760,
+      "warnings": [
+        "The time count in a PERIOD PLOTFILE is not a substitute for AERMET/AERMOD completeness QA."
+      ],
+      "verified_native_execution": {
+        "verification": "passed current-run content hashes and model-completion audit",
+        "step_id": "aermod__d10_r0900__wet_deposition",
+        "started_utc": "2026-10-19T15:46:11.095999+00:00",
+        "finished_utc": "2026-10-19T15:46:49.688133+00:00",
+        "execution_record": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d10_r0900__wet_deposition.json",
+          "sha256": "61f2e1fed5b02786d02cfa3178ff1f16e8d67a25645fc516deab0dcca7c70981"
+        },
+        "manifest": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+          "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+        },
+        "reported_model_version": "26135",
+        "scenario": "/workspace/amp-plots/clemson_amp/scenario.json",
+        "inputs": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+            "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+            "bytes": 53782
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+            "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+            "bytes": 603
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+            "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+            "bytes": 595680
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+            "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+            "bytes": 1541882
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/wet_deposition/aermod.inp",
+            "sha256": "8d5f53450578cf55223e08690e9dcf2c4266b210e061b3219d5ccd76228ee468",
+            "bytes": 1670
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+            "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+            "bytes": 3613
+          }
+        ],
+        "binary": {
+          "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+          "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+          "bytes": 5106464
+        },
+        "output": {
+          "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/wet_deposition/annual.plt",
+          "sha256": "fa889f79eb953bc91153151f9305cac23a3062eb6e73f9aa56fa7d0d2463b90c",
+          "bytes": 95126
+        },
+        "completion_reports": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/wet_deposition/aermod.out",
+            "sha256": "3d169eadf0dd1ab317ebbbaaa9c8287862af04c5543a532e28eeb69695511708",
+            "bytes": 225482
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/wet_deposition/errors.out",
+            "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+            "bytes": 66064
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/wet_deposition/aermod.sum",
+            "sha256": "39ac07c32a270610c9ec6dca31bee82c625ca6442232daa6f04a6aacdf8c1fb8",
+            "bytes": 15674
+          }
+        ]
+      }
+    },
+    "d10_r1400/concentration": {
+      "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/concentration/annual.plt",
+      "sha256": "2fe44d145f47c8e09b1e2701de1085327db4cb726e3fc8866e69068c0b36a3d4",
+      "receptors": 873,
+      "minimum": 0.00301,
+      "maximum": 435.73469,
+      "positive_receptors": 873,
+      "zero_receptors": 0,
+      "averaging": "PERIOD",
+      "source_group": "ALL",
+      "hours_in_period": 8760,
+      "warnings": [
+        "The time count in a PERIOD PLOTFILE is not a substitute for AERMET/AERMOD completeness QA."
+      ],
+      "verified_native_execution": {
+        "verification": "passed current-run content hashes and model-completion audit",
+        "step_id": "aermod__d10_r1400__concentration",
+        "started_utc": "2026-10-19T15:46:37.795919+00:00",
+        "finished_utc": "2026-10-19T15:50:43.859948+00:00",
+        "execution_record": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d10_r1400__concentration.json",
+          "sha256": "0c0e501e1b0881886f934780a2f43838033700b522ca8bb313392d0213a273ce"
+        },
+        "manifest": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+          "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+        },
+        "reported_model_version": "26135",
+        "scenario": "/workspace/amp-plots/clemson_amp/scenario.json",
+        "inputs": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+            "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+            "bytes": 53782
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+            "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+            "bytes": 603
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+            "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+            "bytes": 595680
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+            "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+            "bytes": 1541882
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/concentration/aermod.inp",
+            "sha256": "f7824cc767476cff35492af76747b177d635468102a558117c1db5e241f1c483",
+            "bytes": 1730
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+            "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+            "bytes": 3613
+          }
+        ],
+        "binary": {
+          "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+          "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+          "bytes": 5106464
+        },
+        "output": {
+          "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/concentration/annual.plt",
+          "sha256": "2fe44d145f47c8e09b1e2701de1085327db4cb726e3fc8866e69068c0b36a3d4",
+          "bytes": 95126
+        },
+        "completion_reports": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/concentration/aermod.out",
+            "sha256": "3767aa2b4ade80b2927ecfbecd477a77355c55c11f9cef478f6bfc1ffb363a10",
+            "bytes": 301263
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/concentration/errors.out",
+            "sha256": "3da623c86f3eb6f6eae97e4c6f3de41829c0b8cf65b6c3f4ce88164dea58c014",
+            "bytes": 70200
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/concentration/aermod.sum",
+            "sha256": "5a848bcfebdc1b9cb74fddf5a22d8d1e78545830cac2b37e0c18f0335d17ed2f",
+            "bytes": 21163
+          }
+        ]
+      }
+    },
+    "d10_r1400/dry_deposition": {
+      "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/dry_deposition/annual.plt",
+      "sha256": "08194ec89fab3772360bb76fdeb1e85a5e566d58abaa86a2e077fda90e63cf16",
+      "receptors": 873,
+      "minimum": 0.00087,
+      "maximum": 147.67211,
+      "positive_receptors": 873,
+      "zero_receptors": 0,
+      "averaging": "PERIOD",
+      "source_group": "ALL",
+      "hours_in_period": 8760,
+      "warnings": [
+        "The time count in a PERIOD PLOTFILE is not a substitute for AERMET/AERMOD completeness QA."
+      ],
+      "verified_native_execution": {
+        "verification": "passed current-run content hashes and model-completion audit",
+        "step_id": "aermod__d10_r1400__dry_deposition",
+        "started_utc": "2026-10-19T15:46:49.688867+00:00",
+        "finished_utc": "2026-10-19T15:50:49.449742+00:00",
+        "execution_record": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d10_r1400__dry_deposition.json",
+          "sha256": "e514c6260f2d196008f29423ec878e4e4a91d3511189057c7df39a6dc36e4a87"
+        },
+        "manifest": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+          "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+        },
+        "reported_model_version": "26135",
+        "scenario": "/workspace/amp-plots/clemson_amp/scenario.json",
+        "inputs": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+            "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+            "bytes": 53782
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+            "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+            "bytes": 603
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+            "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+            "bytes": 595680
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+            "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+            "bytes": 1541882
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/dry_deposition/aermod.inp",
+            "sha256": "0b3ccbbd122666ef9f6eebdb9546c3fd636b7568c23f869c17b3abbd8e6bae20",
+            "bytes": 1670
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+            "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+            "bytes": 3613
+          }
+        ],
+        "binary": {
+          "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+          "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+          "bytes": 5106464
+        },
+        "output": {
+          "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/dry_deposition/annual.plt",
+          "sha256": "08194ec89fab3772360bb76fdeb1e85a5e566d58abaa86a2e077fda90e63cf16",
+          "bytes": 95126
+        },
+        "completion_reports": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/dry_deposition/aermod.out",
+            "sha256": "c3b8610a5b1e02f2740d378c4a75f3f31ed35ab00480f7942d10e7f49ad25ea0",
+            "bytes": 225482
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/dry_deposition/errors.out",
+            "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+            "bytes": 66064
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/dry_deposition/aermod.sum",
+            "sha256": "2a384eb99d057b73f72ce816b98b530c69cb98f1d58d0969cd255ec831c73d5f",
+            "bytes": 15674
+          }
+        ]
+      }
+    },
+    "d10_r1400/wet_deposition": {
+      "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/wet_deposition/annual.plt",
+      "sha256": "a49875e78402f6f9dadd0327c82b18ee748556b165d5cfb8d5d7421ac2255e67",
+      "receptors": 873,
+      "minimum": 2e-05,
+      "maximum": 1.9739,
+      "positive_receptors": 873,
+      "zero_receptors": 0,
+      "averaging": "PERIOD",
+      "source_group": "ALL",
+      "hours_in_period": 8760,
+      "warnings": [
+        "The time count in a PERIOD PLOTFILE is not a substitute for AERMET/AERMOD completeness QA."
+      ],
+      "verified_native_execution": {
+        "verification": "passed current-run content hashes and model-completion audit",
+        "step_id": "aermod__d10_r1400__wet_deposition",
+        "started_utc": "2026-10-19T15:50:05.139758+00:00",
+        "finished_utc": "2026-10-19T15:50:28.659974+00:00",
+        "execution_record": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d10_r1400__wet_deposition.json",
+          "sha256": "8200785b99cd41e7a5302bdd04f20888f0239193f680f78fbcd64305e7cc0747"
+        },
+        "manifest": {
+          "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+          "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+        },
+        "reported_model_version": "26135",
+        "scenario": "/workspace/amp-plots/clemson_amp/scenario.json",
+        "inputs": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+            "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+            "bytes": 53782
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+            "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+            "bytes": 603
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+            "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+            "bytes": 595680
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+            "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+            "bytes": 1541882
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/wet_deposition/aermod.inp",
+            "sha256": "5790df136a3b19b1ccfb2b6012505aa17bbfd24e6fa5a317d0b3f47af700d435",
+            "bytes": 1670
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+            "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+            "bytes": 3613
+          }
+        ],
+        "binary": {
+          "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+          "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+          "bytes": 5106464
+        },
+        "output": {
+          "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/wet_deposition/annual.plt",
+          "sha256": "a49875e78402f6f9dadd0327c82b18ee748556b165d5cfb8d5d7421ac2255e67",
+          "bytes": 95126
+        },
+        "completion_reports": [
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/wet_deposition/aermod.out",
+            "sha256": "e5b565a0f2d78c828859e88292e223b2c81e0181548e6f44a759bc54ff1b71f6",
+            "bytes": 225482
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/wet_deposition/errors.out",
+            "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+            "bytes": 66064
+          },
+          {
+            "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/wet_deposition/aermod.sum",
+            "sha256": "b9e75f7e57692de501aa859ab6a5cbc183c7c1206bd8bc0af2a07bb5f1247b0c",
+            "bytes": 15674
+          }
+        ]
+      }
+    }
+  },
+  "radial_profiles": {
+    "annulus_edges_km": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      13.0,
+      14.0,
+      15.0,
+      16.0
+    ],
+    "profiles": {
+      "Size sensitivity/concentration/d01_r1050": {
+        "mean_receptor_radius_km": [
+          0.06666641203096314,
+          0.14571067812776162,
+          0.24501407699884625,
+          0.3407131574289918,
+          0.4419015692650435,
+          0.5420793408982861,
+          0.6393032449034519,
+          0.737897282331318,
+          0.8421995479630724,
+          0.9461851524731487,
+          1.1487569168997864,
+          2.4501407699369624,
+          3.4071315742533166,
+          4.4190174926222525,
+          5.4207920089599595,
+          6.393032449015127,
+          7.378972823296382,
+          8.42199547961601,
+          9.461852364718386,
+          10.4130298873033,
+          11.40024347933534,
+          12.40524562859171,
+          13.453624047073802,
+          14.142135623731038
+        ],
+        "arithmetic_mean": [
+          212.94054666666668,
+          86.43343625,
+          29.266316875,
+          16.589827000000003,
+          12.432866071428572,
+          10.929491388888888,
+          8.521195833333334,
+          6.610643541666668,
+          4.944604107142857,
+          4.2859731666666665,
+          3.449403636363636,
+          0.909360625,
+          0.547963,
+          0.3518496428571428,
+          0.2102611111111111,
+          0.14466166666666666,
+          0.12406958333333334,
+          0.08952053571428571,
+          0.08094716666666665,
+          0.07546967741935484,
+          0.06501107142857142,
+          0.0513292857142857,
+          0.044160000000000005,
+          0.037835
+        ],
+        "receptors_in_bin": [
+          3,
+          8,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          132,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          62,
+          28,
+          28,
+          8,
+          4
+        ],
+        "zero_bins_hidden_from_log_axis": 0
+      },
+      "Size sensitivity/concentration/d10_r1050": {
+        "mean_receptor_radius_km": [
+          0.06666641203096314,
+          0.14571067812776162,
+          0.24501407699884625,
+          0.3407131574289918,
+          0.4419015692650435,
+          0.5420793408982861,
+          0.6393032449034519,
+          0.737897282331318,
+          0.8421995479630724,
+          0.9461851524731487,
+          1.1487569168997864,
+          2.4501407699369624,
+          3.4071315742533166,
+          4.4190174926222525,
+          5.4207920089599595,
+          6.393032449015127,
+          7.378972823296382,
+          8.42199547961601,
+          9.461852364718386,
+          10.4130298873033,
+          11.40024347933534,
+          12.40524562859171,
+          13.453624047073802,
+          14.142135623731038
+        ],
+        "arithmetic_mean": [
+          213.38799333333336,
+          82.731255,
+          25.346048124999996,
+          13.495056,
+          9.920046785714286,
+          7.887187222222224,
+          5.976298333333334,
+          4.462893958333333,
+          3.2855885714285713,
+          2.767884,
+          2.1416046212121214,
+          0.479474375,
+          0.27404949999999995,
+          0.1706896428571429,
+          0.10133055555555556,
+          0.0716025,
+          0.056580625,
+          0.041885,
+          0.035726,
+          0.030874516129032258,
+          0.02614857142857143,
+          0.021043214285714287,
+          0.017903750000000003,
+          0.0172125
+        ],
+        "receptors_in_bin": [
+          3,
+          8,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          132,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          62,
+          28,
+          28,
+          8,
+          4
+        ],
+        "zero_bins_hidden_from_log_axis": 0
+      },
+      "Size sensitivity/concentration/d30_r1050": {
+        "mean_receptor_radius_km": [
+          0.06666641203096314,
+          0.14571067812776162,
+          0.24501407699884625,
+          0.3407131574289918,
+          0.4419015692650435,
+          0.5420793408982861,
+          0.6393032449034519,
+          0.737897282331318,
+          0.8421995479630724,
+          0.9461851524731487,
+          1.1487569168997864,
+          2.4501407699369624,
+          3.4071315742533166,
+          4.4190174926222525,
+          5.4207920089599595,
+          6.393032449015127,
+          7.378972823296382,
+          8.42199547961601,
+          9.461852364718386,
+          10.4130298873033,
+          11.40024347933534,
+          12.40524562859171,
+          13.453624047073802,
+          14.142135623731038
+        ],
+        "arithmetic_mean": [
+          180.93664666666666,
+          36.7214125,
+          7.56417625,
+          3.5858464999999997,
+          2.396068571428571,
+          1.2617277777777778,
+          0.8987649999999999,
+          0.6333877083333334,
+          0.4782235714285714,
+          0.3607231666666667,
+          0.2537082575757576,
+          0.05153187499999999,
+          0.025778000000000002,
+          0.015821785714285715,
+          0.010470000000000002,
+          0.0078325,
+          0.0055897916666666665,
+          0.004452142857142858,
+          0.003444166666666666,
+          0.002821774193548387,
+          0.0023525,
+          0.0019500000000000001,
+          0.0016225,
+          0.0014675
+        ],
+        "receptors_in_bin": [
+          3,
+          8,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          132,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          62,
+          28,
+          28,
+          8,
+          4
+        ],
+        "zero_bins_hidden_from_log_axis": 0
+      },
+      "Size sensitivity/dry_deposition/d01_r1050": {
+        "mean_receptor_radius_km": [
+          0.06666641203096314,
+          0.14571067812776162,
+          0.24501407699884625,
+          0.3407131574289918,
+          0.4419015692650435,
+          0.5420793408982861,
+          0.6393032449034519,
+          0.737897282331318,
+          0.8421995479630724,
+          0.9461851524731487,
+          1.1487569168997864,
+          2.4501407699369624,
+          3.4071315742533166,
+          4.4190174926222525,
+          5.4207920089599595,
+          6.393032449015127,
+          7.378972823296382,
+          8.42199547961601,
+          9.461852364718386,
+          10.4130298873033,
+          11.40024347933534,
+          12.40524562859171,
+          13.453624047073802,
+          14.142135623731038
+        ],
+        "arithmetic_mean": [
+          1.31723,
+          0.41019875000000006,
+          0.13605625,
+          0.075525,
+          0.054142499999999996,
+          0.04837999999999999,
+          0.03766472222222222,
+          0.02924375,
+          0.021891607142857143,
+          0.018869833333333332,
+          0.015087348484848485,
+          0.003993124999999999,
+          0.002388500000000001,
+          0.0015389285714285715,
+          0.0009347222222222222,
+          0.0006475000000000002,
+          0.0005566666666666667,
+          0.0004073214285714286,
+          0.0003663333333333333,
+          0.00034209677419354837,
+          0.0002953571428571429,
+          0.00023535714285714284,
+          0.00020125,
+          0.000175
+        ],
+        "receptors_in_bin": [
+          3,
+          8,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          132,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          62,
+          28,
+          28,
+          8,
+          4
+        ],
+        "zero_bins_hidden_from_log_axis": 0
+      },
+      "Size sensitivity/dry_deposition/d10_r1050": {
+        "mean_receptor_radius_km": [
+          0.06666641203096314,
+          0.14571067812776162,
+          0.24501407699884625,
+          0.3407131574289918,
+          0.4419015692650435,
+          0.5420793408982861,
+          0.6393032449034519,
+          0.737897282331318,
+          0.8421995479630724,
+          0.9461851524731487,
+          1.1487569168997864,
+          2.4501407699369624,
+          3.4071315742533166,
+          4.4190174926222525,
+          5.4207920089599595,
+          6.393032449015127,
+          7.378972823296382,
+          8.42199547961601,
+          9.461852364718386,
+          10.4130298873033,
+          11.40024347933534,
+          12.40524562859171,
+          13.453624047073802,
+          14.142135623731038
+        ],
+        "arithmetic_mean": [
+          48.46879666666666,
+          11.98682125,
+          3.643456875,
+          1.9372060000000002,
+          1.2999046428571428,
+          1.0043169444444446,
+          0.7578694444444445,
+          0.56508875,
+          0.42308982142857143,
+          0.3480426666666668,
+          0.25913303030303037,
+          0.058841874999999995,
+          0.0334,
+          0.02089857142857143,
+          0.013000833333333333,
+          0.00943611111111111,
+          0.0074062500000000005,
+          0.005743214285714286,
+          0.004829333333333332,
+          0.004189999999999999,
+          0.0035453571428571426,
+          0.002784285714285714,
+          0.00235,
+          0.0022375
+        ],
+        "receptors_in_bin": [
+          3,
+          8,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          132,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          62,
+          28,
+          28,
+          8,
+          4
+        ],
+        "zero_bins_hidden_from_log_axis": 0
+      },
+      "Size sensitivity/dry_deposition/d30_r1050": {
+        "mean_receptor_radius_km": [
+          0.06666641203096314,
+          0.14571067812776162,
+          0.24501407699884625,
+          0.3407131574289918,
+          0.4419015692650435,
+          0.5420793408982861,
+          0.6393032449034519,
+          0.737897282331318,
+          0.8421995479630724,
+          0.9461851524731487,
+          1.1487569168997864,
+          2.4501407699369624,
+          3.4071315742533166,
+          4.4190174926222525,
+          5.4207920089599595,
+          6.393032449015127,
+          7.378972823296382,
+          8.42199547961601,
+          9.461852364718386,
+          10.4130298873033,
+          11.40024347933534,
+          12.40524562859171,
+          13.453624047073802,
+          14.142135623731038
+        ],
+        "arithmetic_mean": [
+          218.11488666666665,
+          39.7890425,
+          9.175985625000001,
+          4.500897,
+          2.833743214285714,
+          1.640557777777778,
+          1.175344444444444,
+          0.8479604166666667,
+          0.6528253571428573,
+          0.4953523333333333,
+          0.3453955303030303,
+          0.07612375,
+          0.04014,
+          0.024834999999999996,
+          0.01712027777777778,
+          0.012921111111111112,
+          0.009566458333333333,
+          0.0077998214285714285,
+          0.0061175,
+          0.0051280645161290335,
+          0.004377857142857143,
+          0.0035685714285714283,
+          0.0029812500000000004,
+          0.0027075
+        ],
+        "receptors_in_bin": [
+          3,
+          8,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          132,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          62,
+          28,
+          28,
+          8,
+          4
+        ],
+        "zero_bins_hidden_from_log_axis": 0
+      },
+      "Size sensitivity/wet_deposition/d01_r1050": {
+        "mean_receptor_radius_km": [
+          0.06666641203096314,
+          0.14571067812776162,
+          0.24501407699884625,
+          0.3407131574289918,
+          0.4419015692650435,
+          0.5420793408982861,
+          0.6393032449034519,
+          0.737897282331318,
+          0.8421995479630724,
+          0.9461851524731487,
+          1.1487569168997864,
+          2.4501407699369624,
+          3.4071315742533166,
+          4.4190174926222525,
+          5.4207920089599595,
+          6.393032449015127,
+          7.378972823296382,
+          8.42199547961601,
+          9.461852364718386,
+          10.4130298873033,
+          11.40024347933534,
+          12.40524562859171,
+          13.453624047073802,
+          14.142135623731038
+        ],
+        "arithmetic_mean": [
+          0.0003266666666666667,
+          0.0001575,
+          7.999999999999999e-05,
+          5.200000000000002e-05,
+          3.92857142857143e-05,
+          3.611111111111112e-05,
+          3.0277777777777786e-05,
+          2.666666666666667e-05,
+          2.232142857142857e-05,
+          2.0833333333333336e-05,
+          1.803030303030303e-05,
+          6.250000000000001e-06,
+          3.5000000000000004e-06,
+          2.5e-06,
+          1.944444444444445e-06,
+          5.555555555555556e-07,
+          6.25e-07,
+          0.0,
+          1.6666666666666668e-07,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "receptors_in_bin": [
+          3,
+          8,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          132,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          62,
+          28,
+          28,
+          8,
+          4
+        ],
+        "zero_bins_hidden_from_log_axis": 6
+      },
+      "Size sensitivity/wet_deposition/d10_r1050": {
+        "mean_receptor_radius_km": [
+          0.06666641203096314,
+          0.14571067812776162,
+          0.24501407699884625,
+          0.3407131574289918,
+          0.4419015692650435,
+          0.5420793408982861,
+          0.6393032449034519,
+          0.737897282331318,
+          0.8421995479630724,
+          0.9461851524731487,
+          1.1487569168997864,
+          2.4501407699369624,
+          3.4071315742533166,
+          4.4190174926222525,
+          5.4207920089599595,
+          6.393032449015127,
+          7.378972823296382,
+          8.42199547961601,
+          9.461852364718386,
+          10.4130298873033,
+          11.40024347933534,
+          12.40524562859171,
+          13.453624047073802,
+          14.142135623731038
+        ],
+        "arithmetic_mean": [
+          0.9504133333333332,
+          0.4158225,
+          0.193795,
+          0.1173365,
+          0.08351821428571429,
+          0.07277249999999999,
+          0.05597055555555556,
+          0.04787645833333334,
+          0.037445535714285716,
+          0.032750166666666664,
+          0.02800401515151515,
+          0.007196875,
+          0.003556999999999999,
+          0.0021635714285714283,
+          0.0014816666666666667,
+          0.000906111111111111,
+          0.0007122916666666666,
+          0.0004741071428571428,
+          0.0003701666666666667,
+          0.0003211290322580644,
+          0.0002996428571428571,
+          0.0002575,
+          0.00022625,
+          0.0001725
+        ],
+        "receptors_in_bin": [
+          3,
+          8,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          132,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          62,
+          28,
+          28,
+          8,
+          4
+        ],
+        "zero_bins_hidden_from_log_axis": 0
+      },
+      "Size sensitivity/wet_deposition/d30_r1050": {
+        "mean_receptor_radius_km": [
+          0.06666641203096314,
+          0.14571067812776162,
+          0.24501407699884625,
+          0.3407131574289918,
+          0.4419015692650435,
+          0.5420793408982861,
+          0.6393032449034519,
+          0.737897282331318,
+          0.8421995479630724,
+          0.9461851524731487,
+          1.1487569168997864,
+          2.4501407699369624,
+          3.4071315742533166,
+          4.4190174926222525,
+          5.4207920089599595,
+          6.393032449015127,
+          7.378972823296382,
+          8.42199547961601,
+          9.461852364718386,
+          10.4130298873033,
+          11.40024347933534,
+          12.40524562859171,
+          13.453624047073802,
+          14.142135623731038
+        ],
+        "arithmetic_mean": [
+          1.2475233333333333,
+          0.40748124999999996,
+          0.164814375,
+          0.09522200000000001,
+          0.06304285714285714,
+          0.051588055555555554,
+          0.037729166666666675,
+          0.031879374999999995,
+          0.024900714285714283,
+          0.020571333333333334,
+          0.01758060606060606,
+          0.00366375,
+          0.001711,
+          0.0009042857142857142,
+          0.0006488888888888888,
+          0.0003705555555555556,
+          0.0002777083333333333,
+          0.0001875,
+          0.00013116666666666667,
+          0.00011096774193548389,
+          0.00010928571428571428,
+          9.071428571428573e-05,
+          6.625000000000001e-05,
+          5.25e-05
+        ],
+        "receptors_in_bin": [
+          3,
+          8,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          132,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          62,
+          28,
+          28,
+          8,
+          4
+        ],
+        "zero_bins_hidden_from_log_axis": 0
+      },
+      "Density sensitivity/concentration/d10_r0900": {
+        "mean_receptor_radius_km": [
+          0.06666641203096314,
+          0.14571067812776162,
+          0.24501407699884625,
+          0.3407131574289918,
+          0.4419015692650435,
+          0.5420793408982861,
+          0.6393032449034519,
+          0.737897282331318,
+          0.8421995479630724,
+          0.9461851524731487,
+          1.1487569168997864,
+          2.4501407699369624,
+          3.4071315742533166,
+          4.4190174926222525,
+          5.4207920089599595,
+          6.393032449015127,
+          7.378972823296382,
+          8.42199547961601,
+          9.461852364718386,
+          10.4130298873033,
+          11.40024347933534,
+          12.40524562859171,
+          13.453624047073802,
+          14.142135623731038
+        ],
+        "arithmetic_mean": [
+          213.5866433333333,
+          83.54045375,
+          26.017231250000002,
+          13.959177500000001,
+          10.279520714285713,
+          8.298408055555555,
+          6.307989722222222,
+          4.729409583333333,
+          3.486126428571428,
+          2.945194833333333,
+          2.2878915909090907,
+          0.521096875,
+          0.299268,
+          0.18681785714285712,
+          0.11089916666666669,
+          0.07799861111111113,
+          0.06216625,
+          0.04590892857142857,
+          0.03936116666666666,
+          0.03427225806451613,
+          0.029075714285714285,
+          0.023267857142857142,
+          0.019727500000000002,
+          0.018925
+        ],
+        "receptors_in_bin": [
+          3,
+          8,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          132,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          62,
+          28,
+          28,
+          8,
+          4
+        ],
+        "zero_bins_hidden_from_log_axis": 0
+      },
+      "Density sensitivity/concentration/d10_r1050": {
+        "mean_receptor_radius_km": [
+          0.06666641203096314,
+          0.14571067812776162,
+          0.24501407699884625,
+          0.3407131574289918,
+          0.4419015692650435,
+          0.5420793408982861,
+          0.6393032449034519,
+          0.737897282331318,
+          0.8421995479630724,
+          0.9461851524731487,
+          1.1487569168997864,
+          2.4501407699369624,
+          3.4071315742533166,
+          4.4190174926222525,
+          5.4207920089599595,
+          6.393032449015127,
+          7.378972823296382,
+          8.42199547961601,
+          9.461852364718386,
+          10.4130298873033,
+          11.40024347933534,
+          12.40524562859171,
+          13.453624047073802,
+          14.142135623731038
+        ],
+        "arithmetic_mean": [
+          213.38799333333336,
+          82.731255,
+          25.346048124999996,
+          13.495056,
+          9.920046785714286,
+          7.887187222222224,
+          5.976298333333334,
+          4.462893958333333,
+          3.2855885714285713,
+          2.767884,
+          2.1416046212121214,
+          0.479474375,
+          0.27404949999999995,
+          0.1706896428571429,
+          0.10133055555555556,
+          0.0716025,
+          0.056580625,
+          0.041885,
+          0.035726,
+          0.030874516129032258,
+          0.02614857142857143,
+          0.021043214285714287,
+          0.017903750000000003,
+          0.0172125
+        ],
+        "receptors_in_bin": [
+          3,
+          8,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          132,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          62,
+          28,
+          28,
+          8,
+          4
+        ],
+        "zero_bins_hidden_from_log_axis": 0
+      },
+      "Density sensitivity/concentration/d10_r1400": {
+        "mean_receptor_radius_km": [
+          0.06666641203096314,
+          0.14571067812776162,
+          0.24501407699884625,
+          0.3407131574289918,
+          0.4419015692650435,
+          0.5420793408982861,
+          0.6393032449034519,
+          0.737897282331318,
+          0.8421995479630724,
+          0.9461851524731487,
+          1.1487569168997864,
+          2.4501407699369624,
+          3.4071315742533166,
+          4.4190174926222525,
+          5.4207920089599595,
+          6.393032449015127,
+          7.378972823296382,
+          8.42199547961601,
+          9.461852364718386,
+          10.4130298873033,
+          11.40024347933534,
+          12.40524562859171,
+          13.453624047073802,
+          14.142135623731038
+        ],
+        "arithmetic_mean": [
+          212.73455333333334,
+          80.613835,
+          23.774044999999997,
+          12.46139,
+          9.126892142857141,
+          7.01572611111111,
+          5.2828800000000005,
+          3.9139093750000007,
+          2.8758475,
+          2.4077240000000004,
+          1.8471068939393938,
+          0.399006875,
+          0.22568050000000003,
+          0.13999964285714286,
+          0.08322194444444445,
+          0.0594236111111111,
+          0.04611916666666666,
+          0.03430839285714286,
+          0.028960666666666666,
+          0.02467306451612903,
+          0.020805357142857143,
+          0.016951785714285714,
+          0.014516249999999998,
+          0.0139525
+        ],
+        "receptors_in_bin": [
+          3,
+          8,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          132,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          62,
+          28,
+          28,
+          8,
+          4
+        ],
+        "zero_bins_hidden_from_log_axis": 0
+      },
+      "Density sensitivity/dry_deposition/d10_r0900": {
+        "mean_receptor_radius_km": [
+          0.06666641203096314,
+          0.14571067812776162,
+          0.24501407699884625,
+          0.3407131574289918,
+          0.4419015692650435,
+          0.5420793408982861,
+          0.6393032449034519,
+          0.737897282331318,
+          0.8421995479630724,
+          0.9461851524731487,
+          1.1487569168997864,
+          2.4501407699369624,
+          3.4071315742533166,
+          4.4190174926222525,
+          5.4207920089599595,
+          6.393032449015127,
+          7.378972823296382,
+          8.42199547961601,
+          9.461852364718386,
+          10.4130298873033,
+          11.40024347933534,
+          12.40524562859171,
+          13.453624047073802,
+          14.142135623731038
+        ],
+        "arithmetic_mean": [
+          40.64014666666667,
+          10.193665,
+          3.1465668749999995,
+          1.6855084999999999,
+          1.1366042857142857,
+          0.8905408333333334,
+          0.6747283333333334,
+          0.5042639583333334,
+          0.3775019642857143,
+          0.31178833333333333,
+          0.2329419696969697,
+          0.0534675,
+          0.030455499999999996,
+          0.01906107142857143,
+          0.011775833333333334,
+          0.00849638888888889,
+          0.006705625,
+          0.005161607142857143,
+          0.004366333333333333,
+          0.0038029032258064524,
+          0.0032032142857142854,
+          0.0024992857142857143,
+          0.0021012500000000003,
+          0.0019975
+        ],
+        "receptors_in_bin": [
+          3,
+          8,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          132,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          62,
+          28,
+          28,
+          8,
+          4
+        ],
+        "zero_bins_hidden_from_log_axis": 0
+      },
+      "Density sensitivity/dry_deposition/d10_r1050": {
+        "mean_receptor_radius_km": [
+          0.06666641203096314,
+          0.14571067812776162,
+          0.24501407699884625,
+          0.3407131574289918,
+          0.4419015692650435,
+          0.5420793408982861,
+          0.6393032449034519,
+          0.737897282331318,
+          0.8421995479630724,
+          0.9461851524731487,
+          1.1487569168997864,
+          2.4501407699369624,
+          3.4071315742533166,
+          4.4190174926222525,
+          5.4207920089599595,
+          6.393032449015127,
+          7.378972823296382,
+          8.42199547961601,
+          9.461852364718386,
+          10.4130298873033,
+          11.40024347933534,
+          12.40524562859171,
+          13.453624047073802,
+          14.142135623731038
+        ],
+        "arithmetic_mean": [
+          48.46879666666666,
+          11.98682125,
+          3.643456875,
+          1.9372060000000002,
+          1.2999046428571428,
+          1.0043169444444446,
+          0.7578694444444445,
+          0.56508875,
+          0.42308982142857143,
+          0.3480426666666668,
+          0.25913303030303037,
+          0.058841874999999995,
+          0.0334,
+          0.02089857142857143,
+          0.013000833333333333,
+          0.00943611111111111,
+          0.0074062500000000005,
+          0.005743214285714286,
+          0.004829333333333332,
+          0.004189999999999999,
+          0.0035453571428571426,
+          0.002784285714285714,
+          0.00235,
+          0.0022375
+        ],
+        "receptors_in_bin": [
+          3,
+          8,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          132,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          62,
+          28,
+          28,
+          8,
+          4
+        ],
+        "zero_bins_hidden_from_log_axis": 0
+      },
+      "Density sensitivity/dry_deposition/d10_r1400": {
+        "mean_receptor_radius_km": [
+          0.06666641203096314,
+          0.14571067812776162,
+          0.24501407699884625,
+          0.3407131574289918,
+          0.4419015692650435,
+          0.5420793408982861,
+          0.6393032449034519,
+          0.737897282331318,
+          0.8421995479630724,
+          0.9461851524731487,
+          1.1487569168997864,
+          2.4501407699369624,
+          3.4071315742533166,
+          4.4190174926222525,
+          5.4207920089599595,
+          6.393032449015127,
+          7.378972823296382,
+          8.42199547961601,
+          9.461852364718386,
+          10.4130298873033,
+          11.40024347933534,
+          12.40524562859171,
+          13.453624047073802,
+          14.142135623731038
+        ],
+        "arithmetic_mean": [
+          65.33035666666667,
+          15.80044625,
+          4.657870000000001,
+          2.4438195000000005,
+          1.6277589285714282,
+          1.2243997222222225,
+          0.9171602777777778,
+          0.6809127083333332,
+          0.5100417857142857,
+          0.41648499999999994,
+          0.30828772727272724,
+          0.06861062500000001,
+          0.038695499999999994,
+          0.02420464285714286,
+          0.01528138888888889,
+          0.011210833333333331,
+          0.008715416666666666,
+          0.006841964285714285,
+          0.005694833333333333,
+          0.004911612903225808,
+          0.004195357142857142,
+          0.003340714285714285,
+          0.00284375,
+          0.0026975
+        ],
+        "receptors_in_bin": [
+          3,
+          8,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          132,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          62,
+          28,
+          28,
+          8,
+          4
+        ],
+        "zero_bins_hidden_from_log_axis": 0
+      },
+      "Density sensitivity/wet_deposition/d10_r0900": {
+        "mean_receptor_radius_km": [
+          0.06666641203096314,
+          0.14571067812776162,
+          0.24501407699884625,
+          0.3407131574289918,
+          0.4419015692650435,
+          0.5420793408982861,
+          0.6393032449034519,
+          0.737897282331318,
+          0.8421995479630724,
+          0.9461851524731487,
+          1.1487569168997864,
+          2.4501407699369624,
+          3.4071315742533166,
+          4.4190174926222525,
+          5.4207920089599595,
+          6.393032449015127,
+          7.378972823296382,
+          8.42199547961601,
+          9.461852364718386,
+          10.4130298873033,
+          11.40024347933534,
+          12.40524562859171,
+          13.453624047073802,
+          14.142135623731038
+        ],
+        "arithmetic_mean": [
+          0.9509799999999999,
+          0.42007625000000004,
+          0.19682624999999998,
+          0.11944099999999999,
+          0.08518321428571429,
+          0.074515,
+          0.0573825,
+          0.049151875000000005,
+          0.03844589285714285,
+          0.03368,
+          0.02885962121212121,
+          0.007454374999999999,
+          0.0036894999999999996,
+          0.0022464285714285715,
+          0.0015383333333333334,
+          0.0009413888888888887,
+          0.0007410416666666668,
+          0.0004914285714285714,
+          0.00038416666666666655,
+          0.0003346774193548387,
+          0.0003121428571428572,
+          0.00026928571428571426,
+          0.00023375,
+          0.00018250000000000002
+        ],
+        "receptors_in_bin": [
+          3,
+          8,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          132,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          62,
+          28,
+          28,
+          8,
+          4
+        ],
+        "zero_bins_hidden_from_log_axis": 0
+      },
+      "Density sensitivity/wet_deposition/d10_r1050": {
+        "mean_receptor_radius_km": [
+          0.06666641203096314,
+          0.14571067812776162,
+          0.24501407699884625,
+          0.3407131574289918,
+          0.4419015692650435,
+          0.5420793408982861,
+          0.6393032449034519,
+          0.737897282331318,
+          0.8421995479630724,
+          0.9461851524731487,
+          1.1487569168997864,
+          2.4501407699369624,
+          3.4071315742533166,
+          4.4190174926222525,
+          5.4207920089599595,
+          6.393032449015127,
+          7.378972823296382,
+          8.42199547961601,
+          9.461852364718386,
+          10.4130298873033,
+          11.40024347933534,
+          12.40524562859171,
+          13.453624047073802,
+          14.142135623731038
+        ],
+        "arithmetic_mean": [
+          0.9504133333333332,
+          0.4158225,
+          0.193795,
+          0.1173365,
+          0.08351821428571429,
+          0.07277249999999999,
+          0.05597055555555556,
+          0.04787645833333334,
+          0.037445535714285716,
+          0.032750166666666664,
+          0.02800401515151515,
+          0.007196875,
+          0.003556999999999999,
+          0.0021635714285714283,
+          0.0014816666666666667,
+          0.000906111111111111,
+          0.0007122916666666666,
+          0.0004741071428571428,
+          0.0003701666666666667,
+          0.0003211290322580644,
+          0.0002996428571428571,
+          0.0002575,
+          0.00022625,
+          0.0001725
+        ],
+        "receptors_in_bin": [
+          3,
+          8,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          132,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          62,
+          28,
+          28,
+          8,
+          4
+        ],
+        "zero_bins_hidden_from_log_axis": 0
+      },
+      "Density sensitivity/wet_deposition/d10_r1400": {
+        "mean_receptor_radius_km": [
+          0.06666641203096314,
+          0.14571067812776162,
+          0.24501407699884625,
+          0.3407131574289918,
+          0.4419015692650435,
+          0.5420793408982861,
+          0.6393032449034519,
+          0.737897282331318,
+          0.8421995479630724,
+          0.9461851524731487,
+          1.1487569168997864,
+          2.4501407699369624,
+          3.4071315742533166,
+          4.4190174926222525,
+          5.4207920089599595,
+          6.393032449015127,
+          7.378972823296382,
+          8.42199547961601,
+          9.461852364718386,
+          10.4130298873033,
+          11.40024347933534,
+          12.40524562859171,
+          13.453624047073802,
+          14.142135623731038
+        ],
+        "arithmetic_mean": [
+          0.9216566666666667,
+          0.39576374999999997,
+          0.18265625000000002,
+          0.11018649999999999,
+          0.07821071428571429,
+          0.06766916666666667,
+          0.05194611111111111,
+          0.04435208333333333,
+          0.03471964285714285,
+          0.030289166666666666,
+          0.025842272727272728,
+          0.006619375,
+          0.0032730000000000003,
+          0.0019914285714285715,
+          0.0013680555555555555,
+          0.0008386111111111113,
+          0.0006566666666666666,
+          0.0004398214285714286,
+          0.0003430000000000001,
+          0.00029548387096774186,
+          0.00027607142857142853,
+          0.00023857142857142857,
+          0.0002075,
+          0.00015999999999999999
+        ],
+        "receptors_in_bin": [
+          3,
+          8,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          132,
+          16,
+          20,
+          28,
+          36,
+          36,
+          48,
+          56,
+          60,
+          62,
+          28,
+          28,
+          8,
+          4
+        ],
+        "zero_bins_hidden_from_log_axis": 0
+      }
+    }
+  },
+  "artifacts": [
+    {
+      "path": "/workspace/amp-plots/clemson_amp/revisions/2026-10-23/particle_distance_profiles_accessible.png",
+      "sha256": "fa307b2622804c58983e51421e21d764e39662cd67b88f1e24b2e637f2ae25f9"
+    },
+    {
+      "path": "/workspace/amp-plots/clemson_amp/revisions/2026-10-23/particle_distance_profiles_accessible.pdf",
+      "sha256": "6445add53e5ef439430ae4b34d0775b9b943c9aec81c6ed139427e497330e928"
+    },
+    {
+      "path": "/workspace/amp-plots/clemson_amp/revisions/2026-10-23/particle_distance_profiles_accessible_data.csv",
+      "sha256": "35be3aabb07fc6de120a1141d2dc42729f8eab4a8a8cd7f8622679df4e88b7ca"
+    }
+  ]
+}

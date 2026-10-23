@@ -3,6 +3,13 @@
 Use GitHub's **Download raw file** button after opening a ZIP or PDF below.
 For the entire branch, select **Code → Download ZIP** on the repository page.
 
+The supplied **original distance-profile figure now has 22-point axis titles**
+and colorblind-friendly colors, distinct markers, and distinct line styles:
+
+- [Updated particle-distance profiles (PNG)](revision_2026-10-23/particle_distance_profiles_accessible.png)
+- [Updated particle-distance profiles (vector PDF)](revision_2026-10-23/particle_distance_profiles_accessible.pdf)
+- [Styling details, exact numerical data, and verification](revision_2026-10-23/)
+
 The **plume on an actual USGS map** is now available, showing real roads,
 water, place names, and Clemson University beneath the unchanged model results:
 
