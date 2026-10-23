@@ -1,0 +1,8 @@
+# Publish explicit final copies under poster_downloads; keep source metadata here.
+outputs/
+earth/
+basemap/*.pdf
+basemap/*.tif
+basemap/*_render.png
+basemap/*_render.vrt
+basemap/*.aux.xml

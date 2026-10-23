@@ -1,0 +1,389 @@
+{
+  "description": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/basemap/SC_Clemson_20240730_TM_geo.pdf",
+  "driverShortName": "PDF",
+  "driverLongName": "Geospatial PDF",
+  "files": [
+    "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/basemap/SC_Clemson_20240730_TM_geo.pdf"
+  ],
+  "size": [
+    4800,
+    5800
+  ],
+  "coordinateSystem": {
+    "wkt": "PROJCRS[\"GCS North American 1983 UTM Zone 17N (Calculated)\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]],\n            ID[\"EPSG\",6269]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433]]],\n    CONVERSION[\"UTM zone 17N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-81,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16017]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1,\n                ID[\"EPSG\",9001]]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1,\n                ID[\"EPSG\",9001]]]]",
+    "dataAxisToSRSAxisMapping": [
+      1,
+      2
+    ]
+  },
+  "geoTransform": [
+    326840.4735351206,
+    3.0477462588316873,
+    -0.0547684841191612,
+    3848414.5742629697,
+    -0.0550423256367109,
+    -3.047652333779943
+  ],
+  "metadata": {
+    "": {
+      "NEATLINE": "POLYGON ((326528.25263693 3830789.6552111,326528.065619965 3848414.25689401,341469.493866565 3848414.05441151,341469.789220628 3830789.92623235,326528.25263693 3830789.6552111))",
+      "CREATOR": "Esri ArcSOC 10.8.1.14362",
+      "TITLE": "Clemson",
+      "CREATION_DATE": "D:20240730175430Z"
+    }
+  },
+  "cornerCoordinates": {
+    "upperLeft": [
+      326840.474,
+      3848414.574
+    ],
+    "lowerLeft": [
+      326522.816,
+      3830738.191
+    ],
+    "lowerRight": [
+      341151.998,
+      3830473.988
+    ],
+    "upperRight": [
+      341469.656,
+      3848150.371
+    ],
+    "center": [
+      333996.236,
+      3839444.281
+    ]
+  },
+  "wgs84Extent": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -82.8920482,
+          34.7632059
+        ],
+        [
+          -82.8918887,
+          34.6038352
+        ],
+        [
+          -82.7323653,
+          34.603823
+        ],
+        [
+          -82.7322186,
+          34.7632033
+        ],
+        [
+          -82.8920482,
+          34.7632059
+        ]
+      ]
+    ]
+  },
+  "bands": [
+    {
+      "band": 1,
+      "block": [
+        4800,
+        1
+      ],
+      "type": "Byte",
+      "colorInterpretation": "Red",
+      "overviews": [
+        {
+          "size": [
+            2400,
+            2900
+          ]
+        },
+        {
+          "size": [
+            1200,
+            1450
+          ]
+        },
+        {
+          "size": [
+            600,
+            725
+          ]
+        },
+        {
+          "size": [
+            300,
+            363
+          ]
+        },
+        {
+          "size": [
+            150,
+            181
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "band": 2,
+      "block": [
+        4800,
+        1
+      ],
+      "type": "Byte",
+      "colorInterpretation": "Green",
+      "overviews": [
+        {
+          "size": [
+            2400,
+            2900
+          ]
+        },
+        {
+          "size": [
+            1200,
+            1450
+          ]
+        },
+        {
+          "size": [
+            600,
+            725
+          ]
+        },
+        {
+          "size": [
+            300,
+            363
+          ]
+        },
+        {
+          "size": [
+            150,
+            181
+          ]
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "band": 3,
+      "block": [
+        4800,
+        1
+      ],
+      "type": "Byte",
+      "colorInterpretation": "Blue",
+      "overviews": [
+        {
+          "size": [
+            2400,
+            2900
+          ]
+        },
+        {
+          "size": [
+            1200,
+            1450
+          ]
+        },
+        {
+          "size": [
+            600,
+            725
+          ]
+        },
+        {
+          "size": [
+            300,
+            363
+          ]
+        },
+        {
+          "size": [
+            150,
+            181
+          ]
+        }
+      ],
+      "metadata": {}
+    }
+  ],
+  "stac": {
+    "proj:shape": [
+      5800,
+      4800
+    ],
+    "proj:wkt2": "PROJCRS[\"GCS North American 1983 UTM Zone 17N (Calculated)\",\n    BASEGEOGCRS[\"NAD83\",\n        DATUM[\"North American Datum 1983\",\n            ELLIPSOID[\"GRS 1980\",6378137,298.257222101,\n                LENGTHUNIT[\"metre\",1]],\n            ID[\"EPSG\",6269]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433]]],\n    CONVERSION[\"UTM zone 17N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-81,\n            ANGLEUNIT[\"Degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]],\n        ID[\"EPSG\",16017]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1,\n                ID[\"EPSG\",9001]]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1,\n                ID[\"EPSG\",9001]]]]",
+    "proj:epsg": null,
+    "proj:projjson": {
+      "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+      "type": "ProjectedCRS",
+      "name": "GCS North American 1983 UTM Zone 17N (Calculated)",
+      "base_crs": {
+        "type": "GeographicCRS",
+        "name": "NAD83",
+        "datum": {
+          "type": "GeodeticReferenceFrame",
+          "name": "North American Datum 1983",
+          "ellipsoid": {
+            "name": "GRS 1980",
+            "semi_major_axis": 6378137,
+            "inverse_flattening": 298.257222101
+          },
+          "id": {
+            "authority": "EPSG",
+            "code": 6269
+          }
+        },
+        "coordinate_system": {
+          "subtype": "ellipsoidal",
+          "axis": [
+            {
+              "name": "Longitude",
+              "abbreviation": "lon",
+              "direction": "east",
+              "unit": {
+                "type": "AngularUnit",
+                "name": "Degree",
+                "conversion_factor": 0.0174532925199433
+              }
+            },
+            {
+              "name": "Latitude",
+              "abbreviation": "lat",
+              "direction": "north",
+              "unit": {
+                "type": "AngularUnit",
+                "name": "Degree",
+                "conversion_factor": 0.0174532925199433
+              }
+            }
+          ]
+        }
+      },
+      "conversion": {
+        "name": "UTM zone 17N",
+        "method": {
+          "name": "Transverse Mercator",
+          "id": {
+            "authority": "EPSG",
+            "code": 9807
+          }
+        },
+        "parameters": [
+          {
+            "name": "Latitude of natural origin",
+            "value": 0,
+            "unit": {
+              "type": "AngularUnit",
+              "name": "Degree",
+              "conversion_factor": 0.0174532925199433
+            },
+            "id": {
+              "authority": "EPSG",
+              "code": 8801
+            }
+          },
+          {
+            "name": "Longitude of natural origin",
+            "value": -81,
+            "unit": {
+              "type": "AngularUnit",
+              "name": "Degree",
+              "conversion_factor": 0.0174532925199433
+            },
+            "id": {
+              "authority": "EPSG",
+              "code": 8802
+            }
+          },
+          {
+            "name": "Scale factor at natural origin",
+            "value": 0.9996,
+            "unit": "unity",
+            "id": {
+              "authority": "EPSG",
+              "code": 8805
+            }
+          },
+          {
+            "name": "False easting",
+            "value": 500000,
+            "unit": "metre",
+            "id": {
+              "authority": "EPSG",
+              "code": 8806
+            }
+          },
+          {
+            "name": "False northing",
+            "value": 0,
+            "unit": "metre",
+            "id": {
+              "authority": "EPSG",
+              "code": 8807
+            }
+          }
+        ],
+        "id": {
+          "authority": "EPSG",
+          "code": 16017
+        }
+      },
+      "coordinate_system": {
+        "subtype": "Cartesian",
+        "axis": [
+          {
+            "name": "Easting",
+            "abbreviation": "E",
+            "direction": "east",
+            "unit": "metre"
+          },
+          {
+            "name": "Northing",
+            "abbreviation": "N",
+            "direction": "north",
+            "unit": "metre"
+          }
+        ]
+      }
+    },
+    "proj:transform": [
+      326840.4735351206,
+      3.0477462588316873,
+      -0.0547684841191612,
+      3848414.5742629697,
+      -0.0550423256367109,
+      -3.047652333779943
+    ],
+    "raster:bands": [
+      {
+        "data_type": "uint8"
+      },
+      {
+        "data_type": "uint8"
+      },
+      {
+        "data_type": "uint8"
+      }
+    ],
+    "eo:bands": [
+      {
+        "name": "b1",
+        "description": "Red",
+        "common_name": "red"
+      },
+      {
+        "name": "b2",
+        "description": "Green",
+        "common_name": "green"
+      },
+      {
+        "name": "b3",
+        "description": "Blue",
+        "common_name": "blue"
+      }
+    ]
+  }
+}

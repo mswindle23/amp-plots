@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "zip": {
+    "path": "/workspace/amp-plots/poster_downloads/clemson_plume_on_map.zip",
+    "sha256": "c0d69e249d2dbdf9a7a19d77543e9875d7a2d0a9a3613fe00d2218e9f2c0fdc9",
+    "bytes": 68069309
+  },
+  "public_files": 26,
+  "validation": "Every archive CRC and member SHA256 passed; current source/artifact hashes match complete provenance; independent map review passed; model values unchanged."
+}

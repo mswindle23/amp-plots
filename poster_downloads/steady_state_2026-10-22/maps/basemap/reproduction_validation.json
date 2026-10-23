@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "validated_utc": "2026-10-23T01:07:53.908721+00:00",
+  "method": "Full offline regeneration from the two original verified official USGS GeoPDFs into a separate output directory; exact final PNG SHA256 equality.",
+  "script": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/basemap/fetch_basemap.py",
+    "sha256": "409c8c7b7006785c61ae1dfa4822e36ffbdd1cfc36bfbf646dab7f1dd8c66fdd"
+  },
+  "reference": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/basemap/usgs_topo.png",
+    "sha256": "910d27dfda5d7212be8fe9c46cc6ae91054a3b4f37471afaf886a4bf284acf49",
+    "bytes": 6203662
+  },
+  "independent_replica": {
+    "path": "/tmp/clemson_basemap_reproduction/usgs_topo.png",
+    "sha256": "910d27dfda5d7212be8fe9c46cc6ae91054a3b4f37471afaf886a4bf284acf49",
+    "bytes": 6203662
+  },
+  "command": "python3 fetch_basemap.py --source-directory ORIGINAL_BASEMAP_DIRECTORY --output /tmp/clemson_basemap_reproduction --offline",
+  "no_published_file_mutated": true
+}

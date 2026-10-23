@@ -3,6 +3,18 @@
 Use GitHub's **Download raw file** button after opening a ZIP or PDF below.
 For the entire branch, select **Code → Download ZIP** on the repository page.
 
+The **plume on an actual USGS map** is now available, showing real roads,
+water, place names, and Clemson University beneath the unchanged model results:
+
+- [Concentration plume on the map (PNG)](steady_state_2026-10-22/maps/clemson_aermod_concentration_on_map.png)
+- [Poster version (PDF)](steady_state_2026-10-22/maps/clemson_aermod_concentration_on_map.pdf)
+- [Google Earth KMZ with the map background embedded](steady_state_2026-10-22/maps/clemson_plume_on_usgs_map.kmz)
+- [All three mapped quantities, source metadata, and checks (ZIP)](clemson_plume_on_map.zip)
+- [Dry/wet deposition maps and supporting files](steady_state_2026-10-22/maps/)
+
+These are the same controlled steady-state results. The marked source is
+hypothetical; the basemap provides real geographic context.
+
 The **October 22 controlled steady-state scenarios** use a common 2024
 regional microplastics reference year and fixed synthetic weather:
 

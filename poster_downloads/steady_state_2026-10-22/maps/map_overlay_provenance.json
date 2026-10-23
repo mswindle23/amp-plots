@@ -1,0 +1,521 @@
+{
+  "created_utc": "2026-10-23T01:06:06.660854+00:00",
+  "status": "complete",
+  "scenario": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+    "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+    "bytes": 344847
+  },
+  "period_table": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/outputs/period_results.csv",
+    "sha256": "77b7e8f7163c96432ff732a89a0691a059e7bce391aaf8b8ffddf658cdf79fa9",
+    "bytes": 3384493
+  },
+  "script": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scripts/map_plume_on_basemap.py",
+    "sha256": "88f959d7a5746fa832454c3912edb04d52b10506db1cee805077b876476668ec",
+    "bytes": 15078
+  },
+  "dependencies": [
+    {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scripts/build_kmz.py",
+      "sha256": "8eeeb71e696b5ee7eb635d44bb149b0a181f7405d87a2f9c4c6bbff08f4e30b8",
+      "bytes": 29528
+    },
+    {
+      "path": "/workspace/amp-plots/clemson_amp/scripts/result_provenance.py",
+      "sha256": "ff649a73561c480775ddd75c90bcb5767193b5f8f62cd453828a44cf31deac1e",
+      "bytes": 9352
+    }
+  ],
+  "basemap_metadata": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/basemap/basemap_metadata.json",
+    "sha256": "c91dcdacf741f037dfd78d580e8bd083a893c38fa27f15210756160dc859d2da",
+    "bytes": 5404
+  },
+  "basemap_image": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/basemap/usgs_topo.png",
+    "sha256": "910d27dfda5d7212be8fe9c46cc6ae91054a3b4f37471afaf886a4bf284acf49",
+    "bytes": 6203662
+  },
+  "basemap_source": {
+    "status": "complete",
+    "retrieved_utc": "2026-10-23T01:03:55.869765+00:00",
+    "image": {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/basemap/usgs_topo.png",
+      "sha256": "910d27dfda5d7212be8fe9c46cc6ae91054a3b4f37471afaf886a4bf284acf49",
+      "bytes": 6203662,
+      "width_px": 3000,
+      "height_px": 940
+    },
+    "geotiff": {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/basemap/usgs_topo.tif",
+      "sha256": "316ae72bc45f62c1ec0a07706a0c5fbfe710d2c615a25856312caf85c2aa1ab4",
+      "bytes": 8163639
+    },
+    "extent": {
+      "xmin": 330235.622,
+      "ymin": 3837297.591,
+      "xmax": 341735.622,
+      "ymax": 3840897.591,
+      "spatialReference": {
+        "wkid": 26917
+      }
+    },
+    "extent_array": [
+      330235.622,
+      3837297.591,
+      341735.622,
+      3840897.591
+    ],
+    "crs_epsg": 26917,
+    "crs": "EPSG:26917",
+    "geotransform": [
+      330235.622,
+      3.8333333333333335,
+      0.0,
+      3840897.591,
+      0.0,
+      -3.8297872340425534
+    ],
+    "source_url": "https://tnmaccess.nationalmap.gov/api/v1/products?bbox=-82.854%2C34.663%2C-82.726%2C34.697&datasets=US+Topo+Current&max=10&outputFormat=JSON",
+    "request_url": "https://tnmaccess.nationalmap.gov/api/v1/products?bbox=-82.854%2C34.663%2C-82.726%2C34.697&datasets=US+Topo+Current&max=10&outputFormat=JSON",
+    "raw_export_json_path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/basemap/usgs_products.json",
+    "attribution": "Basemap: USGS The National Map / US Topo (Clemson and Five Forks, 2024 editions).",
+    "source_products": [
+      {
+        "title": "US Topo 7.5-minute map for Clemson, SC",
+        "publication_date": "2024-07-30",
+        "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/SC/SC_Clemson_20240730_TM_geo.pdf",
+        "metadata_url": "https://www.sciencebase.gov/catalog/item/66aaf6d1d34e20d4a0357fc5",
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/basemap/SC_Clemson_20240730_TM_geo.pdf",
+        "sha256": "4781cec6940b4e2ebcb8d64bc2c0f69d29099a139e4a3a03fdf902c75afed98c",
+        "bytes": 53087255,
+        "bounding_box_wgs84": {
+          "minX": -82.875,
+          "maxX": -82.75,
+          "minY": 34.625,
+          "maxY": 34.75
+        },
+        "pdf_gdal_metadata": {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/basemap/SC_Clemson_20240730_TM_geo_gdalinfo.json",
+          "sha256": "43ed0f1a35d11c57947456aa1a0423e9b21dd98b2a0988dc9b2eaa280d06e42b"
+        },
+        "source_geotransform_at_200dpi": [
+          326840.4735351206,
+          3.0477462588316873,
+          -0.0547684841191612,
+          3848414.5742629697,
+          -0.0550423256367109,
+          -3.047652333779943
+        ],
+        "source_raster_size_at_200dpi": [
+          4800,
+          5800
+        ]
+      },
+      {
+        "title": "US Topo 7.5-minute map for Five Forks, SC",
+        "publication_date": "2024-04-12",
+        "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/SC/SC_Five_Forks_20240412_TM_geo.pdf",
+        "metadata_url": "https://www.sciencebase.gov/catalog/item/669f110cd34eef99d5abbdd4",
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/basemap/SC_Five_Forks_20240412_TM_geo.pdf",
+        "sha256": "b7e0c92aead00a538452653e6058b932962523ce3227b2149b953fe01c970dab",
+        "bytes": 54197277,
+        "bounding_box_wgs84": {
+          "minX": -82.75,
+          "maxX": -82.625,
+          "minY": 34.625,
+          "maxY": 34.75
+        },
+        "pdf_gdal_metadata": {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/basemap/SC_Five_Forks_20240412_TM_geo_gdalinfo.json",
+          "sha256": "9fa79ee80656b18a9e8c21a55a43a1aa3992732b72fc0de29202fe154e9dcb1e"
+        },
+        "source_geotransform_at_200dpi": [
+          338282.5265462815,
+          3.0476983745675166,
+          -0.0512723767108093,
+          3848205.750636608,
+          -0.0510433906343845,
+          -3.0474995316405167
+        ],
+        "source_raster_size_at_200dpi": [
+          4800,
+          5800
+        ]
+      }
+    ],
+    "processing": {
+      "pdf_renderer": "PyMuPDF 1.26.6",
+      "pdf_render_dpi": 200,
+      "source_georeference": "Original GDAL geospatial-PDF CRS and affine transform copied to the same-size independently rendered image via VRT. The raster was then warped using those transforms.",
+      "quad_collar_mask": "Official product bounding boxes in WGS84; PDF collars removed before mosaicing.",
+      "mosaic": "GDAL warp to native model NAD83 UTM zone17N, bilinear raster resampling, exact requested extent and 3000x940 output.",
+      "content": "Actual official cartographic roads, geographic labels, hydrography, contours, and orthophotography as rendered from USGS source PDFs.",
+      "date_caveat": "2024 refers to map edition/publication dates; underlying imagery and geographic features may have earlier acquisition dates. It is not an observation of conditions during the synthetic plume."
+    },
+    "validation": {
+      "png_decoded": true,
+      "rgba_shape": [
+        940,
+        3000,
+        4
+      ],
+      "north_up": true,
+      "transparent_pixels": 56,
+      "transparent_pixel_note": "56 subpixel quad-cutline seam samples are transparent out of 2820000 pixels; downstream plots may show white beneath them. This does not change model values.",
+      "source_expected_bytes_match": true,
+      "gdal_version": "GDAL 3.10.3, released 2025/04/01"
+    }
+  },
+  "native_execution_verification": [
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u2_r1__concentration",
+      "started_utc": "2026-10-22T23:44:17.108790+00:00",
+      "finished_utc": "2026-10-22T23:44:24.132269+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u2_r1__concentration.json",
+        "sha256": "fccd3480807e759ba7ac42cd2a6132c3d005db51ba8786027527b17333586356"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r1.pfl",
+          "sha256": "e3d61aea35e5c46d76816a5389d2e601097d83d5c7eae2dc29ecf51c8da43819",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r1.sfc",
+          "sha256": "ea14a010f1ebd31b6e4dae89b45c68731aea0005203e8bd45381a60100b57aaa",
+          "bytes": 3416
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/concentration/aermod.inp",
+          "sha256": "a02182dd782bd7adeaaad9e9be0fe5518dcff837f97a9f30e7107b32ac853063",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/concentration/annual.plt",
+        "sha256": "cb0e3748f9cadb7ba4e772f414b2c345a4b786e7d2dfcf06efe27564d0112e51",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/concentration/aermod.out",
+          "sha256": "89b174c81c36383098b1b0c93f0afe9d437741696058dd10661bb643da4a8171",
+          "bytes": 663366
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/concentration/errors.out",
+          "sha256": "02557cc70a5e936e76d24ebf7fcfe7b282748a2eb1da7fb12cec8381371e0d34",
+          "bytes": 546
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/concentration/aermod.sum",
+          "sha256": "f4b048de1cd8eb5fff06c4eebdb9b24888b4f71b3087849406146c0d38b4b2eb",
+          "bytes": 15755
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u2_r1__dry_deposition",
+      "started_utc": "2026-10-22T23:44:18.738866+00:00",
+      "finished_utc": "2026-10-22T23:44:25.132621+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u2_r1__dry_deposition.json",
+        "sha256": "c2cb0f170d1a2a3e40e33283121c58e00d92bdb6134d07eacab6b5859bb84206"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r1.pfl",
+          "sha256": "e3d61aea35e5c46d76816a5389d2e601097d83d5c7eae2dc29ecf51c8da43819",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r1.sfc",
+          "sha256": "ea14a010f1ebd31b6e4dae89b45c68731aea0005203e8bd45381a60100b57aaa",
+          "bytes": 3416
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/dry_deposition/aermod.inp",
+          "sha256": "6bdd89c91bfa1c35b76f569d08cc044130934e3545f497385124ea3382dade26",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/dry_deposition/annual.plt",
+        "sha256": "c523c8a3bba8d764fd0432f2f17052abcf153d7f117cfe722a72c63dcfaff53e",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/dry_deposition/aermod.out",
+          "sha256": "10e992c710804d53d9eab2388419ae4ccf56046fc1c32b0bb00b0b670515b9dd",
+          "bytes": 663359
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/dry_deposition/errors.out",
+          "sha256": "02557cc70a5e936e76d24ebf7fcfe7b282748a2eb1da7fb12cec8381371e0d34",
+          "bytes": 546
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/dry_deposition/aermod.sum",
+          "sha256": "a8ca6f1323438f79328b951ade64524c05389533c9ef8fd2e301159d144b5f59",
+          "bytes": 15748
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u2_r1__wet_deposition",
+      "started_utc": "2026-10-22T23:44:19.068353+00:00",
+      "finished_utc": "2026-10-22T23:44:24.615891+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u2_r1__wet_deposition.json",
+        "sha256": "0a50713970596c57a85777c89d6319c1758bac6242ee98aef6e1e561f4a3fc50"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r1.pfl",
+          "sha256": "e3d61aea35e5c46d76816a5389d2e601097d83d5c7eae2dc29ecf51c8da43819",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r1.sfc",
+          "sha256": "ea14a010f1ebd31b6e4dae89b45c68731aea0005203e8bd45381a60100b57aaa",
+          "bytes": 3416
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/wet_deposition/aermod.inp",
+          "sha256": "66efc1ab8c8e6ec1e849cbce015332cff08c856c43dfd82539b7d309e42642fe",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/wet_deposition/annual.plt",
+        "sha256": "88d11ced9458255d935ffd1f0d1ab834cf959d84667d3a8b128f028f6addc36a",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/wet_deposition/aermod.out",
+          "sha256": "7fa820bf8c3981d73ca2e86e26ef4a7050fb868ffa445fe7ea5777d6a63746fc",
+          "bytes": 663359
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/wet_deposition/errors.out",
+          "sha256": "02557cc70a5e936e76d24ebf7fcfe7b282748a2eb1da7fb12cec8381371e0d34",
+          "bytes": 546
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/wet_deposition/aermod.sum",
+          "sha256": "5b0a30750b28298bf74927f35f29cfd719f57dd7f635671250a22bd9ce4ac4c7",
+          "bytes": 15748
+        }
+      ]
+    }
+  ],
+  "case": "u2_r1",
+  "model_crs": "EPSG:26917",
+  "basemap_extent_m": [
+    330235.622,
+    3837297.591,
+    341735.622,
+    3840897.591
+  ],
+  "north_arrow": "True geographic north obtained by GDAL-transforming a northward geographic vector",
+  "scale_bar": "2 km in the model UTM projection",
+  "fields": {
+    "concentration": {
+      "native_display_receptors": 2331,
+      "native_value_min": 0.0,
+      "native_value_max": 0.0483501,
+      "display_log_min": 4.83501e-07,
+      "display_log_max": 0.0483501,
+      "display_method": "Actual native receptor-centered 100 m cells; no spatial interpolation; outer cells clipped at native grid boundary",
+      "opacity": 0.48,
+      "one_km_native_anchor": {
+        "xy_m": [
+          332435.62,
+          3839097.59
+        ],
+        "value": 0.00217885,
+        "unit": "\u00b5g m\u207b\u00b3"
+      },
+      "contour_levels": [
+        0.0001,
+        0.001,
+        0.01
+      ]
+    },
+    "dry_deposition": {
+      "native_display_receptors": 2331,
+      "native_value_min": 0.0,
+      "native_value_max": 0.1821725,
+      "display_log_min": 1.8217250000000001e-06,
+      "display_log_max": 0.1821725,
+      "display_method": "Actual native receptor-centered 100 m cells; no spatial interpolation; outer cells clipped at native grid boundary",
+      "opacity": 0.48,
+      "one_km_native_anchor": {
+        "xy_m": [
+          332435.62,
+          3839097.59
+        ],
+        "value": 0.008325,
+        "unit": "\u00b5g m\u207b\u00b2 h\u207b\u00b9"
+      },
+      "contour_levels": [
+        1e-05,
+        0.0001,
+        0.001,
+        0.01,
+        0.1
+      ]
+    },
+    "wet_deposition": {
+      "native_display_receptors": 2331,
+      "native_value_min": 0.0,
+      "native_value_max": 0.1738920833333333,
+      "display_log_min": 1.7389208333333332e-06,
+      "display_log_max": 0.1738920833333333,
+      "display_method": "Actual native receptor-centered 100 m cells; no spatial interpolation; outer cells clipped at native grid boundary",
+      "opacity": 0.48,
+      "one_km_native_anchor": {
+        "xy_m": [
+          332435.62,
+          3839097.59
+        ],
+        "value": 0.051875833333333336,
+        "unit": "\u00b5g m\u207b\u00b2 h\u207b\u00b9"
+      },
+      "contour_levels": [
+        1e-05,
+        0.0001,
+        0.001,
+        0.01,
+        0.1
+      ]
+    }
+  },
+  "artifacts": [
+    {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/outputs/clemson_aermod_concentration_on_map.png",
+      "sha256": "5dbd0d30ae86e58e4d75dbf0c1910c85e248d6cd921af2082baa6423dab58c9c",
+      "bytes": 9496418
+    },
+    {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/outputs/clemson_aermod_concentration_on_map.pdf",
+      "sha256": "b7cae84b6c2a7ff0e31e75d25e0a210c9f00c02c1cae81f619631be8957c3b96",
+      "bytes": 8717451
+    },
+    {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/outputs/clemson_aermod_dry_deposition_on_map.png",
+      "sha256": "35407626fdfd41e5c85f0eddb492307151c8fe274a59ab4948f086032bfa0715",
+      "bytes": 9503521
+    },
+    {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/outputs/clemson_aermod_dry_deposition_on_map.pdf",
+      "sha256": "d6a52760dabf0f9e8f7bed3920670fb223ccdf814a4fd18298e0fcd0ecf4dcb3",
+      "bytes": 8718721
+    },
+    {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/outputs/clemson_aermod_wet_deposition_on_map.png",
+      "sha256": "d047cd7f58b63884bf8f61ea0df882a2ee02351554f016959e55803ff5303a8f",
+      "bytes": 9523353
+    },
+    {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/outputs/clemson_aermod_wet_deposition_on_map.pdf",
+      "sha256": "f28b8c14e126e32061a00463de583a01fbe2437b3f30d52cfa66ae56f51f1384",
+      "bytes": 8725545
+    }
+  ],
+  "limitations": "The source/weather are illustrative. Native results are unchanged. Transparency and receptor cells are cartographic display choices; the basemap is geographic context, not model calibration.",
+  "font_sizes_pt": {
+    "titles": 27,
+    "axes": 22,
+    "ticks": 18,
+    "map_annotations": "16\u201319",
+    "notes": "12\u201313"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-23T01:07:52.532033+00:00",
+  "checks": {
+    "concentration": {
+      "displayed_native_cells": 2331,
+      "all_cells_exactly_match_native": true,
+      "maximum_absolute_value_difference": 0.0,
+      "one_km_projected_east_value": 0.00217885,
+      "unit": "ug/m3",
+      "native_period": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/concentration/annual.plt",
+        "sha256": "cb0e3748f9cadb7ba4e772f414b2c345a4b786e7d2dfcf06efe27564d0112e51",
+        "bytes": 296330
+      }
+    },
+    "dry_deposition": {
+      "displayed_native_cells": 2331,
+      "all_cells_exactly_match_native": true,
+      "maximum_absolute_value_difference": 0.0,
+      "one_km_projected_east_value": 0.008325,
+      "unit": "ug/m2/h",
+      "native_period": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/dry_deposition/annual.plt",
+        "sha256": "c523c8a3bba8d764fd0432f2f17052abcf153d7f117cfe722a72c63dcfaff53e",
+        "bytes": 296330
+      }
+    },
+    "wet_deposition": {
+      "displayed_native_cells": 2331,
+      "all_cells_exactly_match_native": true,
+      "maximum_absolute_value_difference": 0.0,
+      "one_km_projected_east_value": 0.051875833333333336,
+      "unit": "ug/m2/h",
+      "native_period": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/wet_deposition/annual.plt",
+        "sha256": "88d11ced9458255d935ffd1f0d1ab834cf959d84667d3a8b128f028f6addc36a",
+        "bytes": 296330
+      }
+    }
+  },
+  "content_hash_bindings_verified": 58,
+  "source_wgs84": {
+    "longitude": -82.840000001398,
+    "latitude": 34.6800000019328
+  },
+  "true_north_angle_degrees_right_of_grid_north": 1.047325029853744,
+  "basemap_extent_m": [
+    330235.622,
+    3837297.591,
+    341735.622,
+    3840897.591
+  ],
+  "geotiff_crs_geotransform_and_png_extent_match": true,
+  "basemap_size_pixels": [
+    3000,
+    940
+  ],
+  "source_pixel_xy_from_upper_left": [
+    313.04347826086956,
+    470.0
+  ],
+  "map_pngs": {
+    "clemson_aermod_concentration_on_map.png": {
+      "size_pixels": [
+        5085,
+        2618
+      ],
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/outputs/clemson_aermod_concentration_on_map.png",
+      "sha256": "5dbd0d30ae86e58e4d75dbf0c1910c85e248d6cd921af2082baa6423dab58c9c",
+      "bytes": 9496418
+    },
+    "clemson_aermod_dry_deposition_on_map.png": {
+      "size_pixels": [
+        5085,
+        2618
+      ],
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/outputs/clemson_aermod_dry_deposition_on_map.png",
+      "sha256": "35407626fdfd41e5c85f0eddb492307151c8fe274a59ab4948f086032bfa0715",
+      "bytes": 9503521
+    },
+    "clemson_aermod_wet_deposition_on_map.png": {
+      "size_pixels": [
+        5085,
+        2618
+      ],
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/outputs/clemson_aermod_wet_deposition_on_map.png",
+      "sha256": "d047cd7f58b63884bf8f61ea0df882a2ee02351554f016959e55803ff5303a8f",
+      "bytes": 9523353
+    }
+  },
+  "review_script": {
+    "path": "/tmp/review_clemson_map.py",
+    "sha256": "6145781321d17579f596c8c30bc628aa43a28cc8519c67eb7510fca8423e85c3",
+    "bytes": 6183
+  },
+  "map_provenance": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/outputs/map_overlay_provenance.json",
+    "sha256": "1be255f692bf9d22761a80dcefd9ac5a7cac47230359b2a77e2475aca4f60aff",
+    "bytes": 22365
+  },
+  "interpretation": "Native values unchanged; 100 m receptor cells are a cartographic display. Alpha blending and the display floor do not modify native concentrations or fluxes.",
+  "kmz_independent_review": {
+    "status": "passed",
+    "kmz_bytes": 7505074,
+    "sha256": "e6c31de0dea1be5c7aaed9468c147384897d1e6c257970b28fac3927e0a09ff7",
+    "ground_overlays": 31,
+    "native_points": 82080,
+    "original_embedded_assets_preserved_byte_for_byte": 34,
+    "all_local_hrefs_resolve": true,
+    "zip_crc_passed": true,
+    "geographic_bounds_valid": true,
+    "background": {
+      "name": "USGS topographic map \u2014 roads, water and place names",
+      "north": 34.69787,
+      "south": 34.6635922,
+      "east": -82.7272873,
+      "west": -82.8534545
+    }
+  }
+}
