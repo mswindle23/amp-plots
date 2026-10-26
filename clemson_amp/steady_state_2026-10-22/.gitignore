@@ -1,0 +1,11 @@
+# Generated deliveries are published explicitly under poster_downloads/.
+outputs/
+deliverables/
+*.xlsx
+# Verified source terrain is retained locally, rather than committed in copies.
+*.tif
+*.tiff
+*.idx
+*.dir
+aermap_refined/chunks/*/data/
+aermap_refined/interrupted_single_run/

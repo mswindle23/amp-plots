@@ -1,0 +1,22 @@
+{
+  "first_retained_utc_date": "2022-12-30",
+  "last_retained_utc_date": "2024-01-02",
+  "note": "Morning-sounding suitability is finally checked by AERMET selection/QA; nominal12UTC count alone is not validation.",
+  "retained_soundings_with_padding": 722,
+  "target_year": 2023,
+  "target_year_dates_without_any_sounding": [
+    "2023-07-29"
+  ],
+  "target_year_dates_without_nominal_12UTC_sounding": [
+    "2023-01-04",
+    "2023-03-25",
+    "2023-03-26",
+    "2023-03-27",
+    "2023-07-25",
+    "2023-07-29",
+    "2023-09-02",
+    "2023-09-26",
+    "2023-11-13",
+    "2023-11-27"
+  ]
+}

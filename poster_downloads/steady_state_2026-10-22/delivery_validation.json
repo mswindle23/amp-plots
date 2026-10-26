@@ -1,0 +1,106 @@
+{
+  "created_utc": "2026-10-22T23:51:02.879793+00:00",
+  "status": "passed",
+  "archive": {
+    "path": "/workspace/amp-plots/poster_downloads/clemson_steady_state_2026-10-22.zip",
+    "sha256": "752136c3995662a74945810a72f0ec29e0a68fb63958188473f1faa6d8989954",
+    "bytes": 80265085
+  },
+  "archives": [
+    {
+      "path": "/workspace/amp-plots/poster_downloads/clemson_steady_state_2026-10-22.zip",
+      "sha256": "752136c3995662a74945810a72f0ec29e0a68fb63958188473f1faa6d8989954",
+      "bytes": 80265085,
+      "role": "combined complete package",
+      "members": 400
+    }
+  ],
+  "split_archives": false,
+  "selected_unique_files": 398,
+  "native_hourly_files": 30,
+  "native_period_files": 30,
+  "native_max1h_files": 30,
+  "current_hash_bindings_checked": 2290,
+  "workbook": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/outputs/clemson_steady_state_inputs_outputs.xlsx",
+    "sha256": "fc3e2a2f877e8ccf56952d7bfb489b55f70d71126e827b2de1325a3f0769f622",
+    "bytes": 60508139,
+    "status": "passed",
+    "sheet_names": [
+      "README",
+      "ScenarioInputs",
+      "SourceInputs",
+      "ParticleInputs",
+      "Scenarios",
+      "WeatherSurface",
+      "WeatherProfiles",
+      "TerrainReceptors",
+      "HourlyResults",
+      "PeriodResults",
+      "Maximum1h",
+      "FluxTime",
+      "WindSummary",
+      "Transects",
+      "InputText",
+      "NativeReports",
+      "FileInventory",
+      "ResearchEvidence",
+      "RegionalContext2023",
+      "RegionalContext2024",
+      "Validation",
+      "NativeRunAudit",
+      "TerrainAudit",
+      "Plots"
+    ],
+    "data_row_counts": {
+      "Scenarios": 10,
+      "WeatherSurface": 240,
+      "WeatherProfiles": 240,
+      "TerrainReceptors": 2736,
+      "HourlyResults": 656640,
+      "PeriodResults": 27360,
+      "Maximum1h": 27360,
+      "RegionalContext2024": 3,
+      "RegionalContext2023": 10
+    },
+    "validation": "XLSX CRC, required sheets, complete declared row counts, numeric output cells"
+  },
+  "kmz": [
+    {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/deliverables/kmz/clemson_steady_all_scenarios.kmz",
+      "sha256": "79a0fd3d57c7d94180cb03817c535171fc786e47ba2b8e9477d04717c605a84a",
+      "bytes": 2466537,
+      "local_resources": 109,
+      "validation": "ZIP CRC, KML XML and every referenced local resource passed"
+    },
+    {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/deliverables/kmz/clemson_u2_rain1_concentration.kmz",
+      "sha256": "91a46a2268e73d2c3d0b0a10cb10f16b9d992cc560de9018ceaf08d4fa12fdb1",
+      "bytes": 127745,
+      "local_resources": 51,
+      "validation": "ZIP CRC, KML XML and every referenced local resource passed"
+    },
+    {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/deliverables/kmz/clemson_u2_rain1_dry_deposition.kmz",
+      "sha256": "03a400eed8efa7452c0d0e6fa11ed6f3d9070aea4d7c7c31dfd3d4cd89b64876",
+      "bytes": 127420,
+      "local_resources": 51,
+      "validation": "ZIP CRC, KML XML and every referenced local resource passed"
+    },
+    {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/deliverables/kmz/clemson_u2_rain1_wet_deposition.kmz",
+      "sha256": "6134d8c051f8c35a25e5502da19187576e2e6dc8f3fc4267a39533783d72bd1e",
+      "bytes": 130364,
+      "local_resources": 51,
+      "validation": "ZIP CRC, KML XML and every referenced local resource passed"
+    }
+  ],
+  "excluded": [
+    "binary terrain rasters and index caches",
+    "model executables",
+    "raw literature cache",
+    "interrupted preliminary terrain run",
+    "redundant derived hourly_results.csv (all native hourly files and Excel rows included)"
+  ],
+  "validation": "Every ZIP CRC and archive member SHA256, workbook counts/numeric cells, KMZ local resources, provenance hash bindings passed"
+}

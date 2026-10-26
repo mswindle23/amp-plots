@@ -1,0 +1,80 @@
+{
+  "startend": [
+    2023,
+    12,
+    25,
+    1,
+    2023,
+    12,
+    26,
+    24
+  ],
+  "basis": "Actual observed hourly-derived AERMET forcing before AERMINUTE refinement; selected to validate wet/dry physics, not to represent annual conditions",
+  "met_sha256": {
+    "clemson.sfc": "f297eec921783043c54ec7fadd4843dfbf35fd3b3b9d4a600ccf83619407dfb7",
+    "clemson.pfl": "46644e7eabe7ef2a90ba9edd8324f015b16fa0e23084dc20b8189f074f289a1a"
+  },
+  "runs": [
+    {
+      "metric": "concentration",
+      "returncode": 0,
+      "elapsed_seconds": 1.2139379769996594,
+      "fatal_errors": 0,
+      "warnings": 0,
+      "hours_processed": 48,
+      "calm_hours": 0,
+      "missing_hours": 3,
+      "receptors": 873,
+      "positive_period_values": 417,
+      "period_max": 270.35292,
+      "hourly_postfile_rows": 41904,
+      "hourly_postfile_distinct_dates": 48,
+      "period_hourly_consistency_max_abs_error": 5.777777777993265e-06,
+      "printed_precision_tolerance": 1.0333333333333335e-05,
+      "period_hourly_consistency": "PASS"
+    },
+    {
+      "metric": "dry_deposition",
+      "returncode": 0,
+      "elapsed_seconds": 1.7098554939998394,
+      "fatal_errors": 0,
+      "warnings": 0,
+      "hours_processed": 48,
+      "calm_hours": 0,
+      "missing_hours": 3,
+      "receptors": 873,
+      "positive_period_values": 335,
+      "period_max": 0.6022,
+      "hourly_postfile_rows": 41904,
+      "hourly_postfile_distinct_dates": 48,
+      "period_hourly_consistency_max_abs_error": 4.99999999999997e-05,
+      "printed_precision_tolerance": 0.00024500000000000005,
+      "period_hourly_consistency": "PASS"
+    },
+    {
+      "metric": "wet_deposition",
+      "returncode": 0,
+      "elapsed_seconds": 1.6110925530001623,
+      "fatal_errors": 0,
+      "warnings": 0,
+      "hours_processed": 48,
+      "calm_hours": 0,
+      "missing_hours": 3,
+      "receptors": 873,
+      "positive_period_values": 360,
+      "period_max": 0.08947,
+      "hourly_postfile_rows": 41904,
+      "hourly_postfile_distinct_dates": 48,
+      "period_hourly_consistency_max_abs_error": 2.9999999999999645e-05,
+      "printed_precision_tolerance": 0.00024500000000000005,
+      "period_hourly_consistency": "PASS"
+    }
+  ],
+  "forcing_window_audit": {
+    "total_hours": 48,
+    "modeled_noncalm_nonmissing_hours": 45,
+    "wet_noncalm_nonmissing_hours": 27,
+    "precipitation_mm_over_nonmissing_hours": 74.7
+  },
+  "validation_details": "PERIOD deposition equals the sum of hourly amounts within fixed-format rounding tolerance; PERIOD concentration equals the sum divided by45 model-valid hours. Native deposition24h output omitted due to output-type1 averaging behavior in v26135. Snapshot meteorology preserved under validation/pilot_met; excludes later AERMINUTE refinement."
+}

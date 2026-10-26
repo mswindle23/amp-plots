@@ -1,0 +1,70 @@
+{
+  "description": "Published aerosol reference geometries used as explicitly illustrative morphotype proxies; no numerical entry is an empirically typical chi for environmental microplastics.",
+  "retrieved_date_utc": "2026-10-20",
+  "definition": "Dynamic shape factor chi is drag relative to a sphere of equal volume moving at the same speed in the specified flow regime. It is dimensionless and differs from Corey/Aschenbrenner factors, sphericity, and aspect ratio.",
+  "entries": [
+    {
+      "morphotype": "bead/pellet",
+      "chi_min": 1.0,
+      "chi_max": 1.0,
+      "label": "Sphere / ideal bead: chi = 1.00",
+      "source_id": "hinds_reference_geometries_via_particula",
+      "interpretation": "Exact ideal-sphere reference, not an assertion that every environmental pellet is spherical."
+    },
+    {
+      "morphotype": "compact fragment proxy",
+      "chi_min": 1.08,
+      "chi_max": 1.08,
+      "label": "Cube / compact fragment proxy: chi = 1.08",
+      "source_id": "hinds_reference_geometries_via_particula",
+      "interpretation": "Published aerosol cube reference geometry. Not a measured or representative environmental microplastic-fragment value."
+    },
+    {
+      "morphotype": "fiber proxy, aspect ratio 2",
+      "chi_min": 1.1,
+      "chi_max": 1.1,
+      "label": "Cylinder, L/D = 2: chi = 1.10",
+      "source_id": "hinds_reference_geometries_via_particula",
+      "interpretation": "Average-orientation cylinder reference listed by Particula as cylinder_avg_aspect_2. Chosen geometry, not a typical measured microplastic-fiber value."
+    },
+    {
+      "morphotype": "fiber proxy, aspect ratio 5",
+      "chi_min": 1.35,
+      "chi_max": 1.35,
+      "label": "Cylinder, L/D = 5: chi = 1.35",
+      "source_id": "hinds_reference_geometries_via_particula",
+      "interpretation": "Average-orientation cylinder reference listed by Particula as cylinder_avg_aspect_5. Chosen geometry, not a typical measured microplastic-fiber value."
+    },
+    {
+      "morphotype": "fiber proxy, aspect ratio 10",
+      "chi_min": 1.68,
+      "chi_max": 1.68,
+      "label": "Cylinder, L/D = 10: chi = 1.68",
+      "source_id": "hinds_reference_geometries_via_particula",
+      "interpretation": "Average-orientation cylinder reference listed by Particula as cylinder_avg_aspect_10. Chosen geometry, not a typical measured microplastic-fiber value."
+    }
+  ],
+  "unavailable": [
+    "Film: no defensible typical dynamic chi was verified for use as a universal atmospheric microplastic-film value; thickness, folding, orientation, and Reynolds/Knudsen regimes matter.",
+    "Foam: no defensible typical dynamic chi was verified; porosity, permeability, external shape, and effective density require separate characterization.",
+    "Irregular fragments and real fibers: published reference geometries are displayed, but the literature inspected does not establish one universally typical chi per microplastic morphotype."
+  ],
+  "figure_note": "Markers are published aerosol reference geometries, not typical measured microplastic morphotypes. Film and foam chi were not assigned.",
+  "chi_axis_max": 3.0,
+  "sources": {
+    "hinds_reference_geometries_via_particula": {
+      "reference": "Hinds, W. C. Aerosol Technology: Properties, Behavior, and Measurement of Airborne Particles, 2nd ed., Wiley. Numerical table verified through Particula's Hinds-cited aerodynamic_size.py; original textbook table was not independently accessed.",
+      "verification_level": "Verified secondary implementation, not primary textbook inspection and not a microplastic-specific empirical study.",
+      "source_url": "https://github.com/uncscode/particula/blob/acf38253e09e8f629bd5e2e93f3aa3a875e5cbd6/particula/particles/properties/aerodynamic_size.py",
+      "raw_url": "https://raw.githubusercontent.com/uncscode/particula/acf38253e09e8f629bd5e2e93f3aa3a875e5cbd6/particula/particles/properties/aerodynamic_size.py",
+      "commit": "acf38253e09e8f629bd5e2e93f3aa3a875e5cbd6",
+      "verified_keys": {
+        "sphere": 1.0,
+        "cube": 1.08,
+        "cylinder_avg_aspect_2": 1.1,
+        "cylinder_avg_aspect_5": 1.35,
+        "cylinder_avg_aspect_10": 1.68
+      }
+    }
+  }
+}

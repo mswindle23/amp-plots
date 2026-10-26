@@ -1,0 +1,182 @@
+DATA DESCRIPTION: particle_distance_profiles_v2
+Revision: 2026-10-20
+Project: Illustrative Clemson atmospheric microplastic transport and deposition
+
+WHAT THIS SPECIFIC FIGURE SHOWS
+The upper row compares nominal equivalent-sphere diameters of 0.5, 1, 5,
+and 10 micrometers, all at material density 1.05 g/cm3 (1050 kg/m3).
+The lower row retains the original density comparison: 0.90, 1.05, and
+1.40 g/cm3 at diameter 10 micrometers. Each row shows concentration,
+accumulated dry deposition, and accumulated wet deposition by distance.
+These are hypothetical source-normalized model results, not measurements of
+ambient microplastic abundance or estimates of a real source's emissions.
+
+PARTICLES AND SHAPE FACTOR
+Every AERMOD case is a monodisperse, equivalent spherical particle surrogate,
+with particle mass fraction 1.0. The corresponding dynamic shape factor is
+chi = 1. No fibers, films, fragments, foam, orientation distributions, or
+explicit nonspherical drag are represented in these dispersion runs.
+Chi is a dynamic SHAPE factor, not a size factor. Separate settling figures
+explore chi > 1 analytically; they do not change the AERMOD distance profiles.
+Density values are sensitivity assumptions, not polymer identifications.
+Equal mass emission across cases implies different emitted particle counts.
+
+Diameter convention: these numerical diameters are supplied directly to
+AERMOD26135 PARTDIAM together with actual material density in PARTDENS.
+The model's implemented settling calculation uses both diameter and density.
+The current guide calls PARTDIAM a mass-mean aerodynamic diameter; this
+project explicitly uses a numerical equivalent-sphere surrogate convention.
+No additional density conversion to aerodynamic diameter was applied. The
+figure must not be described as observations of measured aerodynamic sizes.
+
+LOCATION, SOURCE, AND TERRAIN
+Hypothetical source center: 34.6800 degrees N, 82.8400 degrees W, near Clemson
+in upstate South Carolina. Projected center: E 331435.622 m,
+N 3839097.591 m, NAD83 / UTM zone 17N (EPSG:26917).
+Source type: square AREA, 100 m x 100 m, centered at that coordinate;
+southwest vertex E 331385.622 m, N 3839047.591 m.
+Continuous assumed total emission: 1.0 g/s, equivalent to 0.0001 g/(s m2).
+The native AERMAP include rounds the southwest vertex to
+E 331385.62 m, N 3839047.59 m. This centimeter rounding is shared by cases.
+Release height: 2 m above local ground; initial vertical sigma: 1 m.
+AERMAP source ground elevation: 211.44 m above mean sea level.
+Rural dispersion option; no building downwash or measured source inventory.
+
+Terrain is the actual USGS 3DEP 1-arcsecond (approximately 30 m) tile
+USGS_1_n35w083.tif, from the official EPA August 2024 distribution:
+https://gaftp.epa.gov/Air/aqmg/3dep/08-2024/1_arcsecond/USGS_1_n35w083.zip
+AERMAP24142 processed the full tile for terrain and critical hill heights.
+There are 873 unique ground-level receptors: a 100 m-spaced inner square
+within +/-1 km and a 1 km-spaced outer square within +/-10 km, merged with
+duplicate coordinates removed. Receptor ground elevations span
+187.07-301.27 m. Square-domain corners extend to approximately 14.14 km
+radial distance. This is a local 20 km x 20 km study domain.
+
+DATE RANGE AND ACTUAL METEOROLOGICAL CONDITIONS
+Requested period: 2023-01-01 hour-ending 01 through 2023-12-31 hour-ending 24.
+All model hours use Eastern Standard Time (UTC-5), with no daylight-saving
+clock change. The request contains 8760 hours. AERMOD excludes 390 calm and
+307 missing hours; results use 8063 valid noncalm modeled hours. These exact
+counts come from model I440/I460 flags and summary counters, not inferred
+from zero-valued concentrations.
+
+The figure integrates the varying observed weather of the full year; it is
+not a fixed wind-speed, fixed stability, or single precipitation event run.
+Over the 8063 valid modeled hours, AERMET reference wind speed has mean
+2.463 m/s, median 2.08 m/s, and range 0.39-12.21 m/s. There are 3849 hours
+below 2 m/s, 3746 at 2 to less than 5 m/s, and 468 at or above 5 m/s.
+Monin-Obukhov length is positive (stable) for 4719 hours and negative
+(unstable) for 3344 hours. Wind direction varies hourly and is reported as
+the direction the wind comes FROM. All particle cases use exactly the same
+processed surface and upper-air files, including the same hourly wind,
+mixing, stability, temperature, and precipitation inputs.
+
+Surface observations: KCEU, Clemson-Oconee County Regional Airport,
+USAF 723118 / WBAN 53850, latitude 34.672 N, longitude 82.881 W.
+NOAA hourly ISD/ISHD data supply observed surface weather. NOAA one-minute
+ASOS winds for all 12 months of 2023 are processed using AERMINUTE26135;
+supported hourly observations remain available to AERMET as fallback.
+Wind measurement height: 7.92 m. The 2023 raw weather records report
+elevation 272.0 m; AERMOD PROFBASE is therefore 272 m. The station inventory
+lists 270.8 m, a different metadata value that was not substituted for the
+raw-record processing elevation.
+Hourly data source:
+https://www.ncei.noaa.gov/pub/data/noaa/2023/723118-53850-2023.gz
+One-minute data source pattern (MM = 01 through 12):
+https://www.ncei.noaa.gov/data/automated-surface-observing-system-one-minute-pg1/access/2023/MM/asos-1min-pg1-KCEU-2023MM.dat
+
+Upper-air observations: NOAA IGRA, FFC / Peachtree City, Georgia,
+USM00072215 (AERMET station identifier 00072215), latitude 33.3558 N,
+longitude 84.5672 W, elevation 244.9 m, approximately 217 km from the
+hypothetical source. IGRA is used instead of obsolete FSL-format downloads.
+No sounding exists for 2023-07-29 in the retrieved archive; none was invented.
+https://www.ncei.noaa.gov/pub/data/igra/data/data-por/USM00072215-data.txt.zip
+
+AERMET26135 produces aermet/clemson.sfc and aermet/clemson.pfl.
+Surface assumptions, held constant: albedo 0.20, Bowen ratio 1.0, roughness
+length 0.10 m, one annual sector. These are illustrative and were not
+derived using AERSURFACE or on-site turbulence observations. The AERMINUTE
+IFW/sonic status is ASSUMED effective 2023-01-01 for processing; this is not
+a verified KCEU instrument commissioning date. That uncertainty carries
+through all plots and is documented in aerminute/ifw_clarification.json.
+
+Precipitation is the observed, processed forcing, with dry and wet depletion
+active in every run. An independent raw-record audit finds 26 unknown
+precipitation hours in the calendar year. Some raw/processed categories
+also disagree. Among model-valid hours, 24 are unknown or discordant under
+the stricter weather-comparison audit; those hours remain part of these
+native AERMOD period outputs when otherwise model-valid. AERMET may default
+absent precipitation to zero. Therefore modeled zero rain is not always an
+observed dry hour. The figure does not silently reprocess rainfall or claim
+complete observed wet-removal coverage.
+
+EXACT MODEL OUTPUTS USED AND WHAT WAS REUSED
+Native EPA AERMOD26135 was executed separately for concentration, dry
+deposition, and wet deposition, with DFAULT, RURAL, DRYDPLT and WETDPLT.
+All outputs have identical source geometry, terrain, meteorology, calendar
+window, and receptor coordinates. The plots use authentic PERIOD PLOTFILEs
+named annual.plt (this conventional filename is not an extra averaging rule).
+
+Size cases, relative to clemson_amp/:
+  0.5 micrometers: aermod/d0p5_r1050/{metric}/annual.plt
+  1 micrometer:   aermod/d01_r1050/{metric}/annual.plt
+  5 micrometers:  aermod/d05_r1050/{metric}/annual.plt
+  10 micrometers: aermod/d10_r1050/{metric}/annual.plt
+Additional density cases at 10 micrometers:
+  0.90 g/cm3: aermod/d10_r0900/{metric}/annual.plt
+  1.40 g/cm3: aermod/d10_r1400/{metric}/annual.plt
+Here {metric} is concentration, dry_deposition, or wet_deposition.
+The original 1 and 10 micrometer and density outputs are reused unchanged.
+The original project contained no 0.5 or 5 micrometer native outputs; these
+two cases were newly run using the identical retained forcing and source.
+No model curves were obtained by interpolating or relabeling other sizes.
+The original 30 micrometer case is retained in the project but excluded
+from the revised size row.
+
+Concentration units: micrograms/m3, PERIOD arithmetic mean over valid
+noncalm modeled hours. Dry and wet deposition units: g/m2, PERIOD
+accumulated mass per area over the processed valid hours. Deposition curves
+are NOT mean fluxes and NOT complete-calendar deposition estimates for
+excluded hours. Both dry and wet removal can operate in the same hour.
+Only PERIOD values are used. Optional 24-hour concentration statistics
+produce completeness warnings, which do not supply data for this figure.
+
+DISTANCE BINNING AND NUMERICAL PRECISION
+For each receptor, radial distance is calculated from the source center
+using UTM coordinates. Annulus boundaries are 0, 0.1, ... 1.0, 2, 3, ...
+16 km. Bins include their lower edge and exclude their upper edge.
+The plotted x coordinate is the arithmetic mean receptor radius in the bin,
+not simply its midpoint. The plotted y coordinate is the unweighted
+arithmetic mean of ALL receptor values in that bin, including printed
+zeros. Different nested-grid spacings therefore contribute different sample
+densities; no receptor-area or annulus-area weighting is applied.
+Only positive bin means at positive mean radius can appear on logarithmic
+axes. A bin with nonpositive mean radius would be retained in the CSV but
+hidden on the logarithmic distance axis; the CSV records this flag.
+Zero bin means are omitted as gaps, never replaced by an arbitrary floor.
+The exported profile CSV records bin edges, actual mean radius, mean value,
+receptor count, and zero counts for inspection.
+
+AERMOD PLOTFILE values are printed to five decimal places. Printed zero
+can represent a small positive value below the output precision. This
+especially affects the smallest-particle wet-deposition fields. Annular
+averaging does not recover subprecision native values: a very small mean
+can arise from a few printed 0.00001 values and many printed zeros. Means
+below about 0.000005 g/m2 can be dominated by rounding and do not imply
+that finer physical resolution was achieved. Zero at output precision must
+not be interpreted as proof of absent transport or deposition. Neither
+directional averaging nor log-axis omission changes the native values.
+
+INTERPRETATION AND REPRODUCIBILITY
+These are direction-averaged receptor sample profiles under annual varying
+weather, not instantaneous downwind plume trajectories, measured transport
+distances, area-integrated mass recovery, or causal estimates of weather
+effects. They do not simulate degradation, fragmentation, resuspension,
+explicit fiber/film orientation, or transport outside this domain.
+
+Revision scenario: revisions/2026-10-20/scenario_particle_sizes.json.
+Plot generator: scripts/revision_figures.py.
+Detailed source/output/script hashes and verified native execution records:
+revisions/2026-10-20/figures/revision_figures_provenance.json.
+Companion numerical data: the profile CSV in that figures directory.
+The original scenario.json and original figure versions are retained.

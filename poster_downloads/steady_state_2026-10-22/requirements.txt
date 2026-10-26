@@ -1,0 +1,6 @@
+numpy==2.3.5
+matplotlib==3.10.8
+xlsxwriter==3.2.9
+openpyxl==3.1.5
+scipy==1.17.0
+Pillow==12.3.0

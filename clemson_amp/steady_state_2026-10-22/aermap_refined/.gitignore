@@ -1,0 +1,5 @@
+# Byte-verified copies of the shared USGS raster and native AERMAP indexes.
+# Retrieval/source checksums are recorded in aermap_validation.json.
+chunks/*/terrain/*.tif
+chunks/*/terrain/*.dir
+chunks/*/terrain/*.idx

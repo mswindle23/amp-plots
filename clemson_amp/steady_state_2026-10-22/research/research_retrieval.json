@@ -1,0 +1,63 @@
+{
+  "retrieved_utc": "2026-10-22T23:31:09.114177+00:00",
+  "raw_cache_included_in_public_delivery": false,
+  "cache_hashes": [
+    {
+      "file": "PMC5664766.xml",
+      "bytes": 270801,
+      "sha256": "7f1b4935f0e7470d968391e33e5f2c3f8bc3d49f9bfd3ba960e553966906db05"
+    },
+    {
+      "file": "PMC5664766_emission_extracts.txt",
+      "bytes": 20861,
+      "sha256": "e018f1f20e84319e768f8d86440f4a56dd0a7b435bd758975cd909547c254e51"
+    },
+    {
+      "file": "PMC7360784.xml",
+      "bytes": 160964,
+      "sha256": "68dce8beed5d0536af9702c9e067502d63054b9ab9a36de61d58f58f5f52d365"
+    },
+    {
+      "file": "PMC7360784_emission_extracts.txt",
+      "bytes": 23395,
+      "sha256": "843c9fab06507cdbb2b0be193ab659f8a048a296e5ce7ccebc6a871396aca2bd"
+    },
+    {
+      "file": "elnahas_2024_fulltext.xml",
+      "bytes": 96601,
+      "sha256": "1b9e0e152aa0fab99f4f5c6d0a7ed426385877d16bfdd16cbe2710dbc5cbd5d7"
+    },
+    {
+      "file": "elnahas_relevant_extracts.txt",
+      "bytes": 21625,
+      "sha256": "364e0b97b8f362e9a939f3a3780340d8325b38406b6d3ca47647e1a112e34490"
+    },
+    {
+      "file": "emissions_search_results.json",
+      "bytes": 65004,
+      "sha256": "12959267f5e7eeba7def2191b0791601e6fd43e4fab70f31e3f3defc61d5b906"
+    },
+    {
+      "file": "helene_2026_crossref.json",
+      "bytes": 33483,
+      "sha256": "e492945bb6a4fc5b89cf836ab3bd25a27146177afeb4c46188616cd59f40dde2"
+    },
+    {
+      "file": "helene_2026_metadata.json",
+      "bytes": 7788,
+      "sha256": "0be93d50dc8383ef99c1e2a2469097e5e8eaf52809887c26e1566547f43c1eb4"
+    },
+    {
+      "file": "regional_latest_and_emissions_metadata.json",
+      "bytes": 209408,
+      "sha256": "a54b548d6e20fc2b275ef2eaed5193e0a32d51a1f79875bf011c70f4b2db1c1f"
+    }
+  ],
+  "public_urls": {
+    "Gray2026_crossref": "https://api.crossref.org/works/10.1093/inteam/vjag130",
+    "regional_2024_abstract": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1093/inteam/vjag130&format=json&resultType=core",
+    "Elnahas2024_fulltext": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11730859/fullTextXML",
+    "Kole2017_fulltext": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5664766/fullTextXML",
+    "Evangeliou2020_fulltext": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7360784/fullTextXML"
+  }
+}

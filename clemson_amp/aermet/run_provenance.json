@@ -1,0 +1,47 @@
+{
+  "aerminute_provenance_sha256": "49017e095baa04cbd0bdb568accbd108d91e705dece6fcb352de823dcf3f1852",
+  "commands": [
+    {
+      "command": [
+        "/workspace/.cloud-setup/amp-plots/bin/aermet",
+        "aermet2.inp"
+      ],
+      "error_messages": [],
+      "exit_status": 0
+    }
+  ],
+  "ifw_status": {
+    "effective_processing_date": "2023-01-01",
+    "guide": "https://gaftp.epa.gov/Air/aqmg/SCRAM/models/met/aerminute/aerminute_userguide.pdf",
+    "interpretation": "ASSUMED sonic-anemometer (IFW) status. The supplied date is an effective processing date, NOT a verified IFW installation/commission date. Official NWS commission-date lookup was unavailable. AERMINUTE July2026 User's Guide section4.1.2 pp8-9 permits a reasonable post2009 IFW assumption when installation metadata is unavailable; verify with NWS before a definitive study.",
+    "sonic_status": "ASSUMED",
+    "source_reference": null,
+    "verified_commission_date": null
+  },
+  "note": "AERMET stage execution succeeded. Inspect reports and separate raw precipitation audit before scientific interpretation.",
+  "one_minute_winds": true,
+  "outputs": {
+    "clemson.pfl": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+    "clemson.sfc": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468"
+  },
+  "quality_summary": {
+    "counts": {
+      "calm_wind_hours": 390,
+      "missing_or_invalid_wind_direction_hours": 198,
+      "missing_precipitation_output_hours": 2,
+      "plausibly_usable_hours_before_AERMOD_checks": 8156,
+      "positive_friction_velocity_hours": 8329,
+      "positive_precipitation_output_hours": 587,
+      "positive_wind_hours": 8370
+    },
+    "hourly_records": 8760,
+    "interpretation": "Full hourly calendar retains calm/missing/invalid hours; record count is not usable-hour completeness. AERMOD's report controls actual modeling acceptance.",
+    "wind_source_flags": {
+      "ADJ-A1": 7504,
+      "ADJ-SFC": 1231,
+      "NAD": 25
+    },
+    "year": 2023
+  },
+  "stage1_reused": true
+}

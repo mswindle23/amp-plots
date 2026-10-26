@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T15:35:49.400458+00:00",
+  "program": "AERMAP",
+  "version": "24142",
+  "exit_code": 0,
+  "working_directory": "clemson_amp/aermap",
+  "input_sha256": "cb1f2473525f65bacf8179e649e2b27ff8ff32b53d8924ca7531b697aa085b01",
+  "terrain_sha256": "7e62151b544b0253d3446400e3a1fbcef8d2cfe7d7093ff1f6399ab73501e829",
+  "binary_sha256": "75932f93f645cf753c96bc1af5684a60a9b4864ddc30ea7fb5b430ad2ad814c7",
+  "outputs": {
+    "aermap.rec": {
+      "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+      "size_bytes": 53782
+    },
+    "aermap.src": {
+      "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+      "size_bytes": 603
+    },
+    "aermap.out": {
+      "sha256": "26d9e8fe66ff6b399912ef7a7a7d72d1f7947ad44422b389444eb8d30abcf85a",
+      "size_bytes": 34661
+    }
+  },
+  "receptor_count": 873,
+  "unique_receptor_count": 873,
+  "all_coordinates_match_input_within_m": 0.01,
+  "all_values_finite": true,
+  "all_hill_heights_at_least_receptor_elevation": true,
+  "elevation_range_m": [
+    187.07,
+    301.27
+  ],
+  "critical_hill_height_range_m": [
+    187.07,
+    309.1
+  ],
+  "sources": [
+    {
+      "id": "AMPAREA",
+      "type": "AREA",
+      "x_m": 331385.62,
+      "y_m": 3839047.59,
+      "elevation_m": 211.44
+    }
+  ],
+  "fatal_error_count": 0,
+  "warning_count": 2,
+  "warnings": [
+    {
+      "code": "W450",
+      "detail": "Orientation TIFF tag 274 absent; default 1 (row major, northwest origin) matches the verified tile geotransform."
+    },
+    {
+      "code": "W473",
+      "detail": "Vertical unit tag absent; default METERS matches standard USGS 3DEP elevation units."
+    }
+  ],
+  "scope": "Actual downloaded USGS terrain processed with full raster retained for hill search; no meteorological or concentration outputs implied."
+}

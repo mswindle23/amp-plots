@@ -1,0 +1,18 @@
+** Surface characteristics below are explicit illustrative assumptions, not AERSURFACE.
+JOB
+  MESSAGES aermet2.msg
+  REPORT aermet2.rpt
+SURFACE
+  QAOUT surface.qa
+  ASOS1MIN ../aerminute/clemson_1min.dat
+UPPERAIR
+  QAOUT upperair.qa
+METPREP
+  XDATES 2023/01/01 TO 2023/12/31
+  NWS_HGT WIND 7.92
+  METHOD REFLEVEL SUBNWS
+  OUTPUT clemson.sfc
+  PROFILE clemson.pfl
+  FREQ_SECT ANNUAL 1
+  SECTOR 1 0 360
+  SITE_CHAR 1 1 0.20 1.0 0.10

@@ -1,0 +1,19 @@
+{
+  "expected_hours": 8760,
+  "important": "AERMET defaults absent AA101 to zero. Unknown/no-report hours must not be interpreted as observed dry hours. max_reported_precip_mm is a candidate-hour diagnostic, not a replacement forcing dataset.",
+  "method": "Per LST hour: inspect any raw candidate record on the hour or in prior30min; AA1 accumulation period01 only. This is an independent coverage audit, not a recreation of AERMET duplicate merging.",
+  "quality_policy": "Missing amount9999 and quality2/3/6/7 excluded; all raw condition and quality codes retained for review.",
+  "raw_record_elevations_m": {
+    "272": 12116
+  },
+  "status_counts": {
+    "hours_with_nonmissing_wind_speed_candidate": 8678,
+    "missing_or_rejected_precipitation": 7,
+    "no_one_hour_precipitation_report": 18,
+    "no_surface_observation": 1,
+    "observed_trace": 540,
+    "observed_wet": 585,
+    "observed_zero": 7609
+  },
+  "year": 2023
+}

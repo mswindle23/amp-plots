@@ -1,0 +1,18 @@
+{
+  "requested_hours": 8760,
+  "valid_hours": 8063,
+  "calm_hours": 390,
+  "missing_hours": 307,
+  "wind_mean_m_s": 2.462969118194221,
+  "wind_median_m_s": 2.08,
+  "wind_min_m_s": 0.39,
+  "wind_max_m_s": 12.21,
+  "wind_lt2_hours": 3849,
+  "wind_2_to_lt5_hours": 3746,
+  "wind_ge5_hours": 468,
+  "stable_hours": 4719,
+  "unstable_hours": 3344,
+  "known_precipitation_valid_hours": 8039,
+  "unknown_discordant_precipitation_valid_hours": 24,
+  "resolved_precipitation_mm_valid_known_hours": 1185.6999999999932
+}

@@ -1,0 +1,380 @@
+{
+  "validated_at_utc": "2026-10-19T15:54:26.199557+00:00",
+  "status": "passed with diagnosed optional daily-average warnings",
+  "aermod_runs": [
+    {
+      "run": "aermod/d01_r1050/wet_deposition",
+      "manifest": "run_manifests/20261019T154052Z_116557da/manifest.json",
+      "requested_hours": 8760,
+      "calm_hours": 390,
+      "missing_hours": 307,
+      "valid_hours": 8063,
+      "fatal_errors": 0,
+      "warning_count": 0,
+      "warning_codes": [],
+      "receptors": 873,
+      "period_output": {
+        "receptor_rows": 873,
+        "minimum": 0.0,
+        "maximum": 0.00068,
+        "nonzero_rows": 460
+      }
+    },
+    {
+      "run": "aermod/d10_r1050/dry_deposition",
+      "manifest": "run_manifests/20261019T154052Z_116557da/manifest.json",
+      "requested_hours": 8760,
+      "calm_hours": 390,
+      "missing_hours": 307,
+      "valid_hours": 8063,
+      "fatal_errors": 0,
+      "warning_count": 0,
+      "warning_codes": [],
+      "receptors": 873,
+      "period_output": {
+        "receptor_rows": 873,
+        "minimum": 0.00052,
+        "maximum": 108.33783,
+        "nonzero_rows": 873
+      }
+    },
+    {
+      "run": "aermod/d10_r1050/concentration",
+      "manifest": "run_manifests/20261019T154052Z_116557da/manifest.json",
+      "requested_hours": 8760,
+      "calm_hours": 390,
+      "missing_hours": 307,
+      "valid_hours": 8063,
+      "fatal_errors": 0,
+      "warning_count": 44,
+      "warning_codes": [
+        "W732"
+      ],
+      "receptors": 873,
+      "period_output": {
+        "receptor_rows": 873,
+        "minimum": 0.00317,
+        "maximum": 433.79275,
+        "nonzero_rows": 873
+      }
+    },
+    {
+      "run": "aermod/d10_r1050/wet_deposition",
+      "manifest": "run_manifests/20261019T154052Z_116557da/manifest.json",
+      "requested_hours": 8760,
+      "calm_hours": 390,
+      "missing_hours": 307,
+      "valid_hours": 8063,
+      "fatal_errors": 0,
+      "warning_count": 0,
+      "warning_codes": [],
+      "receptors": 873,
+      "period_output": {
+        "receptor_rows": 873,
+        "minimum": 2e-05,
+        "maximum": 2.02686,
+        "nonzero_rows": 873
+      }
+    },
+    {
+      "run": "aermod/d01_r1050/concentration",
+      "manifest": "run_manifests/20261019T154052Z_116557da/manifest.json",
+      "requested_hours": 8760,
+      "calm_hours": 390,
+      "missing_hours": 307,
+      "valid_hours": 8063,
+      "fatal_errors": 0,
+      "warning_count": 44,
+      "warning_codes": [
+        "W732"
+      ],
+      "receptors": 873,
+      "period_output": {
+        "receptor_rows": 873,
+        "minimum": 0.00471,
+        "maximum": 425.41725,
+        "nonzero_rows": 873
+      }
+    },
+    {
+      "run": "aermod/d01_r1050/dry_deposition",
+      "manifest": "run_manifests/20261019T154052Z_116557da/manifest.json",
+      "requested_hours": 8760,
+      "calm_hours": 390,
+      "missing_hours": 307,
+      "valid_hours": 8063,
+      "fatal_errors": 0,
+      "warning_count": 0,
+      "warning_codes": [],
+      "receptors": 873,
+      "period_output": {
+        "receptor_rows": 873,
+        "minimum": 4e-05,
+        "maximum": 2.87601,
+        "nonzero_rows": 873
+      }
+    },
+    {
+      "run": "aermod/d30_r1050/concentration",
+      "manifest": "run_manifests/20261019T154052Z_116557da/manifest.json",
+      "requested_hours": 8760,
+      "calm_hours": 390,
+      "missing_hours": 307,
+      "valid_hours": 8063,
+      "fatal_errors": 0,
+      "warning_count": 44,
+      "warning_codes": [
+        "W732"
+      ],
+      "receptors": 873,
+      "period_output": {
+        "receptor_rows": 873,
+        "minimum": 0.00081,
+        "maximum": 429.51831,
+        "nonzero_rows": 873
+      }
+    },
+    {
+      "run": "aermod/d30_r1050/dry_deposition",
+      "manifest": "run_manifests/20261019T154052Z_116557da/manifest.json",
+      "requested_hours": 8760,
+      "calm_hours": 390,
+      "missing_hours": 307,
+      "valid_hours": 8063,
+      "fatal_errors": 0,
+      "warning_count": 0,
+      "warning_codes": [],
+      "receptors": 873,
+      "period_output": {
+        "receptor_rows": 873,
+        "minimum": 0.00137,
+        "maximum": 528.39149,
+        "nonzero_rows": 873
+      }
+    },
+    {
+      "run": "aermod/d30_r1050/wet_deposition",
+      "manifest": "run_manifests/20261019T154052Z_116557da/manifest.json",
+      "requested_hours": 8760,
+      "calm_hours": 390,
+      "missing_hours": 307,
+      "valid_hours": 8063,
+      "fatal_errors": 0,
+      "warning_count": 0,
+      "warning_codes": [],
+      "receptors": 873,
+      "period_output": {
+        "receptor_rows": 873,
+        "minimum": 0.0,
+        "maximum": 2.89949,
+        "nonzero_rows": 868
+      }
+    },
+    {
+      "run": "aermod/d10_r0900/wet_deposition",
+      "manifest": "run_manifests/20261019T154052Z_116557da/manifest.json",
+      "requested_hours": 8760,
+      "calm_hours": 390,
+      "missing_hours": 307,
+      "valid_hours": 8063,
+      "fatal_errors": 0,
+      "warning_count": 0,
+      "warning_codes": [],
+      "receptors": 873,
+      "period_output": {
+        "receptor_rows": 873,
+        "minimum": 2e-05,
+        "maximum": 2.02405,
+        "nonzero_rows": 873
+      }
+    },
+    {
+      "run": "aermod/d10_r0900/dry_deposition",
+      "manifest": "run_manifests/20261019T154052Z_116557da/manifest.json",
+      "requested_hours": 8760,
+      "calm_hours": 390,
+      "missing_hours": 307,
+      "valid_hours": 8063,
+      "fatal_errors": 0,
+      "warning_count": 0,
+      "warning_codes": [],
+      "receptors": 873,
+      "period_output": {
+        "receptor_rows": 873,
+        "minimum": 0.00038,
+        "maximum": 90.22606,
+        "nonzero_rows": 873
+      }
+    },
+    {
+      "run": "aermod/d10_r0900/concentration",
+      "manifest": "run_manifests/20261019T154052Z_116557da/manifest.json",
+      "requested_hours": 8760,
+      "calm_hours": 390,
+      "missing_hours": 307,
+      "valid_hours": 8063,
+      "fatal_errors": 0,
+      "warning_count": 44,
+      "warning_codes": [
+        "W732"
+      ],
+      "receptors": 873,
+      "period_output": {
+        "receptor_rows": 873,
+        "minimum": 0.00324,
+        "maximum": 432.88221,
+        "nonzero_rows": 873
+      }
+    },
+    {
+      "run": "aermod/d10_r1400/wet_deposition",
+      "manifest": "run_manifests/20261019T154052Z_116557da/manifest.json",
+      "requested_hours": 8760,
+      "calm_hours": 390,
+      "missing_hours": 307,
+      "valid_hours": 8063,
+      "fatal_errors": 0,
+      "warning_count": 0,
+      "warning_codes": [],
+      "receptors": 873,
+      "period_output": {
+        "receptor_rows": 873,
+        "minimum": 2e-05,
+        "maximum": 1.9739,
+        "nonzero_rows": 873
+      }
+    },
+    {
+      "run": "aermod/d10_r1400/concentration",
+      "manifest": "run_manifests/20261019T154052Z_116557da/manifest.json",
+      "requested_hours": 8760,
+      "calm_hours": 390,
+      "missing_hours": 307,
+      "valid_hours": 8063,
+      "fatal_errors": 0,
+      "warning_count": 44,
+      "warning_codes": [
+        "W732"
+      ],
+      "receptors": 873,
+      "period_output": {
+        "receptor_rows": 873,
+        "minimum": 0.00301,
+        "maximum": 435.73469,
+        "nonzero_rows": 873
+      }
+    },
+    {
+      "run": "aermod/d10_r1400/dry_deposition",
+      "manifest": "run_manifests/20261019T154052Z_116557da/manifest.json",
+      "requested_hours": 8760,
+      "calm_hours": 390,
+      "missing_hours": 307,
+      "valid_hours": 8063,
+      "fatal_errors": 0,
+      "warning_count": 0,
+      "warning_codes": [],
+      "receptors": 873,
+      "period_output": {
+        "receptor_rows": 873,
+        "minimum": 0.00087,
+        "maximum": 147.67211,
+        "nonzero_rows": 873
+      }
+    },
+    {
+      "run": "aermod/diagnostic_d10_r1050/wet_deposition",
+      "manifest": "run_manifests/20261019T155118Z_00bd880b/manifest.json",
+      "requested_hours": 8760,
+      "calm_hours": 390,
+      "missing_hours": 307,
+      "valid_hours": 8063,
+      "fatal_errors": 0,
+      "warning_count": 0,
+      "warning_codes": [],
+      "receptors": 16,
+      "period_output": {
+        "receptor_rows": 16,
+        "minimum": 0.00012,
+        "maximum": 0.10055,
+        "nonzero_rows": 16
+      }
+    },
+    {
+      "run": "aermod/diagnostic_d10_r1050/dry_deposition",
+      "manifest": "run_manifests/20261019T155118Z_00bd880b/manifest.json",
+      "requested_hours": 8760,
+      "calm_hours": 390,
+      "missing_hours": 307,
+      "valid_hours": 8063,
+      "fatal_errors": 0,
+      "warning_count": 0,
+      "warning_codes": [],
+      "receptors": 16,
+      "period_output": {
+        "receptor_rows": 16,
+        "minimum": 0.00067,
+        "maximum": 2.1731,
+        "nonzero_rows": 16
+      }
+    },
+    {
+      "run": "aermod/diagnostic_d10_r1050/concentration",
+      "manifest": "run_manifests/20261019T155118Z_00bd880b/manifest.json",
+      "requested_hours": 8760,
+      "calm_hours": 390,
+      "missing_hours": 307,
+      "valid_hours": 8063,
+      "fatal_errors": 0,
+      "warning_count": 44,
+      "warning_codes": [
+        "W732"
+      ],
+      "receptors": 16,
+      "period_output": {
+        "receptor_rows": 16,
+        "minimum": 0.00442,
+        "maximum": 22.70459,
+        "nonzero_rows": 16
+      }
+    }
+  ],
+  "native_components": {
+    "AERMAP": "24142",
+    "AERMET": "26135",
+    "AERMINUTE": "26135",
+    "AERMOD": "26135"
+  },
+  "AERPLOT": {
+    "version": "26135",
+    "status": "input files prepared; official Windows executable not executed on Linux"
+  },
+  "period": "2023 calendar window, Eastern Standard Time (UTC-05:00 year-round)",
+  "emissions": "Hypothetical source normalized to 1 g/s total AMP mass; not measured emissions",
+  "period_units": {
+    "concentration": "micrograms/m3, mean over8063model-valid hours",
+    "dry_deposition": "g/m2 accumulated over modeled valid hours",
+    "wet_deposition": "g/m2 accumulated over modeled valid hours"
+  },
+  "daily_average_warning": "Each CONC run reports44W732warnings for24haverages with fewer than18valid hours; optional max24h product is not used in poster figures. PERIOD means and hourly diagnostics use valid-hour checks.",
+  "data_quality": {
+    "raw_precipitation_unknown_hours": 26,
+    "surface_station": "KCEU 723118/53850",
+    "upper_air_station": "IGRA USM00072215",
+    "sonic_sensor_status": "IFW sonic status assumed; actual historical commissioning date not verified",
+    "surface_characteristics": "albedo0.2,Bowen1.0,z0=0.10m assumed"
+  },
+  "original_sample_inputs_unchanged": true,
+  "figures": [
+    {
+      "provenance": "figures/poster_figures_provenance.json",
+      "artifacts_verified": 9,
+      "status": "complete"
+    },
+    {
+      "provenance": "figures/weather_figures_provenance.json",
+      "artifacts_verified": 7,
+      "status": "complete"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+*.pdf
+*.tif
+*.aux.xml
+*_render.png
+*_render.vrt

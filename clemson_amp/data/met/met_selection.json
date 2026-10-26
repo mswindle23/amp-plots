@@ -1,0 +1,88 @@
+{
+  "inputs": {
+    "KCEU_2023_padded.isd": "25ad81bebf2075eebb3c88e2b7f7c5a7d5da58833b2404748b5169572890639f",
+    "USM00072215_2023_padded.txt": "24e19d2c5428959e90a2eb0e1658b299a0a3113322c2d07ccd2c00461dda6db4"
+  },
+  "raw_precipitation_audit": "precipitation_audit.json",
+  "source_note": "NOAA station-history elevation is supplied explicitly; AERMET uses any nonmissing elevation in the raw ISD file in preference to that value.",
+  "surface": {
+    "anemometer_height_m": 7.92,
+    "anemometer_source": "EPA AERMET26135 mod_surface.f90 ASOS table (KCEU/KGSP); not a period-specific relocation history",
+    "elevation_m": 270.8,
+    "history_begin": "20060101",
+    "history_end": "20250827",
+    "icao": "KCEU",
+    "latitude": 34.672,
+    "longitude": -82.881,
+    "name": "OCCONEE COUNTY RGNL ARPT",
+    "usaf": "723118",
+    "wban": "53850"
+  },
+  "surface_characteristics": {
+    "Bowen_ratio": 1.0,
+    "albedo": 0.2,
+    "frequency": "ANNUAL",
+    "roughness_length_m": 0.1,
+    "sectors": 1,
+    "status": "Illustrative assumptions; not an AERSURFACE characterization or measured site data"
+  },
+  "surface_selection_reason": "KCEU is the local candidate with observed precipitation coverage audited separately; no silent station fallback.",
+  "upperair": {
+    "aermet_id": "00072215",
+    "distance_to_scenario_km": 216.838,
+    "elevation_m": 244.9,
+    "first_year": 1994,
+    "icao_candidate": "KFFC",
+    "igra_id": "USM00072215",
+    "inventory_soundings_all_years": 23715,
+    "last_year": 2026,
+    "latitude": 33.3558,
+    "longitude": -84.5672,
+    "name": "PEACHTREE CITY; GA."
+  },
+  "upperair_audit": "upperair_audit.json",
+  "upperair_candidates": [
+    {
+      "aermet_id": "00072215",
+      "distance_to_scenario_km": 216.838,
+      "elevation_m": 244.9,
+      "first_year": 1994,
+      "icao_candidate": "KFFC",
+      "igra_id": "USM00072215",
+      "inventory_soundings_all_years": 23715,
+      "last_year": 2026,
+      "latitude": 33.3558,
+      "longitude": -84.5672,
+      "name": "PEACHTREE CITY; GA."
+    },
+    {
+      "aermet_id": "00072317",
+      "distance_to_scenario_km": 306.312,
+      "elevation_m": 276.5,
+      "first_year": 1928,
+      "icao_candidate": "KGSO",
+      "igra_id": "USM00072317",
+      "inventory_soundings_all_years": 79193,
+      "last_year": 2026,
+      "latitude": 36.0981,
+      "longitude": -79.9428,
+      "name": "GREENSBORO/G.-HIGH PT.; NC."
+    },
+    {
+      "aermet_id": "00072208",
+      "distance_to_scenario_km": 327.01,
+      "elevation_m": 13.3,
+      "first_year": 1932,
+      "icao_candidate": "KCHS",
+      "igra_id": "USM00072208",
+      "inventory_soundings_all_years": 77366,
+      "last_year": 2026,
+      "latitude": 32.895,
+      "longitude": -80.0275,
+      "name": "CHARLESTON/MUN.; SC."
+    }
+  ],
+  "upperair_selection_reason": "Nearest of KFFC/KGSO/KCHS with inventory coverage. Actual gaps are retained and documented in upperair_audit.json; no soundings are synthesized and no automatic regional-station substitution is performed.",
+  "utc_to_local_standard_time_hours": 5,
+  "year": 2023
+}

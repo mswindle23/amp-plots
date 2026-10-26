@@ -1,0 +1,2310 @@
+{
+  "status": "complete",
+  "created_utc": "2026-10-23T01:06:38.764868+00:00",
+  "script": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scripts/build_map_context_kmz.py",
+    "sha256": "61894cb45329f8bd0cc9fea5e5d20373196a1f66f9794dcd95b2b281a3aee9ee",
+    "bytes": 8696
+  },
+  "basemap_metadata": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/basemap/basemap_metadata.json",
+    "sha256": "c91dcdacf741f037dfd78d580e8bd083a893c38fa27f15210756160dc859d2da",
+    "bytes": 5404
+  },
+  "basemap_image": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/basemap/usgs_topo.png",
+    "sha256": "910d27dfda5d7212be8fe9c46cc6ae91054a3b4f37471afaf886a4bf284acf49",
+    "bytes": 6203662
+  },
+  "original_model_kmz": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/deliverables/kmz/clemson_steady_all_scenarios.kmz",
+    "sha256": "79a0fd3d57c7d94180cb03817c535171fc786e47ba2b8e9477d04717c605a84a",
+    "bytes": 2466537
+  },
+  "original_kmz_provenance": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/deliverables/kmz/kmz_provenance.json",
+    "sha256": "876c94fd5749b2f62328acd6a11d2bfac69ba07b9e1bab3424bcaeb1af3e4ca3",
+    "bytes": 131396
+  },
+  "native_fields_verified": 30,
+  "native_result_verification": [
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u1_r0__concentration",
+      "started_utc": "2026-10-22T23:44:02.019791+00:00",
+      "finished_utc": "2026-10-22T23:44:12.929837+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u1_r0__concentration.json",
+        "sha256": "43f2a36047819c8a870da2c0ab801f56a97ed6d1a9c7e4373f800019dbf97b6c"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u1_r0.pfl",
+          "sha256": "7c7e1b451852bfa9009ca1823c57c17366a1cb9ada1029619ee112775ac5a32d",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u1_r0.sfc",
+          "sha256": "44de3523cc54a9a305a342339adf78b3e7c5fab25b312e157703b0eeacea3f03",
+          "bytes": 3416
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/concentration/aermod.inp",
+          "sha256": "a2483492f3eb4386777dee4dfff215441196bfec68db80530cf7441b3ecd1e44",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/concentration/annual.plt",
+        "sha256": "7a65c08daed36daf89b5ccde56de5114733177863b7773eae0a77b7acb47e198",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/concentration/aermod.out",
+          "sha256": "c75ff83a55ad95b6255195d337b690fc8ec48845d6b3f0940a205c4605659f4e",
+          "bytes": 663420
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/concentration/errors.out",
+          "sha256": "bdbb1bec2c498df45e6b1977e3653776f54dc6c63a561e2c819613c9a8a16e5b",
+          "bytes": 640
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/concentration/aermod.sum",
+          "sha256": "0a5abd819e124173e8e1dc5bcda4b10beb6f7ec976fea19e75b613e6a14bd134",
+          "bytes": 15809
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u1_r0__dry_deposition",
+      "started_utc": "2026-10-22T23:44:02.021582+00:00",
+      "finished_utc": "2026-10-22T23:44:10.012102+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u1_r0__dry_deposition.json",
+        "sha256": "41665fae72ccf284066321551ee7fd0a4fd1d965ae77229de718a4bc37a34092"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u1_r0.pfl",
+          "sha256": "7c7e1b451852bfa9009ca1823c57c17366a1cb9ada1029619ee112775ac5a32d",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u1_r0.sfc",
+          "sha256": "44de3523cc54a9a305a342339adf78b3e7c5fab25b312e157703b0eeacea3f03",
+          "bytes": 3416
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/dry_deposition/aermod.inp",
+          "sha256": "59a58f5cd17b705a92b43ddda41f7b5fd8695a14d3b70ec2fbd2cf0d44f7f910",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/dry_deposition/annual.plt",
+        "sha256": "e54ad8b5e92539581015600871c72a2e87222b25b4b22d50a552e41a64f6f195",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/dry_deposition/aermod.out",
+          "sha256": "d7f2e4df63a181233bf4a5bdd9fe72df5c09267f610cdec36b663f2f54f19d20",
+          "bytes": 663413
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/dry_deposition/errors.out",
+          "sha256": "bdbb1bec2c498df45e6b1977e3653776f54dc6c63a561e2c819613c9a8a16e5b",
+          "bytes": 640
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/dry_deposition/aermod.sum",
+          "sha256": "1a283af21e358c432bbba7bd7c3206ecdb830572a524da777e33445835185ca9",
+          "bytes": 15802
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u1_r0__wet_deposition",
+      "started_utc": "2026-10-22T23:44:02.022157+00:00",
+      "finished_utc": "2026-10-22T23:44:06.372562+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u1_r0__wet_deposition.json",
+        "sha256": "66e786330bdfae1916a847a6aab16dc2e2da9b75b51acb43373c2720b5f83ed2"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u1_r0.pfl",
+          "sha256": "7c7e1b451852bfa9009ca1823c57c17366a1cb9ada1029619ee112775ac5a32d",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u1_r0.sfc",
+          "sha256": "44de3523cc54a9a305a342339adf78b3e7c5fab25b312e157703b0eeacea3f03",
+          "bytes": 3416
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/wet_deposition/aermod.inp",
+          "sha256": "4021cd568ca71d4f5746a2c9c16a9fe925bf92085284eba40d9650a8049ed713",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/wet_deposition/annual.plt",
+        "sha256": "80cc3dd6e336ba3866d0de4a1627a6f0dc1aa465492d2b0061eb038782cd1bfd",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/wet_deposition/aermod.out",
+          "sha256": "dcc2761492c7e3ad4997b5bff00098ae78b5a0da6086349f9d3906dfec3a8fa0",
+          "bytes": 663259
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/wet_deposition/errors.out",
+          "sha256": "bdbb1bec2c498df45e6b1977e3653776f54dc6c63a561e2c819613c9a8a16e5b",
+          "bytes": 640
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r0/wet_deposition/aermod.sum",
+          "sha256": "3b7bbc3cdd2ad2e479bda2f4efd25c7af19a9479e78584d5da13550e5457ec6e",
+          "bytes": 15648
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u1_r1__concentration",
+      "started_utc": "2026-10-22T23:44:02.023385+00:00",
+      "finished_utc": "2026-10-22T23:44:10.002381+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u1_r1__concentration.json",
+        "sha256": "a475122ace7c0868ad88f70942633acb6aefb37afb85def4e2f0dbd43ababc45"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u1_r1.pfl",
+          "sha256": "7c7e1b451852bfa9009ca1823c57c17366a1cb9ada1029619ee112775ac5a32d",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u1_r1.sfc",
+          "sha256": "b22abcb0e3f3092e2a537a6ccba6ed30c5b18b919128ee74bc072abb8c69c9b2",
+          "bytes": 3440
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/concentration/aermod.inp",
+          "sha256": "33f9ca1f6291d52b4e99c9d0915a6e3f21cff8a19780636c08b66ba58c081325",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/concentration/annual.plt",
+        "sha256": "aaf1358baa41924df46f89993884e35d06fea16c341313fe9b7b2a3a62056aee",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/concentration/aermod.out",
+          "sha256": "c4f82f9799efd1b8d11da9165da1a90e570579b92c5c20c1f5cad65a607e9da5",
+          "bytes": 663366
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/concentration/errors.out",
+          "sha256": "02557cc70a5e936e76d24ebf7fcfe7b282748a2eb1da7fb12cec8381371e0d34",
+          "bytes": 546
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/concentration/aermod.sum",
+          "sha256": "eb4c14d7202faba7ea9e5c2ae1a275489816afe75855ae5fb588bdf599097671",
+          "bytes": 15755
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u1_r1__dry_deposition",
+      "started_utc": "2026-10-22T23:44:06.374418+00:00",
+      "finished_utc": "2026-10-22T23:44:19.067576+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u1_r1__dry_deposition.json",
+        "sha256": "93e661d63ec80c7af210eaa191ab4b1ddcac147aa2bdbcc69950e929540bb3f5"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u1_r1.pfl",
+          "sha256": "7c7e1b451852bfa9009ca1823c57c17366a1cb9ada1029619ee112775ac5a32d",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u1_r1.sfc",
+          "sha256": "b22abcb0e3f3092e2a537a6ccba6ed30c5b18b919128ee74bc072abb8c69c9b2",
+          "bytes": 3440
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/dry_deposition/aermod.inp",
+          "sha256": "4afec8c20eb993e73067d213bbaf295d17dee4850740e73a8d443d1da3b455fe",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/dry_deposition/annual.plt",
+        "sha256": "7ab27e5530d58181534f7c6adbf25b21b5e8736fb2699e5c4b3dd452936502f2",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/dry_deposition/aermod.out",
+          "sha256": "5c1ecc418216cba86d032b7e952382cc81521e3a5eb98532d6dd3289c28c7938",
+          "bytes": 663359
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/dry_deposition/errors.out",
+          "sha256": "02557cc70a5e936e76d24ebf7fcfe7b282748a2eb1da7fb12cec8381371e0d34",
+          "bytes": 546
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/dry_deposition/aermod.sum",
+          "sha256": "456d4484a3beafe0aa8f0fb898a4f348ab664e537535f1be57c4592d5ceb57a6",
+          "bytes": 15748
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u1_r1__wet_deposition",
+      "started_utc": "2026-10-22T23:44:10.003300+00:00",
+      "finished_utc": "2026-10-22T23:44:16.756348+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u1_r1__wet_deposition.json",
+        "sha256": "3d24c78bf801e39fa3a26b832b7cdccd849c1373b46fab553de166edb0164476"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u1_r1.pfl",
+          "sha256": "7c7e1b451852bfa9009ca1823c57c17366a1cb9ada1029619ee112775ac5a32d",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u1_r1.sfc",
+          "sha256": "b22abcb0e3f3092e2a537a6ccba6ed30c5b18b919128ee74bc072abb8c69c9b2",
+          "bytes": 3440
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/wet_deposition/aermod.inp",
+          "sha256": "3581ce176bca826e4756716cc0b455152110d0f054839a897b8347c38c184101",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/wet_deposition/annual.plt",
+        "sha256": "2d9cca25ea457507967c4e587c73da38c2e824f9f2ade78f379bc2668e390d84",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/wet_deposition/aermod.out",
+          "sha256": "f417681ade0156112fd7f43c09ecfad1d565db7f46da9331d7402b1f4a2a6a79",
+          "bytes": 663359
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/wet_deposition/errors.out",
+          "sha256": "02557cc70a5e936e76d24ebf7fcfe7b282748a2eb1da7fb12cec8381371e0d34",
+          "bytes": 546
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u1_r1/wet_deposition/aermod.sum",
+          "sha256": "6695cf755c1c2e256ca0865195e7dbe45f0ed77248ef6a8116dfa3be92620faf",
+          "bytes": 15748
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u2_r0__concentration",
+      "started_utc": "2026-10-22T23:44:10.013003+00:00",
+      "finished_utc": "2026-10-22T23:44:17.108213+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u2_r0__concentration.json",
+        "sha256": "490cbc2b8fcc245add513f4b2da4c964c6b086795afd3ae2da50ad83c8a53b89"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r0.pfl",
+          "sha256": "e3d61aea35e5c46d76816a5389d2e601097d83d5c7eae2dc29ecf51c8da43819",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r0.sfc",
+          "sha256": "46afdf8fc1759fbcc4cac7448c15b475a66686f3f52f144787a597f880b0f860",
+          "bytes": 3392
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/concentration/aermod.inp",
+          "sha256": "10fd371d193d66ba9391b37771e00348a8e429892bae0c9196e976c951d8f8e4",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/concentration/annual.plt",
+        "sha256": "4aa70cb70b0a4d94d7bd17a25e48ed50f9de30dc1ee8067e88172316abad922d",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/concentration/aermod.out",
+          "sha256": "c249305b1b215647863f8b315ddc04a5b44d7d8d67dfa0e156055e77a6767530",
+          "bytes": 663420
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/concentration/errors.out",
+          "sha256": "bdbb1bec2c498df45e6b1977e3653776f54dc6c63a561e2c819613c9a8a16e5b",
+          "bytes": 640
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/concentration/aermod.sum",
+          "sha256": "b49b7566a3591101a1ff5d1cc4f731cf2a6e92d2e5708c1cba9bc0a994c9222a",
+          "bytes": 15809
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u2_r0__dry_deposition",
+      "started_utc": "2026-10-22T23:44:12.930655+00:00",
+      "finished_utc": "2026-10-22T23:44:26.974365+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u2_r0__dry_deposition.json",
+        "sha256": "541b6d082bdbd319c1cdad1778617aaa3ef3f0b0ed937f80f4ee836f80bf2feb"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r0.pfl",
+          "sha256": "e3d61aea35e5c46d76816a5389d2e601097d83d5c7eae2dc29ecf51c8da43819",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r0.sfc",
+          "sha256": "46afdf8fc1759fbcc4cac7448c15b475a66686f3f52f144787a597f880b0f860",
+          "bytes": 3392
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/dry_deposition/aermod.inp",
+          "sha256": "415673ba9d61b9422b0c91d01e467c1f12cdee9d22294f47ac5ef97535cb001f",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/dry_deposition/annual.plt",
+        "sha256": "3f4198313bd481e0c548850a50e216aa31180b894dde09b7a19fef37697c8fe2",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/dry_deposition/aermod.out",
+          "sha256": "c7e1282716f930e6599d4ecaa141cf7bbb7ea69a94b147a30db5e98a56ceed4e",
+          "bytes": 663413
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/dry_deposition/errors.out",
+          "sha256": "bdbb1bec2c498df45e6b1977e3653776f54dc6c63a561e2c819613c9a8a16e5b",
+          "bytes": 640
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/dry_deposition/aermod.sum",
+          "sha256": "4f8d8519857d4f82f997f79e30e3c467a639b23958bce0b303ece0d05dd39ad4",
+          "bytes": 15802
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u2_r0__wet_deposition",
+      "started_utc": "2026-10-22T23:44:16.757267+00:00",
+      "finished_utc": "2026-10-22T23:44:18.738085+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u2_r0__wet_deposition.json",
+        "sha256": "f3b26842c10cac647dc6ef18b452d8c3d49e583f35b85b8f0e162fe11fb3b15b"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r0.pfl",
+          "sha256": "e3d61aea35e5c46d76816a5389d2e601097d83d5c7eae2dc29ecf51c8da43819",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r0.sfc",
+          "sha256": "46afdf8fc1759fbcc4cac7448c15b475a66686f3f52f144787a597f880b0f860",
+          "bytes": 3392
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/wet_deposition/aermod.inp",
+          "sha256": "18ef8263aacf31481169c1adc9cbc3875bb8663ca3aea604e4b8ec173170d68a",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/wet_deposition/annual.plt",
+        "sha256": "39fd8795583f90ceacf9bf63ebeb11e3e7223e2181db4148be58cc81175e43df",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/wet_deposition/aermod.out",
+          "sha256": "2bf0e60b7391df76ee316fa285f610a9424e73265de71a2cff25753bbf3852c2",
+          "bytes": 663259
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/wet_deposition/errors.out",
+          "sha256": "bdbb1bec2c498df45e6b1977e3653776f54dc6c63a561e2c819613c9a8a16e5b",
+          "bytes": 640
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r0/wet_deposition/aermod.sum",
+          "sha256": "acb0f963d9a55b1f759e0fdc6671b87266d226cbeb90e0aee1f8bd3c078778be",
+          "bytes": 15648
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u2_r1__concentration",
+      "started_utc": "2026-10-22T23:44:17.108790+00:00",
+      "finished_utc": "2026-10-22T23:44:24.132269+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u2_r1__concentration.json",
+        "sha256": "fccd3480807e759ba7ac42cd2a6132c3d005db51ba8786027527b17333586356"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r1.pfl",
+          "sha256": "e3d61aea35e5c46d76816a5389d2e601097d83d5c7eae2dc29ecf51c8da43819",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r1.sfc",
+          "sha256": "ea14a010f1ebd31b6e4dae89b45c68731aea0005203e8bd45381a60100b57aaa",
+          "bytes": 3416
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/concentration/aermod.inp",
+          "sha256": "a02182dd782bd7adeaaad9e9be0fe5518dcff837f97a9f30e7107b32ac853063",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/concentration/annual.plt",
+        "sha256": "cb0e3748f9cadb7ba4e772f414b2c345a4b786e7d2dfcf06efe27564d0112e51",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/concentration/aermod.out",
+          "sha256": "89b174c81c36383098b1b0c93f0afe9d437741696058dd10661bb643da4a8171",
+          "bytes": 663366
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/concentration/errors.out",
+          "sha256": "02557cc70a5e936e76d24ebf7fcfe7b282748a2eb1da7fb12cec8381371e0d34",
+          "bytes": 546
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/concentration/aermod.sum",
+          "sha256": "f4b048de1cd8eb5fff06c4eebdb9b24888b4f71b3087849406146c0d38b4b2eb",
+          "bytes": 15755
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u2_r1__dry_deposition",
+      "started_utc": "2026-10-22T23:44:18.738866+00:00",
+      "finished_utc": "2026-10-22T23:44:25.132621+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u2_r1__dry_deposition.json",
+        "sha256": "c2cb0f170d1a2a3e40e33283121c58e00d92bdb6134d07eacab6b5859bb84206"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r1.pfl",
+          "sha256": "e3d61aea35e5c46d76816a5389d2e601097d83d5c7eae2dc29ecf51c8da43819",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r1.sfc",
+          "sha256": "ea14a010f1ebd31b6e4dae89b45c68731aea0005203e8bd45381a60100b57aaa",
+          "bytes": 3416
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/dry_deposition/aermod.inp",
+          "sha256": "6bdd89c91bfa1c35b76f569d08cc044130934e3545f497385124ea3382dade26",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/dry_deposition/annual.plt",
+        "sha256": "c523c8a3bba8d764fd0432f2f17052abcf153d7f117cfe722a72c63dcfaff53e",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/dry_deposition/aermod.out",
+          "sha256": "10e992c710804d53d9eab2388419ae4ccf56046fc1c32b0bb00b0b670515b9dd",
+          "bytes": 663359
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/dry_deposition/errors.out",
+          "sha256": "02557cc70a5e936e76d24ebf7fcfe7b282748a2eb1da7fb12cec8381371e0d34",
+          "bytes": 546
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/dry_deposition/aermod.sum",
+          "sha256": "a8ca6f1323438f79328b951ade64524c05389533c9ef8fd2e301159d144b5f59",
+          "bytes": 15748
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u2_r1__wet_deposition",
+      "started_utc": "2026-10-22T23:44:19.068353+00:00",
+      "finished_utc": "2026-10-22T23:44:24.615891+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u2_r1__wet_deposition.json",
+        "sha256": "0a50713970596c57a85777c89d6319c1758bac6242ee98aef6e1e561f4a3fc50"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r1.pfl",
+          "sha256": "e3d61aea35e5c46d76816a5389d2e601097d83d5c7eae2dc29ecf51c8da43819",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u2_r1.sfc",
+          "sha256": "ea14a010f1ebd31b6e4dae89b45c68731aea0005203e8bd45381a60100b57aaa",
+          "bytes": 3416
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/wet_deposition/aermod.inp",
+          "sha256": "66efc1ab8c8e6ec1e849cbce015332cff08c856c43dfd82539b7d309e42642fe",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/wet_deposition/annual.plt",
+        "sha256": "88d11ced9458255d935ffd1f0d1ab834cf959d84667d3a8b128f028f6addc36a",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/wet_deposition/aermod.out",
+          "sha256": "7fa820bf8c3981d73ca2e86e26ef4a7050fb868ffa445fe7ea5777d6a63746fc",
+          "bytes": 663359
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/wet_deposition/errors.out",
+          "sha256": "02557cc70a5e936e76d24ebf7fcfe7b282748a2eb1da7fb12cec8381371e0d34",
+          "bytes": 546
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u2_r1/wet_deposition/aermod.sum",
+          "sha256": "5b0a30750b28298bf74927f35f29cfd719f57dd7f635671250a22bd9ce4ac4c7",
+          "bytes": 15748
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u3p5_r0__concentration",
+      "started_utc": "2026-10-22T23:44:24.132719+00:00",
+      "finished_utc": "2026-10-22T23:44:31.562226+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u3p5_r0__concentration.json",
+        "sha256": "91dbe9e502d4df7883efb466cd8b416d8e1c475847a61c235054c2527ac48612"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u3p5_r0.pfl",
+          "sha256": "beb50944e349851eb64df4d3e38317c75fe1e9155153dbb5bfa09e90c3f78c79",
+          "bytes": 951
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u3p5_r0.sfc",
+          "sha256": "c4ae2572389b012be58626c3ac4f2dfea913f17ee51a434ee2dd8525b8505c1c",
+          "bytes": 3392
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/concentration/aermod.inp",
+          "sha256": "29401869414f08f65b6f8b09c2b0dbcd90bcbabee5f2dcabbf8a701acd006a5f",
+          "bytes": 1260
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/concentration/annual.plt",
+        "sha256": "9fa08240670176a44876ce2399f24b54303cb8049d7e0283b194494bebc973e5",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/concentration/aermod.out",
+          "sha256": "c8d3a7411d2812a2664ff644fe8adbe10c3b5a79682e74037521a9ee08b17403",
+          "bytes": 663426
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/concentration/errors.out",
+          "sha256": "bdbb1bec2c498df45e6b1977e3653776f54dc6c63a561e2c819613c9a8a16e5b",
+          "bytes": 640
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/concentration/aermod.sum",
+          "sha256": "80d61cc53d4b370d536461daae547574eb52c30f6e528bbf37e50b330f425d5c",
+          "bytes": 15809
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u3p5_r0__dry_deposition",
+      "started_utc": "2026-10-22T23:44:24.616755+00:00",
+      "finished_utc": "2026-10-22T23:44:34.854793+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u3p5_r0__dry_deposition.json",
+        "sha256": "affa03f009126c989a4436f40f2b2ca7d126878fc8b9e799d5a1357b99d26a6b"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u3p5_r0.pfl",
+          "sha256": "beb50944e349851eb64df4d3e38317c75fe1e9155153dbb5bfa09e90c3f78c79",
+          "bytes": 951
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u3p5_r0.sfc",
+          "sha256": "c4ae2572389b012be58626c3ac4f2dfea913f17ee51a434ee2dd8525b8505c1c",
+          "bytes": 3392
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/dry_deposition/aermod.inp",
+          "sha256": "f765f7ad5a6d6be94b58af172443aa8ee87f6da70923424a18b03f2a735b5102",
+          "bytes": 1260
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/dry_deposition/annual.plt",
+        "sha256": "78e21f5b708004fca1b3c413b527936b4f9c2d5d5463545a2a5819d95b583c92",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/dry_deposition/aermod.out",
+          "sha256": "9ebe23bf223178388a9efc95622395d7a3a19b4cec65d59140e09d9d17e60184",
+          "bytes": 663419
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/dry_deposition/errors.out",
+          "sha256": "bdbb1bec2c498df45e6b1977e3653776f54dc6c63a561e2c819613c9a8a16e5b",
+          "bytes": 640
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/dry_deposition/aermod.sum",
+          "sha256": "3007204b726e4e9d9ea65cb5af86ad686ac2895e4a9ffb84928a77648da9b276",
+          "bytes": 15802
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u3p5_r0__wet_deposition",
+      "started_utc": "2026-10-22T23:44:25.133220+00:00",
+      "finished_utc": "2026-10-22T23:44:26.889335+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u3p5_r0__wet_deposition.json",
+        "sha256": "822be51de468bab9a125065bf8684a58469f55558afcadec150ad76d613c947a"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u3p5_r0.pfl",
+          "sha256": "beb50944e349851eb64df4d3e38317c75fe1e9155153dbb5bfa09e90c3f78c79",
+          "bytes": 951
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u3p5_r0.sfc",
+          "sha256": "c4ae2572389b012be58626c3ac4f2dfea913f17ee51a434ee2dd8525b8505c1c",
+          "bytes": 3392
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/wet_deposition/aermod.inp",
+          "sha256": "ba30a326b07a9592ff37569c2fc1472a2f16dd272631a7917e59658817a4e5c5",
+          "bytes": 1260
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/wet_deposition/annual.plt",
+        "sha256": "84b802f8bdd679943b6f3fe6c45f87c7f5931710d398b8d77001ad73cbc1b561",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/wet_deposition/aermod.out",
+          "sha256": "31e194a83d0078298428520eb81201beccd8ff92c6c949aefe4815f97c48caab",
+          "bytes": 663265
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/wet_deposition/errors.out",
+          "sha256": "bdbb1bec2c498df45e6b1977e3653776f54dc6c63a561e2c819613c9a8a16e5b",
+          "bytes": 640
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r0/wet_deposition/aermod.sum",
+          "sha256": "b8f7a8584925e3d05d4c4d4311d809cf0c947088545f4d58f2529ec65a1893c6",
+          "bytes": 15648
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u3p5_r1__concentration",
+      "started_utc": "2026-10-22T23:44:26.910350+00:00",
+      "finished_utc": "2026-10-22T23:44:32.504533+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u3p5_r1__concentration.json",
+        "sha256": "79024427323b5c53e53e480807d041fb366bfae5df77c81f1284dcf5b9ac296d"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u3p5_r1.pfl",
+          "sha256": "beb50944e349851eb64df4d3e38317c75fe1e9155153dbb5bfa09e90c3f78c79",
+          "bytes": 951
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u3p5_r1.sfc",
+          "sha256": "0ee8a2c997d050f0018bbbef7b1251bdb1d1aacf780f49560406aba549c429b9",
+          "bytes": 3416
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/concentration/aermod.inp",
+          "sha256": "20ca044131ea9902a4fddd2260df23c2c358170507405cd6700ac967bec1c510",
+          "bytes": 1260
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/concentration/annual.plt",
+        "sha256": "28fe0c71433d20b9aed0ef3f7a2265cb972090829a79d191c5b5ad5e66c446c4",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/concentration/aermod.out",
+          "sha256": "94d282d58520ae461c1422e64b05b8ab6e5ba74eedc025015575ca0a077342a9",
+          "bytes": 663372
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/concentration/errors.out",
+          "sha256": "02557cc70a5e936e76d24ebf7fcfe7b282748a2eb1da7fb12cec8381371e0d34",
+          "bytes": 546
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/concentration/aermod.sum",
+          "sha256": "e859ccbb5c5b8ee761dfde3ebef1bbd8da652c7f34b2d12c3bf663c48a3cb746",
+          "bytes": 15755
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u3p5_r1__dry_deposition",
+      "started_utc": "2026-10-22T23:44:26.974880+00:00",
+      "finished_utc": "2026-10-22T23:44:31.047638+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u3p5_r1__dry_deposition.json",
+        "sha256": "319637ea543bb3b4fc93b477bb96c1d73dce273734b671cda9542ec9764c0012"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u3p5_r1.pfl",
+          "sha256": "beb50944e349851eb64df4d3e38317c75fe1e9155153dbb5bfa09e90c3f78c79",
+          "bytes": 951
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u3p5_r1.sfc",
+          "sha256": "0ee8a2c997d050f0018bbbef7b1251bdb1d1aacf780f49560406aba549c429b9",
+          "bytes": 3416
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/dry_deposition/aermod.inp",
+          "sha256": "c98bef2030b42d46b64f021653330612d351489bdb66884f4476dcc6351180bc",
+          "bytes": 1260
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/dry_deposition/annual.plt",
+        "sha256": "8789706c89a9d13388df48cb518548931e0a0dcdf6d9e9112ec9114c043fe6e3",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/dry_deposition/aermod.out",
+          "sha256": "5a62c919c3bd875c43cfc60578f857f96993cc2d476a0c2f55da7df077765254",
+          "bytes": 663365
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/dry_deposition/errors.out",
+          "sha256": "02557cc70a5e936e76d24ebf7fcfe7b282748a2eb1da7fb12cec8381371e0d34",
+          "bytes": 546
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/dry_deposition/aermod.sum",
+          "sha256": "fb5a7d5321f474e04ddf683c41e8355b41a7576eb18239785afdcb33595fbb82",
+          "bytes": 15748
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u3p5_r1__wet_deposition",
+      "started_utc": "2026-10-22T23:44:31.048072+00:00",
+      "finished_utc": "2026-10-22T23:44:43.174707+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u3p5_r1__wet_deposition.json",
+        "sha256": "8f7d54bb47ff28d916e7d07094a04dfee0ab8f609b443d55aa93303a40e51c00"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u3p5_r1.pfl",
+          "sha256": "beb50944e349851eb64df4d3e38317c75fe1e9155153dbb5bfa09e90c3f78c79",
+          "bytes": 951
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u3p5_r1.sfc",
+          "sha256": "0ee8a2c997d050f0018bbbef7b1251bdb1d1aacf780f49560406aba549c429b9",
+          "bytes": 3416
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/wet_deposition/aermod.inp",
+          "sha256": "6aef73af564bc5f7d30503547af137631373b75e3db18e6b8eeb984de4bf74dd",
+          "bytes": 1260
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/wet_deposition/annual.plt",
+        "sha256": "7282665ea6e2b923cb57e081898d6d9b4f7cdb21731108942a7eb0100bf3f31f",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/wet_deposition/aermod.out",
+          "sha256": "75deca5aeac5098dac043445fe8d63bc7aa43d40df41700ad045c2e93ef86a28",
+          "bytes": 663365
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/wet_deposition/errors.out",
+          "sha256": "02557cc70a5e936e76d24ebf7fcfe7b282748a2eb1da7fb12cec8381371e0d34",
+          "bytes": 546
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u3p5_r1/wet_deposition/aermod.sum",
+          "sha256": "f77a1dfab53f2a6e1c89746e8f71236b1fd302c14a0a01e8e16406e6455b1b67",
+          "bytes": 15748
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u5_r0__concentration",
+      "started_utc": "2026-10-22T23:44:31.563158+00:00",
+      "finished_utc": "2026-10-22T23:44:36.615964+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u5_r0__concentration.json",
+        "sha256": "049718172a15034fbc93744097f665515d189a849eed919fe56e826f329dc8ff"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u5_r0.pfl",
+          "sha256": "df2c256f24d22c792dc20e2617de2ef509cedd65966655dfdd95232f57f2708a",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u5_r0.sfc",
+          "sha256": "f1d207b740253e50476c775d43343625c16d4ba9a9c1eb15523a1e5ec658c80b",
+          "bytes": 3368
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/concentration/aermod.inp",
+          "sha256": "40f5c417bb30222f1cd213c72bbb8ee64ed8846698f473460c2594a3cad0008b",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/concentration/annual.plt",
+        "sha256": "d95f9241e975f28c9180d224247428548ef7ae241374a4d62a0523def4df9cd7",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/concentration/aermod.out",
+          "sha256": "50fd5e59abe25168b3618536a5ec402185c39ef56bcc1ebcf518d9b7a7235172",
+          "bytes": 663420
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/concentration/errors.out",
+          "sha256": "bdbb1bec2c498df45e6b1977e3653776f54dc6c63a561e2c819613c9a8a16e5b",
+          "bytes": 640
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/concentration/aermod.sum",
+          "sha256": "4bc43352b8e3b56fa33b8826c2669994fdac3916ca4340c1cb903e7ab48cca70",
+          "bytes": 15809
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u5_r0__dry_deposition",
+      "started_utc": "2026-10-22T23:44:32.505620+00:00",
+      "finished_utc": "2026-10-22T23:44:36.620761+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u5_r0__dry_deposition.json",
+        "sha256": "2245cd53dfc52a9cd5b35137b13e86f94c713f1d54147ea8419f0be11fd44af0"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u5_r0.pfl",
+          "sha256": "df2c256f24d22c792dc20e2617de2ef509cedd65966655dfdd95232f57f2708a",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u5_r0.sfc",
+          "sha256": "f1d207b740253e50476c775d43343625c16d4ba9a9c1eb15523a1e5ec658c80b",
+          "bytes": 3368
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/dry_deposition/aermod.inp",
+          "sha256": "6ed72d8b476da7d0232eaac887db28bf85936dc26173bfe4491a8e5d8c076647",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/dry_deposition/annual.plt",
+        "sha256": "d6720792f2acc1ac144a5c932e6183aa9c5658f5eeae204b09a638d3dd4312bd",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/dry_deposition/aermod.out",
+          "sha256": "c76bd70519ab0ef7d2fc7af56928ad5bc7e2964aea85625909a3980b13f51928",
+          "bytes": 663413
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/dry_deposition/errors.out",
+          "sha256": "bdbb1bec2c498df45e6b1977e3653776f54dc6c63a561e2c819613c9a8a16e5b",
+          "bytes": 640
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/dry_deposition/aermod.sum",
+          "sha256": "6553225f9aaccaf7c26679a93e3323e835200e442e6aa96e28aa5ce42c809c8d",
+          "bytes": 15802
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u5_r0__wet_deposition",
+      "started_utc": "2026-10-22T23:44:34.855505+00:00",
+      "finished_utc": "2026-10-22T23:44:40.339889+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u5_r0__wet_deposition.json",
+        "sha256": "fc3ea5aa6dd15be3b743a87bb51846c3f281796ad9e81f59e6e7d8397ebeeb55"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u5_r0.pfl",
+          "sha256": "df2c256f24d22c792dc20e2617de2ef509cedd65966655dfdd95232f57f2708a",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u5_r0.sfc",
+          "sha256": "f1d207b740253e50476c775d43343625c16d4ba9a9c1eb15523a1e5ec658c80b",
+          "bytes": 3368
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/wet_deposition/aermod.inp",
+          "sha256": "9459146593db40dc6b7ce84b04fa56de2f11d0c65004ee53198aefcab0549d77",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/wet_deposition/annual.plt",
+        "sha256": "99e226e0a1d70c6533e7dcb2d3dc70f8143174b60278cac1a16cbd3481477b1f",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/wet_deposition/aermod.out",
+          "sha256": "bb05e08c9194f99227aebfa1645bb5949eeea1b6555937efb8fddef19cafb9c6",
+          "bytes": 663259
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/wet_deposition/errors.out",
+          "sha256": "bdbb1bec2c498df45e6b1977e3653776f54dc6c63a561e2c819613c9a8a16e5b",
+          "bytes": 640
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r0/wet_deposition/aermod.sum",
+          "sha256": "fc6410476879b6d017397dbb42b24986fede361ee46da07ffc506692d65d1595",
+          "bytes": 15648
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u5_r1__concentration",
+      "started_utc": "2026-10-22T23:44:36.616897+00:00",
+      "finished_utc": "2026-10-22T23:44:40.790984+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u5_r1__concentration.json",
+        "sha256": "513c32d1e535221c5f42e0d03942aee7760e528056703340ae5825208e84b8a3"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u5_r1.pfl",
+          "sha256": "df2c256f24d22c792dc20e2617de2ef509cedd65966655dfdd95232f57f2708a",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u5_r1.sfc",
+          "sha256": "2bd253f2759cc774bfe8523272e442385887be368db6c465fb63b32b5a8581f3",
+          "bytes": 3392
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/concentration/aermod.inp",
+          "sha256": "472afc4bf55a75f3f42e52f73be966698c28cc779c48d1a200c9b7faec5d44c3",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/concentration/annual.plt",
+        "sha256": "5b86096e7ad202d2c0708e5026f4e3b04d779c4337c3002d016dc5f6a0062da2",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/concentration/aermod.out",
+          "sha256": "d402247eb601c6e5ceb259266d2f07e14d07d2361a37687d3a8c13ef5bd59ffa",
+          "bytes": 663366
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/concentration/errors.out",
+          "sha256": "02557cc70a5e936e76d24ebf7fcfe7b282748a2eb1da7fb12cec8381371e0d34",
+          "bytes": 546
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/concentration/aermod.sum",
+          "sha256": "503049b4c1cd66bfdd288c34e2b4b23cac06c490a6b6f792be089298f0151eda",
+          "bytes": 15755
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u5_r1__dry_deposition",
+      "started_utc": "2026-10-22T23:44:36.624564+00:00",
+      "finished_utc": "2026-10-22T23:44:40.279542+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u5_r1__dry_deposition.json",
+        "sha256": "594c5a7a8783a37eed465a2e46446d311ef6751f52cde5d5a4f8b4a1e705d810"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u5_r1.pfl",
+          "sha256": "df2c256f24d22c792dc20e2617de2ef509cedd65966655dfdd95232f57f2708a",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u5_r1.sfc",
+          "sha256": "2bd253f2759cc774bfe8523272e442385887be368db6c465fb63b32b5a8581f3",
+          "bytes": 3392
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/dry_deposition/aermod.inp",
+          "sha256": "82a8382ba46351f4c66686621058df4595b7a7b501423c9b77f2b85822344697",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/dry_deposition/annual.plt",
+        "sha256": "23a4c889c06db4b4d8610c8fc4344da231dd52b3ef8d42e16fb80ae340edf022",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/dry_deposition/aermod.out",
+          "sha256": "83661463bc95129f5dc6a6c8b791bb2be28952ad34702422b7fe1fec14deee9d",
+          "bytes": 663359
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/dry_deposition/errors.out",
+          "sha256": "02557cc70a5e936e76d24ebf7fcfe7b282748a2eb1da7fb12cec8381371e0d34",
+          "bytes": 546
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/dry_deposition/aermod.sum",
+          "sha256": "1b3d8ef84ecf5bf79c9402cb3b05f4f28e2cc91ab8c159bb9f2b9011e1e87387",
+          "bytes": 15748
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u5_r1__wet_deposition",
+      "started_utc": "2026-10-22T23:44:40.305827+00:00",
+      "finished_utc": "2026-10-22T23:45:02.332685+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u5_r1__wet_deposition.json",
+        "sha256": "78e073c47669a1c7687071b64abe3c4e896d51923d91e1adb05e660907ecfc5b"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u5_r1.pfl",
+          "sha256": "df2c256f24d22c792dc20e2617de2ef509cedd65966655dfdd95232f57f2708a",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u5_r1.sfc",
+          "sha256": "2bd253f2759cc774bfe8523272e442385887be368db6c465fb63b32b5a8581f3",
+          "bytes": 3392
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/wet_deposition/aermod.inp",
+          "sha256": "a1ff9c293aa44f7c2214f38b61cb3bb6e10ba09cfcbad8f0e3d3089c1f4575e5",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/wet_deposition/annual.plt",
+        "sha256": "30c58eda988289e49f9dbc25288eb242b128b9fbfa6e1ab0f501d67c2d2cdae6",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/wet_deposition/aermod.out",
+          "sha256": "601206b6012f5e4ccf19771896b1d1fe589c3c7e4cd482ebd20b7d28c0cc83b4",
+          "bytes": 663359
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/wet_deposition/errors.out",
+          "sha256": "02557cc70a5e936e76d24ebf7fcfe7b282748a2eb1da7fb12cec8381371e0d34",
+          "bytes": 546
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u5_r1/wet_deposition/aermod.sum",
+          "sha256": "bf7a2d56d9974be13a4698de98cb172c4f337834d53c8af1b39fc71529a6782e",
+          "bytes": 15748
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u7_r0__concentration",
+      "started_utc": "2026-10-22T23:44:40.341244+00:00",
+      "finished_utc": "2026-10-22T23:44:47.199817+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u7_r0__concentration.json",
+        "sha256": "8d03dda9ced346b2229fc1e044d9b970fc4fa3e9b0aaef3d4c3e3baab8eba4d8"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u7_r0.pfl",
+          "sha256": "c69a4dbdddaae187cceac30f8b2e93a5e0e674836239d84a218e463236fb7b08",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u7_r0.sfc",
+          "sha256": "07ef7a3cd907835b3503a5f89ff92001609e7038e8e6d89733cd94db2fe80493",
+          "bytes": 3344
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/concentration/aermod.inp",
+          "sha256": "98aca1dc0037578a6eddd74e65e91bee5af050688a0d82aeb810baac9c02c9a7",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/concentration/annual.plt",
+        "sha256": "d4b9afcaf1107d7c01bf7340d578d5f4f1f77aeb5e2740f1e628b37dd576d0b3",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/concentration/aermod.out",
+          "sha256": "16c42a6a17f5460730259808775821859aa03d34843e354e12bb31c7cbd2b3be",
+          "bytes": 663420
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/concentration/errors.out",
+          "sha256": "bdbb1bec2c498df45e6b1977e3653776f54dc6c63a561e2c819613c9a8a16e5b",
+          "bytes": 640
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/concentration/aermod.sum",
+          "sha256": "7589770653a1fad4d0a6cde8a3737389d64b220fddc237f22f28b5e948e5c8cf",
+          "bytes": 15809
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u7_r0__dry_deposition",
+      "started_utc": "2026-10-22T23:44:40.791758+00:00",
+      "finished_utc": "2026-10-22T23:44:48.002205+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u7_r0__dry_deposition.json",
+        "sha256": "7e2bf0d02452604e8398a82f2d01e3b3ff49b55ffcab1ede31a4e04a3a6070c5"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u7_r0.pfl",
+          "sha256": "c69a4dbdddaae187cceac30f8b2e93a5e0e674836239d84a218e463236fb7b08",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u7_r0.sfc",
+          "sha256": "07ef7a3cd907835b3503a5f89ff92001609e7038e8e6d89733cd94db2fe80493",
+          "bytes": 3344
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/dry_deposition/aermod.inp",
+          "sha256": "7fbc9cd7e84d6e884d3dbc2ddede93bfd9e4b63d431d72ab2f029f13e3636ca1",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/dry_deposition/annual.plt",
+        "sha256": "ea0e0cf8a9949372b747270141389605562fe36861c950e21fcedcc628c98b41",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/dry_deposition/aermod.out",
+          "sha256": "827b630973d6bd0a2873efd10450b17aaaf9ddef69d70080f44b64bb2e41deaf",
+          "bytes": 663413
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/dry_deposition/errors.out",
+          "sha256": "bdbb1bec2c498df45e6b1977e3653776f54dc6c63a561e2c819613c9a8a16e5b",
+          "bytes": 640
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/dry_deposition/aermod.sum",
+          "sha256": "901743a990dbe413035f695ab8e08abf40b105c8c5ce6eb40c3bcf266c311515",
+          "bytes": 15802
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u7_r0__wet_deposition",
+      "started_utc": "2026-10-22T23:44:43.175707+00:00",
+      "finished_utc": "2026-10-22T23:44:45.252150+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u7_r0__wet_deposition.json",
+        "sha256": "026f5dbb985f0a723b7f2cb2ffcc7c3840b50a34287a907d2a1127b6769b55d7"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u7_r0.pfl",
+          "sha256": "c69a4dbdddaae187cceac30f8b2e93a5e0e674836239d84a218e463236fb7b08",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u7_r0.sfc",
+          "sha256": "07ef7a3cd907835b3503a5f89ff92001609e7038e8e6d89733cd94db2fe80493",
+          "bytes": 3344
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/wet_deposition/aermod.inp",
+          "sha256": "aa7eccb6842f3757cb30b8e42b117d55adf8234499b4e310741d8c616cad63c6",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/wet_deposition/annual.plt",
+        "sha256": "a0f445b13776b5cdce365538d5c30ba61f4ecbe352d09606868a79374683e139",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/wet_deposition/aermod.out",
+          "sha256": "2500b60e56922b09c63882803271bf1593e9ba50f53b8130933c0da3fe561ca0",
+          "bytes": 663259
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/wet_deposition/errors.out",
+          "sha256": "bdbb1bec2c498df45e6b1977e3653776f54dc6c63a561e2c819613c9a8a16e5b",
+          "bytes": 640
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r0/wet_deposition/aermod.sum",
+          "sha256": "ed32e3e16bafc34c7d997de0636dfe242a8aaddd098153a4eff69051eb2d95f4",
+          "bytes": 15648
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u7_r1__concentration",
+      "started_utc": "2026-10-22T23:44:45.252790+00:00",
+      "finished_utc": "2026-10-22T23:45:02.006810+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u7_r1__concentration.json",
+        "sha256": "39dfd8e16f2488a808f25218a00faa6985ed79df2557c411e5c4994df4bad160"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u7_r1.pfl",
+          "sha256": "c69a4dbdddaae187cceac30f8b2e93a5e0e674836239d84a218e463236fb7b08",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u7_r1.sfc",
+          "sha256": "08d7e9c462487cc4929144097c56f10945253828a42dda99a38c1d8c12c59afd",
+          "bytes": 3368
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/concentration/aermod.inp",
+          "sha256": "39c84eb9604d7b1cf2766952dba8c5ef222022bd00bf15188799a0f0c7f779db",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/concentration/annual.plt",
+        "sha256": "81e8c9cd3b75761032c2f6baf15a190744d94c8382d4e431e16d9574bf74c966",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/concentration/aermod.out",
+          "sha256": "55e2f9ab7698e0b54139fadc6091aaaa28a97791d82eb514e4d36ea0253c9bdb",
+          "bytes": 663366
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/concentration/errors.out",
+          "sha256": "02557cc70a5e936e76d24ebf7fcfe7b282748a2eb1da7fb12cec8381371e0d34",
+          "bytes": 546
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/concentration/aermod.sum",
+          "sha256": "6ea65521027bff7ae4ab6bdd90c2dd9fe4ca8f40be3b097e10013267a3b932ba",
+          "bytes": 15755
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u7_r1__dry_deposition",
+      "started_utc": "2026-10-22T23:44:47.200677+00:00",
+      "finished_utc": "2026-10-22T23:44:51.248220+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u7_r1__dry_deposition.json",
+        "sha256": "eb051811cd20fd564ae6a39c1c1f6ca695142e6f996bf21e433052f233c487e7"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u7_r1.pfl",
+          "sha256": "c69a4dbdddaae187cceac30f8b2e93a5e0e674836239d84a218e463236fb7b08",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u7_r1.sfc",
+          "sha256": "08d7e9c462487cc4929144097c56f10945253828a42dda99a38c1d8c12c59afd",
+          "bytes": 3368
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/dry_deposition/aermod.inp",
+          "sha256": "8eae915ff0b30a498c0a93bc93dcecaebd4c44880f121e79eced7bd5a1f1f1ce",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/dry_deposition/annual.plt",
+        "sha256": "3227b2c01c3e9c2d32a19ad37fa6da03ae3291c3bb34a515ff2857b906ad6f74",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/dry_deposition/aermod.out",
+          "sha256": "37534617032a5f39b5069f534b9b48da10d223e58383592b31a6346bdfa68350",
+          "bytes": 663359
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/dry_deposition/errors.out",
+          "sha256": "02557cc70a5e936e76d24ebf7fcfe7b282748a2eb1da7fb12cec8381371e0d34",
+          "bytes": 546
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/dry_deposition/aermod.sum",
+          "sha256": "13c5d58cd852af12dc65934b0cdb7f015f9e3d68f14b405db10800fa075cca88",
+          "bytes": 15748
+        }
+      ]
+    },
+    {
+      "verification": "passed current-run content hashes and model-completion audit",
+      "step_id": "aermod__u7_r1__wet_deposition",
+      "started_utc": "2026-10-22T23:44:48.003325+00:00",
+      "finished_utc": "2026-10-22T23:44:51.483356+00:00",
+      "execution_record": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/steps/aermod__u7_r1__wet_deposition.json",
+        "sha256": "c8ae831a1943c03320849d62515e2b641f092b34069e2b85dd60eda0532349a3"
+      },
+      "manifest": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/run_manifests/20261022T234401Z_a21cbee1/manifest.json",
+        "sha256": "2ec366b77d917a3a3c7fdb584e41c829cc84ae1ae566e8d2cece07ca22607849"
+      },
+      "reported_model_version": "26135",
+      "scenario": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+      "inputs": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.rec",
+          "sha256": "d4258da18b202929e8b48134fc00f78e64210ac050528776386d7712a28e4876",
+          "bytes": 167229
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap/aermap.src",
+          "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+          "bytes": 596
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u7_r1.pfl",
+          "sha256": "c69a4dbdddaae187cceac30f8b2e93a5e0e674836239d84a218e463236fb7b08",
+          "bytes": 903
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermet/u7_r1.sfc",
+          "sha256": "08d7e9c462487cc4929144097c56f10945253828a42dda99a38c1d8c12c59afd",
+          "bytes": 3368
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/wet_deposition/aermod.inp",
+          "sha256": "5ef900a8d289422a3bcb0111e56dda19a3278e497c7491a5725232d3c19061ce",
+          "bytes": 1254
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scenario.json",
+          "sha256": "d5636786bc31fc954162098a115f77d0fcef538fe9d6d6b5bd5c7c084d742080",
+          "bytes": 344847
+        }
+      ],
+      "binary": {
+        "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+        "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+        "bytes": 5106464
+      },
+      "output": {
+        "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/wet_deposition/annual.plt",
+        "sha256": "ff7abb7b1f37669a3135f8aacaaaa81823e8e2e0d0931a8e286c9c68e15c99ac",
+        "bytes": 296330
+      },
+      "completion_reports": [
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/wet_deposition/aermod.out",
+          "sha256": "22ff7ff690c7b8fc5360e4db26c8a2cf055e87cdb5163fc7ec34fb1b1e7d4dbb",
+          "bytes": 663359
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/wet_deposition/errors.out",
+          "sha256": "02557cc70a5e936e76d24ebf7fcfe7b282748a2eb1da7fb12cec8381371e0d34",
+          "bytes": 546
+        },
+        {
+          "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermod/u7_r1/wet_deposition/aermod.sum",
+          "sha256": "b2a2a14b92d42e4073a4154ef150b2f075c973ef97cb78d6d2ca3da2412a3f32",
+          "bytes": 15748
+        }
+      ]
+    }
+  ],
+  "geographic_basemap_bounds": {
+    "west": -82.8534545,
+    "south": 34.6635922,
+    "east": -82.7272873,
+    "north": 34.69787
+  },
+  "coordinate_system": "Native NAD83 UTM17N image fully warped through GDAL to WGS84; no corner-only shortcut",
+  "attribution": "Basemap: USGS The National Map / US Topo (Clemson and Five Forks, 2024 editions).",
+  "model_values_modified": false,
+  "model_layer_display_color": "a6ffffff",
+  "model_layer_effective_opacity": 0.4978085351787774,
+  "validation": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/earth/clemson_plume_on_usgs_map.kmz",
+    "sha256": "e6c31de0dea1be5c7aaed9468c147384897d1e6c257970b28fac3927e0a09ff7",
+    "bytes": 7505074,
+    "validation": "GDAL LIBKML direct KMZ open, ZIP CRC, KML XML, local resource/style resolution, image decoding and coordinate bounds passed",
+    "embedded_resources": 35,
+    "coordinate_vertices": 82090,
+    "ground_overlays": 31,
+    "screen_legends": 30
+  },
+  "artifacts": [
+    {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/map_context/earth/clemson_plume_on_usgs_map.kmz",
+      "sha256": "e6c31de0dea1be5c7aaed9468c147384897d1e6c257970b28fac3927e0a09ff7",
+      "bytes": 7505074
+    }
+  ]
+}

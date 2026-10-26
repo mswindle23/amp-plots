@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "started_utc": "2026-10-22T23:35:30.779026+00:00",
+  "working_directory": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_02",
+  "binary": {
+    "path": "/workspace/.cloud-setup/amp-plots/bin/aermap",
+    "sha256": "75932f93f645cf753c96bc1af5684a60a9b4864ddc30ea7fb5b430ad2ad814c7",
+    "bytes": 2731168
+  },
+  "input": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_02/aermap.inp",
+    "sha256": "2557ed6c7b19bdbec67701e2b1e3f8a81984a7ce361d41de17037e63b98517b2",
+    "bytes": 24589
+  },
+  "terrain": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_02/terrain/USGS_1_n35w083.tif",
+    "sha256": "7e62151b544b0253d3446400e3a1fbcef8d2cfe7d7093ff1f6399ab73501e829",
+    "bytes": 52215789
+  },
+  "exit_code": 0,
+  "receptor_count": 684,
+  "fatal_errors": 0,
+  "warnings": 2,
+  "warning_codes": [
+    "W450",
+    "W473"
+  ],
+  "completion_marker": "AERMAP Finishes Successfully",
+  "outputs": [
+    {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_02/aermap.rec",
+      "sha256": "23d7bfbaa579b88b8d3c980419fa18ebdb81bdfd81f925af304e266a95737600",
+      "bytes": 42246
+    },
+    {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_02/aermap.src",
+      "sha256": "a3bafe34c4a81284616686e496752d9aeb13ddb1fe069c53859e99700144bf0b",
+      "bytes": 596
+    },
+    {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_02/aermap.out",
+      "sha256": "e14661c0665936d3f04f1d96edd9747fabd14f05b3fadc2c5461d17eeb96d69b",
+      "bytes": 27979
+    },
+    {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_02/aermap.stdout.txt",
+      "sha256": "fbaac5bc3bfecf9dcdc9addc3ac12482de4095c2ea0743388c0042b1d5860b5a",
+      "bytes": 30938
+    },
+    {
+      "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/aermap_refined/chunks/chunk_02/aermap.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ],
+  "finished_utc": "2026-10-22T23:42:06.541142+00:00"
+}

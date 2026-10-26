@@ -1,0 +1,113 @@
+{
+  "status": "passed",
+  "xlsx_crc": "passed",
+  "sheet_dimensions": {
+    "README": {
+      "range": "A1:B18",
+      "data_rows": 17
+    },
+    "ScenarioInputs": {
+      "range": "A1:B8853",
+      "data_rows": 8852
+    },
+    "SourceInputs": {
+      "range": "A1:B10",
+      "data_rows": 9
+    },
+    "ParticleInputs": {
+      "range": "A1:B8777",
+      "data_rows": 8776
+    },
+    "Scenarios": {
+      "range": "A1:G11",
+      "data_rows": 10
+    },
+    "WeatherSurface": {
+      "range": "A1:AA241",
+      "data_rows": 240
+    },
+    "WeatherProfiles": {
+      "range": "A1:M241",
+      "data_rows": 240
+    },
+    "TerrainReceptors": {
+      "range": "A1:F2737",
+      "data_rows": 2736
+    },
+    "HourlyResults": {
+      "range": "A1:S656641",
+      "data_rows": 656640
+    },
+    "PeriodResults": {
+      "range": "A1:R27361",
+      "data_rows": 27360
+    },
+    "Maximum1h": {
+      "range": "A1:R27361",
+      "data_rows": 27360
+    },
+    "FluxTime": {
+      "range": "A1:F97",
+      "data_rows": 96
+    },
+    "WindSummary": {
+      "range": "A1:F21",
+      "data_rows": 20
+    },
+    "Transects": {
+      "range": "A1:G1001",
+      "data_rows": 1000
+    },
+    "InputText": {
+      "range": "A1:C28421",
+      "data_rows": 28420
+    },
+    "NativeReports": {
+      "range": "A1:C190879",
+      "data_rows": 190878
+    },
+    "FileInventory": {
+      "range": "A1:D328",
+      "data_rows": 327
+    },
+    "ResearchEvidence": {
+      "range": "A1:C236",
+      "data_rows": 235
+    },
+    "RegionalContext2023": {
+      "range": "A1:N11",
+      "data_rows": 10
+    },
+    "RegionalContext2024": {
+      "range": "A1:K4",
+      "data_rows": 3
+    },
+    "Validation": {
+      "range": "A1:B91",
+      "data_rows": 90
+    },
+    "NativeRunAudit": {
+      "range": "A1:C2791",
+      "data_rows": 2790
+    },
+    "TerrainAudit": {
+      "range": "A1:C339",
+      "data_rows": 338
+    },
+    "Plots": {
+      "range": "A2:A104",
+      "data_rows": 103
+    }
+  },
+  "selected_native_anchor_rows": 30,
+  "anchor_description": "1km projected-east receptor for all10cases, hour1/hour24andPERIOD; direct native ASCII reference",
+  "workbook": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/outputs/clemson_steady_state_inputs_outputs.xlsx",
+    "sha256": "fc3e2a2f877e8ccf56952d7bfb489b55f70d71126e827b2de1325a3f0769f622",
+    "bytes": 60508139
+  },
+  "script": {
+    "path": "/workspace/amp-plots/clemson_amp/steady_state_2026-10-22/scripts/independent_workbook_check.py",
+    "sha256": "36ac5a500d0e0ea05de45b7f5544cc8417e986bda3236da308cc8d98c146154f"
+  }
+}

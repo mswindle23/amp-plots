@@ -1,0 +1,28 @@
+{
+  "retrieved_utc_date": "2026-10-20",
+  "reference_geometry_source": {
+    "url": "https://raw.githubusercontent.com/uncscode/particula/acf38253e09e8f629bd5e2e93f3aa3a875e5cbd6/particula/particles/properties/aerodynamic_size.py",
+    "sha256": "e8f8873434a4cec9762d1d46698bb455ba0fa676abc16c10a43cacc9251da1c9"
+  },
+  "full_text_sources": [
+    {
+      "doi": "10.1021/acs.est.3c08209",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10785798/fullTextXML",
+      "bytes": 165524,
+      "sha256": "c3c1a90f50c50f844e25c0a3cf75efc5ed0eb76b14d9816fbfc5a3100da07ed6"
+    },
+    {
+      "doi": "10.1021/acs.estlett.6c00165",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13173645/fullTextXML",
+      "bytes": 99075,
+      "sha256": "6363d8bf5a0985ce2e2d67cdceea21e7f473fc8ee240b895f0a0662a6228d7d2"
+    },
+    {
+      "doi": "10.3390/molecules28031042",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9919819/fullTextXML",
+      "bytes": 138333,
+      "sha256": "a6fe64c116d4589bb3190b0f4968d61dce6d911d6c473a43bb17670ad1741f04"
+    }
+  ],
+  "notes": "Primary full texts were accessed through Europe PMC. Only bibliographic facts and short excerpts are reproduced in notes; full XML remains outside the repository."
+}

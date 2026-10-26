@@ -1,0 +1,174 @@
+{
+  "validated_at_utc": "2026-10-20T14:26:29.746684+00:00",
+  "status": "passed; known optional24h concentration warnings retained",
+  "revision_scenario": {
+    "path": "revisions/2026-10-20/scenario_particle_sizes.json",
+    "sha256": "f4741c408cf9400d0532c6f69f3872d541a2deb951db4ed129d3323e7683d474"
+  },
+  "original_scenario": {
+    "path": "scenario.json",
+    "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+    "unchanged": true
+  },
+  "scenario_comparison": "All original settings byte-equivalent as decoded JSON after restoring particle_cases and removing revision metadata; only new 0.5 and 5 micrometre cases added.",
+  "new_deck_comparison": "Each new deck differs from original d10_r1050 deck only in CO TITLETWO and SO PARTDIAM.",
+  "shared_bindings": [
+    {
+      "path": "aermap/aermap.src",
+      "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+      "matches_original_d10_r1050_run": true
+    },
+    {
+      "path": "aermap/aermap.rec",
+      "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+      "matches_original_d10_r1050_run": true
+    },
+    {
+      "path": "aermet/clemson.sfc",
+      "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+      "matches_original_d10_r1050_run": true
+    },
+    {
+      "path": "aermet/clemson.pfl",
+      "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+      "matches_original_d10_r1050_run": true
+    }
+  ],
+  "execution_manifest": {
+    "path": "run_manifests/20261020T142137Z_a858ecff/manifest.json",
+    "sha256": "9f943f5b10b6ae9709fa03edac42a9b81a5113333a66bd59cc70c792457a0b1d"
+  },
+  "units": {
+    "concentration": "micrograms per cubic metre; PERIOD mean over8063 valid noncalm hours",
+    "dry_deposition": "grams per square metre; PERIOD accumulated over8063 valid hours",
+    "wet_deposition": "grams per square metre; PERIOD accumulated over8063 valid hours"
+  },
+  "particle_shape": "Equivalent spherical surrogates; dynamic shape factor chi=1; AERMOD does not resolve explicit fiber/film morphology.",
+  "aermod_runs": [
+    {
+      "run": "aermod/d05_r1050/concentration",
+      "passed": true,
+      "model_version": "26135",
+      "hours": {
+        "total_processed_hours": 8760,
+        "calm_hours": 390,
+        "missing_hours": 307,
+        "valid_hours": 8063
+      },
+      "warnings": {
+        "CNW732": 44
+      },
+      "period_output": {
+        "path": "aermod/d05_r1050/concentration/annual.plt",
+        "sha256": "038ab252b3478869ad4b0fc57ed916e856e5a1cc01c49631d3144f8b2a99ed5c",
+        "receptor_rows": 873,
+        "minimum": 0.00395,
+        "maximum": 428.13391,
+        "nonzero_rows": 873
+      }
+    },
+    {
+      "run": "aermod/d05_r1050/dry_deposition",
+      "passed": true,
+      "model_version": "26135",
+      "hours": {
+        "total_processed_hours": 8760,
+        "calm_hours": 390,
+        "missing_hours": 307,
+        "valid_hours": 8063
+      },
+      "warnings": {},
+      "period_output": {
+        "path": "aermod/d05_r1050/dry_deposition/annual.plt",
+        "sha256": "6bee64f02e02f8b9a8f27e07917b8d2973bdfe36c7fc513f927a20aea2da51f8",
+        "receptor_rows": 873,
+        "minimum": 0.00011,
+        "maximum": 17.23053,
+        "nonzero_rows": 873
+      }
+    },
+    {
+      "run": "aermod/d05_r1050/wet_deposition",
+      "passed": true,
+      "model_version": "26135",
+      "hours": {
+        "total_processed_hours": 8760,
+        "calm_hours": 390,
+        "missing_hours": 307,
+        "valid_hours": 8063
+      },
+      "warnings": {},
+      "period_output": {
+        "path": "aermod/d05_r1050/wet_deposition/annual.plt",
+        "sha256": "76bf47c313253d091cc57ab1beb85dccf424080bdf773540a17d1773a103d627",
+        "receptor_rows": 873,
+        "minimum": 4e-05,
+        "maximum": 0.46517,
+        "nonzero_rows": 873
+      }
+    },
+    {
+      "run": "aermod/d0p5_r1050/concentration",
+      "passed": true,
+      "model_version": "26135",
+      "hours": {
+        "total_processed_hours": 8760,
+        "calm_hours": 390,
+        "missing_hours": 307,
+        "valid_hours": 8063
+      },
+      "warnings": {
+        "CNW732": 44
+      },
+      "period_output": {
+        "path": "aermod/d0p5_r1050/concentration/annual.plt",
+        "sha256": "94f6ba8a7254c2447038fe248fac9e876fe2114b2e6e72bb70cc91e982bc5fa4",
+        "receptor_rows": 873,
+        "minimum": 0.00471,
+        "maximum": 425.27353,
+        "nonzero_rows": 873
+      }
+    },
+    {
+      "run": "aermod/d0p5_r1050/dry_deposition",
+      "passed": true,
+      "model_version": "26135",
+      "hours": {
+        "total_processed_hours": 8760,
+        "calm_hours": 390,
+        "missing_hours": 307,
+        "valid_hours": 8063
+      },
+      "warnings": {},
+      "period_output": {
+        "path": "aermod/d0p5_r1050/dry_deposition/annual.plt",
+        "sha256": "36142b5b3251975a8e0ffaf7227880fe8fe402efafa27a42855283b66ecf663f",
+        "receptor_rows": 873,
+        "minimum": 6e-05,
+        "maximum": 3.29977,
+        "nonzero_rows": 873
+      }
+    },
+    {
+      "run": "aermod/d0p5_r1050/wet_deposition",
+      "passed": true,
+      "model_version": "26135",
+      "hours": {
+        "total_processed_hours": 8760,
+        "calm_hours": 390,
+        "missing_hours": 307,
+        "valid_hours": 8063
+      },
+      "warnings": {},
+      "period_output": {
+        "path": "aermod/d0p5_r1050/wet_deposition/annual.plt",
+        "sha256": "298dcc981f893ce9480934a033a6505f2e52d85a3820336552f4f3a9b62c2e14",
+        "receptor_rows": 873,
+        "minimum": 0.0,
+        "maximum": 0.00058,
+        "nonzero_rows": 439
+      }
+    }
+  ],
+  "original_cases_verified_after_extension": 15
+}

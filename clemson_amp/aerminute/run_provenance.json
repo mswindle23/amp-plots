@@ -1,0 +1,167 @@
+{
+  "run_id": "20261019T153847Z_dc4971ad",
+  "started_utc": "2026-10-19T15:38:47.357853+00:00",
+  "status": "passed",
+  "command": [
+    "/workspace/.cloud-setup/amp-plots/bin/aerminute"
+  ],
+  "stdin": "aerminute.inp\n",
+  "cwd": "/workspace/amp-plots/clemson_amp/aerminute",
+  "model_binary": {
+    "path": "../../.cloud-setup/amp-plots/bin/aerminute",
+    "bytes": 1655784,
+    "sha256": "435194559a193d7e1da9ca6142739d791dffd315a0dae5373a337b66aad61caf"
+  },
+  "inputs": {
+    "created_utc": "2026-10-19T15:38:47.222150+00:00",
+    "year": 2023,
+    "station": "KCEU",
+    "wban": "53850",
+    "control": {
+      "path": "aerminute/aerminute.inp",
+      "bytes": 963,
+      "sha256": "17705e828c7fb55f069693c1a9602758e81f50586fa7ed873c25d8d2ff7e0d42"
+    },
+    "raw_observed_inputs": [
+      {
+        "path": "data/met/asos1min/asos-1min-pg1-KCEU-202301.dat",
+        "bytes": 4330612,
+        "sha256": "1b0701fc7112a486f4213619227dce60373920b6ee8d8f44043d55aaf551d375"
+      },
+      {
+        "path": "data/met/asos1min/asos-1min-pg1-KCEU-202302.dat",
+        "bytes": 4298972,
+        "sha256": "4ac7bfbb8e215851cdfa627451920c3356a43ffbe06032218467497693525053"
+      },
+      {
+        "path": "data/met/asos1min/asos-1min-pg1-KCEU-202303.dat",
+        "bytes": 4318634,
+        "sha256": "05e2b71d354e4ab58323bf65438ad1831de842bc7333167cd2d16bb4becd8534"
+      },
+      {
+        "path": "data/met/asos1min/asos-1min-pg1-KCEU-202304.dat",
+        "bytes": 4624186,
+        "sha256": "4120043811af4424d9904c8f928c4d708d731a520deb9da47039e714f1e207fb"
+      },
+      {
+        "path": "data/met/asos1min/asos-1min-pg1-KCEU-202305.dat",
+        "bytes": 3103432,
+        "sha256": "de38b2b2d8cbfdc180cff39e58b67e58225eeb030d57bb0b403fcfb0637215ec"
+      },
+      {
+        "path": "data/met/asos1min/asos-1min-pg1-KCEU-202306.dat",
+        "bytes": 1600532,
+        "sha256": "2e4146251f1b6ba549efefbb08d4046402d78e39fc19b84173fe0a503265d4a8"
+      },
+      {
+        "path": "data/met/asos1min/asos-1min-pg1-KCEU-202307.dat",
+        "bytes": 4273660,
+        "sha256": "987d21cb0900bb06acc9b244b49654f018d9c614af8ed31e110284eef61fc036"
+      },
+      {
+        "path": "data/met/asos1min/asos-1min-pg1-KCEU-202308.dat",
+        "bytes": 4549380,
+        "sha256": "b3050272b15d684b0fc9965c87a6e595593f3f7ad3eca56f2d9b4039406a46b1"
+      },
+      {
+        "path": "data/met/asos1min/asos-1min-pg1-KCEU-202309.dat",
+        "bytes": 4764306,
+        "sha256": "516ea2e9f113d3dd471e11fed715c2fca8b58a6dc62401f0f7b7a0c95c02a6bc"
+      },
+      {
+        "path": "data/met/asos1min/asos-1min-pg1-KCEU-202310.dat",
+        "bytes": 4908042,
+        "sha256": "e9ee7837bd35af0c6017ebbe1a27066bff5db68d96c1e6b24029af005b393dd3"
+      },
+      {
+        "path": "data/met/asos1min/asos-1min-pg1-KCEU-202311.dat",
+        "bytes": 4873916,
+        "sha256": "2a2868aa0869baca0198ccce591bc697e5068bc81613327b042f808e0e72e682"
+      },
+      {
+        "path": "data/met/asos1min/asos-1min-pg1-KCEU-202312.dat",
+        "bytes": 5021042,
+        "sha256": "d347c7801ec9850762201d34138c916230949746f14a9f225a37b4946de4bc91"
+      }
+    ],
+    "ifw": {
+      "sonic_status": "ASSUMED",
+      "effective_processing_date": "2023-01-01",
+      "verified_commission_date": null,
+      "source_reference": null,
+      "interpretation": "ASSUMED sonic-anemometer (IFW) status. The supplied date is an effective processing date, NOT a verified IFW installation/commission date. Official NWS commission-date lookup was unavailable. AERMINUTE July2026 User's Guide section4.1.2 pp8-9 permits a reasonable post2009 IFW assumption when installation metadata is unavailable; verify with NWS before a definitive study.",
+      "guide": "https://gaftp.epa.gov/Air/aqmg/SCRAM/models/met/aerminute/aerminute_userguide.pdf"
+    },
+    "scope": "AERMINUTE's official QC and averaging of observed NOAA records; no weather gap fabrication"
+  },
+  "preserved_previous_outputs": [
+    {
+      "path": "aerminute/aerminute.log",
+      "bytes": 1373,
+      "sha256": "698e0a725e89e552a07bc5ae55d03cc782c5d440985c416ec4a800c31b11b35a",
+      "archived_path": "aerminute/prior_outputs/20261019T153847Z_dc4971ad/aerminute.log"
+    },
+    {
+      "path": "aerminute/aerminute.stdout.txt",
+      "bytes": 1438,
+      "sha256": "49e95d1790b9848ccf89b73dfea1b66e9778fa1047f0cb227e89a6f6f7cdfb58",
+      "archived_path": "aerminute/prior_outputs/20261019T153847Z_dc4971ad/aerminute.stdout.txt"
+    }
+  ],
+  "problems": [],
+  "returncode": 0,
+  "elapsed_seconds": 8.098,
+  "hourly_wind_audit": {
+    "header": "AERMINUTE Version 26135  WBAN: 53850    Call sign: KCEU    IFW: Y    IFW date: 01/01/2023 5-MIN USED: N",
+    "expected_hour_records": 8760,
+    "actual_hour_records": 8760,
+    "valid_noncalm_hours": 7504,
+    "calm_hours": 0,
+    "missing_or_invalid_hours": 1256
+  },
+  "outputs": [
+    {
+      "path": "aerminute/clemson_1min.dat",
+      "bytes": 219104,
+      "sha256": "2e1e26b9ff21890561abcf9879616ac0fd55abd3a9d7475e1dc8a178fdaa6691",
+      "created_by_current_run": true
+    },
+    {
+      "path": "aerminute/minute_summary.csv",
+      "bytes": 657173,
+      "sha256": "e4af1ed957290de4c3df18b02a1db26695741f25a056f564a6945bfd2600ea76",
+      "created_by_current_run": true
+    },
+    {
+      "path": "aerminute/aerminute.log",
+      "bytes": 5200,
+      "sha256": "2a6ae1f475d4dc0f49c7fe31f079bca6be2341522bac2f22b775c166e21a67af",
+      "created_by_current_run": true
+    },
+    {
+      "path": "aerminute/aerminute.stdout.txt",
+      "bytes": 2713,
+      "sha256": "b2213ee08c8e5088b0b848c00eb120a6c5715c41d9e1df3b3ccf1aec9334376f",
+      "created_by_current_run": true
+    },
+    {
+      "path": "aerminute/bad_records.dat",
+      "bytes": 469594,
+      "sha256": "2173664301702164918882b40f74803a308e0455631d13ebd1a5b59b630ebc5a",
+      "created_by_current_run": true
+    },
+    {
+      "path": "aerminute/good_records.dat",
+      "bytes": 49844424,
+      "sha256": "37fd72e658a90b8ae97d776b46562d805d299ade09be70a3b4381966d790b352",
+      "created_by_current_run": true
+    },
+    {
+      "path": "aerminute/check_records.dat",
+      "bytes": 90,
+      "sha256": "ac2d4d313903a887ba16135a666f970806cb8abfa97d501d41b79e4c036ac2da",
+      "created_by_current_run": true
+    }
+  ],
+  "finished_utc": "2026-10-19T15:38:55.553869+00:00"
+}

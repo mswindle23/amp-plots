@@ -1,0 +1,1264 @@
+{
+  "generated_utc": "2026-10-19T15:57:05.386262+00:00",
+  "operation": "AERPLOT configuration color-scale update only; no model inputs regenerated",
+  "scaling": "Zero-safe Linear bounds shared across particle cases independently for each quantity",
+  "metrics": {
+    "concentration": {
+      "quantity": "Period-mean concentration (micrograms/m3)",
+      "units": "MICROGRAMS/M3",
+      "minimum": 0.0,
+      "maximum": 500,
+      "actual_global_maximum": 435.73469,
+      "cases": [
+        {
+          "name": "d01_r1050",
+          "receptors": 873,
+          "field_minimum": 0.00471,
+          "field_maximum": 425.41725,
+          "model_provenance": {
+            "verification": "passed current-run content hashes and model-completion audit",
+            "step_id": "aermod__d01_r1050__concentration",
+            "started_utc": "2026-10-19T15:40:52.133720+00:00",
+            "finished_utc": "2026-10-19T15:45:45.699213+00:00",
+            "execution_record": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d01_r1050__concentration.json",
+              "sha256": "6da42aaf4cd53e3c005bcd1e56ab035720029b97584e3da3f2d9110f93835652"
+            },
+            "manifest": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+              "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+            },
+            "reported_model_version": "26135",
+            "inputs": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+                "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+                "bytes": 53782
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+                "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+                "bytes": 603
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+                "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+                "bytes": 595680
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+                "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+                "bytes": 1541882
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/concentration/aermod.inp",
+                "sha256": "e5cf92e33b7f57109271b9451b704075a43991c5900cdc9f9743e7075009bfa4",
+                "bytes": 1730
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+                "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+                "bytes": 3613
+              }
+            ],
+            "binary": {
+              "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+              "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+              "bytes": 5106464
+            },
+            "output": {
+              "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/concentration/annual.plt",
+              "sha256": "e25a7b0c0d8b23bc13aed470e1e1d40299c173548e0a3153c7909608e8ce93c7",
+              "bytes": 95126
+            },
+            "completion_reports": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/concentration/aermod.out",
+                "sha256": "4e4863e265a7728c6505c2da3ea86e2cdc5c52866e782648c2cb265971743771",
+                "bytes": 301263
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/concentration/errors.out",
+                "sha256": "3da623c86f3eb6f6eae97e4c6f3de41829c0b8cf65b6c3f4ce88164dea58c014",
+                "bytes": 70200
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/concentration/aermod.sum",
+                "sha256": "6c82d312d90b0fd964603998047aed0bff4254ed71fbbd405fcf3d7a18a3e368",
+                "bytes": 21163
+              }
+            ]
+          },
+          "configuration": "/workspace/amp-plots/clemson_amp/aerplot/d01_r1050/concentration/aerplot.inp",
+          "configuration_sha256": "590ea99bcb4162210639508d2d6359334f2a192b622f39c252db7cc6a70cab33"
+        },
+        {
+          "name": "d10_r1050",
+          "receptors": 873,
+          "field_minimum": 0.00317,
+          "field_maximum": 433.79275,
+          "model_provenance": {
+            "verification": "passed current-run content hashes and model-completion audit",
+            "step_id": "aermod__d10_r1050__concentration",
+            "started_utc": "2026-10-19T15:40:52.136159+00:00",
+            "finished_utc": "2026-10-19T15:43:38.398155+00:00",
+            "execution_record": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d10_r1050__concentration.json",
+              "sha256": "3094351665beccc17c5c7691de17281e683eecb3365fc57cf54e5814726323e2"
+            },
+            "manifest": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+              "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+            },
+            "reported_model_version": "26135",
+            "inputs": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+                "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+                "bytes": 53782
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+                "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+                "bytes": 603
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+                "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+                "bytes": 595680
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+                "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+                "bytes": 1541882
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/concentration/aermod.inp",
+                "sha256": "97a8dc96702048c83b4cb642eb3e299810f2207b6205c9ba86ae086280c76316",
+                "bytes": 1731
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+                "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+                "bytes": 3613
+              }
+            ],
+            "binary": {
+              "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+              "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+              "bytes": 5106464
+            },
+            "output": {
+              "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/concentration/annual.plt",
+              "sha256": "7a934bc110d758e17c2857150ec3c904ffa0b40974d0d6fb9ef3cf63a8680741",
+              "bytes": 95126
+            },
+            "completion_reports": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/concentration/aermod.out",
+                "sha256": "9b16b9b0b7b502f164d938fc851a3ffcdfc384618182dc31c3b6a712d6efe661",
+                "bytes": 301264
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/concentration/errors.out",
+                "sha256": "3da623c86f3eb6f6eae97e4c6f3de41829c0b8cf65b6c3f4ce88164dea58c014",
+                "bytes": 70200
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/concentration/aermod.sum",
+                "sha256": "19968c26046f5735fe3c41f0aa3619f2d4f47d7c9949e4e17430cafd3f9a915f",
+                "bytes": 21163
+              }
+            ]
+          },
+          "configuration": "/workspace/amp-plots/clemson_amp/aerplot/d10_r1050/concentration/aerplot.inp",
+          "configuration_sha256": "8f36c5691e9b3301793cbf597bf81744f662f2a0244adf77480410a544b1a702"
+        },
+        {
+          "name": "d30_r1050",
+          "receptors": 873,
+          "field_minimum": 0.00081,
+          "field_maximum": 429.51831,
+          "model_provenance": {
+            "verification": "passed current-run content hashes and model-completion audit",
+            "step_id": "aermod__d30_r1050__concentration",
+            "started_utc": "2026-10-19T15:43:38.399892+00:00",
+            "finished_utc": "2026-10-19T15:46:07.206977+00:00",
+            "execution_record": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d30_r1050__concentration.json",
+              "sha256": "708ec0ff899fd161bea98019cfdbe0cb6426a4d677d6d586b94d1197ebcca644"
+            },
+            "manifest": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+              "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+            },
+            "reported_model_version": "26135",
+            "inputs": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+                "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+                "bytes": 53782
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+                "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+                "bytes": 603
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+                "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+                "bytes": 595680
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+                "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+                "bytes": 1541882
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/concentration/aermod.inp",
+                "sha256": "13b6d535c58d6bbf018c1c124e9af407c63040efef704b4e46257e719181a2c6",
+                "bytes": 1731
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+                "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+                "bytes": 3613
+              }
+            ],
+            "binary": {
+              "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+              "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+              "bytes": 5106464
+            },
+            "output": {
+              "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/concentration/annual.plt",
+              "sha256": "5397fe7e99f43078a639686b2be2e41f16624723ece2d7d8db0fc666d094c9c5",
+              "bytes": 95126
+            },
+            "completion_reports": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/concentration/aermod.out",
+                "sha256": "7aa697d64d4ceb94e87371cce2df616848b6a679c04ed78c2990421b02d65f1a",
+                "bytes": 301264
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/concentration/errors.out",
+                "sha256": "3da623c86f3eb6f6eae97e4c6f3de41829c0b8cf65b6c3f4ce88164dea58c014",
+                "bytes": 70200
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/concentration/aermod.sum",
+                "sha256": "ccbe12826f768db07a787610bcc2b241cd05bf665a21a30a8c15882f590b9f75",
+                "bytes": 21163
+              }
+            ]
+          },
+          "configuration": "/workspace/amp-plots/clemson_amp/aerplot/d30_r1050/concentration/aerplot.inp",
+          "configuration_sha256": "148567b173e35e47c3c5ff22526af5159aacb92e5955b50e6be63dd5e9b50b7f"
+        },
+        {
+          "name": "d10_r0900",
+          "receptors": 873,
+          "field_minimum": 0.00324,
+          "field_maximum": 432.88221,
+          "model_provenance": {
+            "verification": "passed current-run content hashes and model-completion audit",
+            "step_id": "aermod__d10_r0900__concentration",
+            "started_utc": "2026-10-19T15:45:57.220995+00:00",
+            "finished_utc": "2026-10-19T15:50:23.519867+00:00",
+            "execution_record": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d10_r0900__concentration.json",
+              "sha256": "a4af3c7d3dc28cea6b6e62a0a5aaee7743a26f13226084a0faaa812d5907a1c5"
+            },
+            "manifest": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+              "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+            },
+            "reported_model_version": "26135",
+            "inputs": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+                "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+                "bytes": 53782
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+                "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+                "bytes": 603
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+                "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+                "bytes": 595680
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+                "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+                "bytes": 1541882
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/concentration/aermod.inp",
+                "sha256": "d727833ed6be4bca850802c1e67021ce4aa03836785878847099bef51d820a85",
+                "bytes": 1730
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+                "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+                "bytes": 3613
+              }
+            ],
+            "binary": {
+              "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+              "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+              "bytes": 5106464
+            },
+            "output": {
+              "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/concentration/annual.plt",
+              "sha256": "0d42748b0fd6ec6df7f489bea147048939ebfbe1c0bba4a697843f42eafce1a0",
+              "bytes": 95126
+            },
+            "completion_reports": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/concentration/aermod.out",
+                "sha256": "0ef967edaf024ae3f12d30aacfafbfa0355780e6a66b34c5d6b2d867e6bb4736",
+                "bytes": 301263
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/concentration/errors.out",
+                "sha256": "3da623c86f3eb6f6eae97e4c6f3de41829c0b8cf65b6c3f4ce88164dea58c014",
+                "bytes": 70200
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/concentration/aermod.sum",
+                "sha256": "f3af1adad9f942e9ede3788d8295efec7ce6bd7a1db78c2ecb210f1136482021",
+                "bytes": 21163
+              }
+            ]
+          },
+          "configuration": "/workspace/amp-plots/clemson_amp/aerplot/d10_r0900/concentration/aerplot.inp",
+          "configuration_sha256": "647df2e1bdaf71cbf5e58c730726a7c3bb5ce81c9140948c097bb6d4ea503bde"
+        },
+        {
+          "name": "d10_r1400",
+          "receptors": 873,
+          "field_minimum": 0.00301,
+          "field_maximum": 435.73469,
+          "model_provenance": {
+            "verification": "passed current-run content hashes and model-completion audit",
+            "step_id": "aermod__d10_r1400__concentration",
+            "started_utc": "2026-10-19T15:46:37.795919+00:00",
+            "finished_utc": "2026-10-19T15:50:43.859948+00:00",
+            "execution_record": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d10_r1400__concentration.json",
+              "sha256": "0c0e501e1b0881886f934780a2f43838033700b522ca8bb313392d0213a273ce"
+            },
+            "manifest": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+              "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+            },
+            "reported_model_version": "26135",
+            "inputs": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+                "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+                "bytes": 53782
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+                "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+                "bytes": 603
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+                "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+                "bytes": 595680
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+                "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+                "bytes": 1541882
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/concentration/aermod.inp",
+                "sha256": "f7824cc767476cff35492af76747b177d635468102a558117c1db5e241f1c483",
+                "bytes": 1730
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+                "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+                "bytes": 3613
+              }
+            ],
+            "binary": {
+              "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+              "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+              "bytes": 5106464
+            },
+            "output": {
+              "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/concentration/annual.plt",
+              "sha256": "2fe44d145f47c8e09b1e2701de1085327db4cb726e3fc8866e69068c0b36a3d4",
+              "bytes": 95126
+            },
+            "completion_reports": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/concentration/aermod.out",
+                "sha256": "3767aa2b4ade80b2927ecfbecd477a77355c55c11f9cef478f6bfc1ffb363a10",
+                "bytes": 301263
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/concentration/errors.out",
+                "sha256": "3da623c86f3eb6f6eae97e4c6f3de41829c0b8cf65b6c3f4ce88164dea58c014",
+                "bytes": 70200
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/concentration/aermod.sum",
+                "sha256": "5a848bcfebdc1b9cb74fddf5a22d8d1e78545830cac2b37e0c18f0335d17ed2f",
+                "bytes": 21163
+              }
+            ]
+          },
+          "configuration": "/workspace/amp-plots/clemson_amp/aerplot/d10_r1400/concentration/aerplot.inp",
+          "configuration_sha256": "ed69d227d1181f4bcf26ccd50d9db3b68a047a1d7fe9efea74b91f07c3e99713"
+        }
+      ]
+    },
+    "dry_deposition": {
+      "quantity": "Accumulated dry deposition (g/m2)",
+      "units": "GRAMS/M2",
+      "minimum": 0.0,
+      "maximum": 600,
+      "actual_global_maximum": 528.39149,
+      "cases": [
+        {
+          "name": "d01_r1050",
+          "receptors": 873,
+          "field_minimum": 4e-05,
+          "field_maximum": 2.87601,
+          "model_provenance": {
+            "verification": "passed current-run content hashes and model-completion audit",
+            "step_id": "aermod__d01_r1050__dry_deposition",
+            "started_utc": "2026-10-19T15:40:52.135204+00:00",
+            "finished_utc": "2026-10-19T15:45:57.219588+00:00",
+            "execution_record": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d01_r1050__dry_deposition.json",
+              "sha256": "39abf46bc578f083b1d33d689504a12b1115f10ab8820a8151a5b81af403d296"
+            },
+            "manifest": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+              "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+            },
+            "reported_model_version": "26135",
+            "inputs": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+                "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+                "bytes": 53782
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+                "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+                "bytes": 603
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+                "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+                "bytes": 595680
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+                "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+                "bytes": 1541882
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/dry_deposition/aermod.inp",
+                "sha256": "dc6730d9e13c991e8e6df986f28c2549dece38f4e7aa4e564eacdef745f2ab21",
+                "bytes": 1670
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+                "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+                "bytes": 3613
+              }
+            ],
+            "binary": {
+              "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+              "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+              "bytes": 5106464
+            },
+            "output": {
+              "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/dry_deposition/annual.plt",
+              "sha256": "287c5406e3279f8f3d64553cbcfd106fa8f0a030d461c46089e47716389d08c4",
+              "bytes": 95126
+            },
+            "completion_reports": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/dry_deposition/aermod.out",
+                "sha256": "a7a60209c83bb7a57e9bc826c524f5d8c6851cf18e3f51327d465b4d5d86a335",
+                "bytes": 225482
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/dry_deposition/errors.out",
+                "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+                "bytes": 66064
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/dry_deposition/aermod.sum",
+                "sha256": "7eaf91d4c95f272aa9a33a37d857932c3b3ed81d59abf72e9133a2c2c0ec8c7b",
+                "bytes": 15674
+              }
+            ]
+          },
+          "configuration": "/workspace/amp-plots/clemson_amp/aerplot/d01_r1050/dry_deposition/aerplot.inp",
+          "configuration_sha256": "f1af243470ba5633cc715af33ab4ae58a068948c94d202b75c8e5630ec478c59"
+        },
+        {
+          "name": "d10_r1050",
+          "receptors": 873,
+          "field_minimum": 0.00052,
+          "field_maximum": 108.33783,
+          "model_provenance": {
+            "verification": "passed current-run content hashes and model-completion audit",
+            "step_id": "aermod__d10_r1050__dry_deposition",
+            "started_utc": "2026-10-19T15:41:17.884630+00:00",
+            "finished_utc": "2026-10-19T15:43:32.792895+00:00",
+            "execution_record": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d10_r1050__dry_deposition.json",
+              "sha256": "d0b74882e100fbbcdf07b812542b578e3d4f9ca49ca5fc0553f5e2f3db98c450"
+            },
+            "manifest": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+              "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+            },
+            "reported_model_version": "26135",
+            "inputs": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+                "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+                "bytes": 53782
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+                "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+                "bytes": 603
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+                "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+                "bytes": 595680
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+                "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+                "bytes": 1541882
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/dry_deposition/aermod.inp",
+                "sha256": "16c641ee57c67f809504ded40a60a66d94a0ff5c61c26c1dc424f66529439d70",
+                "bytes": 1671
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+                "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+                "bytes": 3613
+              }
+            ],
+            "binary": {
+              "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+              "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+              "bytes": 5106464
+            },
+            "output": {
+              "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/dry_deposition/annual.plt",
+              "sha256": "23b91f771ae4c2fac6de6d6cba62f8497d9ea84d35cb2d1feb427f689a8ad279",
+              "bytes": 95126
+            },
+            "completion_reports": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/dry_deposition/aermod.out",
+                "sha256": "d017fe989e99c79311ce818c9b14959783c1b0b866dab8d0d9cf6cb8db2dfe43",
+                "bytes": 225483
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/dry_deposition/errors.out",
+                "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+                "bytes": 66064
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/dry_deposition/aermod.sum",
+                "sha256": "c3c1a3d1c24e6cb2bb76abd2438db6da30165d4a9a483ed2b4b54ec64d7d165a",
+                "bytes": 15674
+              }
+            ]
+          },
+          "configuration": "/workspace/amp-plots/clemson_amp/aerplot/d10_r1050/dry_deposition/aerplot.inp",
+          "configuration_sha256": "99f683c1285aaaa631526c99106b683eb6ea54cd693b38083f2ca4cb735a5fb8"
+        },
+        {
+          "name": "d30_r1050",
+          "receptors": 873,
+          "field_minimum": 0.00137,
+          "field_maximum": 528.39149,
+          "model_provenance": {
+            "verification": "passed current-run content hashes and model-completion audit",
+            "step_id": "aermod__d30_r1050__dry_deposition",
+            "started_utc": "2026-10-19T15:43:55.248071+00:00",
+            "finished_utc": "2026-10-19T15:46:11.095333+00:00",
+            "execution_record": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d30_r1050__dry_deposition.json",
+              "sha256": "f4b952c30647c31b934c0f7d07bc85af4c883ae7221d01f9de10ba1a2043f792"
+            },
+            "manifest": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+              "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+            },
+            "reported_model_version": "26135",
+            "inputs": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+                "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+                "bytes": 53782
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+                "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+                "bytes": 603
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+                "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+                "bytes": 595680
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+                "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+                "bytes": 1541882
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/dry_deposition/aermod.inp",
+                "sha256": "cf35b43e8a55c106f4464ba2d0b4233a0c7db1cba1b7e17ba2cae5be98a6f2ee",
+                "bytes": 1671
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+                "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+                "bytes": 3613
+              }
+            ],
+            "binary": {
+              "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+              "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+              "bytes": 5106464
+            },
+            "output": {
+              "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/dry_deposition/annual.plt",
+              "sha256": "880878e94149af9cf61a15c69aaa176fd2d871ccca1b7e6b21cc7eff3ecf7c26",
+              "bytes": 95126
+            },
+            "completion_reports": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/dry_deposition/aermod.out",
+                "sha256": "f10a9411a05da9274bacfc319d5083e1a7e8361becfe660c170751133753d64d",
+                "bytes": 225483
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/dry_deposition/errors.out",
+                "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+                "bytes": 66064
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/dry_deposition/aermod.sum",
+                "sha256": "a3641830d37961b557e74b7fadbd119725415825c57a25e26ba736b9d406ec9e",
+                "bytes": 15674
+              }
+            ]
+          },
+          "configuration": "/workspace/amp-plots/clemson_amp/aerplot/d30_r1050/dry_deposition/aerplot.inp",
+          "configuration_sha256": "b94fd8e14f7686cd87c6cc662d79978eb3c53b66fd0db074e5d91aa46a126db7"
+        },
+        {
+          "name": "d10_r0900",
+          "receptors": 873,
+          "field_minimum": 0.00038,
+          "field_maximum": 90.22606,
+          "model_provenance": {
+            "verification": "passed current-run content hashes and model-completion audit",
+            "step_id": "aermod__d10_r0900__dry_deposition",
+            "started_utc": "2026-10-19T15:46:07.209045+00:00",
+            "finished_utc": "2026-10-19T15:50:05.138454+00:00",
+            "execution_record": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d10_r0900__dry_deposition.json",
+              "sha256": "c7fe2c9201937157a5fc9269a4ad38bed43d3eefd2d9fb1adb08ad11ffb551d4"
+            },
+            "manifest": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+              "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+            },
+            "reported_model_version": "26135",
+            "inputs": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+                "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+                "bytes": 53782
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+                "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+                "bytes": 603
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+                "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+                "bytes": 595680
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+                "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+                "bytes": 1541882
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/dry_deposition/aermod.inp",
+                "sha256": "8f7ede331e3f874cc97b2dfaa7da7737bcb0eb1d5dd177ed0e3af441c0b93ced",
+                "bytes": 1670
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+                "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+                "bytes": 3613
+              }
+            ],
+            "binary": {
+              "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+              "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+              "bytes": 5106464
+            },
+            "output": {
+              "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/dry_deposition/annual.plt",
+              "sha256": "b08fddcd1ff4c02fee5038061ac975269b46686a97a77ad38f013713debd73d0",
+              "bytes": 95126
+            },
+            "completion_reports": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/dry_deposition/aermod.out",
+                "sha256": "d298a36de7779cc931121e48575091f0ac41fd80ebd3e740fe260eec3555d085",
+                "bytes": 225482
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/dry_deposition/errors.out",
+                "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+                "bytes": 66064
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/dry_deposition/aermod.sum",
+                "sha256": "5f9d4717fbe8bd92d35ef1341f49bec99ac57a1fe26bc027e318389500f4a711",
+                "bytes": 15674
+              }
+            ]
+          },
+          "configuration": "/workspace/amp-plots/clemson_amp/aerplot/d10_r0900/dry_deposition/aerplot.inp",
+          "configuration_sha256": "9276ee42dd781c434578210cc8296807d1f7716709d78bbb0e19cacdd679eaae"
+        },
+        {
+          "name": "d10_r1400",
+          "receptors": 873,
+          "field_minimum": 0.00087,
+          "field_maximum": 147.67211,
+          "model_provenance": {
+            "verification": "passed current-run content hashes and model-completion audit",
+            "step_id": "aermod__d10_r1400__dry_deposition",
+            "started_utc": "2026-10-19T15:46:49.688867+00:00",
+            "finished_utc": "2026-10-19T15:50:49.449742+00:00",
+            "execution_record": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d10_r1400__dry_deposition.json",
+              "sha256": "e514c6260f2d196008f29423ec878e4e4a91d3511189057c7df39a6dc36e4a87"
+            },
+            "manifest": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+              "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+            },
+            "reported_model_version": "26135",
+            "inputs": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+                "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+                "bytes": 53782
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+                "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+                "bytes": 603
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+                "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+                "bytes": 595680
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+                "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+                "bytes": 1541882
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/dry_deposition/aermod.inp",
+                "sha256": "0b3ccbbd122666ef9f6eebdb9546c3fd636b7568c23f869c17b3abbd8e6bae20",
+                "bytes": 1670
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+                "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+                "bytes": 3613
+              }
+            ],
+            "binary": {
+              "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+              "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+              "bytes": 5106464
+            },
+            "output": {
+              "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/dry_deposition/annual.plt",
+              "sha256": "08194ec89fab3772360bb76fdeb1e85a5e566d58abaa86a2e077fda90e63cf16",
+              "bytes": 95126
+            },
+            "completion_reports": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/dry_deposition/aermod.out",
+                "sha256": "c3b8610a5b1e02f2740d378c4a75f3f31ed35ab00480f7942d10e7f49ad25ea0",
+                "bytes": 225482
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/dry_deposition/errors.out",
+                "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+                "bytes": 66064
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/dry_deposition/aermod.sum",
+                "sha256": "2a384eb99d057b73f72ce816b98b530c69cb98f1d58d0969cd255ec831c73d5f",
+                "bytes": 15674
+              }
+            ]
+          },
+          "configuration": "/workspace/amp-plots/clemson_amp/aerplot/d10_r1400/dry_deposition/aerplot.inp",
+          "configuration_sha256": "596b46d50f3d3b7fcb4f5cdc9d985235589036892c07ffbfcb4925f537fc31f8"
+        }
+      ]
+    },
+    "wet_deposition": {
+      "quantity": "Accumulated wet deposition (g/m2)",
+      "units": "GRAMS/M2",
+      "minimum": 0.0,
+      "maximum": 3,
+      "actual_global_maximum": 2.89949,
+      "cases": [
+        {
+          "name": "d01_r1050",
+          "receptors": 873,
+          "field_minimum": 0.0,
+          "field_maximum": 0.00068,
+          "model_provenance": {
+            "verification": "passed current-run content hashes and model-completion audit",
+            "step_id": "aermod__d01_r1050__wet_deposition",
+            "started_utc": "2026-10-19T15:40:52.135733+00:00",
+            "finished_utc": "2026-10-19T15:41:17.883943+00:00",
+            "execution_record": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d01_r1050__wet_deposition.json",
+              "sha256": "488d8443a428f80628d6dcab9423b97d6716d3049363f25661ac5854b29b7945"
+            },
+            "manifest": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+              "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+            },
+            "reported_model_version": "26135",
+            "inputs": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+                "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+                "bytes": 53782
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+                "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+                "bytes": 603
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+                "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+                "bytes": 595680
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+                "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+                "bytes": 1541882
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/wet_deposition/aermod.inp",
+                "sha256": "16c200c87f86be5fb058144ec01f8584d3b6f89e6e54b6cf1a6198083ad80db7",
+                "bytes": 1670
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+                "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+                "bytes": 3613
+              }
+            ],
+            "binary": {
+              "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+              "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+              "bytes": 5106464
+            },
+            "output": {
+              "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/wet_deposition/annual.plt",
+              "sha256": "6dc175a1f4f9ea67ca7b7b8a7c39c5a2ddd060db48ce438dcf1e09cd19329dcf",
+              "bytes": 95126
+            },
+            "completion_reports": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/wet_deposition/aermod.out",
+                "sha256": "9fa578b563034b41d4c70a47cd5ff480d1f68eb80b800f0b17b06dd80f0122e3",
+                "bytes": 225482
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/wet_deposition/errors.out",
+                "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+                "bytes": 66064
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d01_r1050/wet_deposition/aermod.sum",
+                "sha256": "fdc394b75a620d6ed82052fcc46cd93f367d901d5caa17b394f5545b00ebc786",
+                "bytes": 15674
+              }
+            ]
+          },
+          "configuration": "/workspace/amp-plots/clemson_amp/aerplot/d01_r1050/wet_deposition/aerplot.inp",
+          "configuration_sha256": "3fa7640b1c84f2ec1a92c2b840dd9b3479dafd60051019f4099a59afac68df79"
+        },
+        {
+          "name": "d10_r1050",
+          "receptors": 873,
+          "field_minimum": 2e-05,
+          "field_maximum": 2.02686,
+          "model_provenance": {
+            "verification": "passed current-run content hashes and model-completion audit",
+            "step_id": "aermod__d10_r1050__wet_deposition",
+            "started_utc": "2026-10-19T15:43:32.794190+00:00",
+            "finished_utc": "2026-10-19T15:43:55.247271+00:00",
+            "execution_record": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d10_r1050__wet_deposition.json",
+              "sha256": "87b78f2c00ddb4c60fe68a6ca09cf6d8efd4aaba3bffda652595d1293a98305b"
+            },
+            "manifest": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+              "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+            },
+            "reported_model_version": "26135",
+            "inputs": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+                "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+                "bytes": 53782
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+                "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+                "bytes": 603
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+                "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+                "bytes": 595680
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+                "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+                "bytes": 1541882
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/wet_deposition/aermod.inp",
+                "sha256": "1ff6cef379af1a267aa18c06fd8320b688156a60f069f81836b1c49a197eafd0",
+                "bytes": 1671
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+                "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+                "bytes": 3613
+              }
+            ],
+            "binary": {
+              "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+              "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+              "bytes": 5106464
+            },
+            "output": {
+              "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/wet_deposition/annual.plt",
+              "sha256": "5631e89cf8a08ddac0e5946faaf57f40a9d0c2c5ea76bd20e673a3e7ed7a1b56",
+              "bytes": 95126
+            },
+            "completion_reports": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/wet_deposition/aermod.out",
+                "sha256": "0affadbe1caa8f84d4e392c9e391a426bc7e3d434571652c5d7d9940d8ac4dbd",
+                "bytes": 225483
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/wet_deposition/errors.out",
+                "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+                "bytes": 66064
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1050/wet_deposition/aermod.sum",
+                "sha256": "62024e045ed95a8f5c4c06b43512ce1422198fdfff5d7e36bf174ffed7ee60ac",
+                "bytes": 15674
+              }
+            ]
+          },
+          "configuration": "/workspace/amp-plots/clemson_amp/aerplot/d10_r1050/wet_deposition/aerplot.inp",
+          "configuration_sha256": "4099d63c9e783244635fa6208bd21b4c4f1626661c9894b4fd2f1c152856bb5c"
+        },
+        {
+          "name": "d30_r1050",
+          "receptors": 873,
+          "field_minimum": 0.0,
+          "field_maximum": 2.89949,
+          "model_provenance": {
+            "verification": "passed current-run content hashes and model-completion audit",
+            "step_id": "aermod__d30_r1050__wet_deposition",
+            "started_utc": "2026-10-19T15:45:45.701323+00:00",
+            "finished_utc": "2026-10-19T15:46:37.794080+00:00",
+            "execution_record": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d30_r1050__wet_deposition.json",
+              "sha256": "e226a6f845c0f1c46f5e3c567b4576cc399927ab593ca4c6e74fb1aeaaf6205e"
+            },
+            "manifest": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+              "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+            },
+            "reported_model_version": "26135",
+            "inputs": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+                "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+                "bytes": 53782
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+                "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+                "bytes": 603
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+                "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+                "bytes": 595680
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+                "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+                "bytes": 1541882
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/wet_deposition/aermod.inp",
+                "sha256": "5c5e64986b3c14c49d1d9a5a86d199df070a559009232044a16881b5a6d8b210",
+                "bytes": 1671
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+                "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+                "bytes": 3613
+              }
+            ],
+            "binary": {
+              "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+              "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+              "bytes": 5106464
+            },
+            "output": {
+              "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/wet_deposition/annual.plt",
+              "sha256": "eec0cd4af2b5d95dd466875a9cc4abd29ef7d721ef2ac6354f9b3b9eafbf3476",
+              "bytes": 95126
+            },
+            "completion_reports": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/wet_deposition/aermod.out",
+                "sha256": "64a1cae4d721f92b01f5c89c47ae51a214d539be0800634856d1183684b554de",
+                "bytes": 225483
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/wet_deposition/errors.out",
+                "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+                "bytes": 66064
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d30_r1050/wet_deposition/aermod.sum",
+                "sha256": "7cd75882b056590e77c224677a52a4e2aa2391d0f0570ba85937830afb090dc6",
+                "bytes": 15674
+              }
+            ]
+          },
+          "configuration": "/workspace/amp-plots/clemson_amp/aerplot/d30_r1050/wet_deposition/aerplot.inp",
+          "configuration_sha256": "6c21f5624e149f81a4f41942b6dfcec07df39a9032198ee2e246be27f7a7bf21"
+        },
+        {
+          "name": "d10_r0900",
+          "receptors": 873,
+          "field_minimum": 2e-05,
+          "field_maximum": 2.02405,
+          "model_provenance": {
+            "verification": "passed current-run content hashes and model-completion audit",
+            "step_id": "aermod__d10_r0900__wet_deposition",
+            "started_utc": "2026-10-19T15:46:11.095999+00:00",
+            "finished_utc": "2026-10-19T15:46:49.688133+00:00",
+            "execution_record": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d10_r0900__wet_deposition.json",
+              "sha256": "61f2e1fed5b02786d02cfa3178ff1f16e8d67a25645fc516deab0dcca7c70981"
+            },
+            "manifest": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+              "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+            },
+            "reported_model_version": "26135",
+            "inputs": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+                "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+                "bytes": 53782
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+                "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+                "bytes": 603
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+                "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+                "bytes": 595680
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+                "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+                "bytes": 1541882
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/wet_deposition/aermod.inp",
+                "sha256": "8d5f53450578cf55223e08690e9dcf2c4266b210e061b3219d5ccd76228ee468",
+                "bytes": 1670
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+                "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+                "bytes": 3613
+              }
+            ],
+            "binary": {
+              "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+              "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+              "bytes": 5106464
+            },
+            "output": {
+              "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/wet_deposition/annual.plt",
+              "sha256": "fa889f79eb953bc91153151f9305cac23a3062eb6e73f9aa56fa7d0d2463b90c",
+              "bytes": 95126
+            },
+            "completion_reports": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/wet_deposition/aermod.out",
+                "sha256": "3d169eadf0dd1ab317ebbbaaa9c8287862af04c5543a532e28eeb69695511708",
+                "bytes": 225482
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/wet_deposition/errors.out",
+                "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+                "bytes": 66064
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r0900/wet_deposition/aermod.sum",
+                "sha256": "39ac07c32a270610c9ec6dca31bee82c625ca6442232daa6f04a6aacdf8c1fb8",
+                "bytes": 15674
+              }
+            ]
+          },
+          "configuration": "/workspace/amp-plots/clemson_amp/aerplot/d10_r0900/wet_deposition/aerplot.inp",
+          "configuration_sha256": "92ed1b4c60edcfb5d4a09ecdcf3c55d10782e85d74683a80445d06c312a029b0"
+        },
+        {
+          "name": "d10_r1400",
+          "receptors": 873,
+          "field_minimum": 2e-05,
+          "field_maximum": 1.9739,
+          "model_provenance": {
+            "verification": "passed current-run content hashes and model-completion audit",
+            "step_id": "aermod__d10_r1400__wet_deposition",
+            "started_utc": "2026-10-19T15:50:05.139758+00:00",
+            "finished_utc": "2026-10-19T15:50:28.659974+00:00",
+            "execution_record": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/steps/aermod__d10_r1400__wet_deposition.json",
+              "sha256": "8200785b99cd41e7a5302bdd04f20888f0239193f680f78fbcd64305e7cc0747"
+            },
+            "manifest": {
+              "path": "/workspace/amp-plots/clemson_amp/run_manifests/20261019T154052Z_116557da/manifest.json",
+              "sha256": "3939fe28e386191cb338dab0d2a3e888be45132862e223bf404c2d752d9269aa"
+            },
+            "reported_model_version": "26135",
+            "inputs": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.rec",
+                "sha256": "9cb956565416b605dee26ce74c784389f9af2c6327351a04fdb69b99c028e2f4",
+                "bytes": 53782
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermap/aermap.src",
+                "sha256": "8ca28a6ed4cdbdb4716df367b8614900958ad2ac9a434d8786a31959ebffed37",
+                "bytes": 603
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.pfl",
+                "sha256": "61d1768434b494a9339d6efb676305e9c7e54c1483cb004c6a17d64fb148c63c",
+                "bytes": 595680
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermet/clemson.sfc",
+                "sha256": "fff54bd07f74a4d5993df7083cef994bbba1ddcd15b4e29b0f6469ac27ca4468",
+                "bytes": 1541882
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/wet_deposition/aermod.inp",
+                "sha256": "5790df136a3b19b1ccfb2b6012505aa17bbfd24e6fa5a317d0b3f47af700d435",
+                "bytes": 1670
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/scenario.json",
+                "sha256": "f2b1ab87db99b348689511bf6380fc80d8f6b40a8fed551598849d3c7fbf1f25",
+                "bytes": 3613
+              }
+            ],
+            "binary": {
+              "path": "/workspace/.cloud-setup/amp-plots/bin/aermod",
+              "sha256": "784017597118095ff02ae3afc45b914b07357aa417bd22de4c994c5ead7031fa",
+              "bytes": 5106464
+            },
+            "output": {
+              "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/wet_deposition/annual.plt",
+              "sha256": "a49875e78402f6f9dadd0327c82b18ee748556b165d5cfb8d5d7421ac2255e67",
+              "bytes": 95126
+            },
+            "completion_reports": [
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/wet_deposition/aermod.out",
+                "sha256": "e5b565a0f2d78c828859e88292e223b2c81e0181548e6f44a759bc54ff1b71f6",
+                "bytes": 225482
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/wet_deposition/errors.out",
+                "sha256": "c000677eb150a8c10a0e5601d07e25df75e7a3ac05949b75edc85af5425c97f1",
+                "bytes": 66064
+              },
+              {
+                "path": "/workspace/amp-plots/clemson_amp/aermod/d10_r1400/wet_deposition/aermod.sum",
+                "sha256": "b9e75f7e57692de501aa859ab6a5cbc183c7c1206bd8bc0af2a07bb5f1247b0c",
+                "bytes": 15674
+              }
+            ]
+          },
+          "configuration": "/workspace/amp-plots/clemson_amp/aerplot/d10_r1400/wet_deposition/aerplot.inp",
+          "configuration_sha256": "268369d12253d4b01558ecedae17dd69000854f44ba24249696c7652f79bc8ba"
+        }
+      ]
+    }
+  }
+}
