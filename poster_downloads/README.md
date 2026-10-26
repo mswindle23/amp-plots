@@ -51,6 +51,7 @@ The **October 20 figure revision** is available separately:
 - [Settling velocity versus dynamic shape factor χ (PDF)](revision_2026-10-20/figures/settling_velocity_vs_chi.pdf)
 - [Data used for the revised distance profiles (text)](revision_2026-10-20/particle_distance_profiles_v2_data_description.txt)
 - [Settling calculations and shape-factor sources (text)](revision_2026-10-20/settling_figures_methods.txt)
+- [Settling calculations and shape-factor sources (formatted PDF)](revision_2026-10-20/settling_figures_methods.pdf)
 - [Revision notes and supporting files](revision_2026-10-20/)
 
 The original downloads remain available:

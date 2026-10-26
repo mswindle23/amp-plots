@@ -30,6 +30,14 @@ The dynamic shape-factor figures are separate analytical calculations. The
 AERMOD profiles use spherical surrogates (χ = 1); they do not model fibers or
 films. Equal mass emission is hypothetical, normalized to 1 g/s.
 
+[Settling figure methods — formatted PDF](settling_figures_methods.pdf) presents
+the complete [original methods text](settling_figures_methods.txt) with equations,
+constants and reference-geometry tables, and clickable DOI references. The
+scientific content and original revision date are preserved. The PDF is available
+separately from the original revision ZIP. Regenerate it with
+`python clemson_amp/scripts/settling_methods_pdf.py` (requires ReportLab;
+rendered with version 4.4.9).
+
 Regenerate the new results only when necessary, from the repository root:
 
 ```bash
